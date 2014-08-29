@@ -16,6 +16,10 @@
 				"*.fdb_latexmk",
 				"*.gz",
 				"*.bbl",
+				"*.lot",
+				"*.bbx",
+				"*.gitignore",
+				"*.lof",
 				"*.xml"
 			],
 			"follow_symlinks": true,
