@@ -1,0 +1,218 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Template for a UBC-compliant dissertation
+% At the minimum, you will need to change the information found
+% after the "Document meta-data"
+%
+%!TEX TS-program = pdflatex
+%!TEX encoding = UTF-8 Unicode
+
+%% The ubcdiss class provides several options:
+%%   gpscopy (aka fogscopy)
+%%       set parameters to exactly how GPS specifies
+%%         * single-sided
+%%         * page-numbering starts from title page
+%%         * the lists of figures and tables have each entry prefixed
+%%           with 'Figure' or 'Table'
+%%       This can be tested by `\ifgpscopy ... \else ... \fi'
+%%   10pt, 11pt, 12pt
+%%       set default font size
+%%   oneside, twoside
+%%       whether to format for single-sided or double-sided printing
+%%   balanced
+%%       when double-sided, ensure page content is centred
+%%       rather than slightly offset (the default)
+%%   singlespacing, onehalfspacing, doublespacing
+%%       set default inter-line text spacing; the ubcdiss class
+%%       provides \textspacing to revert to this configured spacing
+%%   draft
+%%       disable more intensive processing, such as including
+%%       graphics, etc.
+%%
+
+% For submission to GPS
+\documentclass[gpscopy,onehalfspacing,11pt]{ubcdiss}
+\usepackage[margin=1in,
+			left=1.1in]{geometry}
+\makeatother
+
+
+\input{UBCpreamble.tex}
+\input{UBCrefpackages.tex}
+
+%\usepackage{longtable}	% provide tables spanning multiple pages
+%\usepackage{chngpage}	% support changing the page widths on demand
+%\usepackage{tabularx}	% an enhanced tabular environment
+
+%% enumitem: support pausing and resuming enumerate environments.
+%\usepackage{enumitem}
+
+%% ragged2e: provides several new new commands \Centering, \RaggedLeft,
+%% \RaggedRight and \justifying and new environments Center, FlushLeft,
+%% FlushRight and justify, which set ragged text and are easily
+%% configurable to allow hyphenation.
+%\usepackage{ragged2e}
+
+%% The ulem package provides a \sout{} for striking out text and
+%% \xout for crossing out text.  The normalem and normalbf are
+%% necessary as the package messes with the emphasis and bold fonts
+%% otherwise.
+%\usepackage[normalem,normalbf]{ulem}    % for \sout
+
+%% The following commands causes chapter and section references to
+%% uppercase the part name.
+\renewcommand{\chapterautorefname}{Chapter}
+\renewcommand{\sectionautorefname}{Section}
+\renewcommand{\subsectionautorefname}{Section}
+\renewcommand{\subsubsectionautorefname}{Section}
+
+%% If you have long page numbers (e.g., roman numbers in the 
+%% preliminary pages for page 28 = xxviii), you might need to
+%% uncomment the following and tweak the \@pnumwidth length
+%% (default: 1.55em).  See the tocloft documentation at
+%% http://www.ctan.org/tex-archive/macros/latex/contrib/tocloft/
+% \makeatletter
+% \renewcommand{\@pnumwidth}{3em}
+% \makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Some special settings that controls how text is typeset
+%%
+% \raggedbottom		% pages don't have to line up nicely on the last line
+% \sloppy		% be a bit more relaxed in inter-word spacing
+% \clubpenalty=10000	% try harder to avoid orphans
+% \widowpenalty=10000	% try harder to avoid widows
+% \tolerance=1000
+
+%% And include some of our own useful macros
+\input{macros}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Document meta-data: be sure to also change the \hypersetup information
+%%
+
+\title{The structure, composition, and application of the cell envelope from \textit{Caulobacter crescentus}}
+%\subtitle{If you want a subtitle}
+
+\author{Michael D Jones}
+\previousdegree{B. Science, Specialization in Biotechnology, University of Alberta, 2006}
+\previousdegree{M. Science, Pharmaceutical Sciences, University of Alberta, 2008}
+
+% What is this dissertation for?
+\degreetitle{Doctor of Philosophy}
+
+\institution{The University Of British Columbia}
+\campus{Vancouver}
+
+\faculty{The Faculty of Science}
+\department{Microbiology and Immunology}
+\submissionmonth{April}
+\submissionyear{2015}
+
+%% hyperref package provides support for embedding meta-data in .PDF
+%% files
+\hypersetup{
+  pdftitle={The structure, composition, and application of the cell envelope of \textit{Caulobacter crescentus}  (DRAFT: \today)},
+  pdfauthor={Michael D Jones},
+  pdfkeywords={Your keywords here}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 
+%% The document content
+%%
+
+%% LaTeX's \includeonly commands causes any uses of \include{} to only
+%% include files that are in the list.  This is helpful to produce
+%% subsets of your thesis (e.g., for committee members who want to see
+%% the dissertation chapter by chapter).  It also saves time by 
+%% avoiding reprocessing the entire file.
+%\includeonly{intro,conclusions}
+%\includeonly{discussion}
+\addbibresource{biblio.bib} %%% Bibtex file
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% From Thesis Components: Tradtional Thesis
+%% <http://www.grad.ubc.ca/current-students/dissertation-thesis-preparation/order-components>
+
+% Preliminary Pages (numbered in lower case Roman numerals)
+%    1. Title page (mandatory)
+\maketitle
+
+%    2. Abstract (mandatory - maximum 350 words)
+\include{abstract}
+	\cleardoublepage
+
+%    3. Preface
+\include{preface}
+	\cleardoublepage
+
+%    4. Table of contents (mandatory - list all items in the preliminary pages
+%    starting with the abstract, followed by chapter headings and
+%    subheadings, bibliographies and appendices)
+\tableofcontents
+	\cleardoublepage	% required by tocloft package
+
+%    5. List of tables (mandatory if thesis has tables)
+\listoftables
+	\cleardoublepage	% required by tocloft package
+
+%    6. List of figures (mandatory if thesis has figures)
+\listoffigures
+	\cleardoublepage	% required by tocloft package
+
+%    7. List of illustrations (mandatory if thesis has illustrations)
+%    8. Lists of symbols, abbreviations or other (optional)
+
+%    9. Glossary (optional)
+\input{glossary}	% always input, since other macros may rely on it
+	\textspacing		% begin one-half or double spacing
+
+%   10. Acknowledgements (optional)
+\include{ack}
+
+%   11. Dedication (optional)
+
+% Body of Thesis (not all sections may apply)
+\mainmatter
+
+	\acresetall	% reset all acronyms used so far
+
+%    1. Introduction
+\include{intro}
+
+%    2. Main body
+% Generally recommended to put each chapter into a separate file
+%\include{relatedwork}
+%\include{model}
+%\include{impl}
+%\include{discussion}
+%\include{conclusions}
+%    3. Notes
+%    4. Footnotes
+%    5. Bibliography
+% prints author names as small caps
+\renewcommand{\mkbibnamefirst}[1]{\textsc{#1}}
+\renewcommand{\mkbibnamelast}[1]{\textsc{#1}}
+\renewcommand{\mkbibnameprefix}[1]{\textsc{#1}}
+\renewcommand{\mkbibnameaffix}[1]{\textsc{#1}} 
+\printbibliography[heading=bibintoc]
+
+\appendix
+%    6. Appendices (including copies of all required UBC Research
+%       Ethics Board's Certificates of Approval)
+%\include{reb-coa}	% pdfpages is useful here
+\include{appendix}
+
+\backmatter
+%    7. Index
+% See the makeindex package: the following page provides a quick overview
+% <http://www.image.ufl.edu/help/latex/latex_indexes.shtml>
+
+
+\end{document}

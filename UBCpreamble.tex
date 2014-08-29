@@ -1,0 +1,123 @@
+%!TEX root = MJThesis.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%____FONTS___%%%%%
+%%
+%% FONTS:
+%% 
+%% The defaults below configures Times Roman for the serif font,
+%% Helvetica for the sans serif font, and Courier for the
+%% typewriter-style font.  Configuring fonts can be time
+%% consuming; we recommend skipping to END FONTS!
+%% 
+%% If you're feeling brave, have lots of time, and wish to use one
+%% your platform's native fonts, see the commented out bits below for
+%% XeTeX/XeLaTeX.  This is not for the faint at heart. 
+%% (And shouldn't you be writing? :-)
+%%
+
+%% NFSS font specification (New Font Selection Scheme)
+\usepackage{times,mathptmx,courier}
+\usepackage[scaled=.92]{helvet}
+\usepackage{sectsty}
+\chapterfont{\usefont{T1}{qhv}{b}{n}\selectfont\huge}
+%% Math or theory people may want to include the handy AMS macros
+%\usepackage{amssymb}
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+\usepackage{pifont}
+\usepackage{titlesec} 
+\titleformat{\section}[hang]{
+    \usefont{T1}{qhv}{b}{n}\selectfont} % "qhv" - TeX Gyre Heros, "b" - bold
+    {} 
+    {0em}
+    {\hspace{-0.4pt}\Large \thesection\hspace{0.6em}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%____TOC___%%%%%
+\usepackage{tocloft} % subfigure option only if using subfigure package
+\renewcommand{\cfttoctitlefont} % ToC title
+             {\usefont{T1}{qhv}{b}{n}\selectfont\huge}
+\renewcommand{\cftchapfont} % chapter titles
+             {\usefont{T1}{qhv}{b}{n}\selectfont}
+\renewcommand{\cftsecfont} % section titles
+             {\usefont{T1}{bch}{m}{n}\selectfont}
+\renewcommand{\cftsubsecfont} % subsection titles
+             {\usefont{T1}{bch}{m}{n}\selectfont} 
+\renewcommand{\cftchappagefont} % chapter page numbers
+             {\usefont{T1}{bch}{b}{n}\selectfont}
+\renewcommand{\cftsecpagefont} % section page numbers
+             {\cftsecfont} 
+\renewcommand{\cftsubsecpagefont} % subsection page numbers
+             {\cftsubsecfont}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%____MICROTYPE___%%%%%
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+% activate={true,nocompatibility} - activate protrusion and expansion
+% final - enable microtype; use "draft" to disable
+% tracking=true, kerning=true, spacing=true - activate these techniques
+% factor=1100 - add 10% to the protrusion amount (default is 1000)
+% stretch=10, shrink=10 - reduce stretchability/shrinkability (default is 20/20)
+\SetProtrusion{encoding={*},family={bch},series={*},size={6,7}}
+              {1={ ,750},2={ ,500},3={ ,500},4={ ,500},5={ ,500},
+               6={ ,500},7={ ,600},8={ ,500},9={ ,500},0={ ,500}}
+\SetExtraKerning[unit=space]
+    {encoding={*}, family={bch}, series={*}, size={footnotesize,small,normalsize}}
+    {\textendash={400,400}, % en-dash, add more space around it
+     "28={ ,150}, % left bracket, add space from right
+     "29={150, }, % right bracket, add space from left
+     \textquotedblleft={ ,150}, % left quotation mark, space from right
+     \textquotedblright={150, }} % right quotation mark, space from left
+\SetExtraKerning[unit=space]
+   {encoding={*}, family={qhv}, series={b}, size={large,Large}}
+   {1={-200,-200}, 
+    \textendash={400,400}}
+\SetTracking{encoding={*}, shape=sc}{20}   
+\microtypecontext{spacing=nonfrench}        
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Recommended packages
+%%
+\usepackage{checkend}	% better error messages on left-open environments
+\usepackage{graphicx}	% for incorporating external images
+
+%% booktabs: provides some special commands for typesetting tables as used
+%% in excellent journals.  Ignore the examples in the Lamport book!
+\usepackage{booktabs}
+
+%% The acronym package provides support for defining acronyms, providing
+%% their expansion when first used, and building glossaries.  See the
+%% example in glossary.tex and the example usage throughout the example
+%% document.
+%% NOTE: to use \MakeTextLowercase in the \acsfont command below,
+%%   we *must* use the `nohyperlinks' option -- it causes errors with
+%%   hyperref otherwise.  See Section 5.2 in the ``LaTeX 2e for Class
+%%   and Package Writers Guide'' (clsguide.pdf) for details.
+\usepackage[printonlyused,nohyperlinks]{acronym}
+%% The ubcdiss.cls loads the `textcase' package which provides commands
+%% for upper-casing and lower-casing text.  The following causes
+%% the acronym package to typeset acronyms in small-caps
+%% as recommended by Bringhurst.
+\renewcommand{\acsfont}[1]{{\scshape \MakeTextLowercase{#1}}}
+
+%% color: add support for expressing colour models.  Grey can be used
+%% to great effect to emphasize other parts of a graphic or text.
+%% For an excellent set of examples, see Tufte's "Visual Display of
+%% Quantitative Information" or "Envisioning Information".
+\usepackage{color}
+\definecolor{greytext}{gray}{0.5}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%____COMMENT___%%%%%
+%% comment: provides a new {comment} environment: all text inside the
+%% environment is ignored.
+%%   \begin{comment} ignored text ... \end{comment}
+\usepackage{comment}
+
+\titleformat*{\section}{\singlespacing\raggedright\bfseries\Large}
+\titleformat*{\subsection}{\singlespacing\raggedright\bfseries\large}
+\titleformat*{\subsubsection}{\singlespacing\raggedright\bfseries}
+\titleformat*{\paragraph}{\singlespacing\raggedright\itshape}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%____CAPTION___%%%%%
+%% The caption package provides support for varying how table and
+%% figure captions are typeset.
+\usepackage[format=hang,indention=-1cm,labelfont={bf},margin=1em]{caption}
+
+%% url: for typesetting URLs and smart(er) hyphenation.
+%% \url{http://...} 
+\usepackage{url}
+\urlstyle{sf}	% typeset urls in sans-serif

@@ -1,0 +1,25 @@
+{
+	"folders":
+	[
+		{"file_exclude_patterns":
+			[
+				"*.aux",
+				"*.log",
+				"*.out",
+				"*.blg",
+				"*.brf",
+				"*.ind",
+				"*.ilg",
+				"*.toc",
+				"*.idx",
+				"*.bcf",
+				"*.fdb_latexmk",
+				"*.gz",
+				"*.bbl",
+				"*.xml"
+			],
+			"follow_symlinks": true,
+			"path": "."
+		}
+	]
+}

@@ -1,0 +1,112 @@
+%!TEX root = MJThesis.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% HYPERREF:
+%% The hyperref package provides for embedding hyperlinks into your
+%% document.  By default the table of contents, references, citations,
+%% and footnotes are hyperlinked.
+%%
+%% Hyperref provides a very handy command for doing cross-references:
+%% \autoref{}.  This is similar to \ref{} and \pageref{} except that
+%% it automagically puts in the *type* of reference.  For example,
+%% referencing a figure's label will put the text `Figure 3.4'.
+%% And the text will be hyperlinked to the appropriate place in the
+%% document.
+%%
+%% Generally hyperref should appear after most other packages
+
+%% The following puts hyperlinks in very faint grey boxes.
+%% The `pagebackref' causes the references in the bibliography to have
+%% back-references to the citing page; `backref' puts the citing section
+%% number.  See further below for other examples of using hyperref.
+%% 2009/12/09: now use `linktocpage' (Jacek Kisynski): GPS now prefers
+%%   that the ToC, LoF, LoT place the hyperlink on the page number,
+%%   rather than the entry text.
+%% The following is a directive for TeXShop to indicate the main file
+
+    \usepackage[hyperref=true,
+            url=false,
+            isbn=false,
+            backref=true,
+            style=custom-numeric-comp,
+            citereset=chapter,
+            maxcitenames=3,
+            maxbibnames=100,
+            backend=biber, % while checking on one of my (newest) systems, this option was needed to generate bibliography
+            block=none]{biblatex}
+
+    \usepackage{varioref}
+
+	\usepackage[
+		    bookmarksopen=true,
+		    linktocpage=true,
+		    urlcolor=linkcolor, % Color of URLs
+		    citecolor=linkcolor, % Color of citations
+		    linkcolor=linkcolor, % Color of links to other pages/figures
+		    % backref=page,
+		    pdfpagelabels=true,
+		    plainpages=false,
+		    % colorlinks=true, % Turn off all coloring by changing this to false
+		    bookmarks=true,
+		    pdfview=FitB]{hyperref}
+
+		    %% The following change how the the back-references text is typeset in a
+		    %% bibliography when `backref' or `pagebackref' are used
+		    % \renewcommand\backrefpagesname{\(\rightarrow\) pages}
+		    % \renewcommand\backref{\textcolor{greytext} \backrefpagesname\ }
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % Customisation
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % back reference text preceding the page number ("see p.")
+    \DefineBibliographyStrings{english}{%
+        backrefpage  = {see p.}, % for single page number
+        backrefpages = {see pp.} % for multiple page numbers
+    }
+
+    % the followings activate 'custom-english-ordinal-sscript.lbx'
+    % in order to print ordinal 'edition' suffixes as superscripts,
+    % and adjusts (reduces) spacing between suffix and following "ed."
+    \DeclareLanguageMapping{english}{custom-english-ordinal-sscript}
+    \DeclareFieldFormat{edition}%
+                       {\ifinteger{#1}%
+                        {\mkbibordedition{#1}\addthinspace{}ed.}%
+                        {#1\isdot}}
+
+    % removes period at the very end of bibliographic record
+    \renewcommand{\finentrypunct}{}
+
+    % removes period after DOI and suppresses capitalization
+    % of the word following DOI ("See p. xx" -> "see p. xx")
+    \renewcommand{\newunitpunct}{\addspace\midsentence}
+
+    \DeclareFieldFormat{journaltitle}{\mkbibemph{#1},} % italic journal title with comma
+    \DeclareFieldFormat[inbook,thesis]{title}{\mkbibemph{#1}\addperiod} % italic title with period
+    \DeclareFieldFormat[article]{title}{#1} % title of journal article is printed as normal text
+    \DeclareFieldFormat[article]{volume}{\textbf{#1}\addcolon\space} % makes volume of journal bold and adds colon
+    \DeclareFieldFormat{pages}{#1} % removes pagination (p./pp.) before page numbers
+    %%%%%%%%%
+    % the command \upcite defined below prints footnote citation above punctuation
+    \newlength{\spc} % declare a variable to save spacing value
+    \newcommand{\upcite}[2][]{% new command with two arguments: optional (#1) and mandatory (#2)
+            \settowidth{\spc}{#1}% set value of \spc variable to the width of #1 argument
+            \addtolength{\spc}{-1.8\spc}% subtract from \spc about two (1.8) of its values making its magnitude negative
+            #1% print the optional argument
+            \hspace*{\spc}% print an additional negative spacing stored in \spc after #1
+            \supershortnotecite{#2}}% print (cite) the mandatory argument
+    %%%%%%%%%
+    % back reference text preceding the page number ("see p.")
+    \DefineBibliographyStrings{english}{%
+        backrefpage  = {see p.}, % for single page number
+        backrefpages = {see pp.} % for multiple page numbers
+    }
+	%%%%%%%%%
+	\usepackage{cleveref}
+		\newcommand{\creflastconjunction}{, and\nobreakspace} %Oxford Comma for cref
+    %%%%%%%%%
+    % the followings activate 'custom-english-ordinal-sscript.lbx'
+    % in order to print ordinal 'edition' suffixes as superscripts,
+    % and adjusts (reduces) spacing between suffix and following "ed."
+    \DeclareLanguageMapping{english}{custom-english-ordinal-sscript}
+    \DeclareFieldFormat{edition}%
+                       {\ifinteger{#1}%
+                       {\mkbibordedition{#1}\addthinspace{}ed.}%
+                       {#1\isdot}}    

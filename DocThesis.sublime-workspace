@@ -1,0 +1,931 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "biblio.bib",
+			"settings":
+			{
+				"buffer_size": 1739,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MJThesis.tex",
+			"settings":
+			{
+				"buffer_size": 7410,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ubcdiss.cls",
+			"settings":
+			{
+				"buffer_size": 11055,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "intro.tex",
+			"settings":
+			{
+				"buffer_size": 21106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "TODO.TODO",
+			"settings":
+			{
+				"buffer_size": 610,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"tas",
+				"Tasks: New document"
+			],
+			[
+				"new d",
+				"Tasks: New document"
+			],
+			[
+				"new ",
+				"Tasks: New"
+			],
+			[
+				"instalal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git quick",
+				"Git: Quick Add"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git quick add",
+				"Git: Quick Add"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Add Remote"
+			],
+			[
+				"chec",
+				"Git: Checkout"
+			],
+			[
+				"git com",
+				"Git: Quick Commit"
+			],
+			[
+				"git q",
+				"Git: Quick Add"
+			],
+			[
+				"git che",
+				"Git: Checkout"
+			],
+			[
+				"git qio",
+				"Git: Quick Commit"
+			],
+			[
+				"git add",
+				"Git: Quick Add"
+			],
+			[
+				"bran",
+				"Git: Checkout New Branch"
+			],
+			[
+				"git qui",
+				"Git: Quick Add"
+			],
+			[
+				"git quick ",
+				"Git: Quick Add"
+			],
+			[
+				"add l",
+				"SublimeGit: Add License"
+			],
+			[
+				"quickadd",
+				"Git: Quick Add"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"git quick ad",
+				"Git: Quick Add"
+			],
+			[
+				"git quick a",
+				"Git: Quick Add"
+			],
+			[
+				"git quic",
+				"Git: Quick Add"
+			],
+			[
+				"git quick comm",
+				"Git: Quick Commit"
+			],
+			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"git qco",
+				"Git: Quick Commit"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git mer",
+				"Git: Merge"
+			],
+			[
+				"git chec",
+				"Git: Checkout"
+			],
+			[
+				"git bra",
+				"Git: Checkout New Branch"
+			],
+			[
+				"git brach",
+				"Git: Checkout New Branch"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"gitcomm",
+				"Git: Commit"
+			],
+			[
+				"git quik",
+				"Git: Quick Add"
+			],
+			[
+				"git ch",
+				"Git: Checkout"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"gi q",
+				"Git: Quick Add"
+			],
+			[
+				"git rem",
+				"Git: Remote"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git ",
+				"Git: Add..."
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"git a",
+				"Git: Add Current File"
+			],
+			[
+				"git p",
+				"Git: Graph All"
+			],
+			[
+				"late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"setlat",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"set late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"set la",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"instal	",
+				"Package Control: Install Package"
+			],
+			[
+				"setbib",
+				"Set Syntax: BibTeX"
+			],
+			[
+				"set latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"tabu",
+				"Snippet: Tabular"
+			],
+			[
+				"snipp",
+				"Snippet: Table"
+			],
+			[
+				"log",
+				"Set Syntax: LaTeX Log"
+			],
+			[
+				"gitc",
+				"Git: Commit"
+			],
+			[
+				"gitadd",
+				"Git: Add Current File"
+			],
+			[
+				"snip",
+				"Snippet: Figure"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Cases"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import os; os.getenv('PATH')",
+			"install package latex",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mikedave/Dropbox/Doctoral Thesis/UBCrefpackages.tex",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/UBCpreamble.tex",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/custom-numeric-comp.bbx",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/DocThesis.sublime-project",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/preface.aux",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/MJThesis.bbl",
+		"/Users/mikedave/Dropbox/ThesisPlanning/UBCrefpackages.tex",
+		"/Users/mikedave/Dropbox/ThesisPlanning/refpackages.tex",
+		"/Users/mikedave/Dropbox/ThesisPlanning/acro.tex",
+		"/Users/mikedave/Dropbox/ThesisPlanning/bibthesis.bib",
+		"/Users/mikedave/Dropbox/ThesisPlanning/thesisplanning.sublime-project",
+		"/Users/mikedave/Dropbox/ThesisPlanning/scratch.tex",
+		"/Users/mikedave/Dropbox/ThesisPlanning/Thesis.log",
+		"/Users/mikedave/Dropbox/ThesisPlanning/Chap3/chap3.tex",
+		"/Users/mikedave/Dropbox/ThesisPlanning/Chap3/chap3.aux",
+		"/Users/mikedave/Dropbox/ThesisPlanning/Chap1/chap1.tex",
+		"/Users/mikedave/Dropbox/ThesisPlanning/Chap1/chap1.aux",
+		"/Users/mikedave/Dropbox/ThesisPlanning/Chap1/chap1.tex.aux",
+		"/Users/mikedave/Dropbox/ThesisPlanning/Chap2/chap2.tex.aux",
+		"/Users/mikedave/Dropbox/ThesisPlanning/Chap1/chap1",
+		"/Users/mikedave/Dropbox/ThesisPlanning/Chap2/chap2",
+		"/Users/mikedave/Dropbox/ThesisPlanning/Chap3/chap3",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/Users/mikedave/Documents/Thesis Musings/Thesis.sublime-project",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/PlainTasks/PlainTasks (OSX).sublime-settings",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/PlainTasks/Default (OSX).sublime-keymap",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/PlainTasks.sublime-settings",
+		"/Users/mikedave/Dropbox/Tasks/Tasks.taskpaper",
+		"/Users/mikedave/Documents/Labbook/terminal.glue",
+		"/Users/mikedave/Documents/Labbook/LICENSE",
+		"/Users/mikedave/Documents/Labbook/TODO.TODO",
+		"/Users/mikedave/Documents/Labbook/.gitignore",
+		"/Users/mikedave/Documents/Labbook/primers.tex",
+		"/Users/mikedave/Documents/Labbook/scratch.txt",
+		"/Users/mikedave/Downloads/gist1913007-d772e0cef204c0d204e1c00946b5efb872129d2f/tp-dailylog.rb",
+		"/Users/mikedave/Scripts/tp-planner/README.md",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/SublimeGit/Default.sublime-keymap",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/mikedave/Documents/Labbook/experiments.tex",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/Glue.sublime-settings",
+		"/Users/mikedave/Documents/Labbook/recipes.tex",
+		"/Users/mikedave/Documents/Labbook/cpbook.py",
+		"/Users/mikedave/Documents/Labbook/primecalc.py",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Applications/Scripts/Slogger/slogger_config",
+		"/Users/mikedave/Desktop/pUC8cvx-N336.txt",
+		"/Users/mikedave/Documents/Labbook/book.tex",
+		"/Users/mikedave/Documents/Labbook/git-credential-osxkeychain",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/SublimeWritingStyle/SublimeWritingStyle.sublime-settings",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/User/gel.sublime-snippet",
+		"/private/etc/hosts",
+		"/Users/mikedave/Documents/Labbook/labbook.tex",
+		"/Users/mdjones/Documents/Labbook/PRINTaDAY.tex",
+		"/Users/mdjones/Documents/Labbook/labbook.docx",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/User/entry.sublime-snippet",
+		"/Users/mdjones/Downloads/lab_book_2/lab_book_2.tex",
+		"/Users/mdjones/Documents/Labbook/placeholder.png",
+		"/Users/mdjones/Documents/Labbook/experiments.tex",
+		"/Users/mdjones/Documents/Labbook/macros.tex",
+		"/Users/mdjones/Documents/Labbook/labbook.tex",
+		"/Users/mdjones/Documents/Labbook/book.tex",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/SublimeGit/Default (OSX).sublime-keymap",
+		"/Users/mdjones/Documents/Labbook/README.md",
+		"/Users/mdjones/Documents/Labbook/labbook.pdf",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/CHANGELOG",
+		"/Users/mdjones/Documents/Labbook/labbook.sublime-project",
+		"/Users/mdjones/Documents/Labbook/.gitignore",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/User/experiment.sublime-snippet",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/User/template.sublime-snippet",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/table.sublime-snippet",
+		"/Users/mdjones/Documents/Output/el.tex",
+		"/Users/mdjones/Dropbox/Reports/Ca5Phenomenom/ca5patches.pdf",
+		"/Users/mdjones/Desktop/texmusing/gh.tex",
+		"/Users/mdjones/Dropbox/Reports/reports.sublime-project",
+		"/Users/mdjones/Dropbox/Reports/.gitignore",
+		"/Users/mdjones/Documents/WriteupforMartine/report.tex",
+		"/Users/mdjones/Documents/WriteupforMartine/report.aux",
+		"/Users/mdjones/Documents/11-18-13 REMD travel award application",
+		"/Users/mdjones/Documents/images/img.mdown",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/Users/mdjones/Documents/WriteupforMartine/report.bib",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/LaTeXTools Preferences.sublime-settings",
+		"/Users/mdjones/Documents/MartineTalk/Martinetalk.tex",
+		"/Users/mdjones/Documents/aminobeads.tex",
+		"/Users/mdjones/Documents/Comprehensive.txt",
+		"/Users/mdjones/Documents/tabularmusings/tm.tex",
+		"/Users/mdjones/Documents/latexingRumbling.tex",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/Default (OSX).sublime-keymap",
+		"/Users/mdjones/Documents/phProbes/pH.tex",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/Wrap in environment.sublime-snippet",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/latexCommand.py",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/messages/1.txt",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/latexEnvironment.py",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/figure.sublime-snippet",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/README.markdown",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools Preferences.sublime-settings",
+		"/Users/mdjones/Documents/aminobeadsU.tex",
+		"/Users/mdjones/Downloads/Four_Years (1)/Four Years.tex",
+		"/Users/mdjones/Downloads/Four_Years (1)/redditexample.tex",
+		"/Users/mdjones/Documents/loremcols.tex",
+		"/Users/mdjones/Documents/Thesis/.gitignore",
+		"/Users/mdjones/Documents/Thesis.sublime-project",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/mdjones/Documents/repo/.gitignore",
+		"/Users/mdjones/Documents/repo/tex.pdf",
+		"/Users/mdjones/Documents/repo/tex.tex",
+		"/Users/mdjones/Documents/repo/aminobeads.tex",
+		"/Users/mdjones/Documents/smallbeautiful.tex"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"lstlisting",
+			"toclo",
+			"sub",
+			"sjcitep",
+			"webr",
+			"footnot",
+			"web",
+			"footnot",
+			".\n",
+			"foo",
+			"bib",
+			"autor",
+			"citet",
+			"bib",
+			"espana",
+			"type",
+			"rack",
+			"abstra",
+			"itemize",
+			"Select",
+			"6",
+			"#",
+			"1",
+			"env",
+			"eur",
+			"e.g.",
+			"I3C",
+			"wains a little",
+			"AA",
+			"185",
+			"\\si{\\gram}",
+			"LPS",
+			"RNA",
+			"- ",
+			"dndc",
+			"figure",
+			"figu",
+			"count",
+			"\\label{phenolsulfurica480}",
+			"i.e.",
+			"absorbances",
+			"\\molar",
+			"ngstom",
+			"ssrl",
+			"0.2",
+			"2",
+			"litre",
+			"milli",
+			"litre",
+			"28",
+			"11",
+			"conf}",
+			"table",
+			" ml",
+			"\\microlitre",
+			"ml",
+			" \\microlitre",
+			"ml",
+			"angst",
+			"Europium",
+			"		Today we are shooting our crystals at SSRL BL7-1. As of writing this 3:32 PM\n",
+			"abstract",
+			"gel:",
+			"gel",
+			"\\st{",
+			" - ",
+			"\\textbf{",
+			"}",
+			"\\textbf",
+			"\\ce{",
+			"table",
+			"$\n",
+			"slps",
+			"---",
+			"\\texttt",
+			"#",
+			"angst",
+			"m16",
+			"milli",
+			"-",
+			"\\\\",
+			"caption",
+			"hy",
+			"foot",
+			"degreeCelsius",
+			". ",
+			"\\st",
+			"Single",
+			"bib",
+			"thebib",
+			"the",
+			"center",
+			"\"",
+			"Bao",
+			"float",
+			"\"",
+			" \"*.aux\", \"*.log\", \"*.out\", \"*.blg\", \"*.brf\",\"*.ind\",\"*.ilg\",\"*.toc\",\"*.idx\",\"*.cls\", \"*.bcf\", \"*.fdb_latexmk\", \"*.gz\", \"*.bbl\", \"*.xml\"",
+			"comp",
+			"itemize",
+			"  ",
+			"mutase",
+			"  ",
+			"\\manB",
+			"$\\Delta$manB",
+			"crescentus",
+			"CAulobacter",
+			"Thermo",
+			"	&&&",
+			"a",
+			"I",
+			"section_name",
+			"itemize",
+			"texit",
+			"\\si{\\micro\\liter}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\mcl"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "biblio.bib",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1633,
+								1633
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "MJThesis.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3375,
+								3375
+							]
+						],
+						"settings":
+						{
+							"SideBarAutoAddFoldersForOpenedFiles": 1,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 878.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ubcdiss.cls",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 11055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/TeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 806.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "intro.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11214,
+								11214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1465.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "TODO.TODO",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.768285620629,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.git-checkout":
+	{
+		"height": 130.0
+	},
+	"output.git-commit":
+	{
+		"height": 130.0
+	},
+	"output.git-merge":
+	{
+		"height": 130.0
+	},
+	"output.git-push":
+	{
+		"height": 130.0
+	},
+	"project": "DocThesis.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"boo",
+				"Labbook/book.tex"
+			],
+			[
+				"labb",
+				"Labbook/labbook.tex"
+			],
+			[
+				"mac",
+				"macros.tex"
+			],
+			[
+				"ex",
+				"experiments.tex"
+			],
+			[
+				"re",
+				"recipes.tex"
+			],
+			[
+				"la",
+				"labbook.tex"
+			],
+			[
+				"rec",
+				"recipes.tex"
+			],
+			[
+				"exp",
+				"experiments.tex"
+			],
+			[
+				"e",
+				"experiments.tex"
+			],
+			[
+				"macr",
+				"macros.tex"
+			],
+			[
+				"book",
+				"book.tex"
+			],
+			[
+				"macro",
+				"macros.tex"
+			],
+			[
+				"b",
+				"book.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
