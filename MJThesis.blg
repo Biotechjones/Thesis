@@ -1,13 +1,2 @@
-[0] Config.pm:387> INFO - This is Biber 1.6
-[1] Config.pm:390> INFO - Logfile is 'MJThesis.blg'
-[619] biber-darwin:218> INFO - === Thu Jun 12, 2014, 13:05:43
-[620] Biber.pm:325> INFO - Reading 'MJThesis.bcf'
-[1102] Biber.pm:623> INFO - Found 4 citekeys in bib section 0
-[1315] Biber.pm:2995> INFO - Processing section 0
-[1392] Biber.pm:3129> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[1394] 981f0007.pm:775> INFO - Found BibTeX data source 'biblio.bib'
-[1780] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[1781] Biber.pm:2887> INFO - Sorting 'entry' list 'none' keys
-[1781] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[1959] 353835f2.pm:472> INFO - Writing 'MJThesis.bbl' with encoding 'ascii'
-[1961] 353835f2.pm:545> INFO - Output to MJThesis.bbl
+[0] 554906f9.pm:318> INFO - This is Biber 1.8
+[1] 554906f9.pm:321> INFO - Logfile is 'MJThesis.blg'

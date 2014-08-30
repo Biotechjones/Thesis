@@ -1,9 +1,0 @@
-# Fdb version 3
-["pdflatex"] 1402599357 "intro.tex" "intro.pdf" "intro" 1402599361
-  "/usr/local/texlive/2013/texmf-dist/tex/latex/base/omlcmr.fd" 1254151887 2110 b6dc71ab969a2e72071817ffae72fb63 ""
-  "/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd" 1254151887 2109 c400bd6c901edc4a09e4d53fcffd3b3c ""
-  "intro.aux" 1402599021 10779 78c0b6dcbbe53b194f3455723e10d5b3 ""
-  "intro.tex" 1402599356 25357 021119e4eab73d341b50f34190fb3113 ""
-  (generated)
-  "intro.pdf"
-  "intro.log"
