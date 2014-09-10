@@ -11,23 +11,31 @@
 			"file": "MJThesis.tex",
 			"settings":
 			{
-				"buffer_size": 7416,
+				"buffer_size": 7419,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "UBCrefpackages.tex",
+			"file": "lps_chapter/lps_chapter.tex",
 			"settings":
 			{
-				"buffer_size": 5365,
+				"buffer_size": 22549,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "TODO.TODO",
+			"file": "macros.tex",
 			"settings":
 			{
-				"buffer_size": 610,
+				"buffer_size": 2544,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Guide.TODO",
+			"settings":
+			{
+				"buffer_size": 534,
 				"line_ending": "Unix"
 			}
 		}
@@ -326,13 +334,16 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/mikedave/Dropbox/Doctoral Thesis"
+		"/Users/mikedave/Dropbox/Doctoral Thesis",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/intro",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/lps_chapter"
 	],
 	"file_history":
 	[
-		"/Users/mikedave/Dropbox/Doctoral Thesis/intro.tex",
-		"/Users/mikedave/Dropbox/Doctoral Thesis/biblio.bib",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/TODO.TODO",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/UBCrefpackages.tex",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/biblio.bib",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/intro.tex",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/UBCpreamble.tex",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/custom-numeric-comp.bbx",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/DocThesis.sublime-project",
@@ -598,7 +609,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -607,15 +618,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7416,
+						"buffer_size": 7419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1109,
-								1109
+								4494,
+								4494
 							]
 						],
 						"settings":
@@ -624,37 +635,71 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 671.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "UBCrefpackages.tex",
-					"semi_transient": true,
+					"file": "lps_chapter/lps_chapter.tex",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5365,
+						"buffer_size": 22549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								21539,
+								21539
 							]
 						],
 						"settings":
 						{
+							"open_with_edit": true,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1800.0,
+						"translation.y": 5697.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "macros.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2534,
+								2534
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2564.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -667,20 +712,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
-					"file": "TODO.TODO",
+					"buffer": 3,
+					"file": "Guide.TODO",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 610,
+						"buffer_size": 534,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								311,
-								311
+								140,
+								147
 							]
 						],
 						"settings":
@@ -714,13 +759,19 @@
 				0,
 				0,
 				1,
-				1
+				2
 			],
 			[
 				1,
 				0,
 				2,
 				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
@@ -732,6 +783,7 @@
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -832,11 +884,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"~/Documents/Labbook/labbook.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -849,6 +905,27 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		]
 	},
 	"show_minimap": true,
 	"show_open_files": true,

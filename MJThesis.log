@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  29 AUG 2014 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  29 AUG 2014 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -838,13 +838,14 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `MJThesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'MJThesis.bbl' not found.
+Package biblatex Info: ... file 'MJThesis.bbl' found.
 
-No file MJThesis.bbl.
+(./MJThesis.bbl)
 Package biblatex Info: Reference section=0 on input line 137.
 Package biblatex Info: Reference segment=0 on input line 137.
 \AtBeginShipoutBox=\box28
 Package hyperref Info: Link coloring OFF on input line 137.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1044,17 +1045,12 @@ Chapter 1.
 Package biblatex Info: Resetting trackers on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-
-LaTeX Warning: Citation 'jones2010vivo' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'lamport-1994-ladps' on page 1 undefined on input line 
-16.
-
-
-LaTeX Warning: Citation 'lamport-1994-ladps' on page 1 undefined on input line 
-17.
-
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 Package acronym Info: Label `acro:UBC' overridden on input line 46.
 Package acronym Info: Label `acro:GPS' overridden on input line 46.
 [1
@@ -1073,75 +1069,7 @@ OT1/pcr/m/n/10.95 diss.tex \OT1/ptm/m/n/10.95 (-10) and the []\OT1/pcr/m/n/10.9
 Package acronym Info: Label `acro:DOI' newly defined as it shall be overridden
 although it is yet undefined on input line 126.
 Package acronym Info: Label `acro:URL' overridden on input line 126.
-[2]
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-40.
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-41.
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-42.
-
-
-Overfull \hbox (33.66687pt too wide) in paragraph at lines 138--144
-\OT1/ptm/m/n/10.95 (-10) trac-tion of the ti-tle. Then [] 's sem-i-nal ar-ti-cl
-e on aspect-oriented pro-gram-ming [[]
- []
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-85.
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-86.
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-86.
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-89.
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-89.
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 187--190
-[]\OT1/ptm/m/n/10.95 (+10) Textual ci-ta-tion: in-cludes au-thor (e.g., or or
- []
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-92.
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-93.
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-93.
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-96.
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-98.
-
-
-LaTeX Warning: Citation 'kiczales-1997-aop' on page 3 undefined on input line 1
-99.
-
-[3]
+[2] [3]
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 22.88956pt on input line 271.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
@@ -1162,10 +1090,6 @@ File: omlptm.fd
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 326.
 
-
-LaTeX Warning: Citation 'bringhurst-2002-teots' on page 5 undefined on input li
-ne 339.
-
 [5]
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <12> not available
 (Font)              Font shape `OT1/pcr/b/n' tried instead on input line 342.
@@ -1181,17 +1105,16 @@ ss-ing out text ([]\OT1/pcr/m/n/10.95 \sout{text} \OT1/ptm/m/n/10.95 (-10) and
 []\OT1/pcr/m/n/10.95 \xout{text}
  []
 
-[7]) [8]
+[7]) [8] [9
 
-LaTeX Warning: Empty bibliography on input line 203.
 
+]
 \openout2 = `appendix.aux'.
 
-(./appendix.tex
+ (./appendix.tex
 Appendix A.
 Package biblatex Info: Resetting trackers on input line 1.
-) [9
-
+) [10
 
 
 ]
@@ -1202,31 +1125,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `MJThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 37EC25C62DC5DD586BEC1E74B79203DA;1889.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 2C1D1ED9D567852687FC97F275BD8E08;1938.
 
 
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                MJThesis
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'MJThesis.run.xml'.
 \openout1 = `MJThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17244 strings out of 493117
- 292064 string characters out of 6135433
- 746998 words of memory out of 5000000
- 20207 multiletter control sequences out of 15000+600000
- 72527 words of font info for 171 fonts, out of 8000000 for 9000
+ 17340 strings out of 493117
+ 293699 string characters out of 6135433
+ 748047 words of memory out of 5000000
+ 20271 multiletter control sequences out of 15000+600000
+ 88015 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,15n,40p,825b,996s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,15n,49p,825b,1070s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2014/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/texlive/20
 14/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2014/
@@ -1241,10 +1156,10 @@ c/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.p
 fb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/
 local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MJThesis.pdf (18 pages, 182846 bytes).
+Output written on MJThesis.pdf (19 pages, 188627 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
- 53 named destinations out of 1000 (max. 500000)
- 42209 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 378 PDF objects out of 1000 (max. 8388607)
+ 340 compressed objects within 4 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 55017 words of extra memory for PDF output out of 61914 (max. 10000000)
 

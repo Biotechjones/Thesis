@@ -1948,7 +1948,7 @@
     <bcf:citekey order="1">jones2010vivo</bcf:citekey>
     <bcf:citekey order="2">lamport-1994-ladps</bcf:citekey>
     <bcf:citekey order="3">lamport-1994-ladps</bcf:citekey>
-    <bcf:citekey order="4">kiczales-1997-aop</bcf:citekey>
+    <bcf:citekey order="4">lamport-1994-ladps</bcf:citekey>
     <bcf:citekey order="5">kiczales-1997-aop</bcf:citekey>
     <bcf:citekey order="6">kiczales-1997-aop</bcf:citekey>
     <bcf:citekey order="7">kiczales-1997-aop</bcf:citekey>
@@ -1962,7 +1962,8 @@
     <bcf:citekey order="15">kiczales-1997-aop</bcf:citekey>
     <bcf:citekey order="16">kiczales-1997-aop</bcf:citekey>
     <bcf:citekey order="17">kiczales-1997-aop</bcf:citekey>
-    <bcf:citekey order="18">bringhurst-2002-teots</bcf:citekey>
+    <bcf:citekey order="18">kiczales-1997-aop</bcf:citekey>
+    <bcf:citekey order="19">bringhurst-2002-teots</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none" type="entry" sortscheme="none">
   <bcf:sorting>
