@@ -1,0 +1,128 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{none}
+    \entry{jones2010vivo}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=b3cf8648c28e69e92f6ae2e2eb187e49}{Jones}{J\bibinitperiod}{Michael\bibnamedelima D}{M\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=98886a8ebebe2507b8448826e2373bbe}{Tran}{T\bibinitperiod}{Charles\bibnamedelima W}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=8610b91ad546e7a739475ef2d30cf1f0}{Li}{L\bibinitperiod}{Guang}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=50e054a178cb47a8b8f1bd4954dd2449}{Maksymowych}{M\bibinitperiod}{Walter\bibnamedelima P}{W\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=c9cf239a784cb37b594d4449a102cfca}{Zernicke}{Z\bibinitperiod}{Ronald\bibnamedelima F}{R\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=ebb7de3ef51cefc0888a34d18bd82ec4}{Doschak}{D\bibinitperiod}{Michael\bibnamedelima R}{M\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=b3cf8648c28e69e92f6ae2e2eb187e49}{Jones}{J\bibinitperiod}{Michael\bibnamedelima D}{M\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=98886a8ebebe2507b8448826e2373bbe}{Tran}{T\bibinitperiod}{Charles\bibnamedelima W}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=8610b91ad546e7a739475ef2d30cf1f0}{Li}{L\bibinitperiod}{Guang}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=50e054a178cb47a8b8f1bd4954dd2449}{Maksymowych}{M\bibinitperiod}{Walter\bibnamedelima P}{W\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=c9cf239a784cb37b594d4449a102cfca}{Zernicke}{Z\bibinitperiod}{Ronald\bibnamedelima F}{R\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=ebb7de3ef51cefc0888a34d18bd82ec4}{Doschak}{D\bibinitperiod}{Michael\bibnamedelima R}{M\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{fecdee6ff8cf49c0713d03947b2ec2f8}
+      \strng{fullhash}{9278dcd1f377cf5b2d7a2f4cf5adc2d1}
+      \field{sortinit}{0}
+      \field{labeltitle}{In vivo microfocal computed tomography and micro--magnetic resonance imaging evaluation of antiresorptive and antiinflammatory drugs as preventive treatments of osteoarthritis in the rat}
+      \field{journaltitle}{Arthritis \& Rheumatism}
+      \field{number}{9}
+      \field{shortjournal}{Arth. Rheu.}
+      \field{title}{In vivo microfocal computed tomography and micro--magnetic resonance imaging evaluation of antiresorptive and antiinflammatory drugs as preventive treatments of osteoarthritis in the rat}
+      \field{volume}{62}
+      \field{year}{2010}
+      \field{pages}{2726\bibrangedash 2735}
+    \endentry
+    \entry{lamport-1994-ladps}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=5d77435450d10a850a5b58577b9a456b}{Lamport}{L\bibinitperiod}{Leslie}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5d77435450d10a850a5b58577b9a456b}{Lamport}{L\bibinitperiod}{Leslie}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{fullhash}{5d77435450d10a850a5b58577b9a456b}
+      \field{sortinit}{0}
+      \field{labeltitle}{\LaTeX: A Document Preparation System}
+      \field{booktitle}{\LaTeX: A Document Preparation System}
+      \field{edition}{2}
+      \field{isbn}{0201529831}
+      \field{title}{\LaTeX: A Document Preparation System}
+      \field{year}{1994}
+    \endentry
+    \entry{kiczales-1997-aop}{inproceedings}{}
+      \name{labelname}{7}{}{%
+        {{hash=d946b118136364be6b4153f10085edb5}{Kiczales}{K\bibinitperiod}{Gregor}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=c6e554dc87c0f338dab6ba18e7c359f7}{Lamping}{L\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5c4fb758c5fd422868688e6ab1999e5c}{Mendhekar}{M\bibinitperiod}{Anurag}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6a95852be4675ec05b7ff3fb2e3543df}{Maeda}{M\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=f473ee1b8607e2b28e32c6687e7d8c9f}{Lopes}{L\bibinitperiod}{Cristina}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=bb1403d2dee701abcb5dbe62112b1e8c}{Loingtier}{L\bibinitperiod}{Jean-Marc}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=b5b34a2d5ba4d1c16b01114eb7741dcf}{Irwin}{I\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=d946b118136364be6b4153f10085edb5}{Kiczales}{K\bibinitperiod}{Gregor}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=c6e554dc87c0f338dab6ba18e7c359f7}{Lamping}{L\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5c4fb758c5fd422868688e6ab1999e5c}{Mendhekar}{M\bibinitperiod}{Anurag}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6a95852be4675ec05b7ff3fb2e3543df}{Maeda}{M\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=f473ee1b8607e2b28e32c6687e7d8c9f}{Lopes}{L\bibinitperiod}{Cristina}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=bb1403d2dee701abcb5dbe62112b1e8c}{Loingtier}{L\bibinitperiod}{Jean-Marc}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=b5b34a2d5ba4d1c16b01114eb7741dcf}{Irwin}{I\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b2c0cddcff1b04bc24d1565c85a6fc64}
+      \strng{fullhash}{ab2619f03a520161c3b343c1fb1bd983}
+      \field{sortinit}{0}
+      \field{labeltitle}{Aspect-Oriented Programming}
+      \field{booktitle}{Proceedings of the European Conference on Object-Oriented Programming ({ECOOP})}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{Aspect-Oriented Programming}
+      \field{volume}{2591}
+      \field{year}{1997}
+      \field{pages}{220\bibrangedash 242}
+      \keyw{aop, aspect-oriented programming}
+    \endentry
+    \entry{bringhurst-2002-teots}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=26e95fb42484f0ba33bccaf28955982e}{Bringhurst}{B\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=26e95fb42484f0ba33bccaf28955982e}{Bringhurst}{B\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Hartley \& Marks}%
+      }
+      \strng{namehash}{26e95fb42484f0ba33bccaf28955982e}
+      \strng{fullhash}{26e95fb42484f0ba33bccaf28955982e}
+      \field{sortinit}{0}
+      \field{labeltitle}{The Elements of Typographic Style}
+      \field{booktitle}{The Elements of Typographic Style}
+      \field{edition}{2.5}
+      \field{isbn}{0881791326}
+      \field{title}{The Elements of Typographic Style}
+      \field{year}{2002}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

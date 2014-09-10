@@ -23,8 +23,8 @@
 %\usepackage{amssymb}
 %\usepackage{amsmath}
 %\usepackage{amsfonts}
-\usepackage{pifont}
-\usepackage{titlesec} 
+\usepackage{pifont, fixltx2e} % Adds \textsubscript{}, at least
+\usepackage{titlesec, mhchem} %chemistry and titles! 
 \titleformat{\section}[hang]{
     \usefont{T1}{qhv}{b}{n}\selectfont} % "qhv" - TeX Gyre Heros, "b" - bold
     {} 
@@ -80,6 +80,7 @@
 %% booktabs: provides some special commands for typesetting tables as used
 %% in excellent journals.  Ignore the examples in the Lamport book!
 \usepackage{booktabs}
+\usepackage{siunitx, xspace} %for SI units eg. \si{\grams\per\mega\hertz} and gives xspace
 
 %% The acronym package provides support for defining acronyms, providing
 %% their expansion when first used, and building glossaries.  See the

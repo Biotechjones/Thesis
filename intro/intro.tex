@@ -1,5 +1,6 @@
 %% The following is a directive for TeXShop to indicate the main file
-%!TEX root = MJThesis.tex
+%!TEX root = ../MJThesis.tex
+
 
 \chapter{Introduction}
 \label{ch:Introduction}
@@ -56,7 +57,7 @@ be described as six files such as \file{intro.tex},
 \file{discuss.tex}, and \file{concl.tex}.
 
 We also encourage you to use macros for separating how something
-will be typeset (\eg bold, or italics) from the meaning of that
+will be typeset ( bold, or italics) from the meaning of that
 something. 
 For example, if you look at \file{intro.tex}, you will see repeated
 uses of a macro \verb+\file{}+ to indicate file names.
@@ -68,7 +69,7 @@ file names are typeset simply by changing the definition of the
 \verb+\file{}+ macro.
 \file{macros.tex} contains other useful macros for properly typesetting
 things like the proper uses of the latinate \emph{exempli grati\={a}}
-and \emph{id est} (\ie \verb+\eg+ and \verb+\ie+), 
+and \emph{id est} (\verb+\eg+ and \verb+\ie+), 
 web references with a footnoted \acs{URL} (\verb+\webref{url}{text}+),
 as well as definitions specific to this documentation
 (\verb+\latexpackage{}+).
@@ -182,7 +183,7 @@ is used for parenthetic references, more like an end-note.
 Variant & Result \\
 \midrule
 % We cheat here to simulate the cite/citep/citet for APA-like styles
-\verb+\cite+ & Parenthetical citation (\eg ``\cite{kiczales-1997-aop}''
+\verb+\cite+ & Parenthetical citation (\eg{} ``\cite{kiczales-1997-aop}''
     or ``(\citeauthor{kiczales-1997-aop} \citeyear{kiczales-1997-aop})'') \\
 \verb+\citet+ & Textual citation: includes author (\eg
      or
@@ -303,15 +304,6 @@ imported graphics in LaTeX2e}}.
 \section{Special Characters and Symbols}
 \label{sec:SpecialSymbols}
 
-\LaTeX\ appropriates many common symbols for its own purposes,
-with some used for commands (\ie \verb+\{}&%+) and
-mathematics (\ie \verb+$^_+), and others are automagically transformed
-into typographically-preferred forms (\ie \verb+-`'+) or to
-completely different forms (\ie \verb+<>+).
-\cref{tbl:LaTeX:Symbols} presents a list of common symbols and
-their corresponding \LaTeX\ commands.  A much more comprehensive list 
-of symbols and accented characters is available at:
-\url{http://www.ctan.org/tex-archive/info/symbols/comprehensive/}
 \begin{table}
 \caption{Useful \LaTeX\ symbols}\label{tbl:LaTeX:Symbols}
 \centering\begin{tabular}{ccp{0.5cm}cc}\toprule

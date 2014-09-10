@@ -1,10 +1,10 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.4 $
+% $ biblatex version 2.4 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated by
-% biber as required.
+% This file may safely be deleted. It will be recreated as
+% required.
 %
 \begingroup
 \makeatletter
@@ -16,117 +16,1225 @@
   {}
 \endgroup
 
+\entry{jones2010vivo}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Jones}{J.}%
+     {Michael~D}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tran}{T.}%
+     {Charles~W}{C.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Guang}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maksymowych}{M.}%
+     {Walter~P}{W.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zernicke}{Z.}%
+     {Ronald~F}{R.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Doschak}{D.}%
+     {Michael~R}{M.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{JMD+1}
+  \strng{fullhash}{JMDTCWLGMWPZRFDMR1}
+  \field{number}{9}
+  \field{pages}{2726\bibrangedash 2735}
+  \field{shortjournal}{Arth. Rheu.}
+  \field{title}{In vivo microfocal computed tomography and micro--magnetic
+  resonance imaging evaluation of antiresorptive and antiinflammatory drugs as
+  preventive treatments of osteoarthritis in the rat}
+  \field{volume}{62}
+  \field{journaltitle}{Arthritis \& Rheumatism}
+  \field{year}{2010}
+\endentry
 
-\refsection{0}
-  \sortlist{none}{none}
-    \entry{jones2010vivo}{article}{}
-      \name{labelname}{6}{}{%
-        {{hash=b3cf8648c28e69e92f6ae2e2eb187e49}{Jones}{J\bibinitperiod}{Michael\bibnamedelima D}{M\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=98886a8ebebe2507b8448826e2373bbe}{Tran}{T\bibinitperiod}{Charles\bibnamedelima W}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=8610b91ad546e7a739475ef2d30cf1f0}{Li}{L\bibinitperiod}{Guang}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=50e054a178cb47a8b8f1bd4954dd2449}{Maksymowych}{M\bibinitperiod}{Walter\bibnamedelima P}{W\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
-        {{hash=c9cf239a784cb37b594d4449a102cfca}{Zernicke}{Z\bibinitperiod}{Ronald\bibnamedelima F}{R\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
-        {{hash=ebb7de3ef51cefc0888a34d18bd82ec4}{Doschak}{D\bibinitperiod}{Michael\bibnamedelima R}{M\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{6}{}{%
-        {{hash=b3cf8648c28e69e92f6ae2e2eb187e49}{Jones}{J\bibinitperiod}{Michael\bibnamedelima D}{M\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=98886a8ebebe2507b8448826e2373bbe}{Tran}{T\bibinitperiod}{Charles\bibnamedelima W}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=8610b91ad546e7a739475ef2d30cf1f0}{Li}{L\bibinitperiod}{Guang}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=50e054a178cb47a8b8f1bd4954dd2449}{Maksymowych}{M\bibinitperiod}{Walter\bibnamedelima P}{W\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
-        {{hash=c9cf239a784cb37b594d4449a102cfca}{Zernicke}{Z\bibinitperiod}{Ronald\bibnamedelima F}{R\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
-        {{hash=ebb7de3ef51cefc0888a34d18bd82ec4}{Doschak}{D\bibinitperiod}{Michael\bibnamedelima R}{M\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{fecdee6ff8cf49c0713d03947b2ec2f8}
-      \strng{fullhash}{9278dcd1f377cf5b2d7a2f4cf5adc2d1}
-      \field{sortinit}{0}
-      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{In vivo microfocal computed tomography and micro--magnetic resonance imaging evaluation of antiresorptive and antiinflammatory drugs as preventive treatments of osteoarthritis in the rat}
-      \field{journaltitle}{Arthritis \& Rheumatism}
-      \field{number}{9}
-      \field{shortjournal}{Arth. Rheu.}
-      \field{title}{In vivo microfocal computed tomography and micro--magnetic resonance imaging evaluation of antiresorptive and antiinflammatory drugs as preventive treatments of osteoarthritis in the rat}
-      \field{volume}{62}
-      \field{year}{2010}
-      \field{pages}{2726\bibrangedash 2735}
-    \endentry
-    \entry{lamport-1994-ladps}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=5d77435450d10a850a5b58577b9a456b}{Lamport}{L\bibinitperiod}{Leslie}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=5d77435450d10a850a5b58577b9a456b}{Lamport}{L\bibinitperiod}{Leslie}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley}%
-      }
-      \strng{namehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{fullhash}{5d77435450d10a850a5b58577b9a456b}
-      \field{sortinit}{0}
-      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{\LaTeX: A Document Preparation System}
-      \field{booktitle}{\LaTeX: A Document Preparation System}
-      \field{edition}{2}
-      \field{isbn}{0201529831}
-      \field{title}{\LaTeX: A Document Preparation System}
-      \field{year}{1994}
-    \endentry
-    \entry{kiczales-1997-aop}{inproceedings}{}
-      \name{labelname}{7}{}{%
-        {{hash=d946b118136364be6b4153f10085edb5}{Kiczales}{K\bibinitperiod}{Gregor}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=c6e554dc87c0f338dab6ba18e7c359f7}{Lamping}{L\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=5c4fb758c5fd422868688e6ab1999e5c}{Mendhekar}{M\bibinitperiod}{Anurag}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=6a95852be4675ec05b7ff3fb2e3543df}{Maeda}{M\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=f473ee1b8607e2b28e32c6687e7d8c9f}{Lopes}{L\bibinitperiod}{Cristina}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=bb1403d2dee701abcb5dbe62112b1e8c}{Loingtier}{L\bibinitperiod}{Jean-Marc}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=b5b34a2d5ba4d1c16b01114eb7741dcf}{Irwin}{I\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{7}{}{%
-        {{hash=d946b118136364be6b4153f10085edb5}{Kiczales}{K\bibinitperiod}{Gregor}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=c6e554dc87c0f338dab6ba18e7c359f7}{Lamping}{L\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=5c4fb758c5fd422868688e6ab1999e5c}{Mendhekar}{M\bibinitperiod}{Anurag}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=6a95852be4675ec05b7ff3fb2e3543df}{Maeda}{M\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=f473ee1b8607e2b28e32c6687e7d8c9f}{Lopes}{L\bibinitperiod}{Cristina}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=bb1403d2dee701abcb5dbe62112b1e8c}{Loingtier}{L\bibinitperiod}{Jean-Marc}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=b5b34a2d5ba4d1c16b01114eb7741dcf}{Irwin}{I\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{b2c0cddcff1b04bc24d1565c85a6fc64}
-      \strng{fullhash}{ab2619f03a520161c3b343c1fb1bd983}
-      \field{sortinit}{0}
-      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{Aspect-Oriented Programming}
-      \field{booktitle}{Proceedings of the European Conference on Object-Oriented Programming ({ECOOP})}
-      \field{series}{Lecture Notes in Computer Science}
-      \field{title}{Aspect-Oriented Programming}
-      \field{volume}{2591}
-      \field{year}{1997}
-      \field{pages}{220\bibrangedash 242}
-      \keyw{aop,aspect-oriented programming}
-    \endentry
-    \entry{bringhurst-2002-teots}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=26e95fb42484f0ba33bccaf28955982e}{Bringhurst}{B\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=26e95fb42484f0ba33bccaf28955982e}{Bringhurst}{B\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Hartley \& Marks}%
-      }
-      \strng{namehash}{26e95fb42484f0ba33bccaf28955982e}
-      \strng{fullhash}{26e95fb42484f0ba33bccaf28955982e}
-      \field{sortinit}{0}
-      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{The Elements of Typographic Style}
-      \field{booktitle}{The Elements of Typographic Style}
-      \field{edition}{2.5}
-      \field{isbn}{0881791326}
-      \field{title}{The Elements of Typographic Style}
-      \field{year}{2002}
-    \endentry
-  \endsortlist
-\endrefsection
+\entry{lamport-1994-ladps}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lamport}{L.}%
+     {Leslie}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley}%
+  }
+  \strng{namehash}{LL1}
+  \strng{fullhash}{LL1}
+  \field{booktitle}{\LaTeX: A Document Preparation System}
+  \field{edition}{2}
+  \field{isbn}{0201529831}
+  \field{title}{\LaTeX: A Document Preparation System}
+  \field{year}{1994}
+\endentry
+
+\entry{kiczales-1997-aop}{inproceedings}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Kiczales}{K.}%
+     {Gregor}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lamping}{L.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mendhekar}{M.}%
+     {Anurag}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maeda}{M.}%
+     {Chris}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lopes}{L.}%
+     {Cristina}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loingtier}{L.}%
+     {Jean-Marc}{J.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Irwin}{I.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{aop, aspect-oriented programming}
+  \strng{namehash}{KG+1}
+  \strng{fullhash}{KGLJMAMCLCLJMIJ1}
+  \field{booktitle}{Proceedings of the European Conference on Object-Oriented
+  Programming ({ECOOP})}
+  \field{pages}{220\bibrangedash 242}
+  \field{series}{Lecture Notes in Computer Science}
+  \field{title}{Aspect-Oriented Programming}
+  \field{volume}{2591}
+  \field{year}{1997}
+\endentry
+
+\entry{bringhurst-2002-teots}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bringhurst}{B.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Hartley \& Marks}%
+  }
+  \strng{namehash}{BR1}
+  \strng{fullhash}{BR1}
+  \field{booktitle}{The Elements of Typographic Style}
+  \field{edition}{2.5}
+  \field{isbn}{0881791326}
+  \field{title}{The Elements of Typographic Style}
+  \field{year}{2002}
+\endentry
+
+\entry{caulobacterlipida}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Smit}{S.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaltashov}{K.}%
+     {Igor~A}{I.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cotter}{C.}%
+     {Robert~J}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vinogradov}{V.}%
+     {Evgeny}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Perry}{P.}%
+     {Malcolm~B}{M.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haider}{H.}%
+     {Hibba}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Qureshi}{Q.}%
+     {Nilofer}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SJ+1}
+  \strng{fullhash}{SJKIACRJVEPMBHHQN1}
+  \field{issn}{1753-4259}
+  \field{number}{1}
+  \field{pages}{25\bibrangedash 36}
+  \field{title}{Structure of a novel lipid A obtained from the
+  lipopolysaccharide of Caulobacter crescentus}
+  \field{volume}{14}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Innate Immunity}
+  \field{year}{2008}
+\endentry
+
+\entry{walker94}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Walker}{W.}%
+     {Stephen~G}{S.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Karunaratne}{K.}%
+     {D~Nedra}{D.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ravenscroft}{R.}%
+     {Neil}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smit}{S.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WSG+1}
+  \strng{fullhash}{WSGKDNRNSJ1}
+  \field{issn}{0021-9193}
+  \field{number}{20}
+  \field{pages}{6312\bibrangedash 6323}
+  \field{title}{Characterization of mutants of Caulobacter crescentus defective
+  in surface attachment of the paracrystalline surface layer}
+  \field{volume}{176}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Journal of bacteriology}
+  \field{year}{1994}
+\endentry
+
+\entry{awramgenes}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Awram}{A.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smit}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Acetyltransferases/genetics Amino Acid Sequence Bacterial Outer
+  Membrane Proteins/genetics/*metabolism *Bacterial Proteins Blotting, Western
+  Carbohydrate Epimerases/genetics Caulobacter crescentus/genetics/*metabolism
+  Cell Adhesion DNA Transposable Elements Electrophoresis, Polyacrylamide Gel
+  Galactosyltransferases/genetics *Genes, Bacterial
+  Glycosyltransferases/genetics Hydro-Lyases/genetics Magnetic Resonance
+  Spectroscopy Mannose-6-Phosphate Isomerase/genetics *Membrane Glycoproteins
+  Molecular Sequence Data Multienzyme Complexes/genetics Mutagenesis,
+  Insertional Nucleotidyltransferases/genetics O
+  Antigens/biosynthesis/*genetics/metabolism Phosphotransferases
+  (Phosphomutases)/genetics Sequence Alignment Transaminases/genetics}
+  \strng{namehash}{APSJ1}
+  \strng{fullhash}{APSJ1}
+  \field{abstract}{%
+  The outer surface of Caulobacter crescentus consists of a two-dimensional
+  crystalline protein lattice layer (S-layer). A fraction of the LPS has an O
+  antigen polymer attached to the core to form a 'smooth' LPS (S-LPS), which is
+  required for attachment of the protein S-layer to the outer-membrane surface.
+  A method to screen for strains defective in LPS production, based on loss of
+  S-layer attachment, was developed and applied to libraries of
+  transposon-generated mutants. Eighteen distinct insertions were found with
+  transposon interruptions in genes affecting S-LPS production, 12 of which
+  were located near the S-layer subunit protein gene, rsaA, and its transporter
+  genes. Sequence adjacent to transposon insertion points was determined and
+  used to search a C. crescentus genome database. Twelve ORFs likely to be
+  involved in S-LPS synthesis were identified. Seven of the predicted ORFs were
+  linked to rsaA. Six of the putative genes had identity with proteins involved
+  in synthesis of sugar residues, including five predicted to make perosamine.
+  The remaining six ORFs were similar to glycosyltransferases involved in
+  forming linkages between sugar residues in the O antigen, while one may be a
+  transcription repressor. Other chemical and preliminary proton NMR studies of
+  the S-LPS O antigen indicate that it contains an N-acetylated
+  4,6-dideoxy-4-aminohexose, but is not assembled as a simple, uniform
+  homopolymer, consisting of several different linkages between sugar residues.
+  The ORFs described here include homologues of all the enzymes involved in the
+  synthesis of N-acetylperosamine, a 4,6-dideoxy-4-aminohexose. Overall, the
+  data are consistent with the hypothesis that the O antigen of C. crescentus
+  S-LPS consists primarily of N-acetylperosamine residues polymerized with
+  multiple anomeric linkages.%
+  }
+  \field{issn}{1350-0872 (Print) 1350-0872 (Linking)}
+  \field{note}{Awram, P Smit, J Research Support, Non-U.S. Gov't Research
+  Support, U.S. Gov't, Non-P.H.S. England Microbiology (Reading, England)
+  Microbiology. 2001 Jun;147(Pt 6):1451-60.}
+  \field{number}{Pt 6}
+  \field{pages}{1451\bibrangedash 60}
+  \field{title}{Identification of lipopolysaccharide O antigen synthesis genes
+  required for attachment of the S-layer of Caulobacter crescentus}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&do
+  \verb pt=Citation&list_uids=11390676
+  \endverb
+  \field{volume}{147}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Microbiology}
+  \field{year}{2001}
+\endentry
+
+\entry{ravenscroftlps}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Ravenscroft}{R.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walker}{W.}%
+     {S.~G.}{S.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dutton}{D.}%
+     {G.~G.}{G.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Antigens, Bacterial/*chemistry Caulobacter crescentus/*chemistry Cell
+  Membrane/chemistry Galactose/analysis Genetic Variation Glucose/analysis
+  Heptoses/analysis Lauric Acids/analysis Lipid A/analysis Lipids/analysis
+  Lipopolysaccharides/*chemistry/*isolation & purification Mannose/analysis
+  Oligosaccharides/chemistry Sugar Acids/analysis}
+  \strng{namehash}{RN+1}
+  \strng{fullhash}{RNWSGDGGSJ1}
+  \field{abstract}{%
+  The lipopolysaccharide (LPS) of the outer membrane of Caulobacter crescentus
+  was purified and analyzed. Two distinct strains of the species, NA 1000 and
+  CB2A, were examined; despite differences in other membrane-related
+  polysaccharides, the two gave similar LPS composition profiles. The LPS was
+  the equivalent of the rough LPS described for other bacteria in that it
+  lacked the ladder of polysaccharide-containing species that results from
+  addition of variable amounts of a repeated sequence of sugars, as detected by
+  gel electrophoresis in smooth LPS strains. The purified LPS contained two
+  definable regions: (i) an oligosaccharide region, consisting of an inner core
+  of three residues of 2-keto-3-deoxyoctonate, two residues of
+  alpha-L-glycero-D-mannoheptose, and one alpha-D-glycero-D-mannoheptose unit
+  and an outer core region containing one residue each of alpha-D-mannose,
+  alpha-D-galactose, and alpha-D-glucose, with the glucose likely
+  phosphorylated and (ii) a region equivalent to the lipid A region of the
+  archetype, consisting primarily of an esterified fatty acid,
+  3-OH-dodecanoate. The lipid A-like region was resistant to conclusive
+  analysis; in particular, although a variety of analytical methods were used,
+  no amino sugars were detected, as is found in the lipid A of the LPS of most
+  bacteria.%
+  }
+  \field{issn}{0021-9193 (Print) 0021-9193 (Linking)}
+  \field{note}{Ravenscroft, N Walker, S G Dutton, G G Smith, J
+  GM-39055/GM/NIGMS NIH HHS/United States Comparative Study Research Support,
+  Non-U.S. Gov't Research Support, U.S. Gov't, Non-P.H.S. Research Support,
+  U.S. Gov't, P.H.S. United states Journal of bacteriology J Bacteriol. 1992
+  Dec;174(23):7595-605.}
+  \field{number}{23}
+  \field{pages}{7595\bibrangedash 605}
+  \field{title}{Identification, isolation, and structural studies of the outer
+  membrane lipopolysaccharide of Caulobacter crescentus}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&do
+  \verb pt=Citation&list_uids=1447131
+  \endverb
+  \field{volume}{174}
+  \field{type}{Journal Article}
+  \field{journaltitle}{J Bacteriol}
+  \field{year}{1992}
+\endentry
+
+\entry{na1000genome}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Marks}{M.}%
+     {M.~E.}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Castro-Rojas}{C.-R.}%
+     {C.~M.}{C.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Teiling}{T.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Du}{D.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kapatral}{K.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walunas}{W.}%
+     {T.~L.}{T.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crosson}{C.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Adaptation, Physiological/*genetics Bacterial
+  Proteins/genetics/metabolism Bacteriophages/physiology Caulobacter
+  crescentus/*genetics/*metabolism/virology Evolution, Molecular Genetic
+  Variation Molecular Sequence Data Phylogeny}
+  \strng{namehash}{MME+1}
+  \strng{fullhash}{MMECRCMTCDLKVWTLCS1}
+  \field{abstract}{%
+  The dimorphic bacterium Caulobacter crescentus has evolved marked phenotypic
+  changes during its 50-year history of culture in the laboratory environment,
+  providing an excellent system for the study of natural selection and
+  phenotypic microevolution in prokaryotes. Combining whole-genome sequencing
+  with classical molecular genetic tools, we have comprehensively mapped a set
+  of polymorphisms underlying multiple derived phenotypes, several of which
+  arose independently in separate strain lineages. The genetic basis of
+  phenotypic differences in growth rate, mucoidy, adhesion, sedimentation,
+  phage susceptibility, and stationary-phase survival between C. crescentus
+  strain CB15 and its derivative NA1000 is determined by coding, regulatory,
+  and insertion/deletion polymorphisms at five chromosomal loci. This study
+  evidences multiple genetic mechanisms of bacterial evolution as driven by
+  selection for growth and survival in a new selective environment and
+  identifies a common polymorphic locus, zwf, between lab-adapted C. crescentus
+  and clinical isolates of Pseudomonas aeruginosa that have adapted to a human
+  host during chronic infection.%
+  }
+  \verb{doi}
+  \verb 10.1128/JB.00255-10
+  \endverb
+  \field{issn}{1098-5530 (Electronic) 0021-9193 (Linking)}
+  \field{note}{Marks, Melissa E Castro-Rojas, Cyd Marie Teiling, Clotilde Du,
+  Lei Kapatral, Vinayak Walunas, Theresa L Crosson, Sean eng
+  1F32-GM083424/GM/NIGMS NIH HHS/ J Bacteriol. 2010 Jul;192(14):3678-88. doi:
+  10.1128/JB.00255-10. Epub 2010 May 14.}
+  \field{number}{14}
+  \field{pages}{3678\bibrangedash 88}
+  \field{title}{The genetic basis of laboratory adaptation in Caulobacter
+  crescentus}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/20472802
+  \endverb
+  \field{volume}{192}
+  \field{type}{Journal Article}
+  \field{journaltitle}{J Bacteriol}
+  \field{year}{2010}
+\endentry
+
+\entry{hivmicrobicide2}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Farr}{F.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nomellini}{N.}%
+     {J.~F.}{J.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ailon}{A.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shanina}{S.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sangsari}{S.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cavacini}{C.}%
+     {L.~A.}{L.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smit}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Horwitz}{H.}%
+     {M.~S.}{M.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FC+1}
+  \strng{fullhash}{FCNJFAESISSCLASJHMS1}
+  \field{abstract}{%
+  The HIV/AIDS pandemic remains an enormous global health concern. Despite
+  effective prevention options, 2.6 million new infections occur annually, with
+  women in developing countries accounting for more than half of these
+  infections. New prevention strategies that can be used by women are urgently
+  needed. Topical microbicides specific for HIV-1 represent a promising
+  prevention strategy. Conceptually, using harmless bacteria to display
+  peptides or proteins capable of blocking entry provides an inexpensive
+  approach to microbicide development. To avoid the potential pitfalls of
+  engineering commensal bacteria, our strategy is to genetically display
+  infection inhibitors on a non-native bacterium and rely on topical
+  application of stabilized bacteria before potential virus exposure. Due to
+  the high density cell-surface display capabilities and the inherent low
+  toxicity of the bacterium, the S-layer mediated protein display capabilities
+  of the non-pathogenic bacterium Caulobacter crescentus has been exploited for
+  this approach. We have demonstrated that C. crescentus displaying MIP1alpha
+  or CD4 interfered with the virus entry pathway and provided significant
+  protection from HIV-1 pseudovirus representing clade B in a standard single
+  cycle infection assay. Here we have expanded our C. crescentus based
+  microbicide approach with additional and diverse classes of natural and
+  synthetic inhibitors of the HIV-1 entry pathway. All display constructs
+  provided variable but significant protection from HIV-1 infection; some with
+  protection as high as 70%. Further, we describe protection from infection
+  with additional viral clades. These findings indicate the significant
+  potential for engineering C. crescentus to be an effective and readily
+  adaptable HIV-1 microbicide platform.%
+  }
+  \verb{doi}
+  \verb 10.1371/journal.pone.0065965 PONE-D-12-33995 [pii]
+  \endverb
+  \field{issn}{1932-6203 (Electronic) 1932-6203 (Linking)}
+  \field{note}{Farr, Christina Nomellini, John F Ailon, Evan Shanina, Iryna
+  Sangsari, Sassan Cavacini, Lisa A Smit, John Horwitz, Marc S Journal article
+  PloS one PLoS One. 2013 Jun 19;8(6):e65965. Print 2013.}
+  \field{number}{6}
+  \field{pages}{e65965}
+  \field{title}{Development of an HIV-1 Microbicide Based on : Blocking
+  Infection by High-Density Display of Virus Entry Inhibitors}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&do
+  \verb pt=Citation&list_uids=23840383
+  \endverb
+  \field{volume}{8}
+  \field{type}{Journal Article}
+  \field{journaltitle}{PLoS One}
+  \field{year}{2013}
+\endentry
+
+\entry{slayercryo}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Amat}{A.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Comolli}{C.}%
+     {L.~R.}{L.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nomellini}{N.}%
+     {J.~F.}{J.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moussavi}{M.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Downing}{D.}%
+     {K.~H.}{K.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smit}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Horowitz}{H.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Amino Acids/analysis Bacterial Proteins/chemistry/*ultrastructure
+  Caulobacter crescentus/chemistry/*ultrastructure *Cryoelectron Microscopy
+  *Electron Microscope Tomography Image Processing, Computer-Assisted Membrane
+  Glycoproteins/chemistry/*ultrastructure Metal Nanoparticles Staining and
+  Labeling}
+  \strng{namehash}{AF+1}
+  \strng{fullhash}{AFCLRNJFMFDKHSJHM1}
+  \field{abstract}{%
+  The surface layers (S layers) of those bacteria and archaea that elaborate
+  these crystalline structures have been studied for 40 years. However, most
+  structural analysis has been based on electron microscopy of negatively
+  stained S-layer fragments separated from cells, which can introduce staining
+  artifacts and allow rearrangement of structures prone to self-assemble. We
+  present a quantitative analysis of the structure and organization of the S
+  layer on intact growing cells of the Gram-negative bacterium Caulobacter
+  crescentus using cryo-electron tomography (CET) and statistical image
+  processing. Instead of the expected long-range order, we observed different
+  regions with hexagonally organized subunits exhibiting short-range order and
+  a broad distribution of periodicities. Also, areas of stacked double layers
+  were found, and these increased in extent when the S-layer protein (RsaA)
+  expression level was elevated by addition of multiple rsaA copies. Finally,
+  we combined high-resolution amino acid residue-specific Nanogold labeling and
+  subtomogram averaging of CET volumes to improve our understanding of the
+  correlation between the linear protein sequence and the structure at the 2-nm
+  level of resolution that is presently available. The results support the view
+  that the U-shaped RsaA monomer predicted from negative-stain tomography
+  proceeds from the N terminus at one vertex, corresponding to the axis of
+  3-fold symmetry, to the C terminus at the opposite vertex, which forms the
+  prominent 6-fold symmetry axis. Such information will help future efforts to
+  analyze subunit interactions and guide selection of internal sites for
+  display of heterologous protein segments.%
+  }
+  \verb{doi}
+  \verb JB.00747-10 [pii] 10.1128/JB.00747-10
+  \endverb
+  \field{issn}{1098-5530 (Electronic) 0021-9193 (Linking)}
+  \field{note}{Amat, Fernando Comolli, Luis R Nomellini, John F Moussavi,
+  Farshid Downing, Kenneth H Smit, John Horowitz, Mark Research Support,
+  Non-U.S. Gov't United States Journal of bacteriology J Bacteriol. 2010
+  Nov;192(22):5855-65. doi: 10.1128/JB.00747-10. Epub 2010 Sep 10.}
+  \field{number}{22}
+  \field{pages}{5855\bibrangedash 65}
+  \field{title}{Analysis of the intact surface layer of Caulobacter crescentus
+  by cryo-electron tomography}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&do
+  \verb pt=Citation&list_uids=20833802
+  \endverb
+  \field{volume}{192}
+  \field{type}{Journal Article}
+  \field{journaltitle}{J Bacteriol}
+  \field{year}{2010}
+\endentry
+
+\entry{smitpilin81}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Smit}{S.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hermodson}{H.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agabian}{A.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SJHMAN1}
+  \strng{fullhash}{SJHMAN1}
+  \field{issn}{0021-9258}
+  \field{number}{6}
+  \field{pages}{3092\bibrangedash 3097}
+  \field{title}{Caulobacter crescentus pilin. Purification, chemical
+  characterization, and NH2-terminal amino acid sequence of a structural
+  protein regulated during development}
+  \field{volume}{256}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Journal of Biological Chemistry}
+  \field{year}{1981}
+\endentry
+
+\entry{hutners}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Cohen‐Bazire}{C.}%
+     {Germaine}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sistrom}{S.}%
+     {WR}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stanier}{S.}%
+     {RY}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CGSWSR1}
+  \strng{fullhash}{CGSWSR1}
+  \field{issn}{1553-0809}
+  \field{number}{1}
+  \field{pages}{25\bibrangedash 68}
+  \field{title}{Kinetic studies of pigment synthesis by non‐sulfur purple
+  bacteria}
+  \field{volume}{49}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Journal of Cellular and Comparative Physiology}
+  \field{year}{1957}
+\endentry
+
+\entry{maniatis}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Maniatis}{M.}%
+     {Tom}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fritsch}{F.}%
+     {Edward~F}{E.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sambrook}{S.}%
+     {Joseph}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cold Spring Harbor Laboratory Cold Spring Harbor, NY}%
+  }
+  \strng{namehash}{MTFEFSJ1}
+  \strng{fullhash}{MTFEFSJ1}
+  \field{title}{Molecular cloning: a laboratory manual}
+  \field{volume}{545}
+  \field{type}{Book}
+  \field{year}{1982}
+\endentry
+
+\entry{blighdyer}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bligh}{B.}%
+     {EoGo}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dyer}{D.}%
+     {W~Jo}{W.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BEDWJ1}
+  \strng{fullhash}{BEDWJ1}
+  \field{issn}{0576-5544}
+  \field{number}{8}
+  \field{pages}{911\bibrangedash 917}
+  \field{title}{A rapid method of total lipid extraction and purification}
+  \field{volume}{37}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Canadian journal of biochemistry and physiology}
+  \field{year}{1959}
+\endentry
+
+\entry{laemmli}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Laemmli}{L.}%
+     {Ulrich~K}{U.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LUK1}
+  \strng{fullhash}{LUK1}
+  \field{issn}{0028-0836}
+  \field{number}{5259}
+  \field{pages}{680\bibrangedash 685}
+  \field{title}{Cleavage of structural proteins during the assembly of the head
+  of bacteriophage T4}
+  \field{volume}{227}
+  \field{type}{Journal Article}
+  \field{journaltitle}{nature}
+  \field{year}{1970}
+\endentry
+
+\entry{improvedsilverstain}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Zhu}{Z.}%
+     {Zhong-Xin}{Z.-X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cong}{C.}%
+     {Wei-Tao}{W.-T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ni}{N.}%
+     {Mao-Wei}{M.-W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Xi}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ma}{M.}%
+     {Wei-De}{W.-D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ye}{Y.}%
+     {Wei-Jian}{W.-J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jin}{J.}%
+     {Li-Tai}{L.-T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Xiao-Kun}{X.-K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Ascorbic acid Lipopolysaccharides Silver stain}
+  \strng{namehash}{ZZX+1}
+  \strng{fullhash}{ZZXCWTNMWWXMWDYWJJLTLXK1}
+  \verb{doi}
+  \verb 10.1002/elps.201100492
+  \endverb
+  \field{issn}{1522-2683}
+  \field{number}{7}
+  \field{pages}{1220\bibrangedash 1223}
+  \field{title}{An improved silver stain for the visualization of
+  lipopolysaccharides on polyacrylamide gels}
+  \verb{url}
+  \verb http://dx.doi.org/10.1002/elps.201100492
+  \endverb
+  \field{volume}{33}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Electrophoresis}
+  \field{year}{2012}
+\endentry
+
+\entry{ciucanufrancisc}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ciucanu}{C.}%
+     {Francisc}{F.}%
+     {}{}%
+     {Ionel;~Kerek}{I.~K.}}%
+  }
+  \strng{namehash}{CIKF1}
+  \strng{fullhash}{CIKF1}
+  \field{number}{2}
+  \field{pages}{209\bibrangedash 217}
+  \field{title}{A simple and rapid method for the permethylation of
+  carbohydrates.}
+  \field{volume}{131}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Carbohydrate Research}
+  \field{year}{1984}
+\endentry
+
+\entry{brade99}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Brade}{B.}%
+     {Helmut}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Marcel Dekker}%
+  }
+  \keyw{Endotoxins.}
+  \strng{namehash}{BH1}
+  \strng{fullhash}{BH1}
+  \field{isbn}{0824719441 (alk. paper)}
+  \field{note}{99029165 edited by Helmut Brade ... [et al.]. ill. ; 29 cm.
+  Includes bibliographical references and index.}
+  \field{pages}{xviii, 950 p.}
+  \field{title}{Endotoxin in health and disease}
+  \verb{url}
+  \verb Publisher description http://www.loc.gov/catdir/enhancements/fy0647/990
+  \verb 29165-d.html
+  \endverb
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{type}{Book}
+  \field{year}{1999}
+\endentry
+
+\entry{rhizobiumlps}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Zhang}{Z.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hollingsworth}{H.}%
+     {R.~I.}{R.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Priefer}{P.}%
+     {U.~B.}{U.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{27-hydroxyoctacosanoic acid trifolii anu-843 lipid-a component
+  symbiosis anu843}
+  \strng{namehash}{ZYHRIPUB1}
+  \strng{fullhash}{ZYHRIPUB1}
+  \field{abstract}{%
+  The lipopolysaccharides (LPS) of a wild type strain of Rhizobium
+  leguminosarum biovar viciae (strain VF-39) and two symbiotically defective
+  Tn5 mutants (VF-39-32 and VF-39-86) have been studied. The LPS of the mutants
+  reflected impaired synthesis of the O-antigen. In the LPS of one mutant, the
+  core tetrasaccharide was lacking and in that of the other it was truncated to
+  a disaccharide containing mannose and 3-deoxy-D-manno-oct-2-ulosonic acid
+  (KdO). The latter mutant also synthesized an unusual carbohydrate component
+  containing mannose, galactose, and an unidentified saccharide. The lipid A
+  composition was similar to that found in other strains of R. leguminosarum
+  biovar viciae. The O-antigen of the wild-type bacterium contained
+  2-O-methylfucose, fucose, 3,6-dideoxy-3(methylamino)hexose, glucose,
+  2-amino-2,6-dideoxyhexose, and heptose. This study clearly defines a role for
+  the bacterial LPS in the proper functioning of the Rhizobium legume
+  symbiosis.%
+  }
+  \verb{doi}
+  \verb Doi 10.1016/0008-6215(92)84024-M
+  \endverb
+  \field{issn}{0008-6215}
+  \field{note}{Jf925 Times Cited:26 Cited References Count:19}
+  \field{pages}{261\bibrangedash 271}
+  \field{title}{Characterization of Structural Defects in the
+  Lipopolysaccharides of Symbiotically Impaired Rhizobium-Leguminosarum Biovar
+  Viciae Vf-39 Mutants}
+  \verb{url}
+  \verb <Go to ISI>://WOS:A1992JF92500024
+  \endverb
+  \field{volume}{231}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Carbohydrate Research}
+  \field{year}{1992}
+\endentry
+
+\entry{acinetobacterlps}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Vinogradov}{V.}%
+     {E.~V.}{E.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bock}{B.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Petersen}{P.}%
+     {B.~O.}{B.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Holst}{H.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brade}{B.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{acinetobacter lipopolysaccharide nmr core-lipid a region
+  3-deoxy-d-manno-octulosonic acid transferase calcoaceticus nctc 10305
+  genus-specific epitope lipid-a component escherichia-coli identification
+  polysaccharide biosynthesis constituent baumannii}
+  \strng{namehash}{VEV+1}
+  \strng{fullhash}{VEVBKPBOHOBH1}
+  \field{abstract}{%
+  The structure of the carbohydrate backbone of the lipopolysaccharide from
+  Acinetobacter strain ATCC 17905 was studied. After deacylation of the
+  lipopolysaccharide, a mixture of two compounds (ratio approximately 2:1) was
+  isolated by high-performance anion-exchange chromatography, the structures of
+  which were determined by NMR spectroscopy and electrospray-mass spectrometry
+  as [GRAPHICS] [Sug, 3-deoxy-D-manno-2-octulopyranosonic acid (Kdo) in
+  oligosaccharide 1 (major portion) and D-glucero-D-talo-2-octulopyranosonic
+  acid (Ko) in oligosaccharide 2 (minor portion)]. All monosaccharide residues
+  also possess the D-configuration and are present in the pyranose form.%
+  }
+  \verb{doi}
+  \verb Doi 10.1111/J.1432-1033.1997.0122a.X
+  \endverb
+  \field{issn}{0014-2956}
+  \field{note}{We132 Times Cited:44 Cited References Count:28}
+  \field{number}{1-2}
+  \field{pages}{122\bibrangedash 127}
+  \field{title}{The structure of the carbohydrate backbone of the
+  lipopolysaccharide from Acinetobacter strain ATCC 17905}
+  \verb{url}
+  \verb <Go to ISI>://WOS:A1997WE13200016
+  \endverb
+  \field{volume}{243}
+  \field{type}{Journal Article}
+  \field{journaltitle}{European Journal of Biochemistry}
+  \field{year}{1997}
+\endentry
+
+\entry{dipm}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Moll}{M.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schlimpert}{S.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Briegel}{B.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jensen}{J.}%
+     {G.~J.}{G.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thanbichler}{T.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{protein ftsi pbp3 escherichia-coli bacterial-cell murein hydrolases
+  bacillus-subtilis localization binding cycle domain ring}
+  \strng{namehash}{MA+1}
+  \strng{fullhash}{MASSBAJGJTM1}
+  \field{abstract}{%
+  P>In bacteria, cytokinesis is dependent on lytic enzymes that facilitate
+  remodelling of the cell wall during constriction. In this work, we identify a
+  thus far uncharacterized periplasmic protein, DipM, that is required for cell
+  division and polarity in Caulobacter crescentus. DipM is composed of four
+  peptidoglycan binding (LysM) domains and a C-terminal lysostaphin-like (LytM)
+  peptidase domain. It binds to isolated murein sacculi in vitro, and is
+  recruited to the site of constriction through interaction with the cell
+  division protein FtsN. Mutational analyses showed that the LysM domains are
+  necessary and sufficient for localization of DipM, while its peptidase domain
+  is essential for function. Consistent with a role in cell wall hydrolysis,
+  DipM was found to interact with purified murein sacculi in vitro and to
+  induce cell lysis upon overproduction. Its inactivation causes severe defects
+  in outer membrane invagination, resulting in a significant delay between
+  cytoplasmic compartmentalization and final separation of the daughter cells.
+  Overall, these findings indicate that DipM is a periplasmic component of the
+  C. crescentus divisome that facilitates remodelling of the peptidoglycan
+  layer and, thus, coordinated constriction of the cell envelope during the
+  division process.%
+  }
+  \verb{doi}
+  \verb Doi 10.1111/J.1365-2958.2010.07224.X
+  \endverb
+  \field{issn}{0950-382X}
+  \field{note}{615WG Times Cited:21 Cited References Count:89}
+  \field{number}{1}
+  \field{pages}{90\bibrangedash 107}
+  \field{title}{DipM, a new factor required for peptidoglycan remodelling
+  during cell division in Caulobacter crescentus}
+  \verb{url}
+  \verb <Go to ISI>://WOS:000279168200009
+  \endverb
+  \field{volume}{77}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Molecular Microbiology}
+  \field{year}{2010}
+\endentry
+
+\entry{lpxi}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Metzger~IV}{M.~I.}%
+     {Louis~E}{L.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {John~K}{J.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Finer-Moore}{F.-M.}%
+     {Janet~S}{J.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Raetz}{R.}%
+     {Christian~RH}{C.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stroud}{S.}%
+     {Robert~M}{R.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MILE+1}
+  \strng{fullhash}{MILELJKFMJSRCRSRM1}
+  \field{issn}{1545-9993}
+  \field{number}{11}
+  \field{pages}{1132\bibrangedash 1138}
+  \field{title}{LpxI structures reveal how a lipid A precursor is synthesized}
+  \field{volume}{19}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Nature structural & molecular biology}
+  \field{year}{2012}
+\endentry
+
+\entry{perosmineacetyltransferase}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Thoden}{T.}%
+     {James~B}{J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reinhardt}{R.}%
+     {Laurie~A}{L.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cook}{C.}%
+     {Paul~D}{P.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Menden}{M.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cleland}{C.}%
+     {WW}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Holden}{H.}%
+     {Hazel~M}{H.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TJB+1}
+  \strng{fullhash}{TJBRLACPDMPCWHHM1}
+  \field{issn}{0006-2960}
+  \field{number}{16}
+  \field{pages}{3433\bibrangedash 3444}
+  \field{title}{Catalytic Mechanism of Perosamine N-Acetyltransferase Revealed
+  by High-Resolution X-ray Crystallographic Studies and Kinetic Analyses}
+  \field{volume}{51}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Biochemistry}
+  \field{year}{2012}
+\endentry
+
+\entry{lpsinterferecrescentin}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Cabeen}{C.}%
+     {Matthew~T}{M.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Murolo}{M.}%
+     {Michelle~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Briegel}{B.}%
+     {Ariane}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bui}{B.}%
+     {N~Khai}{N.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vollmer}{V.}%
+     {Waldemar}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ausmees}{A.}%
+     {Nora}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jensen}{J.}%
+     {Grant~J}{G.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jacobs-Wagner}{J.-W.}%
+     {Christine}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CMT+1}
+  \strng{fullhash}{CMTMMABABNKVWANJGJJWC1}
+  \field{issn}{0021-9193}
+  \field{number}{13}
+  \field{pages}{3368\bibrangedash 3378}
+  \field{title}{Mutations in the lipopolysaccharide biosynthesis pathway
+  interfere with crescentin-mediated cell curvature in Caulobacter crescentus}
+  \field{volume}{192}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Journal of bacteriology}
+  \field{year}{2010}
+\endentry
+
+\lossort
+\endlossort
+
 \endinput
-
