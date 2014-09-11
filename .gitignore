@@ -1,14 +1,12 @@
 *.aux
 *.blg
-*.blg
 *.fdb_latexmk
 *.log
 *.out
 *.bcf
 *.synctex.gz
-
-
-
+*.lof
+*.lot
 
 *.brf
 *.ind
