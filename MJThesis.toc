@@ -36,9 +36,9 @@
 \contentsline {subsection}{\numberline {2.2.5}Core oligosaccharide determination}{12}{subsection.2.2.5}
 \contentsline {section}{\numberline {2.3}Methods}{12}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Bacterial strain construction and growth conditions}{12}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}\texttt {LPS} isolation}{12}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}\textsc {LPS} isolation}{12}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Gel electrophoresis}{13}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}\texttt {NMR} spectroscopy}{13}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.4}\textsc {NMR} spectroscopy}{13}{subsection.2.3.4}
 \contentsline {subsection}{\numberline {2.3.5}Chromatography}{13}{subsection.2.3.5}
 \contentsline {subsection}{\numberline {2.3.6}Monosaccharide analysis}{14}{subsection.2.3.6}
 \contentsline {subsection}{\numberline {2.3.7}Determination of absolute configurations of monosaccharides}{14}{subsection.2.3.7}

@@ -21,51 +21,49 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: MJThesis-blx.bib
 Database file #2: biblio.bib
-Warning--I didn't find a database entry for "ravenscrofteps"
-Warning--I didn't find a database entry for "ravesncroftlps"
 Warning--I didn't find a database entry for "lpsreview"
 Biblatex version: 2.9
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 26 entries,
+You've used 27 entries,
             6047 wiz_defined-function locations,
-            1368 strings with 29090 characters,
-and the built_in function-call counts, 85591 in all, are:
-= -- 3078
-> -- 2823
-< -- 570
-+ -- 1006
-- -- 1130
-* -- 7670
-:= -- 5288
+            1376 strings with 19199 characters,
+and the built_in function-call counts, 90033 in all, are:
+= -- 3269
+> -- 2982
+< -- 608
++ -- 1072
+- -- 1192
+* -- 8102
+:= -- 5549
 add.period$ -- 0
-call.type$ -- 26
-change.case$ -- 301
+call.type$ -- 27
+change.case$ -- 327
 chr.to.int$ -- 34
-cite$ -- 50
-duplicate$ -- 9995
-empty$ -- 9134
-format.name$ -- 2207
-if$ -- 18617
+cite$ -- 52
+duplicate$ -- 10491
+empty$ -- 9569
+format.name$ -- 2318
+if$ -- 19589
 int.to.chr$ -- 0
-int.to.str$ -- 56
+int.to.str$ -- 61
 missing$ -- 0
-newline$ -- 1036
-num.names$ -- 1088
-pop$ -- 8102
+newline$ -- 1078
+num.names$ -- 1153
+pop$ -- 8410
 preamble$ -- 1
-purify$ -- 444
+purify$ -- 477
 quote$ -- 0
-skip$ -- 4584
+skip$ -- 4824
 stack$ -- 0
-substring$ -- 1673
-swap$ -- 3734
-text.length$ -- 575
+substring$ -- 1809
+swap$ -- 3971
+text.length$ -- 600
 text.prefix$ -- 2
 top$ -- 1
-type$ -- 892
+type$ -- 930
 warning$ -- 0
-while$ -- 465
+while$ -- 485
 width$ -- 0
-write$ -- 1009
-(There were 3 warnings)
+write$ -- 1050
+(There was 1 warning)

@@ -198,6 +198,7 @@
   \field{issn}{1753-4259}
   \field{number}{1}
   \field{pages}{25\bibrangedash 36}
+  \field{shortjournal}{Innate Immun}
   \field{title}{Structure of a novel lipid A obtained from the
   lipopolysaccharide of Caulobacter crescentus}
   \field{volume}{14}
@@ -234,11 +235,12 @@
   \field{issn}{0021-9193}
   \field{number}{20}
   \field{pages}{6312\bibrangedash 6323}
+  \field{shortjournal}{J Bacteriol}
   \field{title}{Characterization of mutants of Caulobacter crescentus defective
   in surface attachment of the paracrystalline surface layer}
   \field{volume}{176}
   \field{type}{Journal Article}
-  \field{journaltitle}{Journal of bacteriology}
+  \field{journaltitle}{Journal of Bacteriology}
   \field{year}{1994}
 \endentry
 
@@ -268,39 +270,13 @@
   (Phosphomutases)/genetics Sequence Alignment Transaminases/genetics}
   \strng{namehash}{APSJ1}
   \strng{fullhash}{APSJ1}
-  \field{abstract}{%
-  The outer surface of Caulobacter crescentus consists of a two-dimensional
-  crystalline protein lattice layer (S-layer). A fraction of the LPS has an O
-  antigen polymer attached to the core to form a 'smooth' LPS (S-LPS), which is
-  required for attachment of the protein S-layer to the outer-membrane surface.
-  A method to screen for strains defective in LPS production, based on loss of
-  S-layer attachment, was developed and applied to libraries of
-  transposon-generated mutants. Eighteen distinct insertions were found with
-  transposon interruptions in genes affecting S-LPS production, 12 of which
-  were located near the S-layer subunit protein gene, rsaA, and its transporter
-  genes. Sequence adjacent to transposon insertion points was determined and
-  used to search a C. crescentus genome database. Twelve ORFs likely to be
-  involved in S-LPS synthesis were identified. Seven of the predicted ORFs were
-  linked to rsaA. Six of the putative genes had identity with proteins involved
-  in synthesis of sugar residues, including five predicted to make perosamine.
-  The remaining six ORFs were similar to glycosyltransferases involved in
-  forming linkages between sugar residues in the O antigen, while one may be a
-  transcription repressor. Other chemical and preliminary proton NMR studies of
-  the S-LPS O antigen indicate that it contains an N-acetylated
-  4,6-dideoxy-4-aminohexose, but is not assembled as a simple, uniform
-  homopolymer, consisting of several different linkages between sugar residues.
-  The ORFs described here include homologues of all the enzymes involved in the
-  synthesis of N-acetylperosamine, a 4,6-dideoxy-4-aminohexose. Overall, the
-  data are consistent with the hypothesis that the O antigen of C. crescentus
-  S-LPS consists primarily of N-acetylperosamine residues polymerized with
-  multiple anomeric linkages.%
-  }
   \field{issn}{1350-0872 (Print) 1350-0872 (Linking)}
   \field{note}{Awram, P Smit, J Research Support, Non-U.S. Gov't Research
   Support, U.S. Gov't, Non-P.H.S. England Microbiology (Reading, England)
   Microbiology. 2001 Jun;147(Pt 6):1451-60.}
   \field{number}{Pt 6}
   \field{pages}{1451\bibrangedash 60}
+  \field{shortjournal}{Microbiology}
   \field{title}{Identification of lipopolysaccharide O antigen synthesis genes
   required for attachment of the S-layer of Caulobacter crescentus}
   \verb{url}
@@ -343,27 +319,6 @@
   Oligosaccharides/chemistry Sugar Acids/analysis}
   \strng{namehash}{RN+1}
   \strng{fullhash}{RNWSGDGGSJ1}
-  \field{abstract}{%
-  The lipopolysaccharide (LPS) of the outer membrane of Caulobacter crescentus
-  was purified and analyzed. Two distinct strains of the species, NA 1000 and
-  CB2A, were examined; despite differences in other membrane-related
-  polysaccharides, the two gave similar LPS composition profiles. The LPS was
-  the equivalent of the rough LPS described for other bacteria in that it
-  lacked the ladder of polysaccharide-containing species that results from
-  addition of variable amounts of a repeated sequence of sugars, as detected by
-  gel electrophoresis in smooth LPS strains. The purified LPS contained two
-  definable regions: (i) an oligosaccharide region, consisting of an inner core
-  of three residues of 2-keto-3-deoxyoctonate, two residues of
-  alpha-L-glycero-D-mannoheptose, and one alpha-D-glycero-D-mannoheptose unit
-  and an outer core region containing one residue each of alpha-D-mannose,
-  alpha-D-galactose, and alpha-D-glucose, with the glucose likely
-  phosphorylated and (ii) a region equivalent to the lipid A region of the
-  archetype, consisting primarily of an esterified fatty acid,
-  3-OH-dodecanoate. The lipid A-like region was resistant to conclusive
-  analysis; in particular, although a variety of analytical methods were used,
-  no amino sugars were detected, as is found in the lipid A of the LPS of most
-  bacteria.%
-  }
   \field{issn}{0021-9193 (Print) 0021-9193 (Linking)}
   \field{note}{Ravenscroft, N Walker, S G Dutton, G G Smith, J
   GM-39055/GM/NIGMS NIH HHS/United States Comparative Study Research Support,
@@ -372,6 +327,7 @@
   Dec;174(23):7595-605.}
   \field{number}{23}
   \field{pages}{7595\bibrangedash 605}
+  \field{shortjournal}{J Bacteriol}
   \field{title}{Identification, isolation, and structural studies of the outer
   membrane lipopolysaccharide of Caulobacter crescentus}
   \verb{url}
@@ -380,8 +336,56 @@
   \endverb
   \field{volume}{174}
   \field{type}{Journal Article}
-  \field{journaltitle}{J Bacteriol}
+  \field{journaltitle}{Journal of Bacteriology}
   \field{year}{1992}
+\endentry
+
+\entry{ravenscrofteps}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Ravenscroft}{R.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walker}{W.}%
+     {S.~G.}{S.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dutton}{D.}%
+     {G.~G.}{G.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smit}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Bacterial Adhesion Carbohydrate Sequence Chromatography, Gas Gas
+  Chromatography-Mass Spectrometry Gram-Negative Aerobic
+  Bacteria/*analysis/ultrastructure Microscopy, Electron Molecular Sequence
+  Data Polysaccharides, Bacterial/*chemistry/isolation & purification}
+  \strng{namehash}{RN+1}
+  \strng{fullhash}{RNWSGDGGSJ2}
+  \field{issn}{0021-9193 (Print) 0021-9193 (Linking)}
+  \field{note}{Ravenscroft, N Walker, S G Dutton, G G Smit, J Research Support,
+  Non-U.S. Gov't Research Support, U.S. Gov't, Non-P.H.S. United states Journal
+  of bacteriology J Bacteriol. 1991 Sep;173(18):5677-84.}
+  \field{number}{18}
+  \field{pages}{5677\bibrangedash 84}
+  \field{shortjournal}{J Bacteriol}
+  \field{title}{Identification, isolation, and structural studies of
+  extracellular polysaccharides produced by Caulobacter crescentus}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&do
+  \verb pt=Citation&list_uids=1885545
+  \endverb
+  \field{volume}{173}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Journal of Bacteriology}
+  \field{year}{1991}
 \endentry
 
 \entry{na1000genome}{article}{}
@@ -428,24 +432,6 @@
   Variation Molecular Sequence Data Phylogeny}
   \strng{namehash}{MME+1}
   \strng{fullhash}{MMECRCMTCDLKVWTLCS1}
-  \field{abstract}{%
-  The dimorphic bacterium Caulobacter crescentus has evolved marked phenotypic
-  changes during its 50-year history of culture in the laboratory environment,
-  providing an excellent system for the study of natural selection and
-  phenotypic microevolution in prokaryotes. Combining whole-genome sequencing
-  with classical molecular genetic tools, we have comprehensively mapped a set
-  of polymorphisms underlying multiple derived phenotypes, several of which
-  arose independently in separate strain lineages. The genetic basis of
-  phenotypic differences in growth rate, mucoidy, adhesion, sedimentation,
-  phage susceptibility, and stationary-phase survival between C. crescentus
-  strain CB15 and its derivative NA1000 is determined by coding, regulatory,
-  and insertion/deletion polymorphisms at five chromosomal loci. This study
-  evidences multiple genetic mechanisms of bacterial evolution as driven by
-  selection for growth and survival in a new selective environment and
-  identifies a common polymorphic locus, zwf, between lab-adapted C. crescentus
-  and clinical isolates of Pseudomonas aeruginosa that have adapted to a human
-  host during chronic infection.%
-  }
   \verb{doi}
   \verb 10.1128/JB.00255-10
   \endverb
@@ -456,6 +442,7 @@
   10.1128/JB.00255-10. Epub 2010 May 14.}
   \field{number}{14}
   \field{pages}{3678\bibrangedash 88}
+  \field{shortjournal}{J Bacteriol}
   \field{title}{The genetic basis of laboratory adaptation in Caulobacter
   crescentus}
   \verb{url}
@@ -463,7 +450,7 @@
   \endverb
   \field{volume}{192}
   \field{type}{Journal Article}
-  \field{journaltitle}{J Bacteriol}
+  \field{journaltitle}{Journal of Bacteriology}
   \field{year}{2010}
 \endentry
 
@@ -512,33 +499,6 @@
   }
   \strng{namehash}{FC+1}
   \strng{fullhash}{FCNJFAESISSCLASJHMS1}
-  \field{abstract}{%
-  The HIV/AIDS pandemic remains an enormous global health concern. Despite
-  effective prevention options, 2.6 million new infections occur annually, with
-  women in developing countries accounting for more than half of these
-  infections. New prevention strategies that can be used by women are urgently
-  needed. Topical microbicides specific for HIV-1 represent a promising
-  prevention strategy. Conceptually, using harmless bacteria to display
-  peptides or proteins capable of blocking entry provides an inexpensive
-  approach to microbicide development. To avoid the potential pitfalls of
-  engineering commensal bacteria, our strategy is to genetically display
-  infection inhibitors on a non-native bacterium and rely on topical
-  application of stabilized bacteria before potential virus exposure. Due to
-  the high density cell-surface display capabilities and the inherent low
-  toxicity of the bacterium, the S-layer mediated protein display capabilities
-  of the non-pathogenic bacterium Caulobacter crescentus has been exploited for
-  this approach. We have demonstrated that C. crescentus displaying MIP1alpha
-  or CD4 interfered with the virus entry pathway and provided significant
-  protection from HIV-1 pseudovirus representing clade B in a standard single
-  cycle infection assay. Here we have expanded our C. crescentus based
-  microbicide approach with additional and diverse classes of natural and
-  synthetic inhibitors of the HIV-1 entry pathway. All display constructs
-  provided variable but significant protection from HIV-1 infection; some with
-  protection as high as 70%. Further, we describe protection from infection
-  with additional viral clades. These findings indicate the significant
-  potential for engineering C. crescentus to be an effective and readily
-  adaptable HIV-1 microbicide platform.%
-  }
   \verb{doi}
   \verb 10.1371/journal.pone.0065965 PONE-D-12-33995 [pii]
   \endverb
@@ -548,6 +508,7 @@
   PloS one PLoS One. 2013 Jun 19;8(6):e65965. Print 2013.}
   \field{number}{6}
   \field{pages}{e65965}
+  \field{shortjournal}{PLoS One}
   \field{title}{Development of an HIV-1 Microbicide Based on : Blocking
   Infection by High-Density Display of Virus Entry Inhibitors}
   \verb{url}
@@ -605,31 +566,6 @@
   Labeling}
   \strng{namehash}{AF+1}
   \strng{fullhash}{AFCLRNJFMFDKHSJHM1}
-  \field{abstract}{%
-  The surface layers (S layers) of those bacteria and archaea that elaborate
-  these crystalline structures have been studied for 40 years. However, most
-  structural analysis has been based on electron microscopy of negatively
-  stained S-layer fragments separated from cells, which can introduce staining
-  artifacts and allow rearrangement of structures prone to self-assemble. We
-  present a quantitative analysis of the structure and organization of the S
-  layer on intact growing cells of the Gram-negative bacterium Caulobacter
-  crescentus using cryo-electron tomography (CET) and statistical image
-  processing. Instead of the expected long-range order, we observed different
-  regions with hexagonally organized subunits exhibiting short-range order and
-  a broad distribution of periodicities. Also, areas of stacked double layers
-  were found, and these increased in extent when the S-layer protein (RsaA)
-  expression level was elevated by addition of multiple rsaA copies. Finally,
-  we combined high-resolution amino acid residue-specific Nanogold labeling and
-  subtomogram averaging of CET volumes to improve our understanding of the
-  correlation between the linear protein sequence and the structure at the 2-nm
-  level of resolution that is presently available. The results support the view
-  that the U-shaped RsaA monomer predicted from negative-stain tomography
-  proceeds from the N terminus at one vertex, corresponding to the axis of
-  3-fold symmetry, to the C terminus at the opposite vertex, which forms the
-  prominent 6-fold symmetry axis. Such information will help future efforts to
-  analyze subunit interactions and guide selection of internal sites for
-  display of heterologous protein segments.%
-  }
   \verb{doi}
   \verb JB.00747-10 [pii] 10.1128/JB.00747-10
   \endverb
@@ -640,6 +576,7 @@
   Nov;192(22):5855-65. doi: 10.1128/JB.00747-10. Epub 2010 Sep 10.}
   \field{number}{22}
   \field{pages}{5855\bibrangedash 65}
+  \field{shortjournal}{J Bacteriol}
   \field{title}{Analysis of the intact surface layer of Caulobacter crescentus
   by cryo-electron tomography}
   \verb{url}
@@ -648,7 +585,7 @@
   \endverb
   \field{volume}{192}
   \field{type}{Journal Article}
-  \field{journaltitle}{J Bacteriol}
+  \field{journaltitle}{Journal of Bacteriology}
   \field{year}{2010}
 \endentry
 
@@ -675,6 +612,7 @@
   \field{issn}{0021-9258}
   \field{number}{6}
   \field{pages}{3092\bibrangedash 3097}
+  \field{shortjournal}{J Biol Chem}
   \field{title}{Caulobacter crescentus pilin. Purification, chemical
   characterization, and NH2-terminal amino acid sequence of a structural
   protein regulated during development}
@@ -707,6 +645,7 @@
   \field{issn}{1553-0809}
   \field{number}{1}
   \field{pages}{25\bibrangedash 68}
+  \field{shortjournal}{J Cell Comp Physiol}
   \field{title}{Kinetic studies of pigment synthesis by non‐sulfur purple
   bacteria}
   \field{volume}{49}
@@ -748,23 +687,25 @@
   \name{author}{2}{}{%
     {{}%
      {Bligh}{B.}%
-     {EoGo}{E.}%
+     {E~Graham}{E.~G.}%
      {}{}%
      {}{}}%
     {{}%
      {Dyer}{D.}%
-     {W~Jo}{W.~J.}%
+     {W~Justin}{W.~J.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{BEDWJ1}
-  \strng{fullhash}{BEDWJ1}
-  \field{issn}{0576-5544}
+  \list{publisher}{1}{%
+    {NRC Research Press}%
+  }
+  \strng{namehash}{BEGDWJ1}
+  \strng{fullhash}{BEGDWJ1}
   \field{number}{8}
   \field{pages}{911\bibrangedash 917}
+  \field{shortjournal}{Can J Biochem Physiol}
   \field{title}{A rapid method of total lipid extraction and purification}
   \field{volume}{37}
-  \field{type}{Journal Article}
   \field{journaltitle}{Canadian journal of biochemistry and physiology}
   \field{year}{1959}
 \endentry
@@ -782,6 +723,7 @@
   \field{issn}{0028-0836}
   \field{number}{5259}
   \field{pages}{680\bibrangedash 685}
+  \field{shortjournal}{Nature}
   \field{title}{Cleavage of structural proteins during the assembly of the head
   of bacteriophage T4}
   \field{volume}{227}
@@ -842,6 +784,7 @@
   \field{issn}{1522-2683}
   \field{number}{7}
   \field{pages}{1220\bibrangedash 1223}
+  \field{shortjournal}{Electrophoresis}
   \field{title}{An improved silver stain for the visualization of
   lipopolysaccharides on polyacrylamide gels}
   \verb{url}
@@ -854,17 +797,23 @@
 \endentry
 
 \entry{ciucanufrancisc}{article}{}
-  \name{author}{1}{}{%
+  \name{author}{2}{}{%
     {{}%
      {Ciucanu}{C.}%
+     {Ionel}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kerek}{K.}%
      {Francisc}{F.}%
      {}{}%
-     {Ionel;~Kerek}{I.~K.}}%
+     {}{}}%
   }
   \strng{namehash}{CIKF1}
   \strng{fullhash}{CIKF1}
   \field{number}{2}
   \field{pages}{209\bibrangedash 217}
+  \field{shortjournal}{Carbohyd Res}
   \field{title}{A simple and rapid method for the permethylation of
   carbohydrates.}
   \field{volume}{131}
@@ -888,8 +837,6 @@
   \strng{namehash}{BH1}
   \strng{fullhash}{BH1}
   \field{isbn}{0824719441 (alk. paper)}
-  \field{note}{99029165 edited by Helmut Brade ... [et al.]. ill. ; 29 cm.
-  Includes bibliographical references and index.}
   \field{pages}{xviii, 950 p.}
   \field{title}{Endotoxin in health and disease}
   \verb{url}
@@ -925,28 +872,13 @@
   symbiosis anu843}
   \strng{namehash}{ZYHRIPUB1}
   \strng{fullhash}{ZYHRIPUB1}
-  \field{abstract}{%
-  The lipopolysaccharides (LPS) of a wild type strain of Rhizobium
-  leguminosarum biovar viciae (strain VF-39) and two symbiotically defective
-  Tn5 mutants (VF-39-32 and VF-39-86) have been studied. The LPS of the mutants
-  reflected impaired synthesis of the O-antigen. In the LPS of one mutant, the
-  core tetrasaccharide was lacking and in that of the other it was truncated to
-  a disaccharide containing mannose and 3-deoxy-D-manno-oct-2-ulosonic acid
-  (KdO). The latter mutant also synthesized an unusual carbohydrate component
-  containing mannose, galactose, and an unidentified saccharide. The lipid A
-  composition was similar to that found in other strains of R. leguminosarum
-  biovar viciae. The O-antigen of the wild-type bacterium contained
-  2-O-methylfucose, fucose, 3,6-dideoxy-3(methylamino)hexose, glucose,
-  2-amino-2,6-dideoxyhexose, and heptose. This study clearly defines a role for
-  the bacterial LPS in the proper functioning of the Rhizobium legume
-  symbiosis.%
-  }
   \verb{doi}
   \verb Doi 10.1016/0008-6215(92)84024-M
   \endverb
   \field{issn}{0008-6215}
   \field{note}{Jf925 Times Cited:26 Cited References Count:19}
   \field{pages}{261\bibrangedash 271}
+  \field{shortjournal}{Carbohyd Res}
   \field{title}{Characterization of Structural Defects in the
   Lipopolysaccharides of Symbiotically Impaired Rhizobium-Leguminosarum Biovar
   Viciae Vf-39 Mutants}
@@ -993,17 +925,6 @@
   polysaccharide biosynthesis constituent baumannii}
   \strng{namehash}{VEV+1}
   \strng{fullhash}{VEVBKPBOHOBH1}
-  \field{abstract}{%
-  The structure of the carbohydrate backbone of the lipopolysaccharide from
-  Acinetobacter strain ATCC 17905 was studied. After deacylation of the
-  lipopolysaccharide, a mixture of two compounds (ratio approximately 2:1) was
-  isolated by high-performance anion-exchange chromatography, the structures of
-  which were determined by NMR spectroscopy and electrospray-mass spectrometry
-  as [GRAPHICS] [Sug, 3-deoxy-D-manno-2-octulopyranosonic acid (Kdo) in
-  oligosaccharide 1 (major portion) and D-glucero-D-talo-2-octulopyranosonic
-  acid (Ko) in oligosaccharide 2 (minor portion)]. All monosaccharide residues
-  also possess the D-configuration and are present in the pyranose form.%
-  }
   \verb{doi}
   \verb Doi 10.1111/J.1432-1033.1997.0122a.X
   \endverb
@@ -1011,6 +932,7 @@
   \field{note}{We132 Times Cited:44 Cited References Count:28}
   \field{number}{1-2}
   \field{pages}{122\bibrangedash 127}
+  \field{shortjournal}{Eur J Biochem}
   \field{title}{The structure of the carbohydrate backbone of the
   lipopolysaccharide from Acinetobacter strain ATCC 17905}
   \verb{url}
@@ -1054,26 +976,6 @@
   bacillus-subtilis localization binding cycle domain ring}
   \strng{namehash}{MA+1}
   \strng{fullhash}{MASSBAJGJTM1}
-  \field{abstract}{%
-  P>In bacteria, cytokinesis is dependent on lytic enzymes that facilitate
-  remodelling of the cell wall during constriction. In this work, we identify a
-  thus far uncharacterized periplasmic protein, DipM, that is required for cell
-  division and polarity in Caulobacter crescentus. DipM is composed of four
-  peptidoglycan binding (LysM) domains and a C-terminal lysostaphin-like (LytM)
-  peptidase domain. It binds to isolated murein sacculi in vitro, and is
-  recruited to the site of constriction through interaction with the cell
-  division protein FtsN. Mutational analyses showed that the LysM domains are
-  necessary and sufficient for localization of DipM, while its peptidase domain
-  is essential for function. Consistent with a role in cell wall hydrolysis,
-  DipM was found to interact with purified murein sacculi in vitro and to
-  induce cell lysis upon overproduction. Its inactivation causes severe defects
-  in outer membrane invagination, resulting in a significant delay between
-  cytoplasmic compartmentalization and final separation of the daughter cells.
-  Overall, these findings indicate that DipM is a periplasmic component of the
-  C. crescentus divisome that facilitates remodelling of the peptidoglycan
-  layer and, thus, coordinated constriction of the cell envelope during the
-  division process.%
-  }
   \verb{doi}
   \verb Doi 10.1111/J.1365-2958.2010.07224.X
   \endverb
@@ -1081,6 +983,7 @@
   \field{note}{615WG Times Cited:21 Cited References Count:89}
   \field{number}{1}
   \field{pages}{90\bibrangedash 107}
+  \field{shortjournal}{Mol Microbiol}
   \field{title}{DipM, a new factor required for peptidoglycan remodelling
   during cell division in Caulobacter crescentus}
   \verb{url}
@@ -1125,6 +1028,7 @@
   \field{issn}{1545-9993}
   \field{number}{11}
   \field{pages}{1132\bibrangedash 1138}
+  \field{shortjournal}{Nat Struct Mol Biol}
   \field{title}{LpxI structures reveal how a lipid A precursor is synthesized}
   \field{volume}{19}
   \field{type}{Journal Article}
@@ -1170,6 +1074,7 @@
   \field{issn}{0006-2960}
   \field{number}{16}
   \field{pages}{3433\bibrangedash 3444}
+  \field{shortjournal}{Biochemistry}
   \field{title}{Catalytic Mechanism of Perosamine N-Acetyltransferase Revealed
   by High-Resolution X-ray Crystallographic Studies and Kinetic Analyses}
   \field{volume}{51}
@@ -1226,11 +1131,12 @@
   \field{issn}{0021-9193}
   \field{number}{13}
   \field{pages}{3368\bibrangedash 3378}
+  \field{shortjournal}{J Bacteriol}
   \field{title}{Mutations in the lipopolysaccharide biosynthesis pathway
   interfere with crescentin-mediated cell curvature in Caulobacter crescentus}
   \field{volume}{192}
   \field{type}{Journal Article}
-  \field{journaltitle}{Journal of bacteriology}
+  \field{journaltitle}{Journal of Bacteriology}
   \field{year}{2010}
 \endentry
 

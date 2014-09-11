@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.10)  10 SEP 2014 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.10)  10 SEP 2014 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1513,123 +1513,71 @@ ss-ing out text ([]\OT1/pcr/m/n/10.95 \sout{text} \OT1/ptm/m/n/10.95 (-10) and
 
  (./lps_chapter/lps_chapter.tex
 Chapter 2.
-Package biblatex Info: Resetting trackers on input line 4.
+Package biblatex Info: Resetting trackers on input line 5.
 Package acronym Info: Label `acro:S-layer' newly defined as it shall be overrid
 den
-although it is yet undefined on input line 9.
+although it is yet undefined on input line 10.
 Package acronym Info: Label `acro:LPS' newly defined as it shall be overridden
-although it is yet undefined on input line 9.
+although it is yet undefined on input line 10.
 Package acronym Info: Label `acro:OPS' newly defined as it shall be overridden
-although it is yet undefined on input line 11.
+although it is yet undefined on input line 12.
 Package acronym Info: Label `acro:EPS' newly defined as it shall be overridden
-although it is yet undefined on input line 13.
-
-LaTeX Warning: Citation 'ravenscrofteps' on page 9 undefined on input line 13.
-
+although it is yet undefined on input line 14.
 [9
 
 
 
 ]
 Package acronym Info: Label `acro:PS' newly defined as it shall be overridden
-although it is yet undefined on input line 22.
+although it is yet undefined on input line 23.
 Package acronym Info: Label `acro:NMR' newly defined as it shall be overridden
-although it is yet undefined on input line 22.
+although it is yet undefined on input line 23.
 Package acronym Info: Label `acro:gCOSY' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 28.
+although it is yet undefined on input line 29.
 Package acronym Info: Label `acro:TOCSY' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 28.
+although it is yet undefined on input line 29.
 Package acronym Info: Label `acro:NOESY' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 28.
-
-
-Package acronym Warning: Acronym `NOESY' is not defined on input line 28.
-
-
-package acronym warning: acronym `noesy' is not defined on input line 28.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 28.
+although it is yet undefined on input line 29.
 Package acronym Info: Label `acro:gHSQC' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 28.
+although it is yet undefined on input line 29.
 Package acronym Info: Label `acro:gHMBC' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 28.
+although it is yet undefined on input line 29.
 Package acronym Info: Label `acro:OS' newly defined as it shall be overridden
-although it is yet undefined on input line 30.
-
-Package acronym Warning: Acronym `OS' is not defined on input line 30.
-
-
-package acronym warning: acronym `os' is not defined on input line 30.
-
-
-package acronym warning: acronym `os' is not defined on input line 30.
-
+although it is yet undefined on input line 31.
 Missing character: There is no Œ in font ptmr7t!
 Missing character: There is no ≤ in font ptmr7t!
 Package acronym Info: Label `acro:NOE' newly defined as it shall be overridden
-although it is yet undefined on input line 30.
+although it is yet undefined on input line 31.
 Package acronym Info: Label `acro:HMBC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 30.
-
-Package acronym Warning: Acronym `HMBC' is not defined on input line 30.
-
-
-package acronym warning: acronym `hmbc' is not defined on input line 30.
-
-[10]
-
-package acronym warning: acronym `hmbc' is not defined on input line 36.
-
+although it is yet undefined on input line 31.
+ [10]
 Package acronym Info: Label `acro:HMQC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 36.
-
-package acronym warning: acronym `os' is not defined on input line 42.
-
-
-package acronym warning: acronym `os' is not defined on input line 42.
-
-[11]
+although it is yet undefined on input line 37.
+ [11]
 Package acronym Info: Label `acro:HSQC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 48.
-
-
-Package acronym Warning: Acronym `HSQC' is not defined on input line 48.
-
-
-package acronym warning: acronym `hsqc' is not defined on input line 48.
-
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no ± in font ptmr7t!
-
-package acronym warning: acronym `hmbc' is not defined on input line 48.
-
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no ± in font ptmr7t!
+although it is yet undefined on input line 49.
 Package acronym Info: Label `acro:ESI' newly defined as it shall be overridden
-although it is yet undefined on input line 48.
-
-LaTeX Warning: Citation 'ravenscrofteps' on page 12 undefined on input line 58.
-
-
+although it is yet undefined on input line 49.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ê in font ptmr7t!
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 64.
 Package acronym Info: Label `acro:PBS' newly defined as it shall be overridden
-although it is yet undefined on input line 66.
+although it is yet undefined on input line 67.
 Package acronym Info: Label `acro:EDTA' newly defined as it shall be overridden
 
-although it is yet undefined on input line 66.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 66.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+although it is yet undefined on input line 67.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 67.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 Package microtype Info: Loading generic settings for font family
@@ -1670,55 +1618,38 @@ Package microtype Warning: Unknown slot number of character
 [12]
 Package acronym Info: Label `acro:SDS-PAGE' newly defined as it shall be overri
 dden
-although it is yet undefined on input line 72.
+although it is yet undefined on input line 73.
 Package acronym Info: Label `acro:ROESY' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 78.
-
-
-package acronym warning: acronym `hsqc' is not defined on input line 78.
-
+although it is yet undefined on input line 79.
 Package acronym Info: Label `acro:UV' newly defined as it shall be overridden
-although it is yet undefined on input line 84.
+although it is yet undefined on input line 85.
 Package acronym Info: Label `acro:TLC' newly defined as it shall be overridden
-although it is yet undefined on input line 84.
+although it is yet undefined on input line 85.
 Package acronym Info: Label `acro:TFA' newly defined as it shall be overridden
-although it is yet undefined on input line 90.
+although it is yet undefined on input line 91.
 Package acronym Info: Label `acro:GC-MS' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 90.
+although it is yet undefined on input line 91.
 
-Overfull \hbox (33.12999pt too wide) in paragraph at lines 90--92
+Overfull \hbox (30.66875pt too wide) in paragraph at lines 91--93
 \OT1/ptm/m/n/10.95 (-10) Monosac-cha-rides were con-verted to alditol ac-etates
- by con-ven-tional meth-ods and iden-ti-fied by [][][] Gas chromatography-
+ by con-ven-tional meth-ods and iden-ti-fied by [][][] gas chromatography-
  []
 
-[13]
+[13] [14]
 
-package acronym warning: acronym `os' is not defined on input line 110.
-
-
-LaTeX Warning: Citation 'ravesncroftlps' on page 14 undefined on input line 118
-.
-
-[14]
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-
-
-LaTeX Warning: Citation 'lpsreview' on page 15 undefined on input line 128.
+LaTeX Warning: Citation 'lpsreview' on page 15 undefined on input line 129.
 
 [15]
 Package acronym Info: Label `acro:MALDI-TOF' newly defined as it shall be overr
 idden
-although it is yet undefined on input line 130.
-Package acronym Info: Label `acro:ABC' newly defined as it shall be overridden
 although it is yet undefined on input line 131.
+Package acronym Info: Label `acro:ABC' newly defined as it shall be overridden
+although it is yet undefined on input line 132.
 
 
-LaTeX Warning: Citation 'lpsreview' on page 16 undefined on input line 131.
+LaTeX Warning: Citation 'lpsreview' on page 16 undefined on input line 132.
 
 ) [16] [17
 
@@ -1778,13 +1709,13 @@ Package logreq Info: Writing requests to 'MJThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26570 strings out of 493108
- 503910 string characters out of 6134847
- 698247 words of memory out of 5000000
- 29289 multiletter control sequences out of 15000+600000
- 108975 words of font info for 290 fonts, out of 8000000 for 9000
+ 26598 strings out of 493108
+ 504566 string characters out of 6134847
+ 689249 words of memory out of 5000000
+ 29301 multiletter control sequences out of 15000+600000
+ 118219 words of font info for 303 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,14n,61p,10378b,1529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,14n,61p,10378b,1531s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2014/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/texlive/20
 14/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2014/
@@ -1802,10 +1733,10 @@ xlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on MJThesis.pdf (30 pages, 264673 bytes).
+Output written on MJThesis.pdf (30 pages, 262790 bytes).
 PDF statistics:
- 625 PDF objects out of 1000 (max. 8388607)
- 571 compressed objects within 6 object streams
- 110 named destinations out of 1000 (max. 500000)
- 66433 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 633 PDF objects out of 1000 (max. 8388607)
+ 579 compressed objects within 6 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 66945 words of extra memory for PDF output out of 74296 (max. 10000000)
 
