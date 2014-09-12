@@ -1140,6 +1140,43 @@
   \field{year}{2010}
 \endentry
 
+\entry{lpsreview02}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Raetz}{R.}%
+     {C.~R.~H.}{C.~R.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Whitfield}{W.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{lipid a biosynthesis gram-negative bacteria outer membranes tlr4 lpxc
+  msba udp-n-acetylglucosamine gram-negative bacteria escherichia-coli k-12
+  toll-like receptor-4 acyl carrier protein lipid-a biosynthesis enterica
+  serovar typhimurium o-specific polysaccharide antigen chain-length rfb
+  gene-cluster}
+  \strng{namehash}{RCRHWC1}
+  \strng{fullhash}{RCRHWC1}
+  \verb{doi}
+  \verb Doi 10.1146/Annurev.Biochem.71.110601.135414
+  \endverb
+  \field{issn}{0066-4154}
+  \field{note}{582MJ Times Cited:1425 Cited References Count:387}
+  \field{pages}{635\bibrangedash 700}
+  \field{shortjournal}{Annu Rev Biochem}
+  \field{title}{Lipopolysaccharide endotoxins}
+  \verb{url}
+  \verb <Go to ISI>://WOS:000177352600022
+  \endverb
+  \field{volume}{71}
+  \field{type}{Journal Article}
+  \field{journaltitle}{Annual Review of Biochemistry}
+  \field{year}{2002}
+\endentry
+
 \lossort
 \endlossort
 
