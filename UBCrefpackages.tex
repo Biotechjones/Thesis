@@ -31,6 +31,7 @@
             citereset=chapter,
             maxcitenames=3,
             maxbibnames=100,
+            % refsection=section,
             backend=bibtex, % while checking on one of my (newest) systems, this option was needed to generate bibliography
             block=none]{biblatex}
 
@@ -42,10 +43,10 @@
 		    urlcolor=linkcolor, % Color of URLs
 		    citecolor=linkcolor, % Color of citations
 		    linkcolor=linkcolor, % Color of links to other pages/figures
-		    % backref=page,
+		    backref=page,
 		    pdfpagelabels=true,
 		    plainpages=false,
-		    % colorlinks=true, % Turn off all coloring by changing this to false
+		    colorlinks=false, % Turn off all coloring by changing this to false
 		    bookmarks=true,
 		    pdfview=FitB]{hyperref}
 

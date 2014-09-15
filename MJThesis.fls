@@ -197,10 +197,12 @@ INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/backref.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/backref.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /Users/mikedave/Library/texmf/tex/latex/custom-english-ordinal-sscript.lbx
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/cleveref/cleveref.sty

@@ -85,7 +85,7 @@
       <file>MJThesis-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>biblio</file>
+      <file>biblio.tex</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
