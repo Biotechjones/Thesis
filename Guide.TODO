@@ -11,6 +11,7 @@ ___________________________
 		☐	LOTables (Auto)
 		☐	LOFigs (Auto)
 		☐	Glossary
+			☐	Migrate to Acro package
 		☐	Acknowledgements
 		☐	Dedication
 ======== Main Matter
@@ -23,8 +24,9 @@ ___________________________
 			☐	Introduction
 				☐	More!
 			☐ Results	
-				☐	Western Blots
-				☐	MALDI TOF
+				☐	Characterization of whole lps
+					☐	Western Blots
+					☐	MALDI TOF
 			☐	Methods
 				☐	Add mention to lieve 1965
 				☐	Add more info on strain creation

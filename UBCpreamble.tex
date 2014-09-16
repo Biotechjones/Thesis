@@ -92,12 +92,12 @@
 %%   we *must* use the `nohyperlinks' option -- it causes errors with
 %%   hyperref otherwise.  See Section 5.2 in the ``LaTeX 2e for Class
 %%   and Package Writers Guide'' (clsguide.pdf) for details.
-\usepackage[printonlyused,nohyperlinks]{acronym}
+\usepackage{acro}
 %% The ubcdiss.cls loads the `textcase' package which provides commands
 %% for upper-casing and lower-casing text.  The following causes
 %% the acronym package to typeset acronyms in small-caps
 %% as recommended by Bringhurst.
-\renewcommand{\acsfont}[1]{{\scshape \MakeTextLowercase{#1}}}
+% \renewcommand{\acsfont}[1]{{\scshape \MakeTextLowercase{#1}}}
 
 %% color: add support for expressing colour models.  Grey can be used
 %% to great effect to emphasize other parts of a graphic or text.

@@ -1,75 +1,163 @@
 %% The following is a directive for TeXShop to indicate the main file
 %%!TEX root = diss.tex
 
-\chapter{Abbreviations}
 
-This glossary uses the handy \latexpackage{acroynym} package to automatically
-maintain the glossary.  It uses the package's \texttt{printonlyused}
-option to include only those acronyms explicitly referenced in the
-\LaTeX\ source.
 
-% use \acrodef to define an acronym, but no listing
-\acrodef{UI}{user interface}
-\acrodef{UBC}{University of British Columbia}
+% \DeclareAcronym{ANOVA}{Analysis of Variance\acroextra{, a set of
+%   statistical techniques to identify sources of variability between groups}, 
+%   short = anova}
+% \DeclareAcronym{API}{long = application programming interface, 
+% short = ap}
+% \DeclareAcronym{CTAN}{long = \acroextra{The }Common \TeX\ Archive Network, 
+% short = ctan}
+% \DeclareAcronym{DOI}{long = Document Object Identifier\acroextra{ (see
+%     \url{http://doi.org})}, 
+%     short = doi}
+% % \DeclareAcronym{GPS}[GPS]{Graduate and Postdoctoral Studies, 
+% short = gps}
+% \DeclareAcronym{PDF}{long = Portable Document Format, 
+% short = pdf}
+% % \DeclareAcronym{RCS}[RCS]{Revision control system\acroextra{, a software
+%     tool for tracking changes to a set of files}, 
+%     short = rcs}
+% % \DeclareAcronym{TLX}[TLX]{Task Load Index\acroextra{, an instrument for gauging
+%   the subjective mental workload experienced by a human in performing
+%   a task}, 
+%   short = tlx}
+% \DeclareAcronym{UML}{long = Unified Modelling Language\acroextra{, a visual language
+%     % for modelling the structure of software artefacts}, 
+%     short = uml}
+% % \DeclareAcronym{URL}{long = Unique Resource Locator\acroextra{, used to describe a
+%     means for obtaining some resource on the world wide web}, 
+%     short = url}
+% % \DeclareAcronym{W3C}[W3C]{\acroextra{the }World Wide Web Consortium\acroextra{,
+%     the standards body for web technologies}, 
+%     short = w3c}
+% \DeclareAcronym{XML}{long = Extensible Markup Language, 
+% short = xml}
 
-% The acronym environment will typeset only those acronyms that were
-% *actually used* in the course of the document
-\begin{acronym}[MALDI-TOF]
+\DeclareAcronym{LPS}{long = lipopolysaccharide, 
+short = lps,
+short-format = \scshape}
+\DeclareAcronym{PS}{long = polysaccharide, 
+short = ps,
+short-format = \scshape}
+\DeclareAcronym{OPS}{long = O-specific polysaccharide, 
+short = ops,
+short-format = \scshape}
+\DeclareAcronym{OS}{long = oligosaccharide, 
+short = os,
+short-format = \scshape}
+\DeclareAcronym{UV}{long = ultraviolet Light, 
+short = uv,
+short-format = \scshape}
+\DeclareAcronym{MALDI-TOF}{long = matrix assisted laser desorption/ionization-time of flight mass spectroscopy, 
+short = maldi-tof,
+short-format = \scshape}
+\DeclareAcronym{S-layer}{long = protein surface layer, 
+short = S-layer}
+\DeclareAcronym{GC-MS}{long = gas chromatography-mass spectroscopy, 
+short = gc-ms,
+short-format = \scshape}
+\DeclareAcronym{NMR}{long = nuclear magnetic resonance spectroscopy, 
+short = nmr,
+short-format = \scshape}
+\DeclareAcronym{SDS-PAGE}{long = sodium dodecyl sulfate-polyacrylamide gel electrophoresis, 
+short = sds-page,
+short-format = \scshape}
+\DeclareAcronym{PBS}{long = phosphate-buffered saline, 
+short = pbs,
+short-format = \scshape}
+\DeclareAcronym{EDTA}{long = ethylenediaminetetraacetic acid, 
+short = edta,
+short-format = \scshape}
+\DeclareAcronym{COSY}{long = correlation spectroscopy, 
+short = cosy,
+short-format = \scshape}
+\DeclareAcronym{gCOSY}{long = gradient correlation spectroscopy, 
+short = g\textsc{cosy}}
+\DeclareAcronym{TOCSY}{long = total correlation spectroscopy, 
+short = tcosy,
+short-format = \scshape}
+\DeclareAcronym{ROESY}{long = rotating frame nuclear Overhauser effect spectroscopy, 
+short = roesy,
+short-format = \scshape}
+\DeclareAcronym{HSQC}{long = heteronuclear single quantum coherence, 
+short = hsqc,
+short-format = \scshape}
+\DeclareAcronym{gHSQC}{long = gradient heteronuclear single quantum coherence, 
+short = g\textsc{hsqc}}
+\DeclareAcronym{HMBC}{long = heteronuclear multiple bond coherence, 
+short = hmbc,
+short-format = \scshape}
+\DeclareAcronym{gHMBC}{long = gradient heteronuclear multiple bond coherence, 
+short = g\textsc{hmbc}}
+\DeclareAcronym{NOE}{long = nuclear Overhauser effect, 
+short = noe,
+short-format = \scshape}
+\DeclareAcronym{NOESY}{long = nuclear Overhauser effect spectroscopy, 
+short = noesy,
+short-format = \scshape}
+\DeclareAcronym{HMQC}{long = heteronuclear multiple-quantum correlation spectroscopy, 
+short = hmqc,
+short-format = \scshape}
+\DeclareAcronym{TLC}{long = thin-layer chromatography, 
+short = tlc,
+short-format = \scshape}
+\DeclareAcronym{ABC}{long = ATP-binding cassette, 
+short = abc,
+short-format = \scshape}
+\DeclareAcronym{EPS}{long = extracellular polysaccharide, 
+short = eps,
+short-format = \scshape}
+\DeclareAcronym{ESI}{long = electrospray ionization, 
+short = esi,
+short-format = \scshape}
+\DeclareAcronym{TFA}{long = trifluoroacetic acid, 
+short = tfa,
+short-format = \scshape}
+ 
+\DeclareAcronym{man}{
+    short = Man ,
+    long = mannose , 
+class = sugar
+}
+\DeclareAcronym{rha}{
+    short = Rha ,
+    long = rhamnose , 
+    class = sugar
+}
+\DeclareAcronym{per}{
+    short = Per ,
+    long = perosamine , 
+    class = sugar
+}
+\DeclareAcronym{glc}{
+    short = Glc ,
+    long = glucose , 
+    class = sugar
+}
+\DeclareAcronym{glca}{
+    short = GlcA ,
+    long = glucuronic acid , 
+    class = sugar
+}
+\DeclareAcronym{gala}{
+    short = GalA ,
+    long = galacturonic acid , 
+    class = sugar
+}
+\DeclareAcronym{hep}{
+    short = Hep ,
+    long = heptose , 
+    class = sugar
+}
+\DeclareAcronym{glcome}{
+    short = GlcOMe ,
+    long = O-methylglucose , 
+    class = sugar
+}
 
-\acro{ANOVA}[ANOVA]{Analysis of Variance\acroextra{, a set of
-  statistical techniques to identify sources of variability between groups}}
-\acro{API}{application programming interface}
-\acro{CTAN}{\acroextra{The }Common \TeX\ Archive Network}
-\acro{DOI}{Document Object Identifier\acroextra{ (see
-    \url{http://doi.org})}}
-\acro{GPS}[GPS]{Graduate and Postdoctoral Studies}
-\acro{PDF}{Portable Document Format}
-\acro{RCS}[RCS]{Revision control system\acroextra{, a software
-    tool for tracking changes to a set of files}}
-\acro{TLX}[TLX]{Task Load Index\acroextra{, an instrument for gauging
-  the subjective mental workload experienced by a human in performing
-  a task}}
-\acro{UML}{Unified Modelling Language\acroextra{, a visual language
-    for modelling the structure of software artefacts}}
-\acro{URL}{Unique Resource Locator\acroextra{, used to describe a
-    means for obtaining some resource on the world wide web}}
-\acro{W3C}[W3C]{\acroextra{the }World Wide Web Consortium\acroextra{,
-    the standards body for web technologies}}
-\acro{XML}{Extensible Markup Language}
-
-\acro{LPS}{lipopolysaccharide}
-\acro{PS}{polysaccharide}
-\acro{OPS}{O-specific polysaccharide}
-\acro{OS}{oligosaccharide}
-\acro{UV}{ultraviolet Light}
-\acro{MALDI-TOF}{matrix assisted laser desorption/ionization-time of flight mass spectroscopy}
-\acro{S-layer}{protein surface layer}
-\acro{GC-MS}{gas chromatography-mass spectroscopy}
-\acro{NMR}{nuclear magnetic resonance spectroscopy}
-\acro{SDS-PAGE}{sodium dodecyl sulfate-polyacrylamide gel electrophoresis}
-\acro{PBS}{phosphate-buffered saline}
-\acro{EDTA}{ethylenediaminetetraacetic acid}
-\acro{COSY}{correlation spectroscopy}
-\acro{gCOSY}[gcosy]{gradient correlation spectroscopy}
-\acro{TOCSY}{total correlation spectroscopy}
-\acro{ROESY}{rotating frame nuclear Overhauser effect spectroscopy}
-\acro{HSQC}{heteronuclear single quantum coherence}
-\acro{gHSQC}{gradient heteronuclear single quantum coherence}
-\acro{HMBC}{heteronuclear multiple bond coherence}
-\acro{gHMBC}{gradient heteronuclear multiple bond coherence}
-\acro{NOE}{nuclear Overhauser effect}
-\acro{NOESY}{nuclear Overhauser effect spectroscopy}
-\acro{HMQC}{heteronuclear multiple-quantum correlation spectroscopy}
-\acro{TLC}{thin-layer chromatography}
-\acro{ABC}{ATP-binding cassette}
-\acro{EPS}{extracellular polysaccharide}
-\acro{ESI}{electrospray ionization}
-\acro{TFA}{trifluoroacetic acid}
-
-\end{acronym}
-
-% You can also use \newacro{}{} to only define acronyms
-% but without explictly creating a glossary
 % 
 % \newacro{ANOVA}[ANOVA]{Analysis of Variance\acroextra{, a set of
 %   statistical techniques to identify sources of variability between groups.}}
