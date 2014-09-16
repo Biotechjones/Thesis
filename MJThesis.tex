@@ -156,11 +156,11 @@
 %    subheadings, bibliographies and appendices)
 \tableofcontents
 	\cleardoublepage	% required by tocloft package
-
+\acresetall
 %    5. List of tables (mandatory if thesis has tables)
 \listoftables
 	\cleardoublepage	% required by tocloft package
-
+\acresetall
 %    6. List of figures (mandatory if thesis has figures)
 \listoffigures
 	\cleardoublepage	% required by tocloft package
@@ -183,7 +183,7 @@
 	\acresetall	% reset all acronyms used so far
 
 %    1. Introduction
-\include{intro/intro}
+% \include{intro/intro}
 
 %    2. Main body
 % Generally recommended to put each chapter into a separate file
