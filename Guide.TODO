@@ -11,16 +11,16 @@ ___________________________
 		☐	LOTables (Auto)
 		☐	LOFigs (Auto)
 		☐	Glossary
-			☐	Migrate to Acro package
+			✔	Migrate to Acro package @done (2014-09-17)
 		☐	Acknowledgements
 		☐	Dedication
 ======== Main Matter
 		☐	Intro
 		☐	lps_chapter
-			☐	Format pasted in text
+			✔	Format pasted in text @done (2014-09-16)
 				✔	figure references @done (2014-09-15)
 			☐	Figures
-				☐	add letter denoting residues.
+				✔	add letter denoting residues. @done (2014-09-16)
 			☐	Introduction
 				☐	More!
 			☐ Results	
@@ -30,7 +30,7 @@ ___________________________
 			☐	Methods
 				☐	Add mention to lieve 1965
 				☐	Add more info on strain creation
-				☐	Bligh dyer info?
+				✔	Bligh dyer info? @done (2014-09-17)
 				☐	Western blots
 				☐	MALDITOF
 			☐	Discussion
