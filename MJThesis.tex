@@ -155,7 +155,9 @@
 %    4. Table of contents (mandatory - list all items in the preliminary pages
 %    starting with the abstract, followed by chapter headings and
 %    subheadings, bibliographies and appendices)
-\tableofcontents
+\microtypesetup{protrusion=false} % disables protrusion locally in the document
+\tableofcontents % prints Table of Contents
+\microtypesetup{protrusion=true} % enables protrusion
 	\cleardoublepage	% required by tocloft package
 \acresetall
 %    5. List of tables (mandatory if thesis has tables)
