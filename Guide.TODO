@@ -1,6 +1,7 @@
 GUIDE to this thesis
 	Cite with \upcite
 	Bib:'biblio.bib'
+	Search for %^ to find things to do.
 ___________________________
 ======== Front Matter
 		☐	Abstract
@@ -28,7 +29,8 @@ ___________________________
 					☐	Western Blots
 					☐	MALDI TOF
 			☐	Methods
-				☐	Add mention to lieve 1965
+				✔	Add mention to lieve 1965 @done (2014-09-21)
+				☐	Fix citations  to Lieve and Darveau
 				☐	Add more info on strain creation
 				✔	Bligh dyer info? @done (2014-09-17)
 				☐	Western blots
