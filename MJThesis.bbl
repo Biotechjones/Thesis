@@ -485,6 +485,58 @@
   \field{year}{1957}
 \endentry
 
+\entry{leive65}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Leive}{L.}%
+     {Loretta}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{LL1}
+  \strng{fullhash}{LL1}
+  \field{number}{4}
+  \field{pages}{290\bibrangedash 296}
+  \field{shortjournal}{Biochem Biophys Res Commun}
+  \field{title}{Release of lipopolysaccharide by EDTA treatment of \textit{E.
+  coli}}
+  \field{volume}{21}
+  \field{journaltitle}{Biochemical and biophysical research communications}
+  \field{year}{1965}
+\endentry
+
+\entry{darveauprocedure}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Darveau}{D.}%
+     {Richard~P}{R.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hancock}{H.}%
+     {RE}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Am Soc Microbiol}%
+  }
+  \strng{namehash}{DRPHR1}
+  \strng{fullhash}{DRPHR1}
+  \field{number}{2}
+  \field{pages}{831\bibrangedash 838}
+  \field{shortjournal}{J Bacteriol}
+  \field{title}{Procedure for isolation of bacterial lipopolysaccharides from
+  both smooth and rough Pseudomonas aeruginosa and Salmonella typhimurium
+  strains.}
+  \field{volume}{155}
+  \field{journaltitle}{Journal of Bacteriology}
+  \field{year}{1983}
+\endentry
+
 \entry{maniatis}{book}{}
   \name{author}{3}{}{%
     {{}%
