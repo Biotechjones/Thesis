@@ -171,10 +171,11 @@
 %    8. Lists of symbols, abbreviations or other (optional)
 
 %    9. Glossary (optional)
+
 \chapter{List of Abbreviations}
 	\acsetup{extra-style=comma, list-caps = true, list-type = table, list-style = tabular, only-used = false, list-table-width = 0.9\linewidth}
 	\printacronyms[heading=section*,exclude-classes=sugar, name = {General abbreviations}]
-	\printacronyms[heading=section*,include-classes=sugar, only-used = false, name = {Sugar abbreviations}]
+	\printacronyms[heading=section*,include-classes=sugar,  name = {Sugar abbreviations}]
 	\textspacing		% begin one-half or double spacing
 	\cleardoublepage	% required by tocloft package
 %   10. Acknowledgements (optional)
@@ -211,6 +212,7 @@
 %    6. Appendices (including copies of all required UBC Research
 %       Ethics Board's Certificates of Approval)
 %\include{reb-coa}	% pdfpages is useful here
+\acuse{man, rha, per, glc, glca, gala, hep, glcome, kdo}
 \include{appendix}
 
 
