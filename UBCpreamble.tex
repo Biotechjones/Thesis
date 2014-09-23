@@ -84,7 +84,7 @@
 \usepackage{booktabs, multirow}
 \usepackage{siunitx, xspace} %for SI units eg. \si{\grams\per\mega\hertz} and gives xspace
 
-%% The acronym package provides support for defining acronyms, providing
+%% The acro package provides support for defining acronyms, providing
 %% their expansion when first used, and building glossaries.  See the
 %% example in glossary.tex and the example usage throughout the example
 %% document.
@@ -92,7 +92,7 @@
 %%   we *must* use the `nohyperlinks' option -- it causes errors with
 %%   hyperref otherwise.  See Section 5.2 in the ``LaTeX 2e for Class
 %%   and Package Writers Guide'' (clsguide.pdf) for details.
-\usepackage{acro}
+\usepackage[single = true, only-used = false]{acro}
 %% The ubcdiss.cls loads the `textcase' package which provides commands
 %% for upper-casing and lower-casing text.  The following causes
 %% the acronym package to typeset acronyms in small-caps

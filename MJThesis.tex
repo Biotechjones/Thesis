@@ -172,9 +172,9 @@
 
 %    9. Glossary (optional)
 \chapter{List of Abbreviations}
-	\acsetup{extra-style=comma, list-caps = true, list-type = table, list-style = tabular}
-	\printacronyms[heading=section,exclude-classes=sugar, name = {General abbreviations}]
-	\printacronyms[heading=section,include-classes=sugar, name = {Sugar abbreviations}]
+	\acsetup{extra-style=comma, list-caps = true, list-type = table, list-style = tabular, only-used = false, list-table-width = 0.9\linewidth}
+	\printacronyms[heading=section*,exclude-classes=sugar, name = {General abbreviations}]
+	\printacronyms[heading=section*,include-classes=sugar, only-used = false, name = {Sugar abbreviations}]
 	\textspacing		% begin one-half or double spacing
 	\cleardoublepage	% required by tocloft package
 %   10. Acknowledgements (optional)
