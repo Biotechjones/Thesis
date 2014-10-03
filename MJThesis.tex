@@ -175,7 +175,9 @@
 \chapter{List of Abbreviations}
 	\acsetup{extra-style=comma, list-caps = true, list-type = table, list-style = tabular, only-used = false, list-table-width = 0.9\linewidth}
 	\printacronyms[heading=section*,exclude-classes=sugar, name = {General abbreviations}]
+	\acuseall
 	\printacronyms[heading=section*,include-classes=sugar,  name = {Sugar abbreviations}]
+	\acresetall
 	\textspacing		% begin one-half or double spacing
 	\cleardoublepage	% required by tocloft package
 %   10. Acknowledgements (optional)
@@ -189,7 +191,7 @@
 	\acresetall	% reset all acronyms used so far
 
 %    1. Introduction
-% \include{intro/intro}
+\include{intro/intro}
 
 %    2. Main body
 % Generally recommended to put each chapter into a separate file
@@ -212,7 +214,7 @@
 %    6. Appendices (including copies of all required UBC Research
 %       Ethics Board's Certificates of Approval)
 %\include{reb-coa}	% pdfpages is useful here
-\acuse{man, rha, per, glc, glca, gala, hep, glcome, kdo}
+
 \include{appendix}
 
 

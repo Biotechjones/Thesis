@@ -16,6 +16,28 @@
   {}
 \endgroup
 
+\entry{firstslayer}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Houwink}{H.}%
+     {AL}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{HA1}
+  \strng{fullhash}{HA1}
+  \field{pages}{360\bibrangedash 366}
+  \field{shortjournal}{Biochim Biophys}
+  \field{title}{A macromolecular mono-layer in the cell wall of< i>
+  Spirillum</i> spec}
+  \field{volume}{10}
+  \field{journaltitle}{Biochimica et biophysica acta}
+  \field{year}{1953}
+\endentry
+
 \entry{caulobacterlipida}{article}{}
   \name{author}{7}{}{%
     {{}%
@@ -61,7 +83,7 @@
   \field{pages}{25\bibrangedash 36}
   \field{shortjournal}{Innate Immun}
   \field{title}{Structure of a novel lipid A obtained from the
-  lipopolysaccharide of Caulobacter crescentus}
+  lipopolysaccharide of \textit{Caulobacter crescentus}}
   \field{volume}{14}
   \field{type}{Journal Article}
   \field{journaltitle}{Innate Immunity}
@@ -97,8 +119,8 @@
   \field{number}{20}
   \field{pages}{6312\bibrangedash 6323}
   \field{shortjournal}{J Bacteriol}
-  \field{title}{Characterization of mutants of Caulobacter crescentus defective
-  in surface attachment of the paracrystalline surface layer}
+  \field{title}{Characterization of mutants of \textit{Caulobacter crescentus}
+  defective in surface attachment of the paracrystalline surface layer}
   \field{volume}{176}
   \field{type}{Journal Article}
   \field{journaltitle}{Journal of Bacteriology}
@@ -125,7 +147,7 @@
   \field{pages}{1451\bibrangedash 1460}
   \field{shortjournal}{Microbiology}
   \field{title}{Identification of lipopolysaccharide O antigen synthesis genes
-  required for attachment of the S-layer of Caulobacter crescentus}
+  required for attachment of the S-layer of \textit{Caulobacter crescentus}}
   \verb{url}
   \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&do
   \verb pt=Citation&list_uids=11390676
@@ -159,11 +181,6 @@
      {}{}%
      {}{}}%
   }
-  \keyw{Antigens, Bacterial/*chemistry Caulobacter crescentus/*chemistry Cell
-  Membrane/chemistry Galactose/analysis Genetic Variation Glucose/analysis
-  Heptoses/analysis Lauric Acids/analysis Lipid A/analysis Lipids/analysis
-  Lipopolysaccharides/*chemistry/*isolation & purification Mannose/analysis
-  Oligosaccharides/chemistry Sugar Acids/analysis}
   \strng{namehash}{RN+1}
   \strng{fullhash}{RNWSGDGGSJ1}
   \field{issn}{0021-9193 (Print) 0021-9193 (Linking)}
@@ -171,7 +188,7 @@
   \field{pages}{7595\bibrangedash 7605}
   \field{shortjournal}{J Bacteriol}
   \field{title}{Identification, isolation, and structural studies of the outer
-  membrane lipopolysaccharide of Caulobacter crescentus}
+  membrane lipopolysaccharide of \textit{Caulobacter crescentus}}
   \verb{url}
   \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&do
   \verb pt=Citation&list_uids=1447131
@@ -205,10 +222,6 @@
      {}{}%
      {}{}}%
   }
-  \keyw{Bacterial Adhesion Carbohydrate Sequence Chromatography, Gas Gas
-  Chromatography-Mass Spectrometry Gram-Negative Aerobic
-  Bacteria/*analysis/ultrastructure Microscopy, Electron Molecular Sequence
-  Data Polysaccharides, Bacterial/*chemistry/isolation & purification}
   \strng{namehash}{RN+1}
   \strng{fullhash}{RNWSGDGGSJ2}
   \field{issn}{0021-9193 (Print) 0021-9193 (Linking)}
@@ -219,7 +232,7 @@
   \field{pages}{5677\bibrangedash 5684}
   \field{shortjournal}{J Bacteriol}
   \field{title}{Identification, isolation, and structural studies of
-  extracellular polysaccharides produced by Caulobacter crescentus}
+  extracellular polysaccharides produced by \textit{Caulobacter crescentus}}
   \verb{url}
   \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&do
   \verb pt=Citation&list_uids=1885545
@@ -268,10 +281,6 @@
      {}{}%
      {}{}}%
   }
-  \keyw{Adaptation, Physiological/*genetics Bacterial
-  Proteins/genetics/metabolism Bacteriophages/physiology Caulobacter
-  crescentus/*genetics/*metabolism/virology Evolution, Molecular Genetic
-  Variation Molecular Sequence Data Phylogeny}
   \strng{namehash}{MME+1}
   \strng{fullhash}{MMECRCMTCDLKVWTLCS1}
   \verb{doi}
@@ -281,8 +290,8 @@
   \field{number}{14}
   \field{pages}{3678\bibrangedash 3688}
   \field{shortjournal}{J Bacteriol}
-  \field{title}{The genetic basis of laboratory adaptation in Caulobacter
-  crescentus}
+  \field{title}{The genetic basis of laboratory adaptation in
+  \textit{Caulobacter crescentus}}
   \verb{url}
   \verb http://www.ncbi.nlm.nih.gov/pubmed/20472802
   \endverb
@@ -408,8 +417,8 @@
   \field{number}{22}
   \field{pages}{5855\bibrangedash 5865}
   \field{shortjournal}{J Bacteriol}
-  \field{title}{Analysis of the intact surface layer of Caulobacter crescentus
-  by cryo-electron tomography}
+  \field{title}{Analysis of the intact surface layer of \textit{Caulobacter
+  crescentus} by cryo-electron tomography}
   \verb{url}
   \verb http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&do
   \verb pt=Citation&list_uids=20833802
@@ -444,7 +453,7 @@
   \field{number}{6}
   \field{pages}{3092\bibrangedash 3097}
   \field{shortjournal}{J Biol Chem}
-  \field{title}{Caulobacter crescentus pilin. Purification, chemical
+  \field{title}{\texit{Caulobacter crescentus} pilin. Purification, chemical
   characterization, and NH2-terminal amino acid sequence of a structural
   protein regulated during development}
   \field{volume}{256}
@@ -501,8 +510,8 @@
   \field{number}{4}
   \field{pages}{290\bibrangedash 296}
   \field{shortjournal}{Biochem Biophys Res Commun}
-  \field{title}{Release of lipopolysaccharide by EDTA treatment of \textit{E.
-  coli}}
+  \field{title}{Release of lipopolysaccharide by \textsc{edta} treatment of
+  \textit{E. coli}}
   \field{volume}{21}
   \field{journaltitle}{Biochemical and biophysical research communications}
   \field{year}{1965}
@@ -512,20 +521,20 @@
   \name{author}{2}{}{%
     {{}%
      {Darveau}{D.}%
-     {Richard~P}{R.~P.}%
+     {Richard~P.}{R.~P.}%
      {}{}%
      {}{}}%
     {{}%
      {Hancock}{H.}%
-     {RE}{R.}%
+     {R.~E.}{R.~E.}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
     {Am Soc Microbiol}%
   }
-  \strng{namehash}{DRPHR1}
-  \strng{fullhash}{DRPHR1}
+  \strng{namehash}{DRPHRE1}
+  \strng{fullhash}{DRPHRE1}
   \field{number}{2}
   \field{pages}{831\bibrangedash 838}
   \field{shortjournal}{J Bacteriol}
@@ -658,7 +667,6 @@
      {}{}%
      {}{}}%
   }
-  \keyw{Ascorbic acid Lipopolysaccharides Silver stain}
   \strng{namehash}{ZZX+1}
   \strng{fullhash}{ZZXCWTNMWWXMWDYWJJLTLXK1}
   \verb{doi}
@@ -756,14 +764,14 @@
   \strng{namehash}{ZYHRIPUB1}
   \strng{fullhash}{ZYHRIPUB1}
   \verb{doi}
-  \verb Doi 10.1016/0008-6215(92)84024-M
+  \verb 10.1016/0008-6215(92)84024-M
   \endverb
   \field{issn}{0008-6215}
   \field{pages}{261\bibrangedash 271}
   \field{shortjournal}{Carbohyd Res}
   \field{title}{Characterization of Structural Defects in the
-  Lipopolysaccharides of Symbiotically Impaired Rhizobium-Leguminosarum Biovar
-  Viciae Vf-39 Mutants}
+  Lipopolysaccharides of Symbiotically Impaired
+  \textit{Rhizobium-Leguminosarum} Biovar Viciae Vf-39 Mutants}
   \verb{url}
   \verb <Go to ISI>://WOS:A1992JF92500024
   \endverb
@@ -808,14 +816,14 @@
   \strng{namehash}{VEV+1}
   \strng{fullhash}{VEVBKPBOHOBH1}
   \verb{doi}
-  \verb Doi 10.1111/J.1432-1033.1997.0122a.X
+  \verb 10.1111/J.1432-1033.1997.0122a.X
   \endverb
   \field{issn}{0014-2956}
   \field{number}{1-2}
   \field{pages}{122\bibrangedash 127}
   \field{shortjournal}{Eur J Biochem}
   \field{title}{The structure of the carbohydrate backbone of the
-  lipopolysaccharide from Acinetobacter strain ATCC 17905}
+  lipopolysaccharide from \textit{Acinetobacter} strain ATCC 17905}
   \verb{url}
   \verb <Go to ISI>://WOS:A1997WE13200016
   \endverb
@@ -853,19 +861,17 @@
      {}{}%
      {}{}}%
   }
-  \keyw{protein ftsi pbp3 escherichia-coli bacterial-cell murein hydrolases
-  bacillus-subtilis localization binding cycle domain ring}
   \strng{namehash}{MA+1}
   \strng{fullhash}{MASSBAJGJTM1}
   \verb{doi}
-  \verb Doi 10.1111/J.1365-2958.2010.07224.X
+  \verb 10.1111/J.1365-2958.2010.07224.X
   \endverb
   \field{issn}{0950-382X}
   \field{number}{1}
   \field{pages}{90\bibrangedash 107}
   \field{shortjournal}{Mol Microbiol}
   \field{title}{DipM, a new factor required for peptidoglycan remodelling
-  during cell division in Caulobacter crescentus}
+  during cell division in \textit{Caulobacter crescentus}}
   \verb{url}
   \verb <Go to ISI>://WOS:000279168200009
   \endverb
@@ -1013,7 +1019,8 @@
   \field{pages}{3368\bibrangedash 3378}
   \field{shortjournal}{J Bacteriol}
   \field{title}{Mutations in the lipopolysaccharide biosynthesis pathway
-  interfere with crescentin-mediated cell curvature in Caulobacter crescentus}
+  interfere with crescentin-mediated cell curvature in \textit{Caulobacter
+  crescentus}}
   \field{volume}{192}
   \field{type}{Journal Article}
   \field{journaltitle}{Journal of Bacteriology}
@@ -1036,7 +1043,7 @@
   \strng{namehash}{RCRHWC1}
   \strng{fullhash}{RCRHWC1}
   \verb{doi}
-  \verb Doi 10.1146/Annurev.Biochem.71.110601.135414
+  \verb 10.1146/Annurev.Biochem.71.110601.135414
   \endverb
   \field{issn}{0066-4154}
   \field{pages}{635\bibrangedash 700}

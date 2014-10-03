@@ -11,39 +11,18 @@
 			"file": "MJThesis.tex",
 			"settings":
 			{
-				"buffer_size": 7965,
+				"buffer_size": 8047,
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"contents": "%% The following is a directive for TeXShop to indicate the main file\n%!TEX root = ../MJThesis.tex\n\\acresetall\n\n\\chapter{The core and O-polysaccharide structure of the \\textit{Caulobacter crescentus} lipopolysaccharide}\n\\label{ch:lps}\n\n\\begin{epigraph}\n\\emph{``And so, progressively, the veil behind which Nature has so carefully concealed her secrets is being lifted where the carbohydrates are concerned.''} ---~H.\\,Emil Fischer, 1902 Nobel prize lecture\\\\ My great-great-great-great-great-great-great-great-grand advisor.\n\\end{epigraph}\n\n\\section{Introduction} % (fold)\n\\label{sec:introduction} \n	\\textit{Caulobacter crescentus} is an aquatic alphaproteobacterium well known for a stalked, crescent cell morphology, asymmetric cell division, and a \\ac{S-layer}. \\caulobacter is a widely studied model organism for cell development and differentiation; despite this, the structure of its \\ac{LPS} has not previously been fully determined.\n\n	Interest in the \\ac{LPS} of \\caulobacter is focused on its immunological profile\\upcite{caulobacterlipida} and its structural role as an anchor for the self-assembled, paracrystalline \\ac{S-layer}\\upcite[.]{walker94} The \\ac{LPS} of \\caulobacter possesses a much reduced immunogenic activity, most likely due to its lipid A structure, which is significantly different from that of \\ac{LPS} from enteric bacteria. The lipid A structure has been reported\\upcite[;]{caulobacterlipida} it is a unique molecule containing a di-diaminoglucose backbone (instead of di-glucosamine) and two galacturonate moieties that replace the canonical phosphates that are on each end of the disaccharide in most lipid A molecules. The \\caulobacter \\ac{S-layer} non-covalently attaches to the \\ac{OPS}\\upcite[.]{walker94} However, the \\ac{OPS} structure has not been resolved. Genetic analyses have pointed towards the unusual N-acetylperosamine being a major component\\upcite[.]{awramgenes} A notable feature of this O-antigen is that it exists completely hidden beneath the S-layer, presumably inaccessible to the environment\\upcite[.]{walker94} Carbohydrate structures from non-pathogenic bacterial \\ac{LPS} are rarely studied and an \\ac{LPS} that is sequestered beneath an \\ac{S-layer} is not represented in the literature.\n\n	In the present study our data has determined the core \\ac{OS} structure from \\caulobacter CB15 NA1000 (advancing an earlier report of core composition\\upcite{ravenscroftlps}), as well as the central backbone and non-reducing ends of its \\ac{OPS}. Unexpectedly, we identified a previously unknown rhamnan polysaccharide. Along with previous reports on lipid A\\upcite{caulobacterlipida} and \\ac{EPS}\\upcite[,]{ravenscrofteps} we believe that all the major carbohydrate structures in \\caulobacter cell envelope have now been solved.\n% section introduction (end)\n\n\\section{Results} % (fold)\n\\label{sec:results}\n	\\subsection{Characterisation of whole \\textsc{lps}} % (fold)\n	\\label{sub:characterisation_of_whole_lps}\n		%% %^Write\n		\\begin{figure}[htb]\n			\\begin{center}\n				\\includegraphics[width=0.3\\textwidth]{lps_chapter/img/lpssilverstain.jpg}\n			\\end{center}\n			\\caption[Visual comparison of \\ecoli O122 \\ac{LPS} and \\caulobacter \\ac{LPS}]{Visual comparison of silver stained \\ecoli O122 \\ac{LPS} and \\caulobacter \\ac{LPS}. \\ac{LPS} samples were run on a \\ac{SDS-PAGE} and silver stained. Lanes 1 and 3 contain equal amounts of \\ac{LPS} from \\ecoli O122. Lanes 2 and 4 contain our isolated \\ac{LPS} from \\caulobacter. Lane 4 has twice the loaded amount compared to lane 2 to demonstrate that there are no minor, hidden bands. Notice the canonical `laddering' pattern of \\ecoli\\ \\ac{LPS} and the distinctly singular band of \\caulobacter\\ \\ac{LPS}.}\n			\\label{fig:lpssilverstain}\n		\\end{figure}\n\n		\\begin{figure}[htp]\n			\\begin{center}\n				\\includegraphics[]{lps_chapter/img/lpsvisuals.pdf}\n			\\end{center}\n			\\caption[Four different visualisations of \\caulobacter\\ \\ac{LPS}.]{Four different visualisations of \\caulobacter\\ \\ac{LPS}. \\textbf{A}. Western blot with rabbit anti-\\ac{OPS} serum used as the primary probe. \\textbf{B}. Far-western blot with RsaA \\del277-784 used as the primary probe and rabbit anti-RsaA serum used as the secondary probe. \\textbf{C.} Schiff stained \\ac{SDS-PAGE}. \\textbf{D}. Silver stained \\ac{SDS-PAGE}. The smooth-\\ac{LPS} (\\ie containing a complete \\ac{OPS}) runs as a single band at roughly the equivalent rate of a 50 kDa protein and is visible in all lanes. The faint band visible at 30 kDa in the western blot (A) is of unknown source. The faint 30 kDa band is not seen in by far western (B), Schiff stain (C), or silver stain (D).}\n			\\label{fig:lpsvisuals}\n		\\end{figure}\n\n		\\begin{figure}[htb]\n			\\begin{center}\n				\\includegraphics[]{lps_chapter/img/malditof.pdf}\n			\\end{center}\n			\\caption[\\Ac{MALDI-TOF} analysis of intact, whole \\ac{LPS} from \\caulobacter.]{\\ac{MALDI-TOF} analysis of intact, whole \\ac{LPS} from \\caulobacter. The insert highlights the peaks attributed to \\ac{LPS}. The major \\ac{LPS} peak is labelled 10834.90 m/z}\n			\\label{fig:lpsmalditof}\n		\\end{figure}\n\n	% subsection characterisation_of_whole_lps (end)\n	\\subsection{Initial assessment and component analysis} % (fold)\n	\\label{sub:initial_assessment_and_component_analysis}\n\n		The \\ac{PS} was released from the \\ac{LPS} by hydrolysis with acetic acid. \\textsuperscript{1}H \\ac{NMR} spectrum of the \\ac{PS} (\\cref{fig:lpsfig1})) contained a large number of partially overlapping signals of various intensities in the anomeric region. It was obviously not a regular polymer with well-defined repeating units. Attempts to separate this material by anion-exchange chromatography led to the isolation of a number of fractions from neutral to slightly retained, but all of them had virtually identical \\ac{NMR} spectra. Methylation of the polysaccharide led to the identification of 3- and 3,4-substituted mannopyranose, terminal glucopyranose (derived from side-chain 3-O-MeGlc), terminal, 3-, 4-, and 2,4-substituted rhamnopyranose, 3-substituted PerNAc, and an unidentified derivative resembling methylated PerN that eluted between dimethylhexose derivatives and 3-substituted PerNAc. To identify the position of the methyl groups in naturally methylated monosaccharides, methylation was conducted with \\ce{CD3I}. This confirmed the identification of tetramethylglucitol as originating from 3-O-MeGlc, but did not identify any other naturally methylated monosaccharides, visible in \\ac{NMR} spectra. An unknown derivative received two deuterated methyl groups.\n\n		\\begin{figure}[ph]  %% 1D NMR Spectra\n			\\begin{center}\n				\\includegraphics[height=0.9\\textheight]{lps_chapter/img/lpsfig1.pdf}\n			\\end{center}\n			\\caption[\\textsuperscript{1}H \\ac{NMR} spectra of \\caulobacter{} \\ac{OPS}]{\\textsuperscript{1}H \\ac{NMR} spectra of the intact \\caulobacter{} \\ac{OPS}  (bottom trace), double oxidized polysaccharide (middle trace) and N-deacylated double oxidized polysaccharide (upper trace).}\n			\\label{fig:lpsfig1}\n		\\end{figure}\n	% subsection initial_assessment_and_component_analysis (end)\n\n	\\subsection{O-antigen structure determination (\\textsc{ps}1)} % (fold)\n	\\label{sub:o_antigen_structure_determination_ps1_}\n\n		A set of 2D spectra [\\ac{gCOSY}, \\ac{TOCSY}, \\ac{NOESY}, \\textsuperscript{1}H-\\textsuperscript{13}C \\ac{gHSQC}, \\ac{gHMBC}] was obtained for the \\ac{PS}. There were many (more than 20) lines of correlations from the anomeric signals. Later, after the analysis of \\ac{PS} degradation products, most of them could be assigned to particular structures (\\cref{fig:lpsops,fig:lpsends,fig:lpsrhamnan}). Polysaccharide heterogeneity was not caused by random acetylation, but \\ac{PS} contained 4 methyl groups (one major and 3 minor). Monosaccharide analysis revealed L-Rha, D-Man, D-PerN (perosamine, 4-aminodeoxyrhamnose), and 3-O-MeGlc. Other methylated monosaccharides were not identified by \\ac{GC-MS} as alditol acetates, possibly due to low content or degradation during hydrolysis. The \\ac{GC-MS} data is presented in \\cref{fig:monosaccharide_analysis}.\n\n		\\begin{figure}[htb]  %% monosaccharides\n			\\begin{center}\n				\\includegraphics[width=\\textwidth]{lps_chapter/img/lps_monosaccharides.pdf}\n			\\end{center}\n			\\caption[Monosaccharide analysis of \\ac{LPS}]{Monosaccharide analysis of \\caulobacter\\ \\ac{LPS}. Alditol acetates derivatives of the \\ac{LPS} component monosaccharides were separated and identified by \\ac{GC-MS}. The protocol used is described on \\cpageref{sub:monosaccharide_analysis}.}\n			\\label{fig:monosaccharide_analysis}\n		\\end{figure}\n\n		In an attempt to simplify the structure, \\ac{PS} was oxidized with \\ce{NaIO4}, reduced with \\ce{NaBD4}, hydrolysed with 2\\% \\ce{AcOH}, and the products were separated on a Biogel P6 column to give a polymer and an \\ac{OS}, \\ac{OS}1. Analysis of \\ac{OS}1 will be described below. For some reason not all of the rhamnan was oxidized, and some of its signals persisted in the spectra of the remaining polymer (without side-chain Rha F). To remove the rest of it, the oxidation was repeated to produce \\ac{PS}1. Spectra still contained some signals of minor components, analysed later. Assignment of the spectra of the non-oxidisable polymer \\ac{PS}1 was difficult due to complete or partial overlap of the H-2,3,4,5 signals of PerNAc. To improve signal spread, \\ac{PS}1 was deacylated with 4 M \\ce{NaOH}. At this point the major polymer became positively charged and an attempt was made to separate it from the minor components using cation-exchange chromatography. However, all material was eluted together at high salt concentration, thus indicating that all components were chemically bound together. Assignment of the spectra (\\cref{fig:lps2dnmr}, \\cref{tbl:lpsops}) became possible at this stage due to better signal spread (H-4 signals of PerN moved to high field due to deacylation) and the sequence shown on \\cref{fig:lpsops} was proposed. Spectra contained the signals of two $\\beta$-mannopyranose, $\\alpha$-3-O-MeGlc, and two -Per4N. The following interresidual \\ac{NOE} and \\ac{HMBC} correlations were used to determine the sequence: R1:L3, L1:Z3, Z1:Q3, Q1:W3, W1:X3, A1:X4. \\Ac{PS}1 had trisaccharide repeating units composed of $\\beta$-mannose and two $\\alpha$-PerNAc residues, and every second repeating unit carried a side branch of 3-O-MeGlc. It seems that side-chains were present quite regularly at each second trisaccharide repeat of the main chain, because \\ac{NOE} correlations were observed between the repeating units with and without 3-O-MeGlc, and not between units of the same structure. Thus altogether, the repeating unit contained seven monosaccharides.\n\n		\\begin{figure}[H]\n			\\begin{center}\n				\\includegraphics[]{lps_chapter/img/lpsops.pdf}\n			\\end{center}\n			\\caption[The structure of the \\caulobacter \\ac{OPS}.]{The structure of the \\caulobacter \\ac{OPS}. \\textbf{A.} The intact repeating unit, \\ac{PS}1. \\textbf{B.} The deacylated product of \\ac{PS}1.}\n			\\label{fig:lpsops}\n		\\end{figure}\n\n		\\begin{figure}[H]\n			\\begin{center}\n				\\includegraphics[width=0.9\\textwidth]{lps_chapter/img/lpsfig3.pdf}\n			\\end{center}\n			\\caption[2D \\ac{NMR} of \\caulobacter{} \\ac{PS}1.]{Overlap of \\ac{COSY} (green), \\ac{TOCSY} (red) and \\ac{ROESY} (black) correlations from anomeric protons of double oxidized deacylated \\caulobacter{} \\ac{PS}1.}\n			\\label{fig:lps2dnmr}\n		\\end{figure}\n\n		\\begin{table}[h]  % LPS OPS\n			\\centering\n			\\caption{\\Ac{NMR} data for \\caulobacter \\ac{PS}1 (40\\cel) and deacylated \\ac{PS}1 (50\\cel). Me at 3.62/61.3 ppm.}\n			\\label{tbl:lpsops}\n			\\begin{tabular}{@{}rccccccc@{}}\n				\\toprule\n				\\multicolumn{8}{c}{PS1} \\\\ \\midrule\n				 &  & 1 & 2 & 3 & 4 & 5 & 6 \\\\ \\midrule\n				\\multirow{2}{*}{PerNAc R} & H & 4.97 & 3.98 & 4.13 & 3.92 & 3.91 & 1.21 \\\\\n				 & C & 103.3 & 68.2 & 75.5 & 52.4 & 69.4 & 18.0 \\\\\n				\\multirow{2}{*}{PerNAc Q} & H & 4.98 & 3.97 & 4.11 & 3.92 & 3.91 & 1.21 \\\\\n				 & C & 103.3 & 68.2 & 75.5 & 52.4 & 69.4 & 18.0 \\\\\n				\\multirow{2}{*}{PerNAc L} & H & 5.05 & 4.12 & 3.99 & 3.98 & 3.98 & 1.21 \\\\\n				 & C & 103.3 & 70.4 & 78.2 & 53.0 & 69.4 & 18.0 \\\\\n				\\multirow{2}{*}{PerNAc W} & H & 5.02 & 4.12 & 3.96 & 3.98 & 3.98 & 1.21 \\\\\n				 & C & 104.0 & 70.4 & 77.8 & 53.0 & 69.4 & 18.0 \\\\\n				\\multirow{2}{*}{$\\beta$-Man X} & H & 4.74 & 4.09 & 3.98 & 3.90 & 3.54 & 3.80; 3.96 \\\\\n				 & C & 97.8 & 72.1 & 85.4 & 72.1 & 75.8 & 62.6 \\\\\n				\\multirow{2}{*}{$\\beta$-Man Z} & H & 4.72 & 4.06 & 3.70 & 3.68 & 3.41 & 3.77; 3.96 \\\\\n				 & C & 98.2 & 71.9 & 82.3 & 67.2 & 77.3 & 62.4 \\\\\n				\\multirow{2}{*}{Glc3Me A} & H & 5.36 & 3.51 & 3.40 & 3.44 & 3.68 & 3.75; 3.85 \\\\\n				 & C & 100.0 & 72.2 & 84.1 & 70.1 & 74.1 & 61.6 \\\\ \\midrule\n				\\multicolumn{8}{c}{Deacylated PS1} \\\\ \\midrule\n				\\multirow{2}{*}{PerN R} & H & 5.13 & 4.34 & 4.29 & 3.30 & 4.18 & 1.38 \\\\\n				 & C & 103.5 & 67.4 & 75.0 & 53.4 & 67.8 & 18.0 \\\\\n				\\multirow{2}{*}{PerN Q} & H & 5.11 & 4.34 & 4.29 & 3.30 & 4.18 & 1.38 \\\\\n				 & C & 103.5 & 67.4 & 75.0 & 53.4 & 67.8 & 18.0 \\\\\n				\\multirow{2}{*}{PerN L} & H & 5.08 & 4.22 & 4.06 & 3.11 & 4.09 & 1.35 \\\\\n				 & C & 103.9 & 69.9 & 79.9 & 53.6 & 69.5 & 18.0 \\\\\n				\\multirow{2}{*}{PerN W} & H & 5.06 & 4.22 & 4.06 & 3.11 & 4.09 & 1.35 \\\\\n				 & C & 103.9 & 69.9 & 79.9 & 53.6 & 69.5 & 18.0 \\\\\n				\\multirow{2}{*}{$\\beta$-Man X} & H & 4.91 & 4.18 & 4.03 & 3.96 & 3.59 & 3.83; 3.96 \\\\\n				 & C & 98.0 & 71.7 & 85.0 & 71.7 & 75.9 & 62.1 \\\\\n				\\multirow{2}{*}{$\\beta$-Man Z} & H & 4.90 & 4.18 & 3.75 & 3.75 & 3.46 & 3.83; 3.96 \\\\\n				 & C & 98.0 & 71.7 & 82.0 & 67.0 & 77.4 & 62.1 \\\\\n				\\multirow{2}{*}{Glc3Me A} & H & 5.39 & 3.57 & 3.40 & 3.48 & 3.68 & 3.76; 3.86 \\\\\n				 & C & 100.2 & 72.2 & 84.0 & 70.0 & 74.1 & 61.7 \\\\ \\bottomrule \n			\\end{tabular}\n		\\end{table}\n	% subsection o_antigen_structure_determination_ps1_ (end)\n\n	\\subsection{Minor component determination} % (fold)\n	\\label{sub:minor_component_determination}\n\n		 \\ac{PS} and \\ac{PS}1 spectra contained signals of minor components, which could not be removed by chromatography, as described above. They probably represented the non-reducing ends of the major chain, \\ac{PS}1 (\\cref{fig:lpsends}). The minor components contained methylated Rha (2-O-Me-Rha residue J and 2,3-Me$_2$-PerN residue B). The position of the methyl groups were found from \\ac{HMBC} correlations between protons of methyl groups and carbon atoms bearing OMe groups, which all were well visible and did not overlap with other signals due to their low field position. Thus, two independent structural fragments, 1 and 2, were found and are shown in \\cref{fig:lpsends}. Mannose residues Z' and Z\" at the non-reducing ends of these fragments were further linked to PerN residues, indistinguishable from the PerN of the main chain. PerN residue D had upfield shifted C-2 and downfield shifted C-3 signals (\\cref{tbl:lpsends})), which have not been explained. It appears that its O-3 was phosphorylated, producing typical phosphorylation signal shifts and broadening of the H-3 signal, but \\textsuperscript{1}H-\\textsuperscript{31}P \\ac{HMQC} \\ac{NMR} spectrum showed no signals, possibly due to the low abundance of this residue. Possibly Rha residues inserted in the structure resembling \\ac{PS}1 represented the attachment point of the rhamnan (\\ac{PS}2) to \\ac{PS}1, if they were linked together.\n\n		 \\begin{figure}[htb]\n		 	\\begin{center}\n		 		\\includegraphics[]{lps_chapter/img/lpsends.pdf}\n		 	\\end{center}\n		 	\\caption[The structure of minor component, the end caps of the \\ac{OPS}.]{The structure of minor component, the end caps of the \\ac{OPS}. \\textbf{A.} Fragment 1. \\textbf{B.} Fragment 2.}\n		 	\\label{fig:lpsends}\n		 \\end{figure}\n\n		 \\begin{table}[htb]\n			 \\centering\n			 \\caption[\\Ac{NMR} data for the minor components of the double oxidized non-deacylated \\ac{PS}]{\\ac{NMR} data for the minor components of the double oxidized non-deacylated \\ac{PS} (50\\cel). Methyl group signals: B2: 3.48/59.5; B3: 3.42/57.9; J2: 3.45/59.6 ppm (H/C)}\n			 \\label{tbl:lpsends}\n			 \\begin{tabular}{@{}rccccccc@{}}\n				 \\toprule\n				  &  & 1 & 2 & 3 & 4 & 5 & 6 \\\\ \\midrule\n				 \\multirow{2}{*}{PerN2,3Me B} & H & 5.25 & 3.96 & 3.71 & 3.81 & 3.91 & 1.17 \\\\\n				  & C & 100.2 & 76.2 & 78.2 & 53.2 & 69.5 & 18.0 \\\\\n				 \\multirow{2}{*}{$\\alpha$-Rha2Me J} & H & 5.25 & 3.95 & 4.02 & 3.45 & 3.90 & 1.30 \\\\\n				  & C & 100.2 & 75.9 & 75.4 & 71.8 & 69.5 & 18.0 \\\\\n				 \\multirow{2}{*}{$\\alpha$-PerN D} & H & 5.14 & 4.27 & 4.20 & 3.95 & 3.97 & 1.23 \\\\\n				  & C & 100.1 & 67.4 & 75.2 & 52.2 & 69.4 & 18.0 \\\\\n				 \\multirow{2}{*}{$\\alpha$-Man E} & H & 5.13 & 4.17 & 3.99 & 3.75 & 3.84 &  \\\\\n				  & C & 100.1 & 70.9 & 79.8 & 67.1 & 74.4 &  \\\\\n				 \\multirow{2}{*}{$\\alpha$-Man P} & H & 5.05 & 4.14 & 4.00 & 3.85 & 3.96 &  \\\\\n				  & C & 97.6 & 71.0 & 79.5 & 66.9 & 74.0 &  \\\\\n				 \\multirow{2}{*}{$\\beta$-Rha U} & H & 4.78 & 4.16 & 3.69 & 3.48 & 3.44 & 1.32 \\\\\n				  & C & 100.9 & 71.8 & 82.0 & 72.4 & 73.1 & 18.0 \\\\\n				 \\multirow{2}{*}{$\\beta$-Man Z\"} & H & 4.72 & 4.06 & 3.75 & 3.75 & 3.46 & 3.83; 3.96 \\\\\n				  & C & 98.2 & 71.9 & 86.0 & 67.0 & 77.4 & 62.1 \\\\\n				 \\multirow{2}{*}{$\\beta$-Man Z'} & H & 4.72 & 4.06 & 3.73 & 3.75 & 3.46 & 3.83; 3.96 \\\\\n				  & C & 98.2 & 71.9 & 82.3 & 67.0 & 77.4 & 62.1 \\\\ \\bottomrule \n			 \\end{tabular}\n		 \\end{table}\n	% subsection minor_component_determination (end)\n\n	\\subsection{Rhamnan polysaccharide determination (\\textsc{ps}2)} % (fold)\n	\\label{sub:rhamnan_polysaccharide_determination_ps2_}\n\n		Periodate oxidation of the \\ac{PS} produced an \\ac{OS}1, which was analyzed by \\ac{NMR} and its structure, as shown on \\cref{fig:lpsrhamnan}, was determined using standard 2D \\ac{NMR} methods. Signal assignment is shown in the \\cref{tbl:lpsrhamnan}. It contained three rhamnopyranose units and 4-deoxy-1-deutero-erythritol, produced by the oxidation-reduction of 4-substituted rhamnose. Formation of this oligosaccharide could be explained by oxidation of the side chain Rha F and 4-substituted Rha G in the \\ac{PS}1 (letter labels for monosaccharides were given using anomeric signals in the whole \\ac{PS} spectra starting from low-field). The unoxidized 4-substituted residue T in the oligosaccharide originally carried side-chain Rha F at position 2. Knowing the \\ac{OS}1 structure the signals of a corresponding polymer (\\ac{PS}2) were identified in the spectra of the whole \\ac{PS}, and are given in the \\cref{tbl:lpsrhamnan}. \n\n		\\begin{figure}[htb]\n			\\begin{center}\n				\\includegraphics[]{lps_chapter/img/lpsrhamnan.pdf}\n			\\end{center}\n			\\caption[The structure of the \\caulobacter rhamnan.]{The structure of the \\caulobacter rhamnan. \\textbf{A.} the intact rhamnan, \\ac{PS}2. \\textbf{B.} the oxidised rhamnan product, \\ac{OS}1.}\n			\\label{fig:lpsrhamnan}\n		\\end{figure}\n\n		\\begin{table}[h]\n			\\centering\n			\\caption[\\Ac{NMR} data for \\caulobacter  \\ac{PS}2 and its \\ce{NaIO4} oxidation product \\ac{OS}1]{\\ac{NMR} data for \\caulobacter  \\ac{PS}2 and its \\ce{NaIO4} oxidation product \\ac{OS}1 (40\\cel).}\n			\\label{tbl:lpsrhamnan}\n			\\begin{tabular}{@{}rccccccc@{}}\n				\\toprule\n				 &  & 1 & 2 & 3 & 4 & 5 & 6 \\\\ \\midrule\n				\\multirow{2}{*}{$\\alpha$-Rha N, OS1} & H & 5.04 & 4.07 & 3.85 & 3.47 & 3.85 & 1.30 \\\\\n				 & C & 103.1 & 71.1 & 71.1 & 72.9 & 69.9 & 17.6 \\\\\n				\\multirow{2}{*}{$\\alpha$-Rha N, PS} & H & 5.02 & 4.02 & 3.79 & 3.45 & 3.72 & 1.28 \\\\\n				 & C & 103.0 & 71.5 & 78.8 & 73.3 & 70.4 & 17.5 \\\\\n				\\multirow{2}{*}{$\\beta$-Rha T, OS1} & H & 4.78 & 4.13 & 3.71 & 3.54 & 3.53 & 1.33 \\\\\n				 & C & 100.7 & 71.1 & 72.3 & 83.4 & 71.7 & 17.5 \\\\\n				\\multirow{2}{*}{$\\beta$-Rha T, PS} & H & 4.79 & 4.22 & 3.82 & 3.62 & 3.61 & 1.36 \\\\\n				 & C & 101.7 & 76.7 & 73.5 & 83.4 & 73.2 & 17.5 \\\\\n				\\multirow{2}{*}{$\\beta$-Rha V, OS1} & H & 4.75 & 4.12 & 3.67 & 3.49 & 3.49 & 1.34 \\\\\n				 & C & 101.1 & 71.4 & 81.3 & 71.9 & 72.9 & 17.5 \\\\\n				\\multirow{2}{*}{$\\beta$-Rha V, PS} & H & 4.77 & 4.13 & 3.66 & 3.66 & 3.50 & 1.35 \\\\\n				 & C & 101.4 & 71.2 & 81.7 & 67.2 & 73.3 & 17.5 \\\\\n				\\multirow{2}{*}{X (ox. G), OS1} & H & 3.69; 3.71 & 3.75 & 3.99 & 1.20 &  &  \\\\\n				 & C & 61.8 & 84.8 & 67.7 & 18.0 &  &  \\\\\n				\\multirow{2}{*}{$\\alpha$-Rha G, PS} & H & 5.10 & 4.13 & 3.94 & 3.58 & 3.90 & 1.35 \\\\\n				 & C & 103.1 & 71.5 & 70.3 & 84.5 &  & 17.5 \\\\\n				\\multirow{2}{*}{$\\alpha$-Rha F, PS} & H & 5.11 & 4.09 & 3.87 & 3.45 & 4.07 & 1.27 \\\\\n				 & C & 102.4 & 72.1 & 71.3 & 73.3 &  & 17.5 \\\\ \\bottomrule \n			\\end{tabular} %% LPS Rhamnan\n		\\end{table}\n	% subsection rhamnan_polysaccharide_determination_ps2_ (end)\n\n	\\subsection{Core oligosaccharide determination} % (fold)\n	\\label{sub:core_oligosaccharide_determination}\n\n		The core oligosaccharide of the \\caulobacter{} \\ac{LPS} isolated after \\ce{AcOH} hydrolysis contained one non-degraded Kdo, two LD-Hep, one DD-Hep, mannose, galactose, and glucuronic acid in pyranose form. 2D \\ac{NMR} analysis led to the structure shown on \\cref{fig:lpscore} (\\ac{NMR} assignments are in \\cref{tbl:lpstable4}, the \\ac{HSQC} spectrum is in \\cref{fig:lpscorenmr}). The sequence followed from the observed \\ac{NOE}: E1:C5,C7,F5; F1:E2; G1:F3; H1:C7,E2; K1:C4; L1:K4. Correlation E1:C7 is always observed in the $\\alpha$-Hep-5-Kdo fragment. E1:F5 was due to the $\\alpha$-Man-2-Hep linkage. H1E2 indicates spatial proximity of the residues E and H, linked to the same Kdo C. All expected transglycoside correlations were observed in \\ac{HMBC} spectrum, together with intra-ring correlations H-1:C-3 and H-1:C-5 for all $\\alpha$-pyranoses. Methylation analysis revealed terminal DD-Hep, terminal and 2-substituted LD-Hep, 3-substituted Man and terminal Gal. The structure agreed with mass spectral data, \\ac{ESI} \\ac{MS} in negative ion mode, [M-H]\\textsuperscript{-} = 1314.9, [M-2H]/2\\textsuperscript{-} = 656.7, calculated exact mass Hex x 2 + Hep x 3 + HexA x 1 + Kdo x 1 = 1314.4 Da. \n\n		\\begin{figure}[htb]\n			\\begin{center}\n				\\includegraphics[]{lps_chapter/img/lpscore.pdf}\n			\\end{center}\n			\\caption{The structure of the \\caulobacter core \\ac{OS}.}\n			\\label{fig:lpscore}\n		\\end{figure}\n\n		\\begin{table}[htb]\n			\\centering\n			\\caption[\\Ac{NMR} data for the core oligosaccharide]{\\ac{NMR} data for the core oligosaccharide (25\\cel).}\n			\\label{tbl:lpstable4}\n			\\begin{tabular}{@{}rccccccccc@{}}\n			\\toprule\n			 &  & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\\\ \\midrule\n			\\multirow{2}{*}{Kdo C} & H &  &  & 2.05; 2.35 & 4.23 & 4.28 & 4.09 & 3.91 & 3.81; 3.93 \\\\\n			 & C &  & 98.2 & 34.7 & 74.9 & 74.2 & 71.0 & 79.2 & 61.5 \\\\\n			\\multirow{2}{*}{DLHep E} & H & 5.24 & 3.85 & 4.12 & 3.89 & 3.88 & 4.04 & 3.73; 3.73 &  \\\\\n			 & C & 101.1 & 80.2 & 71.1 & 67.3 & 74.1 & 70.0 & 63.9 &  \\\\\n			\\multirow{2}{*}{Man F} & H & 5.03 & 4.30 & 4.00 & 3.79 & 3.80 & 3.80; 3.91 &  &  \\\\\n			 & C & 103.7 & 70.6 & 78.1 & 67.5 & 74.5 & 62.0 &  &  \\\\\n			\\multirow{2}{*}{DDHep G} & H & 5.15 & 4.05 & 3.86 & 3.77 & 3.84 & 4.06 & 3.76; 3.84 &  \\\\\n			 & C & 103.1 & 71.0 & 71.8 & 68.7 & 74.5 & 72.9 & 62.9 &  \\\\\n			\\multirow{2}{*}{DLHep H} & H & 5.07 & 4.14 & 3.89 & 3.89 & 3.80 & 4.10 & 3.79; 3.81 &  \\\\\n			 & C & 102.7 & 73.7 & 71.8 & 67.3 & 73.2 & 70.2 & 64.9 &  \\\\\n			\\multirow{2}{*}{GlcA K} & H & 5.22 & 3.66 & 4.00 & 3.99 & 4.15 &  &  &  \\\\\n			 & C & 98.8 & 72.4 & 74.9 & 73.6 &  &  &  &  \\\\\n			\\multirow{2}{*}{Gal L} & H & 5.49 & 3.80 & 3.85 & 3.99 & 3.94 & 3.69; 3.69 &  &  \\\\\n			 & C & 99.9 & 69.7 & 70.3 & 70.0 & 71.8 & 61.6 &  &  \\\\ \\bottomrule \n			\\end{tabular}%LPS table 4\n		\\end{table}\n\n		\\begin{figure}[htb]\n			\\begin{center}\n				\\includegraphics[width=\\textwidth]{lps_chapter/img/lpsfig4.pdf}\n			\\end{center}\n			\\caption{Fragment of \\textsuperscript{1}H-\\textsuperscript{13}C \\ac{HSQC} spectrum of the core.}\n			\\label{fig:lpscorenmr}	\n		\\end{figure}\n	% subsection core_oligosaccharide_determination (end)\n% section results (end)\n\n\\section{Methods} % (fold)\n\\label{sec:methods}\n\n	\\subsection{Bacterial strain construction and growth conditions} % (fold)\n	\\label{sub:bacterial_strain_construction_and_growth_conditions}\n\n		The strain used for the preparation of \\ac{LPS} was JS1025, a derivative of \\caulobacter CB15 NA1000. The salient features are that it has an engineered amber mutation in \\textit{rsaA} leading to the loss of the \\ac{S-layer} and the gene CCNA\\_00471 has been inactivated by a partial deletion. CCNA\\_00471 encodes a putative GDP-L-fucose synthase\\upcite[.]{na1000genome} The knockout (\\del 471) confers a deficiency in an \\ac{EPS} that was previously found to contain L-fucose\\upcite[.]{ravenscrofteps} CCNA\\_00471 was disrupted in the same manner as previously in JS4038\\upcite[,]{hivmicrobicide2} except the starting strain used here was JS1023\\upcite[.]{slayercryo} \n		\n		Cells were grown to mid-to-late log phase (\\od = 0.9) in M16HIGG defined medium at 30\\cel in 2.8 \\si{\\litre} Fernbach flasks containing 1250 \\millilitre of medium, shaking at 100 rpm. M16HIGG is a modification of M6HIGG medium\\upcite[,]{smitpilin81} containing 0.31\\% glucose, 0.09\\% glutamate, 1.25 \\si{\\milli\\meter} sodium phosphate, 3.1 \\si{\\milli\\meter} imidazole, 0.05\\% ammonium chloride and 0.5\\% modified Hutner's Mineral Base\\upcite[.]{hutners} \n	% subsection bacterial_strain_construction_and_growth_conditions (end)\n\n	\\subsection{\\textsc{lps} isolation} % (fold)\n	\\label{sub:LPS_isolation}\n\n		\\ac{LPS} was isolated from the cells via disrupting the outer membrane by chelation.\n		 The the negative charges in Gram negative bacterial \\ac{LPS} are stabilised and bridged by available divalent cations (\\ie{} \\ce{Ca^2+} and \\ce{Mg^2+}). Lieve\n		 first noted in 1965\\upcite{leive65}\n		 that one can strip the counter ions from the outer membrane to disrupt it and cause it to shed into the medium. We chose a chelation strategy because we found it easy to scale up, it didn't require noxious organic solvents, and because our lab's first attempt to isolate and analyse \\caulobacter\\ \\ac{LPS}\\upcite{ravenscroftlps} using the Darveau extraction method\\upcite{darveauprocedure} \n		 only resulted in the isolation of core+lipidA (rough \\ac{LPS}).\n\n		 The protocol we used was a modification of the procedure reported by Walker \\etal\\!\\upcite{walker94} Cells were centrifuged at 12 400 x g for 10 min. The pellets were suspended with distilled water and recentrifuged. These pellets were resuspended in 1/10 original culture volume in \\ac{PBS}\\upcite{maniatis} amended with 35 \\si{\\milli\\meter} \\ac{EDTA}, agitated at room temperature for 10 min and then centrifuged at 15 300 x g for 15 min. The supernatant was retrieved and re-centrifuged, as before, to ensure clarity and then dialysed against 5 \\si{\\milli\\meter} \\ce{MgCl2}. DNase and RNase were added to final concentrations of 10 \\si{\\micro\\gram\\per\\milli\\litre} and 100 \\si{\\micro\\gram\\per\\milli\\litre}\\!, respectively, and incubated at 37\\cel for 2 h. Proteinase K was added to a final concentration of 0.3 \\mgperml and the preparation was incubated at 50\\cel overnight. The sample was then ultracentrifuged at 184 000 x g for 3 h. Glassy pellets formed which were suspended in distilled water to 1/100 original culture volume. A Bligh-Dyer extraction was performed to reduce contaminating lipids\\upcite[.]{blighdyer}\n	% subsection \\ac{LPS}_isolation (end)\n\n	\\subsection{Bligh Dyer Extraction} % (fold)\n	\\label{sub:bligh_dyer_extraction}\n		A Bligh Dyer extraction was performed on all \\ac{LPS} preparations to reduce the presence of contaminating lipids. The extraction was performed as first published\\upcite[.]{blighdyer} In short,  to one volume of aqueous \\ac{LPS} sample, 3.75 volumes of chloroform/methanol (1:2 v/v) was added and the sample was vortexed for 30 seconds. 1.25 volumes of chloroform was added and the sample was vortexed again for 30 seconds. 1.25 volumes of water were added and the sample was vortexed a final time for 30 seconds. This mixture was then centrifuged at 15 300 x g for 10 min. After centrifugation, the mixture separated in to two phases, a lower organic phase and an upper aqueous phase. The \\ac{LPS} partitions into the aqueous phase, while other lipids partition into the organic phase. The aqueous phase was retrieved and kept.\n	% subsection bligh_dyer_extraction (end)\n\n	\\subsection{Gel electrophoresis} % (fold)\n	\\label{sub:gel_electrophoresis}\n\n		Discontinuous \\ac{SDS-PAGE} was performed with a 13\\% separating gel\\upcite[.]{laemmli} Detection of \\ac{LPS} was done by periodate oxidation and silver staining as described by Zhu \\etal\\!\\upcite{improvedsilverstain}\n	% subsection gel_electrophoresis (end)\n\n	\\subsection{\\textsc{nmr} spectroscopy} % (fold)\n	\\label{sub:nmr_spectroscopy}\n\n		\\ac{NMR} experiments were carried out on a Varian INOVA 600 \\si{\\mega\\hertz} (\\textsuperscript{1}H) spectrometer with 5 \\si{\\milli\\meter} gradient probe at 25--50\\cel with acetone internal reference (2.225 ppm for \\textsuperscript{1}H and 31.45 ppm for \\textsuperscript{13}C), using standard pulse sequences \\ac{gCOSY}, \\ac{TOCSY}(mixing time 120 \\si{\\milli\\second}), \\ac{ROESY} (mixing time 300 \\si{\\milli\\second}),  \\ac{gHSQC}, and \\ac{gHMBC}(100 \\si{\\milli\\second} long range transfer delay), \\ac{HMQC} for \\textsuperscript{1}H-\\textsuperscript{31}P correlation, J$_{HX}$ set to 10 \\si{\\hertz}. Acquisition time was kept at 0.8--1 sec for H-H correlations and 0.25 sec for \\ac{HSQC}. 256 increments were acquired for t$_1$ in all 2D spectra, except 512 for \\ac{gCOSY}.\n	% subsection nmr_spectroscopy (end)\n\n	\\subsection{\\textsc{lps} Chromatography} % (fold)\n	\\label{sub:chromatography}\n\n		Gel chromatography was performed on a Sephadex G-15 column (1.5 x 60 \\si{\\centi\\meter}) or a Bio-gel P6 column (2.5 x 60 \\si{\\centi\\meter}) in pyridine-acetic acid buffer (4 \\millilitre:10 \\millilitre:1 \\si{\\litre} water), and monitored by refractive index detector (Gilson). Anion exchange chromatography was done on an Hitrap Q column (2x5 \\millilitre size, Amersham), with \\ac{UV} monitoring at 220 nm in a linear gradient of \\ce{NaCl} (0--1 M, 1 h) at the 3 \\si{\\milli\\litre\\per\\minute}. Fractions of 1 min were collected and additionally tested for carbohydrates, by spotting on an \\ce{SiO2} \\ac{TLC} plate, dipping them in 5\\% \\ce{H2SO4} in \\ce{EtOH} and heating with a heat-gun. All fractions of interest were dried in a Savant drying centrifuge and \\textsuperscript{1}H spectra were recorded for each fraction without desalting. For 2D \\ac{NMR}, desalting was performed on a Sephadex G15 column. \n	% subsection chromatography (end)x`'\n\n	\\subsection{Monosaccharide analysis} % (fold)\n	\\label{sub:monosaccharide_analysis}\n\n		Samples with added inositol standard were hydrolysed with 3 M \\ac{TFA} at 120\\cel. Monosaccharides were converted to alditol acetates by conventional methods and identified by \\ac{GC-MS} on a Varian Saturn 2000 instrument on a DB17 capillary column (30 m x 0.25 \\si{\\milli\\meter} ID x 0.25 \\si{\\micro\\meter} film) with helium carrier gas, using a temperature gradient 170\\cel (3 min)--250\\cel at 5\\si{\\degreeCelsius\\per\\minute}.\n	% subsection monosaccharide_analysis (end)\n\n	\\subsection{Determination of absolute configurations of monosaccharides} % (fold)\n	\\label{sub:determination_of_absolute_configurations_of_monosaccharides}\n\n		To the polysaccharide sample (0.2 \\milligram) (R)-2-\\ce{BuOH} (0.2 \\millilitre) and acetyl chloride (0.02 \\millilitre) were added at room temperature, heated at 90\\cel for 2 h, dried by air stream, acetylated, analysed by \\ac{GC-MS} as described above. Standards were prepared from monosaccharides of known configuration with (R)- and (S)-2-\\ce{BuOH}.\n	% subsection determination_of_absolute_configurations_of_monosaccharides (end)\n\n	\\subsection{Methylation analysis} % (fold)\n	\\label{sub:methylation_analysis}\n\n		For the methylation analysis core sample (2 \\milligram) was dephosphorylated with 50 \\microlitre of 48\\% \\ce{HF} for 20 h at +10\\cel, diluted with 2 \\millilitre of ethanol, precipitate collected by centrifugation, washed with 2 \\millilitre of ethanol, dried.\n\n		Methylation was performed by Ciucanu-Kerek procedure\\upcite[.]{ciucanufrancisc} 0.5 \\milligram of the sample was dissolved in 0.5 \\millilitre of dry DMSO with heating at 100\\cel for 5-10 min until complete dissolution. Powdered \\ce{NaOH} (about 50 \\milligram) was added and the mixture was stirred for 30 min. 0.2 \\millilitre of \\ce{MeI} was added and the mixture was stirred for a subsequent 30 min. The sample was then flushed with air to remove the MeI and diluted to 10 \\millilitre with water. The sample was passed through a C18 Seppak cartridge, washed with 10 \\millilitre of water, and then the methylated compound was eluted with 5 \\millilitre of methanol. The methylated product was hydrolysed with 3 M \\ac{TFA} (120\\cel, 3h), dried, reduced with \\ce{NaBD4}, and the reagent destroyed with 0.5 \\millilitre of 4 M \\ce{HCl}. The solution was dried under a stream of air and dried twice more with the addition of \\ce{MeOH} (1 \\millilitre). The sample was acetylated with 0.4 \\millilitre{} \\ce{Ac2O} and 0.4 \\millilitre pyridine for 30 min at 100\\cel. It was then dried and analysed by \\ac{GC-MS}.\n	% subsection methylation_analysis (end)\n\n	\\subsection{Periodate oxidation} % (fold)\n	\\label{sub:periodate_oxidation}\n\n		 \\ac{PS} (10 \\milligram) was dissolved in water (2 \\millilitre). \\ce{NaIO4} (20 \\milligram) was added and the solution was incubated at room temperature for 24 h. Ethylene glycol (0.2 \\millilitre) and an excess \\ce{NaBD4} were added. The solution was then kept for 1 h before being treated with 0.2 \\millilitre of \\ce{AcOH} and desalted on a Sephadex G-15 column. The product was hydrolysed with 2\\% \\ce{AcOH}, 2 h at 100\\cel, and  separated on a Sephadex G-50 column to give \\ac{OS}1.\n	% subsection periodate_oxidation (end)\n% section methods (end)\n\n\\section{Discussion} % (fold)\n\\label{sec:discussion}\n\n	The \\ac{LPS} of \\caulobacter has an unusually complicated structure with two different polysaccharides, irregular substituents, and unfavourable \\ac{NMR} spectra. Presented data show structures of the core part, two polymers, and putative terminal structures. The polysaccharides could not be separated by size exclusion or anion-exchange chromatography and are probably linked together through the same core. The core of the \\caulobacter{} \\ac{LPS} has been studied previously and an initial assessment of its composition was made\\upcite[,]{ravenscroftlps} but the complete structure had not been determined. The structure of the \\ac{OPS} has not been studied before. In our view the polysaccharide structure of the \\caulobacter{} \\ac{LPS} represents one of the most complicated bacterial \\ac{LPS} polysaccharide structures identified so far.\n\n	The Kdo present in the \\ac{LPS} core structure (see \\cref{fig:lpscore}) has the typical substitutions at O-4 and O-5 of a manno-configured sugar and a negatively charged sugar, respectively\\upcite[.]{brade99} It also has a rarely observed third substitution at O-7 with a heptose moiety. The Kdo O-7 position is known to be occupied by a galactose moiety in the core of \\textit{Rhizobium leguminosarum} bv. Viciae VF39\\upcite[,]{rhizobiumlps} and the secondary Kdo in the core oligosaccharide from \\textit{Acinetobacter baumannii} ATCC 19606 has an O-7 substituted with a glucosamine\\upcite[.]{acinetobacterlps}\n\n	In the traditional model \\ac{LPS} occupies the outer leaflet of the outer membrane of a Gram-negative bacterium, and so (excepting the presence of cell associated \\ac{EPS}) is the outermost layer of the cell. For \\caulobacter, however, \\ac{LPS} is the penultimate barrier below the protein \\ac{S-layer}. The \\caulobacter{} \\ac{OPS} serves as the anchor for the S-layer and is likely not accessible to the environment\\upcite[.]{walker94} The carbohydrates found in the \\ac{OPS} are particularly hydrophobic, marked by the abundance of deoxy-sugars, acetyl groups, and methyl groups. This hydrophobicity is possibly a result of particular sugars needed for \\ac{S-layer} anchoring, as these carbohydrate structures likely evolved as the cognate ligands for the \\ac{S-layer} protein, RsaA. The distance between the \\ac{S-layer} and the outer membrane is about 17--19 nm\\upcite[.]{dipm} It is possible the hydrophobicity aids in packing the polysaccharides between the S-layer and the \\ac{LPS}. Further determination of RsaA's structure should help illuminate the interaction between the S-layer and \\ac{OPS}.\n\n	Knowledge of the structure of \\caulobacter{} \\ac{OPS} and \\ac{LPS} will facilitate the determination and characterization of their biosynthetic enzymes and mutant variants. Already, the enzymes LpxI\\upcite{lpxi} and GDP-L-perosamine acetylase\\upcite{perosmineacetyltransferase} from \\caulobacter have been characterized. One uncharacterised enzyme, WbqL, is necessary for proper \\ac{OPS} synthesis and disruption of wbqL leads to the accumulation of truncated and S-layer anchoring deficient \\ac{OPS} in the inner membrane and inhibits Crescentin-mediated cell curvature\\upcite[.]{lpsinterferecrescentin} Many genes, such as wbqL, have been identified as essential for \\ac{OPS} synthesis\\upcite{awramgenes} but have not yet been characterized. Other genes, that must be essential for \\ac{OPS} synthesis, have yet to be identified or characterized, such as the O-antigen polymerase and ligase.\n\n	% --Should I increase the text about lpxI?--%\n\n	The subunit-based repeating nature of \\caulobacter{} \\ac{OPS} suggests that a Wzy-dependent pathway synthesizes the polymer\\upcite[.]{lpsreview02} The previous study that aimed to identify genes essential for \\ac{OPS} did not identify many of the canonical genes in the Wzy-dependant pathway\\upcite[,]{awramgenes} such as the O-unit transporter, Wzx, O-antigen polymerase, Wzy; the chain-length determinate protein, Wzz; and the O-antigen ligase, WaaL. Genes that have been annotated as putative O-antigen synthesis genes do appear in the sequenced genomes for \\caulobacter CB15, but they have not been experimentally confirmed. \n\n	An additional aspect to this \\ac{LPS} it the fact that its O-antigen is of homogeneous length. While other \\ac{LPS}s vary in size due to the number of O-antigen repeat groups, appearing as a laddering of bands by \\ac{SDS-PAGE}, the \\ac{LPS} from \\caulobacter appears as a single band\\upcite[.]{walker94} Initial \\ac{MALDI-TOF} analysis of the entire \\ac{LPS} indicates a size of about 10.8 kDa (see \\cref{fig:lpsmalditof} on \\cpageref{fig:lpsmalditof}).\n	After accounting for the solved structures for the lipid A and core regions, this suggests the \\ac{LPS} contains approximately 5 repeats of the proposed heptameric O-antigen structure.  There is not currently a known mechanism for the regulation and synthesis of a strictly homogeneous length O-antigen. It is possible that this \\ac{OPS} is synthesized via the \\ac{ABC}-transporter-dependent pathway\\upcite{lpsreview02} or another heretofore undiscovered mechanism. In any event it would seem that the transfer of a polysaccharide of this considerable size to the outer leaflet of the outer membrane is a remarkable feat for the bacterium.\n \n",
 			"file": "lps_chapter/lps_chapter.tex",
+			"file_size": 38805,
+			"file_write_time": 130566702500000000,
 			"settings":
 			{
-				"buffer_size": 36855,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "biblio.bib",
-			"settings":
-			{
-				"buffer_size": 22248,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "abstract.tex",
-			"settings":
-			{
-				"buffer_size": 855,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "UBCpreamble.tex",
-			"settings":
-			{
-				"buffer_size": 6028,
+				"buffer_size": 38805,
 				"line_ending": "Unix"
 			}
 		},
@@ -56,10 +35,34 @@
 			}
 		},
 		{
+			"file": "UBCpreamble.tex",
+			"settings":
+			{
+				"buffer_size": 6059,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "biblio.bib",
+			"settings":
+			{
+				"buffer_size": 21686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "UBCrefpackages.tex",
+			"settings":
+			{
+				"buffer_size": 5389,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "macros.tex",
 			"settings":
 			{
-				"buffer_size": 3460,
+				"buffer_size": 3439,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +70,7 @@
 			"file": "glossary.tex",
 			"settings":
 			{
-				"buffer_size": 4396,
+				"buffer_size": 4825,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +78,7 @@
 			"file": "Guide.TODO",
 			"settings":
 			{
-				"buffer_size": 1151,
+				"buffer_size": 1210,
 				"line_ending": "Unix"
 			}
 		}
@@ -83,16 +86,48 @@
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"command_palette":
 	{
-		"height": 315.0,
+		"height": 368.0,
 		"selected_items":
 		[
 			[
-				"git mer",
+				"note",
+				"Notes: New…"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"merge",
 				"Git: Merge"
 			],
 			[
 				"check",
 				"Git: Checkout"
+			],
+			[
+				"git check",
+				"Git: Checkout New Branch"
+			],
+			[
+				"git mer",
+				"Git: Merge"
 			],
 			[
 				"git ch",
@@ -123,20 +158,12 @@
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"git comm",
 				"Git: Commit"
 			],
 			[
 				"git quick",
 				"Git: Quick Add"
-			],
-			[
-				"packa",
-				"Package Control: List Packages"
 			],
 			[
 				"git qu",
@@ -248,10 +275,6 @@
 			],
 			[
 				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"instal",
 				"Package Control: Install Package"
 			],
 			[
@@ -384,19 +407,22 @@
 	[
 		"/Users/mikedave/Dropbox/Doctoral Thesis",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/intro",
-		"/Users/mikedave/Dropbox/Doctoral Thesis/lps_chapter"
+		"/Users/mikedave/Dropbox/Doctoral Thesis/lps_chapter/img"
 	],
 	"file_history":
 	[
-		"/Users/mikedave/Dropbox/Doctoral Thesis/UBCrefpackages.tex",
-		"/Users/mikedave/Dropbox/Doctoral Thesis/UBCpreamble.tex",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/Notes.sublime-settings",
+		"/Users/mikedave/Dropbox/Notes/Dissertation.note",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/biblio.bib",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/intro/intro.tex",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/abstract.tex",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/UBCpreamble.tex",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/UBCrefpackages.tex",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/preface.tex",
 		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/PlainTasks.sublime-settings",
 		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/PlainTasks/PlainTasks (OSX).sublime-settings",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/macros.tex",
 		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
-		"/Users/mikedave/Dropbox/Doctoral Thesis/intro/intro.tex",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/ack.tex",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/lps_chapter/biblio.bib",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/TODO.TODO",
@@ -530,6 +556,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Seminar",
+			"Sitting",
+			"And so, progressively, the veil behind which Nature has so carefully con- cealed her secrets is being lifted where the carbohydrates are concerned.",
+			"Caulobacter crescentus",
+			"	Title = {DipM, a new factor required for peptidoglycan remodelling during cell division in Caulobacter crescentus},\n",
+			"Caulobacter crescentus",
+			"\\{(Doi)",
+			"{Doi",
+			"{(Doi)",
+			"doi ",
+			"doi !=",
+			"doi",
+			"AQ",
+			"sect",
+			"3-o",
+			"MS",
+			"walker",
+			"%^",
+			"cite",
+			"darveauprocedure",
 			"method",
 			"pageref",
 			"3o",
@@ -637,27 +683,7 @@
 			"lstlisting",
 			"toclo",
 			"sub",
-			"sjcitep",
-			"webr",
-			"footnot",
-			"web",
-			"footnot",
-			".\n",
-			"foo",
-			"bib",
-			"autor",
-			"citet",
-			"bib",
-			"espana",
-			"type",
-			"rack",
-			"abstra",
-			"itemize",
-			"Select",
-			"6",
-			"#",
-			"1",
-			"env"
+			"sjcitep"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -686,15 +712,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7965,
+						"buffer_size": 8047,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5151,
-								5151
+								6576,
+								6576
 							]
 						],
 						"settings":
@@ -704,10 +730,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2744.0,
+						"translation.y": 3841.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -716,26 +742,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 36855,
+						"buffer_size": 38805,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26334,
-								26334
+								34406,
+								34406
 							]
 						],
 						"settings":
 						{
+							"easy_motion_mode": false,
 							"open_with_edit": true,
 							"spell_check": true,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7107.0,
+						"translation.y": 12755.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -743,40 +770,11 @@
 				},
 				{
 					"buffer": 2,
-					"file": "biblio.bib",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 22248,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22231,
-								22231
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 11674.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "abstract.tex",
+					"file": "intro/intro.tex",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 855,
+						"buffer_size": 20575,
 						"regions":
 						{
 						},
@@ -789,7 +787,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -799,20 +799,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "UBCpreamble.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6028,
+						"buffer_size": 6059,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4525,
-								4525
+								1379,
+								1379
 							]
 						],
 						"settings":
@@ -822,27 +822,57 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1701.0,
+						"translation.y": 2327.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "intro/intro.tex",
+					"buffer": 4,
+					"file": "biblio.bib",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20575,
+						"buffer_size": 21686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								110,
-								110
+								21492,
+								21492
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 11064.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "UBCrefpackages.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
 							]
 						],
 						"settings":
@@ -852,7 +882,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3.0,
+						"translation.y": 538.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 8,
@@ -870,15 +900,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3460,
+						"buffer_size": 3439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3452,
-								3452
+								2090,
+								2090
 							]
 						],
 						"settings":
@@ -887,10 +917,10 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 224.0,
+						"translation.y": 1466.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -899,25 +929,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4396,
+						"buffer_size": 4825,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								989,
-								993
+								3229,
+								3229
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 501.0,
+						"translation.y": 2456.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -935,15 +966,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1151,
+						"buffer_size": 1210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1075,
-								1076
+								1010,
+								1010
 							]
 						],
 						"settings":
@@ -952,7 +983,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 681.0,
+						"translation.y": 465.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1045,6 +1076,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"bi",
+				"biblio.bib"
+			],
+			[
+				"bibli",
+				"biblio.bib"
+			],
 			[
 				"lps",
 				"lps_chapter/lps_chapter.tex"
