@@ -31,11 +31,39 @@
   \strng{fullhash}{HA1}
   \field{pages}{360\bibrangedash 366}
   \field{shortjournal}{Biochim Biophys}
-  \field{title}{A macromolecular mono-layer in the cell wall of< i>
-  Spirillum</i> spec}
+  \field{title}{A macromolecular mono-layer in the cell wall of
+  \textit{Spirillum} spec}
   \field{volume}{10}
   \field{journaltitle}{Biochimica et biophysica acta}
   \field{year}{1953}
+\endentry
+
+\entry{sleytr1983crystalline}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sleytr}{S.}%
+     {Uwe~B}{U.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Messner}{M.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139,
+  USA}%
+  }
+  \strng{namehash}{SUBMP1}
+  \strng{fullhash}{SUBMP1}
+  \field{number}{1}
+  \field{pages}{311\bibrangedash 339}
+  \field{shortjournal}{Ann Rev Microb}
+  \field{title}{Crystalline surface layers on bacteria}
+  \field{volume}{37}
+  \field{journaltitle}{Annual Reviews in Microbiology}
+  \field{year}{1983}
 \endentry
 
 \entry{caulobacterlipida}{article}{}
