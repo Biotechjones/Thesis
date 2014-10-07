@@ -16,28 +16,6 @@
   {}
 \endgroup
 
-\entry{firstslayer}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Houwink}{H.}%
-     {AL}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Elsevier}%
-  }
-  \strng{namehash}{HA1}
-  \strng{fullhash}{HA1}
-  \field{pages}{360\bibrangedash 366}
-  \field{shortjournal}{Biochim Biophys}
-  \field{title}{A macromolecular mono-layer in the cell wall of
-  \textit{Spirillum} spec}
-  \field{volume}{10}
-  \field{journaltitle}{Biochimica et biophysica acta}
-  \field{year}{1953}
-\endentry
-
 \entry{sleytr1983crystalline}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -64,6 +42,233 @@
   \field{volume}{37}
   \field{journaltitle}{Annual Reviews in Microbiology}
   \field{year}{1983}
+\endentry
+
+\entry{messner1986characterization}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Messner}{M.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pum}{P.}%
+     {Dietmar}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sleytr}{S.}%
+     {Uwe~B}{U.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{MPPDSUB1}
+  \strng{fullhash}{MPPDSUB1}
+  \field{number}{1}
+  \field{pages}{73\bibrangedash 88}
+  \field{shortjournal}{J Ultra Mol Struct Res}
+  \field{title}{Characterization of the ultrastructure and the self-assembly of
+  the surface layer of \textit{Bacillus stearothermophilus} strain NRS 2004/3a}
+  \field{volume}{97}
+  \field{journaltitle}{Journal of ultrastructure and molecular structure
+  research}
+  \field{year}{1986}
+\endentry
+
+\entry{masuda1980reassembly}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Masuda}{M.}%
+     {Kuniyoshi}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kawata}{K.}%
+     {Tomio}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{MKKT1}
+  \strng{fullhash}{MKKT1}
+  \field{number}{4}
+  \field{pages}{299\bibrangedash 308}
+  \field{shortjournal}{Microb Immun}
+  \field{title}{Reassembly of the regularly arranged subunits in the cell wall
+  of Lactobacillus brevis and their reattachment to cell walls}
+  \field{volume}{24}
+  \field{journaltitle}{Microbiology and immunology}
+  \field{year}{1980}
+\endentry
+
+\entry{kawata1972extracellular}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kawata}{K.}%
+     {Tomio}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Masuda}{M.}%
+     {Kuniyoshi}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{KTMK1}
+  \strng{fullhash}{KTMK1}
+  \field{number}{6}
+  \field{pages}{515\bibrangedash 523}
+  \field{shortjournal}{Jpn J Microbiol}
+  \field{title}{Extracellular crystalline lattice material of Corynebacterium
+  diphtheriae revealed by electron microscopy}
+  \field{volume}{16}
+  \field{journaltitle}{Japanese journal of microbiology}
+  \field{year}{1972}
+\endentry
+
+\entry{ishiguro1981loss}{article}{}
+  \true{moreauthor}
+  \name{author}{6}{}{%
+    {{}%
+     {Ishiguro}{I.}%
+     {EE}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kay}{K.}%
+     {WW}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ainsworth}{A.}%
+     {TERESA}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chamberlain}{C.}%
+     {JB}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Austen}{A.}%
+     {RA}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Buckley}{B.}%
+     {JT}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Am Soc Microbiol}%
+  }
+  \strng{namehash}{IE+1}
+  \strng{fullhash}{IEKWATCJARBJ+1}
+  \field{number}{1}
+  \field{pages}{333\bibrangedash 340}
+  \field{shortjournal}{J Bacteriol}
+  \field{title}{Loss of virulence during culture of Aeromonas salmonicida at
+  high temperature.}
+  \field{volume}{148}
+  \field{journaltitle}{Journal of bacteriology}
+  \field{year}{1981}
+\endentry
+
+\entry{holt1969comparative}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Holt}{H.}%
+     {SC}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leadbetter}{L.}%
+     {ER}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Society for Microbiology (ASM)}%
+  }
+  \strng{namehash}{HSLE1}
+  \strng{fullhash}{HSLE1}
+  \field{number}{2}
+  \field{pages}{346\bibrangedash 378}
+  \field{shortjournal}{Bacteriol Rev}
+  \field{title}{Comparative ultrastructure of selected aerobic spore-forming
+  bacteria: a freeze-etching study.}
+  \field{volume}{33}
+  \field{journaltitle}{Bacteriological reviews}
+  \field{year}{1969}
+\endentry
+
+\entry{smit1981periodic}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Smit}{S.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grano}{G.}%
+     {DA}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glaeser}{G.}%
+     {RM}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agabian}{A.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Am Soc Microbiol}%
+  }
+  \strng{namehash}{SJ+1}
+  \strng{fullhash}{SJGDGRAN1}
+  \field{number}{3}
+  \field{pages}{1135\bibrangedash 1150}
+  \field{shortjournal}{J Bacteriol}
+  \field{title}{Periodic surface array in Caulobacter crescentus: fine
+  structure and chemical analysis.}
+  \field{volume}{146}
+  \field{journaltitle}{Journal of bacteriology}
+  \field{year}{1981}
+\endentry
+
+\entry{firstslayer}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Houwink}{H.}%
+     {AL}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{HA1}
+  \strng{fullhash}{HA1}
+  \field{pages}{360\bibrangedash 366}
+  \field{shortjournal}{Biochim Biophys}
+  \field{title}{A macromolecular mono-layer in the cell wall of
+  \textit{Spirillum} spec}
+  \field{volume}{10}
+  \field{journaltitle}{Biochimica et biophysica acta}
+  \field{year}{1953}
 \endentry
 
 \entry{caulobacterlipida}{article}{}
@@ -104,7 +309,7 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{SJ+1}
+  \strng{namehash}{SJ+2}
   \strng{fullhash}{SJKIACRJVEPMBHHQN1}
   \field{issn}{1753-4259}
   \field{number}{1}
