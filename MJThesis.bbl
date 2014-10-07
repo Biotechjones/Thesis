@@ -183,6 +183,31 @@
   \field{year}{1981}
 \endentry
 
+\entry{weiss1974subunit}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Weiss}{W.}%
+     {Richard~L}{R.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Am Soc Microbiol}%
+  }
+  \strng{namehash}{WRL1}
+  \strng{fullhash}{WRL1}
+  \field{number}{1}
+  \field{pages}{275\bibrangedash 284}
+  \field{shortjournal}{J Bacteriol}
+  \field{title}{Subunit cell wall of Sulfolobus acidocaldarius}
+  \field{volume}{118}
+  \field{journaltitle}{Journal of bacteriology}
+  \field{year}{1974}
+\endentry
+
+\entry{p3book}{incollection}{}
+\endentry
+
 \entry{holt1969comparative}{article}{}
   \name{author}{2}{}{%
     {{}%
