@@ -20,7 +20,10 @@
 				"*.bbx",
 				"*.gitignore",
 				"*.lof",
-				"*.xml"
+				"*.xml",
+				"*.cls",
+				"*.bak",
+				"*-blx.bib"
 			],
 			"follow_symlinks": true,
 			"path": "."

@@ -36,8 +36,8 @@
 \makeatother
 
 
-\input{UBCpreamble.tex}
-\input{UBCrefpackages.tex}
+\input{misc/UBCpreamble.tex}
+\input{misc/UBCrefpackages.tex}
 
 %\usepackage{longtable}	% provide tables spanning multiple pages
 %\usepackage{chngpage}	% support changing the page widths on demand
@@ -86,8 +86,8 @@
 % \tolerance=1000
 
 %% And include some of our own useful macros
-\input{macros}
-\input{glossary}	% always input, since other macros may rely on it
+\input{misc/macros}
+\input{misc/glossary}	% always input, since other macros may rely on it
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -118,7 +118,7 @@
 \hypersetup{
   pdftitle={The structure, composition, and application of the cell envelope of \textit{Caulobacter crescentus}  (DRAFT: \today)},
   pdfauthor={Michael D Jones},
-  pdfkeywords={Your keywords here}
+  pdfkeywords={polysaccharides, protein, S-layer, Caulobacter, NMR, Crystallography}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -134,7 +134,7 @@
 %% avoiding reprocessing the entire file.
 %\includeonly{intro,conclusions}
 %\includeonly{discussion}
-\addbibresource{biblio.bib} %%% Bibtex file
+\addbibresource{misc/biblio.bib} %%% Bibtex file
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -145,11 +145,11 @@
 %    1. Title page (mandatory)
 \maketitle
 %    2. Abstract (mandatory - maximum 350 words)
-\include{abstract}
+\include{front_matter/abstract}
 	\cleardoublepage
 
 %    3. Preface
-\include{preface}
+\include{front_matter/preface}
 	\cleardoublepage
 
 %    4. Table of contents (mandatory - list all items in the preliminary pages
@@ -191,7 +191,7 @@
     {} 
     {0em}
     {\hspace{-0.4pt}\Large \thesection\hspace{0.6em}}
-\include{ack}
+\include{front_matter/ack}
 
 %   11. Dedication (optional)
 
@@ -225,7 +225,7 @@
 %       Ethics Board's Certificates of Approval)
 %\include{reb-coa}	% pdfpages is useful here
 
-\include{appendix}
+\include{appendix/appendix}
 
 
 \backmatter
