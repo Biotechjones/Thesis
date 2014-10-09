@@ -43,21 +43,6 @@
 %\usepackage{chngpage}	% support changing the page widths on demand
 %\usepackage{tabularx}	% an enhanced tabular environment
 
-%% enumitem: support pausing and resuming enumerate environments.
-%\usepackage{enumitem}
-
-%% ragged2e: provides several new new commands \Centering, \RaggedLeft,
-%% \RaggedRight and \justifying and new environments Center, FlushLeft,
-%% FlushRight and justify, which set ragged text and are easily
-%% configurable to allow hyphenation.
-%\usepackage{ragged2e}
-
-%% The ulem package provides a \sout{} for striking out text and
-%% \xout for crossing out text.  The normalem and normalbf are
-%% necessary as the package messes with the emphasis and bold fonts
-%% otherwise.
-%\usepackage[normalem,normalbf]{ulem}    % for \sout
-
 %% The following commands causes chapter and section references to
 %% uppercase the part name.
 \renewcommand{\chapterautorefname}{Chapter}
@@ -74,59 +59,41 @@
 % \renewcommand{\@pnumwidth}{3em}
 % \makeatother
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%
-%% Some special settings that controls how text is typeset
-%%
-% \raggedbottom		% pages don't have to line up nicely on the last line
-% \sloppy		% be a bit more relaxed in inter-word spacing
-% \clubpenalty=10000	% try harder to avoid orphans
-% \widowpenalty=10000	% try harder to avoid widows
-% \tolerance=1000
-
-%% And include some of our own useful macros
+%% Macros and Glossary %% Be sure to keep these open in Sublime Text
 \input{misc/macros}
-\input{misc/glossary}	% always input, since other macros may rely on it
+\input{misc/glossary}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%
 %% Document meta-data: be sure to also change the \hypersetup information
 %%
 
 \title{The structure, composition, and application of the cell envelope from \textit{Caulobacter crescentus}}
 %\subtitle{If you want a subtitle}
-
 \author{Michael D Jones}
 \previousdegree{B. Science, Specialization in Biotechnology, University of Alberta, 2006}
 \previousdegree{M. Science, Pharmaceutical Sciences, University of Alberta, 2008}
-
-% What is this dissertation for?
 \degreetitle{Doctor of Philosophy}
-
 \institution{The University Of British Columbia}
 \campus{Vancouver}
-
 \faculty{The Faculty of Science}
 \department{Microbiology and Immunology}
 \submissionmonth{April}
 \submissionyear{2015}
 
 %% hyperref package provides support for embedding meta-data in .PDFlink
-%% files
+%% files  %^ Remove DRAFT before you submit
 \hypersetup{
   pdftitle={The structure, composition, and application of the cell envelope of \textit{Caulobacter crescentus}  (DRAFT: \today)},
   pdfauthor={Michael D Jones},
   pdfkeywords={polysaccharides, protein, S-layer, Caulobacter, NMR, Crystallography}
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 
 %% The document content
 %%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% LaTeX's \includeonly commands causes any uses of \include{} to only
 %% include files that are in the list.  This is helpful to produce
 %% subsets of your thesis (e.g., for committee members who want to see
@@ -135,20 +102,23 @@
 %\includeonly{intro,conclusions}
 %\includeonly{discussion}
 \addbibresource{misc/biblio.bib} %%% Bibtex file
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% From Thesis Components: Tradtional Thesis
 %% <http://www.grad.ubc.ca/current-students/dissertation-thesis-preparation/order-components>
 
 % Preliminary Pages (numbered in lower case Roman numerals)
 %    1. Title page (mandatory)
 \maketitle
+
 %    2. Abstract (mandatory - maximum 350 words)
 \include{front_matter/abstract}
 	\cleardoublepage
 
-%    3. Preface
+%    3. Preface (mandatory)
 \include{front_matter/preface}
 	\cleardoublepage
 
@@ -156,17 +126,20 @@
 %    starting with the abstract, followed by chapter headings and
 %    subheadings, bibliographies and appendices)
 \microtypesetup{protrusion=false} % disables protrusion locally in the document
-\tableofcontents % prints Table of Contents
-\microtypesetup{protrusion=true} % enables protrusion
-	\cleardoublepage	% required by tocloft package
+\tableofcontents                                % prints Table of Contents
+\microtypesetup{protrusion=true}  % enables protrusion
+	\cleardoublepage	     % required by tocloft package
 \acresetall
+
 %    5. List of tables (mandatory if thesis has tables)
 \listoftables
-	\cleardoublepage	% required by tocloft package
+	\cleardoublepage	     % required by tocloft package
 \acresetall
+
 %    6. List of figures (mandatory if thesis has figures)
 \listoffigures
-	% \cleardoublepage	% required by tocloft package
+	\cleardoublepage	     % required by tocloft package
+
 %    7. List of illustrations (mandatory if thesis has illustrations)
 %    8. Lists of symbols, abbreviations or other (optional)
 
@@ -185,15 +158,17 @@
 	\acresetall
 	\textspacing		% begin one-half or double spacing
 	\cleardoublepage	% required by tocloft package
+
 %   10. Acknowledgements (optional)
-\titleformat{\section}[hang]{
-    \usefont{T1}{qhv}{b}{n}\selectfont} % "qhv" - TeX Gyre Heros, "b" - bold
-    {} 
-    {0em}
-    {\hspace{-0.4pt}\Large \thesection\hspace{0.6em}}
-\include{front_matter/ack}
+	\titleformat{\section}[hang]{
+	    \usefont{T1}{qhv}{b}{n}\selectfont} % "qhv" - TeX Gyre Heros, "b" - bold
+	    {} 
+	    {0em}
+	    {\hspace{-0.4pt}\Large \thesection\hspace{0.6em}}
+	\include{front_matter/ack}
 
 %   11. Dedication (optional)
+	\include{front_matter/dedication}
 
 % Body of Thesis (not all sections may apply)
 \mainmatter
@@ -201,31 +176,32 @@
 	\acresetall	% reset all acronyms used so far
 
 %    1. Introduction
-\include{intro/intro}
+	\include{intro/intro}
 
 %    2. Main body
 % Generally recommended to put each chapter into a separate file
-\include{lps_chapter/lps_chapter}
-%\include{model}
-%\include{impl}
-%\include{discussion}
-%\include{conclusions}
+	\include{lps_chapter/lps_chapter}
+%	\include{model}
+%	\include{impl}
+%	\include{discussion}
+%	\include{conclusions}
+
 %    3. Notes
 %    4. Footnotes
 %    5. Bibliography
 % prints author names as small caps
-\renewcommand{\mkbibnamefirst}[1]{\textsc{#1}}
-\renewcommand{\mkbibnamelast}[1]{\textsc{#1}}
-\renewcommand{\mkbibnameprefix}[1]{\textsc{#1}}
-\renewcommand{\mkbibnameaffix}[1]{\textsc{#1}} 
-\printbibliography[heading=bibintoc]
+	\renewcommand{\mkbibnamefirst}[1]{\textsc{#1}}
+	\renewcommand{\mkbibnamelast}[1]{\textsc{#1}}
+	\renewcommand{\mkbibnameprefix}[1]{\textsc{#1}}
+	\renewcommand{\mkbibnameaffix}[1]{\textsc{#1}} 
+	\printbibliography[heading=bibintoc]  %% This actually makes the bibliography %%
 
 \appendix
 %    6. Appendices (including copies of all required UBC Research
 %       Ethics Board's Certificates of Approval)
-%\include{reb-coa}	% pdfpages is useful here
+%	\include{reb-coa}	% pdfpages is useful here
 
-\include{appendix/appendix}
+	\include{appendix/appendix}
 
 
 \backmatter

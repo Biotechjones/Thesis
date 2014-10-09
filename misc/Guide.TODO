@@ -4,6 +4,7 @@ Bib:'biblio.bib'
 !- Search for %^ to find things to do.
 _____________________________
 Front Matter
+	.-(Before submission) Remove DRAFT from hypersetup
 	--- Abstract : 350 words
 	--- Preface:https://www.grad.ubc.ca/current-students/dissertation-thesis-preparation/structure-theses-dissertations3
 	.-(Auto) TOC 
