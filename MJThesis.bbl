@@ -205,9 +205,6 @@
   \field{year}{1974}
 \endentry
 
-\entry{p3book}{incollection}{}
-\endentry
-
 \entry{holt1969comparative}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -240,7 +237,7 @@
   \name{author}{4}{}{%
     {{}%
      {Smit}{S.}%
-     {J}{J}%
+     {John}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -334,7 +331,7 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{SJ+2}
+  \strng{namehash}{SJ+1}
   \strng{fullhash}{SJKIACRJVEPMBHHQN1}
   \field{issn}{1753-4259}
   \field{number}{1}
