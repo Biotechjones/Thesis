@@ -8,27 +8,21 @@
 	"buffers":
 	[
 		{
-			"file": "biblio.bib",
-			"settings":
-			{
-				"buffer_size": 25602,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "intro/intro.tex",
 			"settings":
 			{
-				"buffer_size": 4228,
+				"buffer_size": 4215,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "MJThesis.tex",
+			"contents": "Package Control Messages\n========================\n\nSeti_UI:\n-------\n\n  v1.7.1 (19-10-2014)\n  -------------------\n  \n  1. fixed fold arrows orientation.\n  \n\n  v1.7 (16-10-2014)\n  -------------------\n  \n  1. fixed right & left tabset arrows ,now it should look sharp on Retina's.\n  \n\n  v1.6.3 (08-10-2014)\n  -------------------\n  \n  1. some couldn't get the (Golang & Jade) to work without the setting files so now they are included.\n  \n\n  v1.6.1 (08-10-2014)\n  -------------------\n  \n  1. fixed theme showing corrupted graphics.\n  \n\n  v1.6 (08-10-2014)\n  -------------------\n  \n  1. Golang & Jade icons added\n  \n  2. Changed the Seti folder name to Main for easier maintenance.\n  \n  3. Cleaned up more of the un-working file-types & related icons ,which can be found in \"not-working\" folder.\n  \n\n  v1.5 (18-09-2014)\n  -------------------\n  \n  1. Added Seti_orig for those who wants the original scheme ,keep in mind that some scope still have different colors (St is not Atom)\n  \n  - you can install it by\n  ```\n  \"color_scheme\": \"Packages/Seti_UI/Seti_orig.tmTheme\",\n  ```\n  \n  2.if you don't like any of the included schemes ,i feel you & am already working on a much richer/better one so stay tuned.\n  \n\n  v1.4.1 (16-09-2014)\n  -------------------\n  \n  1. fixed Rust scope.\n  2. changed quick panel row padding to work better with other plugins that use menus.\n  \n\n  v1.4 (15-09-2014)\n  -------------------\n  \n  1. Added Rust File Icons\n  2. fixed theme folder name in readme.\n  \n\n  v1.3 (12-09-2014)\n  -------------------\n  \n  1. Updated HTML definition to include more file types.\n  \n\n  v1.2 (11-09-2014)\n  -------------------\n  1-manual install is back.\n  \n  2-scss icons are added.\n  \n  3-fixed global tag scope color\n  \n  4-added slim to html icon settings file.\n  \n  5-the html file will look different than the original Atom, I changed the scopes color intentionally for easier reading, please tell me if you want the old one.\n  \n  6-looking for a Jade icon, so if you have any ideas message me.\n  \n\n  v1.1 (10-09-2014)\n  -------------------\n  1-No more manual install as its not recommended.\n  \n  2-Fixed package name + other files so it work as soon as u install it without probs.\n  \n\n  v1.0 (9-09-2014)\n  -------------------\n  Hey there,\n  \n  \n  # Init Release\n  ==============\n  v1.0\n  \n",
 			"settings":
 			{
-				"buffer_size": 8364,
-				"line_ending": "Unix"
+				"buffer_size": 2300,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
 			}
 		},
 		{
@@ -40,7 +34,7 @@
 			}
 		},
 		{
-			"file": "macros.tex",
+			"file": "misc/macros.tex",
 			"settings":
 			{
 				"buffer_size": 3439,
@@ -48,18 +42,18 @@
 			}
 		},
 		{
-			"file": "glossary.tex",
+			"file": "misc/glossary.tex",
 			"settings":
 			{
-				"buffer_size": 4845,
+				"buffer_size": 4833,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Guide.TODO",
+			"file": "misc/Guide.TODO",
 			"settings":
 			{
-				"buffer_size": 1616,
+				"buffer_size": 1596,
 				"line_ending": "Unix"
 			}
 		}
@@ -67,9 +61,33 @@
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"command_palette":
 	{
-		"height": 368.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"tod",
+				"Set Syntax: ToDone"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"git che",
 				"Git: Checkout"
@@ -89,10 +107,6 @@
 			[
 				"note",
 				"Notes: New…"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"packa",
@@ -255,10 +269,6 @@
 				"Git: Checkout New Branch"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
 				"gitcomm",
 				"Git: Commit"
 			],
@@ -363,7 +373,7 @@
 				"Snippet: Cases"
 			]
 		],
-		"width": 435.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -387,20 +397,29 @@
 	"expanded_folders":
 	[
 		"/Users/mikedave/Dropbox/Doctoral Thesis",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/front_matter",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/intro",
-		"/Users/mikedave/Dropbox/Doctoral Thesis/intro/img"
+		"/Users/mikedave/Dropbox/Doctoral Thesis/intro/img",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/misc"
 	],
 	"file_history":
 	[
-		"/Users/mikedave/Dropbox/Doctoral Thesis/UBCpreamble.tex",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/TODO.TODO",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/DocThesis.sublime-project",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/MJThesis.tex",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/misc/Guide.TODO",
+		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/ToDone/Settings/ToDone.sublime-settings",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/front_matter/dedication.tex",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/misc/biblio.bib",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/front_matter/preface.tex",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/UBCpreamble.tex",
+		"/Users/mikedave/Dropbox/Doctoral Thesis/lps_chapter/lps_chapter.tex",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/UBCrefpackages.tex",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/intro/intro.tex",
-		"/Users/mikedave/Dropbox/Doctoral Thesis/lps_chapter/lps_chapter.tex",
 		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/biblio.bib",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/MJThesis-blx.bib",
-		"/Users/mikedave/Dropbox/Doctoral Thesis/DocThesis.sublime-project",
 		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/Notes.sublime-settings",
 		"/Users/mikedave/Dropbox/Notes/Dissertation.note",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/abstract.tex",
@@ -410,7 +429,6 @@
 		"/Users/mikedave/Dropbox/Doctoral Thesis/macros.tex",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/ack.tex",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/lps_chapter/biblio.bib",
-		"/Users/mikedave/Dropbox/Doctoral Thesis/TODO.TODO",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/intro.tex",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/custom-numeric-comp.bbx",
 		"/Users/mikedave/Dropbox/Doctoral Thesis/preface.aux",
@@ -433,7 +451,6 @@
 		"/Users/mikedave/Dropbox/ThesisPlanning/Chap3/chap3",
 		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
 		"/Users/mikedave/Documents/Thesis Musings/Thesis.sublime-project",
-		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
 		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
 		"/Users/mikedave/Library/Application Support/Sublime Text 3/Packages/PlainTasks/Default (OSX).sublime-keymap",
@@ -514,16 +531,11 @@
 		"/Users/mdjones/Downloads/Four_Years (1)/Four Years.tex",
 		"/Users/mdjones/Downloads/Four_Years (1)/redditexample.tex",
 		"/Users/mdjones/Documents/loremcols.tex",
-		"/Users/mdjones/Documents/Thesis/.gitignore",
-		"/Users/mdjones/Documents/Thesis.sublime-project",
-		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/mdjones/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/mdjones/Documents/repo/.gitignore",
-		"/Users/mdjones/Documents/repo/tex.pdf"
+		"/Users/mdjones/Documents/Thesis/.gitignore"
 	],
 	"find":
 	{
-		"height": 54.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -537,6 +549,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"triagonal",
+			"tri",
+			" ,",
+			"triagonal",
 			"brade",
 			"sub",
 			"of ",
@@ -660,11 +676,7 @@
 			"unit",
 			"mL/min",
 			"Hz",
-			" ms",
-			" mm ",
-			"mm",
-			"MHz",
-			"µg/ml"
+			" ms"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -684,98 +696,70 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "biblio.bib",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 25602,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25583,
-								25583
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 14765.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "intro/intro.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4228,
+						"buffer_size": 4215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1819,
-								1819
+								2156,
+								2156
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 655.0,
+						"translation.y": 469.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "MJThesis.tex",
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8364,
+						"buffer_size": 2300,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2300,
+								2300
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1265.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "lps_chapter/lps_chapter.tex",
 					"semi_transient": false,
 					"settings":
@@ -787,8 +771,8 @@
 						"selection":
 						[
 							[
-								235,
-								235
+								1696,
+								1696
 							]
 						],
 						"settings":
@@ -797,21 +781,21 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7.0,
+						"translation.y": 513.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 4,
-					"file": "macros.tex",
+					"buffer": 3,
+					"file": "misc/macros.tex",
 					"semi_transient": false,
 					"settings":
 					{
@@ -822,8 +806,8 @@
 						"selection":
 						[
 							[
-								2090,
-								2090
+								2821,
+								2821
 							]
 						],
 						"settings":
@@ -832,27 +816,27 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1466.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "glossary.tex",
+					"buffer": 4,
+					"file": "misc/glossary.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4845,
+						"buffer_size": 4833,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								769,
-								769
+								3090,
+								3090
 							]
 						],
 						"settings":
@@ -863,7 +847,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2125.0,
+						"translation.y": 2343.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -876,29 +860,29 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
-					"file": "Guide.TODO",
-					"semi_transient": false,
+					"buffer": 5,
+					"file": "misc/Guide.TODO",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1616,
+						"buffer_size": 1596,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								879,
-								879
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage",
+							"syntax": "Packages/ToDone/ToDone.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 346.0,
+						"translation.y": 768.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -947,7 +931,7 @@
 		"rows":
 		[
 			0.0,
-			0.573766092517,
+			0.249867848259,
 			1.0
 		]
 	},
@@ -992,6 +976,18 @@
 		"selected_items":
 		[
 			[
+				"intro",
+				"intro/intro.tex"
+			],
+			[
+				"lps",
+				"lps_chapter/lps_chapter.tex"
+			],
+			[
+				"prefa",
+				"front_matterpreface.tex"
+			],
+			[
 				"mjt",
 				"MJThesis.tex"
 			],
@@ -1010,10 +1006,6 @@
 			[
 				"int",
 				"intro/intro.tex"
-			],
-			[
-				"lps",
-				"lps_chapter/lps_chapter.tex"
 			],
 			[
 				"intr",
@@ -1172,7 +1164,7 @@
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 228.0,
-	"status_bar_visible": true,
+	"status_bar_visible": false,
 	"template_settings":
 	{
 	}
