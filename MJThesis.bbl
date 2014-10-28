@@ -942,6 +942,34 @@
   \field{year}{2012}
 \endentry
 
+\entry{tsai1982sensitive}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Tsai}{T.}%
+     {Chao-Ming}{C.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Frasch}{F.}%
+     {Carl~E}{C.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{TCMFCE1}
+  \strng{fullhash}{TCMFCE1}
+  \field{number}{1}
+  \field{pages}{115\bibrangedash 119}
+  \field{shortjournal}{Anal Biochem}
+  \field{title}{A sensitive silver stain for detecting lipopolysaccharides in
+  polyacrylamide gels}
+  \field{volume}{119}
+  \field{journaltitle}{Analytical biochemistry}
+  \field{year}{1982}
+\endentry
+
 \entry{ciucanufrancisc}{article}{}
   \name{author}{2}{}{%
     {{}%

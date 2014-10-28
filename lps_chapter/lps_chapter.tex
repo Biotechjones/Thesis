@@ -21,7 +21,7 @@
 \section{Results} % (fold)
 \label{sec:results}
 	\subsection{Characterisation of whole \textsc{lps}} % (fold)
-	\label}sub:characterisation_of_whole_lps}
+	\label{sub:characterisation_of_whole_lps}
 		%% %^Write
 		\begin{figure}[htb]
 			\begin{center}
@@ -93,7 +93,7 @@
 			\label{fig:lps2dnmr}
 		\end{figure}
 
-		\begin{table}[h]  % LPS OPS
+		\begin{table}[hp]  % LPS OPS
 			\centering
 			\caption{\Ac{NMR} data for \caulobacter \ac{PS}1 (40\cel) and deacylated \ac{PS}1 (50\cel). Me at 3.62/61.3 ppm.}
 			\label{tbl:lpsops}
@@ -187,7 +187,7 @@
 			\label{fig:lpsrhamnan}
 		\end{figure}
 
-		\begin{table}[h]
+		\begin{table}[ht]
 			\centering
 			\caption[\Ac{NMR} data for \caulobacter  \ac{PS}2 and its \ce{NaIO4} oxidation product \ac{OS}1]{\ac{NMR} data for \caulobacter  \ac{PS}2 and its \ce{NaIO4} oxidation product \ac{OS}1 (40\cel).}
 			\label{tbl:lpsrhamnan}
@@ -291,16 +291,38 @@
 		A Bligh Dyer extraction was performed on all \ac{LPS} preparations to reduce the presence of contaminating lipids. The extraction was performed as first published\upcite[.]{blighdyer} In short,  to one volume of aqueous \ac{LPS} sample, 3.75 volumes of chloroform/methanol (1:2 v/v) was added and the sample was vortexed for 30 seconds. 1.25 volumes of chloroform was added and the sample was vortexed again for 30 seconds. 1.25 volumes of water were added and the sample was vortexed a final time for 30 seconds. This mixture was then centrifuged at 15 300 x g for 10 min. After centrifugation, the mixture separated in to two phases, a lower organic phase and an upper aqueous phase. The \ac{LPS} partitions into the aqueous phase, while other lipids partition into the organic phase. The aqueous phase was retrieved and kept.
 	% subsection bligh_dyer_extraction (end)
 
-	\subsection{Gel electrophoresis} % (fold)
+	\subsection{Silver stain and gel electrophoresis} % (fold)
 	\label{sub:gel_electrophoresis}
 
-		Discontinuous \ac{SDS-PAGE} was performed with a 13\% separating gel\upcite[.]{laemmli} Detection of \ac{LPS} was done by periodate oxidation and silver staining as described by Zhu \etal\!\upcite{improvedsilverstain}
+		Discontinuous \ac{SDS-PAGE} was performed with a 13\% separating gel\upcite[.]{laemmli} Detection of \ac{LPS} was done by periodate oxidation and silver staining as described by Zhu \etal\!\upcite{improvedsilverstain} The silver stain protocol is a newer technique that uses vitamin C (ascorbic acid) in place of formaldehyde in traditional \ac{LPS} stains\upcite[.]{tsai1982sensitive} Table \ref{tbl:silver} give the details of the silver stain procedure.
+
+		% Please add the following required packages to your document preamble:
+		% \usepackage{booktabs}
+		\begin{table}[ht]  % Silver stain table
+			\centering
+			\caption{\ac{LPS} silver stain procedure}
+			\label{tbl:silver}
+			\begin{tabular}{@{}rcl@{}}
+				\toprule
+				\textbf{Step} & \textbf{Solution}                                                               & \textbf{Time} \\ \midrule
+				Oxidation       & 30\% EtOH, 10\% HOAc, 0.7\% periodic acid                                         & 10 	min          \\
+				Rinse           & d\ce{H2O}                                                                       & 5 min x2        \\
+				Silver          & 0.2\% \ce{AgNO3}                                                                & 5 min           \\
+				Rinse           & d\ce{H2O}                                                                       & 20 sec x2       \\
+				Develop         & 3\% \ce{NaCO3}, 0.04\% \ce{Na2S2O3}, 0.02\% ascorbic acid, 0.05\% \ce{NaOH} & 8 min           \\
+				Stop            & 10\% HOAc                                                                         & 1 min           \\ \bottomrule
+			\end{tabular}
+		\end{table}
 	% subsection gel_electrophoresis (end)
 
 	\subsection{Periodic acid-Schiff Stain} % (fold)
 	\label{sub:schiff_stain}
-	
-		The protocol to prepare Schiff's reagent started by dissolving 5 \si{\gram} of basic fuchsin in 900 \millilitre of boiling distilled water. Once dissolved the fuchsin solution was removed from heat and allowed to cool for a few minutes, then 100 \millilitre of 1 \molar\ \ce{HCl} was slowly added. After the solution was allowed to cool to room temperature, 10 \si{\gram} of \ce{K2S2O5} was added. This solution was thoughly mixed, then incubated in the fume hood overnight. The next day, a few spoonfuls of activated charcoal were added to the Schiff reagent to decolourize the solution. The solution was stired and then filtered through Watman paper \# 1. The now clear Schiff stain solution was ready to use. It had a sulfurous smell and would stain nearly any surface in it was spilled on a vibrant pink colour.
+		
+		Periodic acid-Schiff stain was performed on \ac{LPS} samples that were run on \ac{SDS-PAGE}. Schiff stain is analogous to silver stain in that it identifies carbohydrates that are first oxidised with periodic acid. 
+
+		The staining procedure starts by soaking the gel on a slow shaker in 0.7\% periodic acid in distilled water for 15 min. The gel is then rinsed in distilled water and placed in Schiff reagent and shaken slowly for 15 min. The gel is then washed in distilled water for 5 min, at which time pink bands should appear that are correspond to polysaccharides/\ac{LPS} in the gel.
+
+		The protocol to prepare Schiff's reagent started by dissolving 5 \si{\gram} of basic fuchsin in 900 \millilitre of boiling distilled water. Once dissolved the fuchsin solution was removed from heat and allowed to cool for a few minutes, then 100 \millilitre of 1 \molar\ \ce{HCl} was slowly added. After the solution was allowed to cool to room temperature, 10 \si{\gram} of \ce{K2S2O5} was added. This solution was thoughly mixed, then incubated in the fume hood overnight. The next day, a few spoonfuls of activated charcoal were added to the Schiff reagent to decolourize the solution. The solution was stired and then filtered through Watman paper \# 1. The now clear Schiff stain solution was ready to use. It had a sulfurous smell and would stain nearly any surface in it was spilled on a vibrant pink colour. A test for Schiff reagent activity would be to add a few drops of Schiff reagent to 5 \millilitre of formaldehyde in a test tube. The mixture should instantly turn a bright pink colour, indicating activity.
 	% subsection schiff_stain (end)
 
 	\subsection{\textsc{nmr} spectroscopy} % (fold)
