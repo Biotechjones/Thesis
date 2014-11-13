@@ -1,0 +1,35 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {chapter}{Abstract}{ii}{chapter*.1}
+\contentsline {chapter}{Preface}{iii}{chapter*.2}
+\contentsline {chapter}{Table of Contents}{iv}{chapter*.3}
+\contentsline {chapter}{List of Tables}{vi}{chapter*.4}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.5}
+\contentsline {chapter}{List of Abbreviations}{viii}{chapter*.6}
+\contentsline {chapter}{Acknowledgments}{xi}{chapter*.7}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}S-layer structure}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}History of S-layers}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}The core and O-polysaccharide structure of the \textit {Caulobacter crescentus} lipopolysaccharide}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Results}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Characterisation of whole \textsc {lps}}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Initial assessment and component analysis}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}O-antigen structure determination (\textsc {ps}1)}{7}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Minor component determination}{12}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Rhamnan polysaccharide determination (\textsc {ps}2)}{14}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Core oligosaccharide determination}{14}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}Methods}{15}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Bacterial strain construction and growth conditions}{15}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}\textsc {lps} isolation}{16}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Bligh Dyer Extraction}{18}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Silver stain and gel electrophoresis}{19}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Periodic acid-Schiff Stain}{20}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}\textsc {nmr} spectroscopy}{21}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}\textsc {lps} Chromatography}{21}{subsection.2.3.7}
+\contentsline {subsection}{\numberline {2.3.8}Monosaccharide analysis}{21}{subsection.2.3.8}
+\contentsline {subsection}{\numberline {2.3.9}Determination of absolute configurations of monosaccharides}{21}{subsection.2.3.9}
+\contentsline {subsection}{\numberline {2.3.10}Methylation analysis}{22}{subsection.2.3.10}
+\contentsline {subsection}{\numberline {2.3.11}Periodate oxidation}{22}{subsection.2.3.11}
+\contentsline {section}{\numberline {2.4}Discussion}{22}{section.2.4}
+\contentsline {chapter}{Bibliography}{25}{chapter*.27}
+\contentsline {chapter}{\numberline {A}Supporting Materials}{28}{appendix.A}
