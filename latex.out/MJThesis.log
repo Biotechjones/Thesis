@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.10)  11 NOV 2014 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.10)  19 NOV 2014 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1771,27 +1771,27 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 File: intro/img/celwalls.pdf Graphic file (type pdf)
 
 <use intro/img/celwalls.pdf>
-Package pdftex.def Info: intro/img/celwalls.pdf used on input line 28.
+Package pdftex.def Info: intro/img/celwalls.pdf used on input line 17.
 (pdftex.def)             Requested size: 378.14984pt x 404.86357pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 
 <intro/img/symmetries.pdf, id=280, 298.53032pt x 133.82999pt>
 File: intro/img/symmetries.pdf Graphic file (type pdf)
 
 <use intro/img/symmetries.pdf>
-Package pdftex.def Info: intro/img/symmetries.pdf used on input line 41.
+Package pdftex.def Info: intro/img/symmetries.pdf used on input line 30.
 (pdftex.def)             Requested size: 298.52959pt x 133.82965pt.
 
 <intro/img/firstslayer.pdf, id=281, 367.1316pt x 481.67955pt>
 File: intro/img/firstslayer.pdf Graphic file (type pdf)
 
 <use intro/img/firstslayer.pdf>
-Package pdftex.def Info: intro/img/firstslayer.pdf used on input line 68.
+Package pdftex.def Info: intro/img/firstslayer.pdf used on input line 57.
 (pdftex.def)             Requested size: 367.13069pt x 481.67838pt.
 ) [1
 
@@ -1939,7 +1939,7 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                `textcomp'.
 
 [16 <./lps_chapter/img/lpsrhamnan.pdf>] [17] [18 <./lps_chapter/img/lpscore.pdf
->] [19] [20 <./lps_chapter/img/lpsfig4.pdf>] [21] [22] [23]) [24] [25
+>] [19] [20 <./lps_chapter/img/lpsfig4.pdf>] [21] [22]) [23] [24] [25
 
 
 ]

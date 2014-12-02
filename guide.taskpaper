@@ -1,0 +1,66 @@
+!- GUIDE to this thesis
+Cite with \upcite
+Bib:'biblio.bib'
+!- Search for %^ to find things to do.
+_____________________________
+Front Matter
+	.-(Before submission) Remove DRAFT from hypersetup
+	--- Abstract : 350 words
+	--- Preface:https://www.grad.ubc.ca/current-students/dissertation-thesis-preparation/structure-theses-dissertations3
+	.-(Auto) TOC 
+	.-(Auto) LOTables
+	.-(Auto) LOFigs
+	.-(Auto) Glossary
+		+- Migrate to Acro package @done (2014-09-17)
+	-- Acknowledgements
+	-- Dedication
+Main Matter---this is where the magic happens
+	--- Intro
+		-- S-layer structure
+			- Location (ref fig)
+				+- cross section figure
+			- anchor
+			- Visual appearance 
+			- symmetry patterns
+				+- symmetry figure
+			- Protein vs glycoprotein
+			- protein specifics
+			- Sequence gazing
+		-- history of S-layers
+			- first seen
+				+- houwink's first image 
+			- first cloned
+			- first crystallised
+	--- lps_chapter
+		+- Format pasted in text @done (2014-09-16)
+		+- figure references @done (2014-09-15)
+		+- add letter denoting residues. @done (2014-09-16)
+		-- Introduction
+			- More!
+		-- Results 
+			- Characterization of whole lps
+			- Western Blots
+			- MALDI TOF
+			- Knocking out rhamnose/rhamnan
+		       - mutant LPSs
+                     - Attempts to immobilize
+			- Funtional consortium for glycomics
+		-- Methods
+			+- Add mention to lieve 1965 @done (2014-09-21)
+			+- Fix citations  to Lieve and Darveau @done (2014-09-22)
+			- Add more info on strain creation
+			+- Bligh dyer info? @done (2014-09-17)
+			+- Add Schiff stain, 
+			- add far western
+			- Western blots
+			- MALDITOF
+		-- Discussion
+			- Mass spec discussion
+			- lpxI fallacy
+	--- Chapter 2
+	--- Chapter 3
+	.-(Auto) Bibliography
+Appendices
+
+Backmatter
+	.-(Optional?) Index 
