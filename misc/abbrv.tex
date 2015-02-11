@@ -1,0 +1,16 @@
+\titleformat{\section}[hang]{
+    \usefont{T1}{qhv}{b}{n}\selectfont} % "qhv" - TeX Gyre Heros, "b" - bold
+    {} 
+    {0em}
+    {\Large}
+	\acsetup{extra-style=comma, list-caps = true, list-type = table, list-style = tabular, only-used = false, list-table-width = 0.9\linewidth}
+	\printacronyms[heading=section*,exclude-classes=sugar, name = {General abbreviations}]
+	\acuseall
+	\printacronyms[heading=section*,include-classes=sugar,  name = {Sugar abbreviations}]
+	\acresetall
+	\textspacing		% begin one-half or double spacing
+	\titleformat{\section}[hang]{
+	    \usefont{T1}{qhv}{b}{n}\selectfont} % "qhv" - TeX Gyre Heros, "b" - bold
+	    {} 
+	    {0em}
+	    {\hspace{-0.4pt}\Large \thesection\hspace{0.6em}}
