@@ -1,0 +1,28 @@
+1. JGSC screens?
+    - cut it out?
+2. M16 medium
+    - \upcite[,]{smitpilin81}
+3. Caulobacter expression system
+    - bingle1997expression  UmeloNjaka20011406  Bingle1990143
+4. SbsC structure
+    - Pavkov20081226
+5. SbsB structure
+    - baranova2012sbsb
+6. the economics of secreted proteins
+    - smith2010economical
+7. RTX motifs
+    - 
+8. Walker 94
+    - walker94
+9. Smit's review, other applications
+    - smit2008heads 
+10. CC has an S-layer
+     - smit1981periodic
+11. archaea pseudo membrane
+     - Blaurock01101976
+12. phage protection and predation 
+     -  koval1991effect koval1993predation
+13. pathogenic S-layer func adhesion and evasion
+     -  
+14. General S-layer biology
+     - beveridge1997v

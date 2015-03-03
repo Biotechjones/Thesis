@@ -40,3 +40,13 @@ latex.out/*.*
 /auto/MJThesis.el
 /MJThesis.pdf
 /MJThesis.bbl
+/MJThesis.run.xml
+/intro/.DS_Store
+/latex.out/front_matter/abstract.aux
+/latex.out/front_matter/ack.aux
+/latex.out/front_matter/preface.aux
+/latex.out/intro/intro.aux
+/lps_chapter/.DS_Store
+/latex.out/front_matter/dedication.aux
+/lps_chapter/_region_.tex
+/.gitignore
