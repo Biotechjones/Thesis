@@ -1,58 +1,133 @@
-%% The following is a directive for TeXShop to indicate the main file
-%!TEX root = ../MJThesis.tex
+%% The following is a directive for TeXShop to indicate the main file %!TEX root = ../MJThesis.tex
 
 \acresetall{}
 
 \chapter{Introduction}
 \label{ch:Introduction}
 
-    \begin{epigraph}
-            \emph{``But during the writing of this review, I learned how little I knew in this area, and this was a humbling and sobering experience. I am certain that I have made many mistakes due to my ignorance, and I hope that the review will be useful despite its many faults''}\\ ---~Hiroshi Nikaido, 2003, my grand supervisor.
-    \end{epigraph}
-    \section{S-layer structure} % (fold)
-    \label{sec:s_layer_structure}
+\begin{epigraph} \emph{``But during the writing of this review, I learned how little I knew in this
+    area, and this was a humbling and sobering experience. I am certain that I have made many
+    mistakes due to my ignorance, and I hope that the review will be useful despite its many faults''}\\
+  ---~Hiroshi Nikaido, 2003, my grand supervisor.
+\end{epigraph}
+\section{S-layers} \label{sec:intro-slayers}
+\subsection{S-layer structure} % (fold)
+\label{sub:s_layer_structure} \lettrine[lines=2]{C}{ellular} envelopes are the interface between a
+cell and its environment. Many different organsims have evolved extra coatings and membrane
+adaptations to enhance or provide new functionality to their cell envelopes. For example, capsules
+can enhance the virulence of \textit{Streptococci}\upcite[]{griffith1928significance} and mycolic
+acids increase resistance to antibiotics for \textit{Mycobacteria}\upcite[.]{nguyen2006foundations}
+One such adaptation widespread in microbially life is the \ac{S-layer}. \Acp{S-layer} are
+proteinacious, para-crystalline coatings that surround some bacteria and
+archaea\upcite[.]{beveridge1991surface, sara2000s}. A good review on the subject of \ac{S-layer} structure was written by Tea Pavkov-Keller, Stefan Howorka and Walter Keller\upcite[.]{PavkovKeller201173} \Acp{S-layer} are planar, being a thin layer of protein or glycoprotein sitting externally to outer membrane in Gram-negative bacteria, the
+peptidoglycan layer in Gram-positive bacteria, and the cell membrane of
+archaeabacteria. \Cref{fig:cellwalls} (\vpageref{fig:cellwalls}) diagrams the general,
+cross-sectional structure of bacteria and archaea that possess an S-layer.
+
+\begin{figure}[htb] % Cell envelopes diagrams
+  \begin{center}
+    \includegraphics{intro/img/celwalls.pdf}
+  \end{center}
+  \caption[Cross-sectional diagrams of \ac{S-layer} containing cell envelopes]{Cross-sectional
+    diagrams of the cell envelopes of (\textbf{A}) Gram negative bacteria, (\textbf{B}) Gram
+    positive bacteria, and (\textbf{C}) archaebacteria. In all known cases the \ac{S-layer} sits on
+    the extreme outer surface of the cell. (This diagram was inspired by Fig. 1 from
+    \fullcite{sleytr1983crystalline})}
+  \label{fig:cellwalls}
+\end{figure}
+
+\Acp{S-layer} are composed of one or only a few proteins or glycoproteins. In most known examples,
+\acp{S-layer} are composed of just one repeated protein, in a few cases \acp{S-layer} are composed
+of a few separate proteins. The \ac{S-layer} from \textit{Clostridium difficile} is composed of two
+proteins (HMW and LMW) that arise from the cleavage of a single precursor protein (SlpA) that is
+cleaved during secretion\upcite[.]{calabi2001difficile, fagan2009difficile} \textit{Bacillus
+  anthracis} has a \ac{S-layer} that is composed of two proteins (EA1 and Sap) that are individually
+expressed and assemble together on the surface of the bacterium\upcite[.]{mesnage1997molecular}
+Interestingly, \textit{Bacillus brevis} appears to have two \acp{S-layer} stacked on top of each
+other; the outer layer having oblique symmetry and the lower layer having hexagonal
+symmetry\upcite[.]{sara1990brevis}
     
-        \begin{figure}[p] % Cell envelopes diagrams
-                \begin{center}
-                    \includegraphics{intro/img/celwalls.pdf}
-                \end{center}
-                \caption[Cross-sectional diagrams of \ac{S-layer} containing cell envelopes]{Cross-sectional diagrams of the cell envelopes of (\textbf{A}) Gram negative bacteria, (\textbf{B}) Gram positive bacteria, and (\textbf{C}) archaebacteria. In all known cases the \ac{S-layer} sits on the extreme outer surface of the cell. (This diagram was inspired by Fig. 1 from \fullcite{sleytr1983crystalline})}
-            \label{fig:cellwalls}
-        \end{figure}
+For \acp{S-layer} that are composed of a single protein, that protein is repeated thousands of times
+across the surface of the cell and is arranged in a regular geometric pattern. The geometric
+patterns can be observed by electron microscopy. Smit et\,al.~used the electron microscopy techniques
+of freeze fracture and negative stain to visualize the \ac{S-layer} of \ac{caulobacter} for the
+first time in 1981\upcite[.]{smit1981periodic} The six major geometric symmetries found in
+\acp{S-layer} are oblique (p1 and p2), triangular (p3), rectangular (p4), and hexagonal
+(p6). \Cref{fig:symmetries} (\vpageref{fig:symmetries}) features simple examples of the six major
+symmetries found in \acp{S-layer}.  Examples of bacteria with oblique \acp{S-layer} are
+\textit{Bacillus stearothermophilus} NRS2004$/$3a\upcite{messner1986characterization} and
+\textit{Lactobacillus brevis}\upcite[.]{masuda1980reassembly} Examples of bacteria with rectangular
+\acp{S-layer} are \textit{Corynebacterium diphtheriae}e\upcite{kawata1972extracellular} and
+\textit{Aeromonas salmonicidae} A450\upcite[.]{ishiguro1981loss} An example of a bacterium with a
+triangular \ac{S-layer} is \textit{Sulfolobus acidocaldarius}\upcite[.]{weiss1974subunit} Examples
+of bacteria with hexagonal \acp{S-layer} are \textit{Bacillus anthracis}\upcite{holt1969comparative}
+and \textit{Caulobacter crescentus} CB15\upcite[.]{smit1981periodic}
 
-            Examples of bacteria with oblique \acs{S-layer} are \textit{Bacillus stearothermophilus} NRS2004$/$3a\upcite{messner1986characterization} and \textit{Lactobacillus brevis}\upcite[.]{masuda1980reassembly}
-            Examples of bacteria with rectangular \acs{S-layer} are \textit{Corynebacterium diphtheriae}e\upcite{kawata1972extracellular} and \textit{Aeromonas salmonicidae} A450\upcite[.]{ishiguro1981loss}
-            An example of a bacterium with a triangular \ac{S-layer} is \textit{Sulfolobus acidocaldarius}\upcite[.]{weiss1974subunit}
-            Examples of bacteria with hexagonal \acs{S-layer} are
-            \textit{Bacillus
-            anthracis}\upcite{holt1969comparative} and
-            \textit{Caulobacter crescentus} CB15\upcite[.]{smit1981periodic}
+\begin{figure}[htb] % S-layer symmetries
+  \begin{center}
+    \includegraphics[]{intro/img/symmetries.pdf}
+  \end{center}
+  \caption[A simple overview of \ac{S-layer} symmetries]{A simple overview of \ac{S-layer}
+    symmetries. p1 and p2 are oblique symmetries.  p4 is a rectangular symmetry.  p3 is a triangular
+    symmetry.  p6 is a hexagonal symmetry.}
+  \label{fig:symmetries}
+\end{figure}
+   
+In addition to the traditional transmission electron microscopy techniques that have been used to
+visualize bacterial cell surfaces in the past, a new method of cryo-electron tomography has been
+used recently to observe and dissect bacterial cells. Cryo-electron tomography has the advantage
+that it be used to observe unfixed and unstained intact cells. Being a tomographical technique cross
+sections can be reconstructed to observe the fine structure within and on a bacterial cell. No
+deliberate study has been taken to use cryo-electron tomography to study \acp{S-layer}, but their
+presence is easily observed in the fantastic images produced by other studies utilizing the
+technique. This technique has been pioneered for use in bacteria and specifically in \ac{caulobacter} by the laboratory of Dr.\,Grant Jensen at the California Institute of Technology. \Cref{fig:intro-tomo} (\vpageref{fig:intro-tomo}) features a tomographical cross-section of a \ac{caulobacter} cell; visible is the inner and outer membranes and the \ac{S-layer} composed of the protein RsaA.
 
-        \begin{figure}[htb] % S-layer symmetries
-                \begin{center}
-                    \includegraphics[]{intro/img/symmetries.pdf}
-                \end{center}
-                \caption[A simple overview of \ac{S-layer} symmetries]{A simple overview of \ac{S-layer} symmetries. p1 and p2 are oblique symmetries. 
-                p4 is a rectangular symmetry.  
-                p3  is a triangular symmetry. 
-                p6 is a hexagonal symmetry.}
-        \label{fig:symmetries}
-        \end{figure}
+\begin{figure}[p]
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{intro/img/jensentomograph.jpg}
+  \end{center}
+  \caption[Electrotomograph of \ac{caulobacter}]{ The location of the \ac{S-layer} is around the
+    exterior of the cell, as can be seen in this image. The figure is a 19 \si{\nano\meter}
+    cross-section through the three-dimensional reconstruction of one representative
+    \ac{caulobacter} cell, perpendicular to the direction of the beam: \textbf{SL}, surface layer;
+    \textbf{OM}, outer membrane; \textbf{PG}, peptidoglycan layer; \textbf{IM}, inner membrane;
+    \textbf{St}, stalk; \textbf{Rib}, probable ribosome; \textbf{GF}, gold fiducial used to align
+    images; \textbf{Phb}, putative poly-$\beta$-hydroxybutyrate granule. The scale bar indicates 200 \si{\nano\meter}. (This figure is a portion of Figure 1 from \fullcite{Jensen2006tomo}. Reused
+    with full permission from the publisher, Wiley.)}
+  \label{fig:intro-tomo}
+\end{figure}
 
-    % subsection s_layer_structure (end)
+\subsection{S-layer Proteins} \label{sub:intro-slayerproteins} % S-layer protein subsection
 
-    \section{History of S-layers} % (fold)
-    \label{sec:history_of_s_layers}
+Discussing \ac{S-layer} proteins on a whole can be difficult because \ac{S-layer} proteins don't represent a monophyletic group of related molecules; \ac{S-layer} proteins seem to be distinctly unrelated proteins that share a common cellular location and gross structure through convergent evolution. One of the best reviews on \ac{S-layer} proteins was published in 2000 by Margit S\'{a}ra and Uwe B. Sleytr\upcite[.]{sara2000s} 
 
-        \begin{figure}[p] % First S-layer
-                \begin{center}
-                    \includegraphics{intro/img/firstslayer.pdf}
-                \end{center}
-                \caption[The first published image of a \ac{S-layer}]{The first published image of a \ac{S-layer}. The hexagonal \ac{S-layer} on the surface of the bacterium --- probably \textit{Spirillum} sp. --- is visible along the edges of the cell body (centre right). The scale bar denotes one micrometre. (This image is Fig. 1 from \fullcite{firstslayer}, reused with full permission from the publisher, Elsevier.)}
-            \label{fig:firstslayer}
-        \end{figure}
-    % section history_of_s_layers (end)
-% section paracrystalline_protein_surface_layers (end)
-\endinput
-Any text after an \endinput is ignored.
-You could put scraps here or things in progress.
+\ac{S-layer} proteins do tend to share similar properties and overall composition. \ac{S-layer} proteins are large proteins. For the \ac{S-layer} proteins whose sequences are known, all are larger than 400 \ac{aa} and many of them larger than 1000 \ac{aa}\upcite[.]{sara2000s} The amino acids in \ac{S-layer} proteins are rich in hydrophobic and negatively charged residues, low in methionines, and  cysteines are almost completely unrepresented\upcite[.]{gilchrist1992nucleotide, sara2000s, vilen2009surface} 
+
+\ac{S-layer} proteins are almost universally glycosylated in \textit{Archaeabacteria}, commonly
+glycosylated in Gram-positive bacteria, and very rarely glycosylated in Gram-negative
+bacteria\upcite[.]{sara2000s, lechner1989structure}
+
+For some microbes, the \ac{S-layer}'s main function maybe as a platform for oligo/polysaccharide chains. One study by Sch\"{a}ffer et\,al.~asked the question about the glycosylation of \ac{S-layer} proteins, ``Are \ac{S-layer} Glycoproteins and Lipopolysaccharide Related?''\upcite[]{schaffer1996s} The study identified structural similarities between the carbohydrates in \ac{OPS} and the carbohydrates on glycosylated \ac{S-layer} proteins; pointing out they have more in common with each other than with eukaryotic polysaccharides. The study makes great leaps from sugar structures to phylogenetic and taxonomic conclusions, but the study does highlight that supporting a highly glycosylated surface is a widespread feature in microbially life and it is a role that \ac{S-layer} proteins serve in some organisms.
+
+% subsection s_layer_structure (end)
+
+\subsection{History of S-layers} % (fold)
+\label{sub:history_of_s_layers}
+
+\begin{figure}[p] % First S-layer
+  \begin{center}
+    \includegraphics{intro/img/firstslayer.pdf}
+  \end{center}
+  \caption[The first published image of a \ac{S-layer}]{The first published image of a
+    \ac{S-layer}. The hexagonal \ac{S-layer} on the surface of the bacterium --- probably
+    \textit{Spirillum} sp. --- is visible along the edges of the cell body (centre right). The scale
+    bar denotes one micrometre. (This image is Figure 1 from \fullcite{firstslayer}. Reused with
+    full permission from the publisher, Elsevier.)}
+  \label{fig:firstslayer}
+\end{figure} % section history_of_s_layers (end)
+ % section paracrystalline_protein_surface_layers (end)
+
+\section{Lipopolysaccharide}
+\label{sec:intro-lps}
+    
+

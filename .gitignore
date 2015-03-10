@@ -50,3 +50,5 @@ latex.out/*.*
 /latex.out/front_matter/dedication.aux
 /lps_chapter/_region_.tex
 /.gitignore
+/crystal_chapter/.DS_Store
+/intro/auto/intro.el

@@ -11,7 +11,7 @@
 6. the economics of secreted proteins
     - smith2010economical
 7. RTX motifs
-    - 
+    - chenal2009rtx, bingle2000secretion
 8. Walker 94
     - walker94
 9. Smit's review, other applications
@@ -21,8 +21,8 @@
 11. archaea pseudo membrane
      - Blaurock01101976
 12. phage protection and predation 
-     -  koval1991effect koval1993predation
+     -  koval1991effect, koval1993predation
 13. pathogenic S-layer func adhesion and evasion
-     -  
+     -  DallaireDufresne20141, kern2010bsla
 14. General S-layer biology
      - beveridge1997v
