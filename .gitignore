@@ -52,3 +52,11 @@ latex.out/*.*
 /.gitignore
 /crystal_chapter/.DS_Store
 /intro/auto/intro.el
+/appendix/_region_.tex
+/crystal_chapter/_region_.tex
+/image.png
+/intro/img/rtx-white.eps
+/intro/img/rtx.ini
+/intro/img/rtx.jpg
+/intro/img/rtx.png
+/intro/img/rtx.pov

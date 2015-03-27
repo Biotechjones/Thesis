@@ -1,4 +1,5 @@
-%% The following is a directive for TeXShop to indicate the main file %!TEX root = ../MJThesis.tex
+%% The following is a directive for TeXShop to indicate the main file
+%!TEX root = ../MJThesis.tex
 
 \acresetall{}
 
@@ -57,7 +58,7 @@ first time in 1981\upcite[.]{smit1981periodic} The six major geometric symmetrie
 symmetries found in \acp{S-layer}.  Examples of bacteria with oblique \acp{S-layer} are
 \textit{Bacillus stearothermophilus} NRS2004$/$3a\upcite{messner1986characterization} and
 \textit{Brevibacillus brevis}\upcite[.]{masuda1980reassembly} Examples of bacteria with rectangular
-\acp{S-layer} are \textit{Corynebacterium diphtheriae}e\upcite{kawata1972extracellular} and
+\acp{S-layer} are \textit{Corynebacterium diptheriae}e\upcite{kawata1972extracellular} and
 \textit{Aeromonas salmonicidae} A450\upcite[.]{ishiguro1981loss} An example of a bacterium with a
 triangular \ac{S-layer} is \textit{Sulfolobus acidocaldarius}\upcite[.]{weiss1974subunit} Examples
 of bacteria with hexagonal \acp{S-layer} are \textit{Bacillus anthracis}\upcite{holt1969comparative}
@@ -82,7 +83,7 @@ deliberate study has been taken to use cryo-electron tomography to study \acp{S-
 presence is easily observed in the fantastic images produced by other studies utilizing the
 technique. This technique has been pioneered for use in bacteria and specifically in \ac{caulobacter} by the laboratory of Dr.\,Grant Jensen at the California Institute of Technology. \Cref{fig:intro-tomo} (\vpageref{fig:intro-tomo}) features a tomographical cross-section of a \ac{caulobacter} cell; visible is the inner and outer membranes and the \ac{S-layer} composed of the protein RsaA.
 
-\begin{figure}[p]
+\begin{figure}[htb]
   \begin{center}
     \includegraphics[width=0.8\textwidth]{intro/img/jensentomograph.jpg}
   \end{center}
@@ -113,7 +114,7 @@ For some microbes, the \ac{S-layer}'s main function maybe as a platform for olig
 \subsection{History of S-layers} % (fold)
 \label{sub:history_of_s_layers}
 
-\begin{figure}[p] % First S-layer
+\begin{figure}[htb] % First S-layer
   \begin{center}
     \includegraphics{intro/img/firstslayer.pdf}
   \end{center}
@@ -127,9 +128,27 @@ For some microbes, the \ac{S-layer}'s main function maybe as a platform for olig
  % section paracrystalline_protein_surface_layers (end)
 
 
-\subsection{RsaA}
+\subsection{RsaA} \label{sec:intro-rsaa}
+
+ RsaA is a 1026 \ac{aa} protein with an average \ac{mw} of 98001.70 Da and a \ac{pi} of 3.85. The sequence of RsaA can be found in the appendix on \cpageref{app:rsaseq}.
+
+\paragraph{Type 1 secretion} RsaA is secreted by a \ac{t1ss}. \Ac{t1ss} secreted proteins are secreted in one step across both the inner and outer membranes of Gram-negative bacteria. A \ac{t1ss} requires three components: an inner membrane spanning \ac{abc} transporter, a periplasm spanning membrane fusion protein, and an outer membrane protein. For RsaA's secretion from \caulobacter, these proteins are RsaD, RsaE, and RsaF (either RsaFa or RsaFb). Like all \ac{t1ss} secreted proteins, RsaA is secreted starting from the C-terminus to the N-terminus. As proteins are translated from the N-terminus to the C-terminus, all \ac{t1ss} secreted proteins (including RsaA) exist in the cytoplasm as fully translated polypeptides prior to secretion. This is in contrast to protein secreted by N-terminus first means, which allow for the possibility for secretion to begin on a nascent peptide before translation is complete. The diameter of \ac{t1ss} pore is not wide enough to accommodate the secretion of a fully folded protein, so \ac{t1ss} secreted proteins often have a C-terminus that is intrinsically disordered prior to secretion; this disordered state is mediated by \ac{rtx} motifs\upcite[.]{chenal2009rtx}   
+
+    \paragraph{Repeat-in-toxin motifs} First identified in the \ecoli protein $\alpha$-haemolysin (HlyA) in 19**, \ac{rtx} motifs are a nearly ubiquitous component of \ac{t1ss} secreted proteins. \ac{rtx} motifs are small peptide sequences, typically 6--9 \ac{aa} in length:\texttt{GGXGXD}\upcite[]{letoffe1992secretion} or \texttt{GGXGXDXLX}(where \texttt{G} is glycine, \texttt{D} is aspartate, \texttt{X} can be any amino acid, and \texttt{L} is leucine but is often substituted for valine, isoleucine, phenylalanine, or tyrosine)\upcite[.]{rose1995interaction, chenal2009rtx} The short sequences are always present in multiples (6--50+), often found in tandem repeats, and comprise a \ce{Ca^2+} binding site. Upon binding \ce{Ca^2+}, \ac{rtx} motifs assume a parallel $\beta$-roll fold\upcite[.]{meier2007calcium} An example of a \ac{rtx} $\beta$-roll structure can be found in \cref{fig:intro-rtx}. The reported \ac{kd} of \ac{rtx} sites is 0.5--0.8 \millimolar\upcite[.]{rose1995interaction}
+
+
+
+\begin{figure}[htb]
+  	\begin{center}
+   		\includegraphics[width=0.7\textwidth]{intro/img/rtx-white.png}
+   	\end{center}
+   	\caption[The structure of \ac{rtx} motifs]{The structure of \ac{rtx} motifs. This view is down the barrel of an \ac{rtx} $\beta$-fold. The blue spheres are calcium ions coordinated by aspartate residues which are shown. This structure is of MIS38, an extracellular lipase from \ac{pseudomonas} (PDB:2Z8X). Generated using the program \texttt{Chimera} (\fullcite{pettersen2004ucsf}).
+   	}
+   	\label{fig:intro-rtx}
+\end{figure}   
+
+
 
 \section{Lipopolysaccharide}
 \label{sec:intro-lps}
     
-
