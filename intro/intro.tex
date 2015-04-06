@@ -1,6 +1,6 @@
 %% The following is a directive for TeXShop to indicate the main file
 %!TEX root = ../MJThesis.tex
-
+%\bibliography{../misc/bibli}
 \acresetall{}
 
 \chapter{Introduction}
@@ -102,7 +102,7 @@ technique. This technique has been pioneered for use in bacteria and specificall
 
 Discussing \ac{S-layer} proteins on a whole can be difficult because \ac{S-layer} proteins don't represent a monophyletic group of related molecules; \ac{S-layer} proteins seem to be distinctly unrelated proteins that share a common cellular location and gross structure through convergent evolution. One of the best reviews on \ac{S-layer} proteins was published in 2000 by Margit S\'{a}ra and Uwe B. Sleytr\upcite[.]{sara2000s} 
 
-\ac{S-layer} proteins do tend to share similar properties and overall composition. \ac{S-layer} proteins are large proteins. For the \ac{S-layer} proteins whose sequences are known, all are larger than 400 \ac{aa} and many of them larger than 1000 \ac{aa}\upcite[.]{sara2000s} The amino acids in \ac{S-layer} proteins are rich in hydrophobic and negatively charged residues, low in methionines, and  cysteines are almost completely unrepresented\upcite[.]{gilchrist1992nucleotide, sara2000s, vilen2009surface}  
+\ac{S-layer} proteins do tend to share similar properties and overall composition. \ac{S-layer} proteins are large proteins. For the \ac{S-layer} proteins whose sequences are known, all are larger than 400 \acp{aa} and many of them larger than 1000 \acp{aa}\upcite[.]{sara2000s} The amino acids in \ac{S-layer} proteins are rich in hydrophobic and negatively charged residues, low in methionines, and  cysteines are almost completely unrepresented\upcite[.]{gilchrist1992nucleotide, sara2000s, vilen2009surface}  
 
 \ac{S-layer} proteins are almost universally glycosylated in \textit{Archaeabacteria}, commonly
 glycosylated in Gram-positive bacteria, and very rarely glycosylated in Gram-negative
@@ -130,13 +130,24 @@ For some microbes, the \ac{S-layer}'s main function maybe as a platform for olig
 
 \subsection{RsaA} \label{sec:intro-rsaa}
 
- RsaA is a 1026 \ac{aa} protein with an average \ac{mw} of 98001.70 Da and a \ac{pi} of 3.85. The sequence of RsaA can be found in the appendix on \cpageref{app:rsaseq}.
+ RsaA, named for \underline{r}egular \underline{s}urface \underline{a}rray\upcite[,]{gilchrist1991transformation} is a 1026 \ac{aa} protein from \caulobacter with an average \ac{mw} of 98001.70 Da and an \ac{pi} of 3.85. The amino acid sequence of RsaA can be found in the appendix on \cpageref{app:rsaseq}. The \ac{S-layer} of \caulobacter is comprised of roughly 45000 copies\upcite[]{slayercryo} of RsaA arranged in an p6 symmetry (see \cref{fig:symmetries} on \cpageref{fig:symmetries}). \Cref{fig:intro-micrograph} displays a computer generated view of the surface of the \ac{S-layer} of \caulobacter as determined by electron microscopy. RsaA is a \ac{t1ss} secreted protein containing six \ac{rtx} motifs.
+
+\begin{figure}[htb]
+  	\begin{center}
+   		\includegraphics[width=\textwidth]{intro/img/slayermicrograph.jpg}
+   	\end{center}
+   	\caption[Reconstructed surface of the \caulobacter \ac{S-layer}]{
+      The surface structure of the \ac{S-layer} from \caulobacter, reconstructed from tilt-series electron microscopy. The unit cell of the \ac{S-layer} is six copies of RsaA arranged in a hexagonal pattern. The C-termini of the RsaA monomers face towards each other in the center of the point of six-fold symmetry. The center of three-fold symmetry is comprised of the N-termini of RsaA.
+   	}
+   	\label{fig:intro-micrograph}
+\end{figure}   
 
 \paragraph{Type 1 secretion} RsaA is secreted by a \ac{t1ss}. \Ac{t1ss} secreted proteins are secreted in one step across both the inner and outer membranes of Gram-negative bacteria. A \ac{t1ss} requires three components: an inner membrane spanning \ac{abc} transporter, a periplasm spanning membrane fusion protein, and an outer membrane protein. For RsaA's secretion from \caulobacter, these proteins are RsaD, RsaE, and RsaF (either RsaFa or RsaFb). Like all \ac{t1ss} secreted proteins, RsaA is secreted starting from the C-terminus to the N-terminus. As proteins are translated from the N-terminus to the C-terminus, all \ac{t1ss} secreted proteins (including RsaA) exist in the cytoplasm as fully translated polypeptides prior to secretion. This is in contrast to protein secreted by N-terminus first means, which allow for the possibility for secretion to begin on a nascent peptide before translation is complete. The diameter of \ac{t1ss} pore is not wide enough to accommodate the secretion of a fully folded protein, so \ac{t1ss} secreted proteins often have a C-terminus that is intrinsically disordered prior to secretion; this disordered state is mediated by \ac{rtx} motifs\upcite[.]{chenal2009rtx}   
 
 % TODO add citations to above paragraph
 
-    \paragraph{Repeat-in-toxin motifs} First identified in the \ecoli protein $\alpha$-haemolysin (HlyA) in 19**, \ac{rtx} motifs are a nearly ubiquitous component of \ac{t1ss} secreted proteins. Despite the name, \acl{rtx} aren't exclusively found in toxins, they are found in many classes of protein, lipases, proteases, S-layers,\textit{etc.}  \ac{rtx} motifs are small peptide sequences, typically 6--9 \ac{aa} in length:\texttt{GGXGXD}\upcite[]{letoffe1992secretion} or \texttt{GGXGXDXLX}(where \texttt{G} is glycine, \texttt{D} is aspartate, \texttt{X} can be any amino acid, and \texttt{L} is leucine but is often substituted for valine, isoleucine, phenylalanine, or tyrosine)\upcite[.]{rose1995interaction, chenal2009rtx} The short sequences are always present in multiples (6--50+), often found in tandem repeats. Each \ac{rtx} motif forms two half sites for binding \ce{Ca^2+}, which can collaborate with other neighbouring \ac{rtx} sites to coordinate ions and stabilize a connection between disparate regions of a protein. Upon binding \ce{Ca^2+}, \ac{rtx} motifs assume a parallel $\beta$-roll fold\upcite[,]{meier2007calcium} rolling around \ce{Ca^2+} ions at the turns. An example of a \ac{rtx} $\beta$-roll structure can be found in \cref{fig:intro-rtx}. The reported \ac{kd} of \ac{rtx} sites is 0.5--0.8 \millimolar\upcite[.]{rose1995interaction} 
+    \paragraph{Repeat-in-toxin motifs} First identified in the \ecoli protein $\alpha$-haemolysin (HlyA)\upcite[,]{felmlee1988alterations} \ac{rtx} motifs are a nearly ubiquitous component of \ac{t1ss} secreted proteins. Despite the name, \acl{rtx} aren't exclusively found in toxins, they are found in many classes of protein, lipases, proteases, S-layers,\textit{etc.}  \ac{rtx} motifs are small peptide sequences, typically 6--9 \ac{aa} in length:\texttt{GGXGXD}\upcite[]{letoffe1992secretion} or \texttt{GGXGXDXLX}(where \texttt{G} is glycine, \texttt{D} is aspartate, \texttt{X} can be any amino acid, and \texttt{L} is leucine but is often substituted for valine, isoleucine, phenylalanine, or tyrosine)\upcite[.]{rose1995interaction, chenal2009rtx} The short sequences are always present in multiples (6--50+), often found in tandem repeats. Each \ac{rtx} motif forms two half sites for binding \ce{Ca^2+}, which can collaborate with other neighbouring \ac{rtx} sites to coordinate ions and stabilize a connection between disparate regions of a protein. Upon binding \ce{Ca^2+}, \ac{rtx} motifs assume a parallel $\beta$-roll fold\upcite[,]{meier2007calcium} rolling around \ce{Ca^2+} ions at the turns. An example of a \ac{rtx} $\beta$-roll structure can be found in \cref{fig:intro-rtx}.
+ % The reported \ac{kd} of \ac{rtx} sites is 0.5--0.8 \millimolar\upcite[.]{rose1995interaction} 
 
 \begin{figure}[htb]
   	\begin{center}
@@ -147,10 +158,8 @@ For some microbes, the \ac{S-layer}'s main function maybe as a platform for olig
    	\label{fig:intro-rtx}
 \end{figure}   
 
-It is thought that the roles of \ac{rtx} motifs in \ac{t1ss} proteins are to induce an intrinsically disorder C-terminus prior to secretion and to quickly  bind \ce{Ca^2+} and begin folding once the protein has started to emerge from the secretion machinery\upcite[.]{perez2010characterization, sotomayor2014disorder} The calcium-induced folding may help the thermodynamics of secretion, possibly assisting by pulling the protein out of the pore.
-
-
-
+\ac{rtx} motifs are always on the C-terminal side of \ac{t1ss} proteins, and are thus are in the leading part of the polypeptide to be loaded in to the secretion machinery and the first part to be secreted. It should be noted that bacterial intracellular \ce{Ca^2+} concentrations are extremely low, 90$\pm$10 \si{\nano\molar}, and extracellular \ce{Ca^2+} concentrations are high, 0.1--1 \millimolar\upcite[.]{gangola1987maintenance, norris1996calcium} It is thought that the roles of \ac{rtx} motifs in \ac{t1ss} proteins are to induce an intrinsically disorder C-terminus prior to secretion and to quickly  bind \ce{Ca^2+} and begin folding once the protein has started to emerge from the secretion machinery\upcite[.]{perez2010characterization, sotomayor2014disorder} The calcium-induced folding may help the thermodynamics of secretion, possibly assisting by pulling the protein out of the pore.  Despite the apparent importance of \ac{rtx} motifs in \ac{t1ss} proteins, they are not sufficient nor even necessary for secretion\upcite[]{felmlee1988alterations} but in at least the case of HlyA, in \ecoli, the \ac{rtx} repeats are required for proper folding, activity, and maximal secretion\upcite[.]{felmlee1988alterations} It has been thought that the folding of the \ac{rtx} motifs can act as an `intramolecular' chaperone; they fold quickly first then act as a nucleation point for the rest of the protein to fold on\upcite[.]{sotomayor2014disorder} 
+ 
 \section{Lipopolysaccharide}
 \label{sec:intro-lps}
     
