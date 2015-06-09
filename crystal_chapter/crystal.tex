@@ -25,7 +25,7 @@ structures that resist crystallization.
 
 The Gram-negative bacterium \ac{caulobacter} possesses an
 \ac{S-layer} that is composed from thousands of copies of a single 98.6 kDa protein, RsaA\upcite[.]{smit1981periodic}
- This particular S-layer has been pursued as a potent platform for peptide display and
+ This particular \ac{S-layer} has been pursued as a potent platform for peptide display and
 protein expression\upcite[.]{smit2008heads}
 RsaA is secreted from the cell via a type 1
 secretion system\upcite[.]{walker94}
@@ -47,14 +47,15 @@ its native host, \ac{caulobacter}. The untagged protein was purified
 from culture supernate and crystallized by hanging-drop vapour
 diffusion. Crystals were grown that diffracted to 2.0 \AA.
 Diffraction data were collected at both the \ac{cls} 
-and the \ac{ssrl}. RsaA is the first Gram-negative S-layer protein to be crystallized.
+and the \ac{ssrl}. RsaA is the first Gram-negative \ac{S-layer} protein to be crystallized.
 
 \section{Materials and Methods}
 \label{sec:crystal-materials-and-methods}
 
-\subsubsection{Macromolecule Production}
-\label{sub:crystal-macromolecule-production}
+\subsection{Protein Production}
+\label{sub:crystal-protein-production}
 
+% I need to have strain stuff here.
 Our protein construct, RsaA \del 0--222, was expressed in both a traditional
 \ac{ecoli} expression system and our lab's \ac{caulobacter}
 protein system\upcite[.]{bingle1997expression, UmeloNjaka20011406, Bingle1990143}
@@ -88,7 +89,7 @@ super-high molecular weight \ac{peg}. The protein
 solution was slowly concentrated to a final concentration of 3.5--4
 \mgperml.
 
-\subsubsection{Crystallization}\label{crystallization}
+\subsection{Crystallization of RsaA \del 0--222}\label{crystallization}
 
 Initial sparse-matrix screening was performed using our protein at a
 concentration of 9 \mgperml and JGSC Core I, II, III and IV screens. % Cut it out? Ask Murphy lab
@@ -125,3 +126,31 @@ crystals prior to flash freezing in liquid nitrogen.
    	\caption[Example of a `dendritic' RsaA \del 0--222 GSSC723 crystals]{Examples of `dendritic' crystals formed when the RsaA \del 0--222 GSSC723 protein construct was crystallized. The color is imparted by a polarizing filter on the microscope, the crystals are naturally colourless.}
    	\label{fig:crystal-flower}
 \end{figure}
+
+\subsection{Data Collection}\label{sec:crystal-data-collection}
+X-ray diffraction data was collected, multiple times, at two synchotron light sources, the \ac{cls} in Saskatoon, Saskatchewan and \ac{ssrl} at Stanford University, California. Both facilities proved suitable for our data collection needs. The beamlines at \ac{cls} offered a slightly larger spectrum of available X-ray wavelengths; some of the high energy wavelengths proved useful for accessing the K-edges of strontium (0.7699 \AA) and bromine (0.9202 \AA). For our best diffracting crystal, diffraction was performed at the `CMCF 08ID-1' beamline at \ac{cls}. A wavelength of 1.54 \AA (equal to the copper K-edge) was used to maximize anamolous signal from the iodine. Data was collected through a full 360 degrees or rotation, due the low symmetry found in the `plate' crystals.
+
+\begin{figure}[htb]
+  	\begin{center}
+   		\includegraphics[width=\textwidth]{crystal_chapter/img/edgeplots.pdf}
+   	\end{center}
+   	\caption[Edge plots for useful anomalous dispersion elements]{
+   	Theoretical plots of anomalous scattering coefficients for various elements used in this study. The K-edges and L1-edges that are present within the range of this graph were indicated. Selenium was included because it is often used as a landmark to compare with other elements.}
+   	\label{fig:edges}
+\end{figure}    
+
+\section{Results}\label{sec:crystal-results}
+
+\subsection{Initial crystallization and optimization}\label{sec:init-cryst-optim} 
+ Attempts to crystallize RsaA \del 0--222 started with the pre-assembled crystallization screens JCGS (Joint Center for Structural Genomics) Core I, II, III, and IV (Qiagen). Higher protein concentrations were sought because we believed that higher protein concentrations would lead to better results and literature sources recommended protein concentration ranges centering on 10 \mgperml\upcite[.]{jancarik1991sparse} Our protein, RsaA \del 0--222 would readily concentrate to 5--7 \mgperml, but when concentrated beyond 7--9 \mgperml aggregation began to occur, both macroaggregation (visible) and microaggregation (monitored by \ac{dls}, see \cref{fig:dlsconcentration}). Initial screens were assembled at 9 \mgperml, small crystalline shapes were observed after one week at room temperature. Those first crystals grew in JCGS Core I, well 28 with conditions of 20\% \ac{peg} 8000, 200 \millimolar \ce{MgCl2}, and 100 \millimolar Tris pH 7.
+ 
+The first attempts to transfer from the sitting-drop strategy used in initial screening to the hanging-drop strategies, to be used in optimization, were unsuccessful due to widespread protein precipitation/aggregation. Shifting our divalent cation from \ce{Mg^2+} to \ce{Ca^2+} led to small crystals in our drops. Crystals that were grown \ce{Ca^2+} were incredibly thin, but sizable ($>$0.5 \si{\milli\meter}) in the other two dimensions. The biggest improvements came from shifting the cation again to \ce{Sr^2+} and lowering the concentrations of the protein and precipitants. Due to low protein concentrations, larger drop sizes (6--10 \microlitre) were utilized and larger ratios between protein and mother liquor were (1.5:1--3:1) we used so that initial conditions wouldn't cause protein precipitation but protein concentrations would eventually get high enough to be supersaturated. Fine tuning of protein concentration and drop ratios were mostly used to optimize nucleations in the drops. RsaA \del 0--222 always nucleated well, leading to more drops full of small crystals than clear drops with no crystals. A protein concentration in the range of 3.5--4.5 \mgperml, mixed in a ratio of 1.5:1 with mother liquor, had the best results, averaging around 3 nucleations per drop. Further optimization to the crystallization conditions, such as lowering salt concentration (200 \millimolar to 150 \millimolar) and raising the pH (7 to 7.4), were of arguable efficacy. 
+
+
+\section{Discussion}\label{sec:crystal-discussion}
+Our protein construct, RsaA \del 0--222, was expressed our \caulobacter protein expression system\upcite[.]{bingle1997expression, UmeloNjaka20011406, Bingle1990143} All attempts to produce protein in E. coli resulted in highly insoluble inclusion bodies that resisted refolding (data not shown). Expression levels of RsaA in its native host is notably high\upcite[]{lau2010analysis} but the system did not initially produce protein in an appropriate form. The problem of aggregation persisted in \caulobacter secreted RsaA; the problem was assuaged by the N-terminal deletion construct, RsaA \del 0--222, but was only completely solved when we started to culture the cells without agitation in wide, shallow flasks. Our shallow culture expression system proved successful at producing 130--150 \milligram  of purified, concentrated protein per litre of culture supernate. RsaA is the natural product of \caulobacter but this system could be useful in producing exogenous protein for crystallization by fusion to the required type 1 section signal\upcite[.]{bingle2000secretion}
+
+The reasons for an N-terminal truncation of RsaA are two-fold; deletion of the N-terminus produces protein that no longer anchors itself to outer membrane, resulting in free-secreted supernatant protein and the N-terminus has been identified as the center of three-fold symmetry (Amat et al., 2010), its deletion should prevent wide-scale \ac{S-layer} formation and aggregation. Our strategies resulted in large well-diffracting crystals, any future investigations of \acp{S-layer} proteins, like past studies, will likewise need to solve the issues of \ac{S-layer} formation and aggregation.
+
+Our `plate' crystals diffract to 2.5 \AA{} with unit-cell parameters of  a=210.79 \AA, b=80.74 \AA, c=221.9 \AA,  and $\beta$=117.46 degrees. These unit-cell sizes closely match the 2D unit size of native \ac{S-layer} repeating unit, a hexamer of RsaA monomers\upcite[.]{smit1992s} These results suggest that the unit-cell of our crystals is six copies of RsaA \del 0--222. Our hexagonal columnar crystals have yet to diffract to a suitable resolution, but they are promising because they have higher symmetry that may be result in improved datasets. As our protein has no close matches in the structural databases to use for the purposes of molecular replacement, the phase problem has been tackled with iodine derivitization and single-wavelength anamolous dispersion. 
+ 

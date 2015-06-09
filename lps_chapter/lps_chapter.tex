@@ -46,370 +46,6 @@ that all the major carbohydrate structures in \caulobacter cell envelope have
 now been solved.
 % section introduction (end)
 
-\section{Results} % (fold)
-\label{sec:lps_results}
-	\subsection{Characterization of whole \textsc{lps}} % (fold)
-	\label{sub:characterisation_of_whole_lps}
-		%% %^Write
-  \begin{figure}[htb]
-    \begin{center}
-      \includegraphics[width=0.3\textwidth]{lps_chapter/img/lpssilverstain.jpg}
-    \end{center}
-    \caption[Visual comparison of \ecoli O122 \ac{LPS} and \caulobacter \ac{LPS}]{Visual comparison
-      of silver stained \ecoli O122 \ac{LPS} and \caulobacter \ac{LPS}. \ac{LPS} samples were run on
-      a \ac{SDS-PAGE} and silver stained. Lanes 1 and 3 contain equal amounts of \ac{LPS} from
-      \ecoli O122. Lanes 2 and 4 contain our isolated \ac{LPS} from \caulobacter. Lane 4 has twice
-      the loaded amount compared to lane 2 to demonstrate that there are no minor, hidden
-      bands. Notice the canonical `laddering' pattern of \ecoli\ \ac{LPS} and the distinctly
-      singular band of \caulobacter\ \ac{LPS}.}
-    \label{fig:lpssilverstain}
-  \end{figure}
-
-  \begin{figure}[htp]
-    \begin{center}
-      \includegraphics[]{lps_chapter/img/lpsvisuals.pdf}
-    \end{center}
-    \caption[Four different visualisations of \caulobacter\ \ac{LPS}]{Four different visualisations
-      of \caulobacter\ \ac{LPS}. \textbf{A}. Western blot with rabbit anti-\ac{OPS} serum used as
-      the primary probe. \textbf{B}. Far-western blot with RsaA \del 277--784 used as the primary
-      probe and rabbit anti-RsaA serum used as the secondary probe. \textbf{C.} Schiff stained
-      \ac{SDS-PAGE}. \textbf{D}. Silver stained \ac{SDS-PAGE}. The smooth-\ac{LPS} (\ie containing a
-      complete \ac{OPS}) runs as a single band at roughly the equivalent rate of a 50 kDa protein
-      and is visible in all lanes. The faint band visible at 30 kDa in the western blot (A) is of
-      unknown source. The faint 30 kDa band is not seen in by far western (B), Schiff stain (C), or
-      silver stain (D).}
-    \label{fig:lpsvisuals}
-  \end{figure}
-
-  \begin{figure}[htb]
-    \begin{center}
-      \includegraphics[]{lps_chapter/img/malditof.pdf}
-    \end{center}
-    \caption[\Ac{MALDI-TOF} analysis of intact, whole \ac{LPS} from \caulobacter]{\ac{MALDI-TOF}
-      analysis of intact, whole \ac{LPS} from \caulobacter. The insert highlights the peaks
-      attributed to \ac{LPS}. The major \ac{LPS} peak is labelled 10834.90 m/z}
-    \label{fig:lpsmalditof}
-  \end{figure}
-	% subsection characterisation_of_whole_lps (end)
-
-	\subsection{Initial assessment and component analysis} % (fold)
-	\label{sub:initial_assessment_and_component_analysis}
-
-  The \ac{PS} was released from the \ac{LPS} by hydrolysis with acetic acid. \textsuperscript{1}H
-  \ac{NMR} spectrum of the \ac{PS} (\cref{fig:lpsfig1})) contained a large number of partially
-  overlapping signals of various intensities in the anomeric region. It was obviously not a regular
-  polymer with well-defined repeating units. Attempts to separate this material by anion-exchange
-  chromatography led to the isolation of a number of fractions from neutral to slightly retained,
-  but all of them had virtually identical \ac{NMR} spectra. Methylation of the polysaccharide led to
-  the identification of 3- and 3,4-substituted mannopyranose, terminal glucopyranose (derived from
-  side-chain 3-O-MeGlc), terminal, 3-, 4-, and 2,4-substituted rhamnopyranose, 3-substituted PerNAc,
-  and an unidentified derivative resembling methylated PerN that eluted between dimethylhexose
-  derivatives and 3-substituted PerNAc. To identify the position of the methyl groups in naturally
-  methylated monosaccharides, methylation was conducted with \ce{CD3I}. This confirmed the
-  identification of tetramethylglucitol as originating from 3-O-MeGlc, but did not identify any
-  other naturally methylated monosaccharides, visible in \ac{NMR} spectra. An unknown derivative
-  received two deuterated methyl groups.
-
-  \begin{figure}[ph] %% 1D NMR Spectra
-    \begin{center}
-      \includegraphics[height=0.9\textheight]{lps_chapter/img/lpsfig1.pdf}
-    \end{center}
-    \caption[\textsuperscript{1}H \ac{NMR} spectra of \caulobacter{} \ac{OPS}]{\textsuperscript{1}H
-      \ac{NMR} spectra of the intact \caulobacter{} \ac{OPS} (bottom trace), double oxidized
-      polysaccharide (middle trace) and N-deacylated double oxidized polysaccharide (upper trace).}
-    \label{fig:lpsfig1}
-  \end{figure}
-	% subsection initial_assessment_and_component_analysis (end)
-
-  \subsection{Identification of similar glycan structures by RsaA binidng} \label{sec:ident-simil-glyc}
-  
-  A service available at \ac{cfg} Core H at Emory University is glycan array screening\upcite[.]{blixt2004printed, alvarez2006identification} Fluorescently labeled lectins can be screened over an microarray of 465 known glycan structures commonly found in mammals. The array can be used to identify targets of known carbohydrate-binding proteins, such as RsaA. We hoped that RsaA may bind a glycan on the array and that the structure of that carbohydrate may inform us on the structure of the \ac{OPS} from \caulobacter. Due to our initial component analysis, knew that our \ac{OPS} differed significantly from any of the glycans in the array, at least compositionally (\vpageref{sub:initial_assessment_and_component_analysis}). RsaA (specifically RsaA \del 277--784) was found to not measurably bind any of the glycan structures found on the array. 
-
-	\subsection{O-antigen structure determination (\textsc{ps}1)} % (fold)
-	\label{sub:o_antigen_structure_determination_ps1_}
-
-  A set of 2D spectra [\ac{gCOSY}, \ac{TOCSY}, \ac{NOESY},
-  \textsuperscript{1}H-\textsuperscript{13}C \ac{gHSQC}, \ac{gHMBC}] was obtained for the
-  \ac{PS}. There were many (more than 20) lines of correlations from the anomeric signals. Later,
-  after the analysis of \ac{PS} degradation products, most of them could be assigned to particular
-  structures (\cref{fig:lpsops,fig:lpsends,fig:lpsrhamnan}). Polysaccharide heterogeneity was not
-  caused by random acetylation, but \ac{PS} contained 4 methyl groups (one major and 3
-  minor). Monosaccharide analysis revealed L-Rha, D-Man, D-PerN (perosamine, 4-aminodeoxyrhamnose),
-  and 3-O-MeGlc. Other methylated monosaccharides were not identified by \ac{GC-MS} as alditol
-  acetates, possibly due to low content or degradation during hydrolysis. The \ac{GC-MS} data is
-  presented in \cref{fig:monosaccharide_analysis}.
-
-  \begin{figure}[htb] %% monosaccharides
-    \begin{center}
-      \includegraphics[width=\textwidth]{lps_chapter/img/lps_monosaccharides.pdf}
-    \end{center}
-    \caption[Monosaccharide analysis of \ac{LPS}]{Monosaccharide analysis of \caulobacter\
-      \ac{LPS}. Alditol acetates derivatives of the \ac{LPS} component monosaccharides were
-      separated and identified by \ac{GC-MS}. The protocol used is described on
-      \cpageref{sub:monosaccharide_analysis}.}
-    \label{fig:monosaccharide_analysis}
-  \end{figure}
-
-		In an attempt to simplify the structure, \ac{PS} was oxidized with \ce{NaIO4}, reduced with
-    \ce{NaBD4}, hydrolysed with 2\% \ce{AcOH}, and the products were separated on a Biogel P6 column
-    to give a polymer and an \ac{OS}, \ac{OS}1. Analysis of \ac{OS}1 will be described below. For
-    some reason not all of the rhamnan was oxidized, and some of its signals persisted in the
-    spectra of the remaining polymer (without side-chain Rha F). To remove the rest of it, the
-    oxidation was repeated to produce \ac{PS}1. Spectra still contained some signals of minor
-    components, analysed later. Assignment of the spectra of the non-oxidisable polymer \ac{PS}1 was
-    difficult due to complete or partial overlap of the H-2,3,4,5 signals of PerNAc. To improve
-    signal spread, \ac{PS}1 was deacylated with 4 M \ce{NaOH}. At this point the major polymer
-    became positively charged and an attempt was made to separate it from the minor components using
-    cation-exchange chromatography. However, all material was eluted together at high salt
-    concentration, thus indicating that all components were chemically bound together. Assignment of
-    the spectra (\cref{fig:lps2dnmr}, \cref{tbl:lpsops}) became possible at this stage due to better
-    signal spread (H-4 signals of PerN moved to high field due to deacylation) and the sequence
-    shown on \cref{fig:lpsops} was proposed. Spectra contained the signals of two
-    $\beta$-mannopyranose, $\alpha$-3-O-MeGlc, and two -Per4N. The following interresidual \ac{NOE}
-    and \ac{HMBC} correlations were used to determine the sequence: R1:L3, L1:Z3, Z1:Q3, Q1:W3,
-    W1:X3, A1:X4. \Ac{PS}1 had trisaccharide repeating units composed of $\beta$-mannose and two
-    $\alpha$-PerNAc residues, and every second repeating unit carried a side branch of 3-O-MeGlc. It
-    seems that side-chains were present quite regularly at each second trisaccharide repeat of the
-    main chain, because \ac{NOE} correlations were observed between the repeating units with and
-    without 3-O-MeGlc, and not between units of the same structure. Thus altogether, the repeating
-    unit contained seven monosaccharides.
-
-		\begin{figure}[H]
-			\begin{center}
-				\includegraphics[]{lps_chapter/img/lpsops.pdf}
-			\end{center}
-			\caption[The structure of the \caulobacter \ac{OPS}]{The structure
-            of the \caulobacter \ac{OPS}. \textbf{A.} The intact repeating unit,
-            \ac{PS}1. \textbf{B.} The deacylated product of \ac{PS}1.}
-			\label{fig:lpsops}
-		\end{figure}
-
-		\begin{figure}[H]
-			\begin{center}
-				\includegraphics[width=0.9\textwidth]{lps_chapter/img/lpsfig3.pdf}
-			\end{center}
-			\caption[2D \ac{NMR} of \caulobacter{} \ac{PS}1]{Overlap of \ac{COSY} (green), \ac{TOCSY}
-        (red) and \ac{ROESY} (black) correlations from anomeric protons of double oxidized
-        deacylated \caulobacter{} \ac{PS}1.}
-			\label{fig:lps2dnmr}
-		\end{figure}
-		\begin{table}[hp] % LPS OPS
-			\centering
-			\caption[\Ac{NMR} data for \caulobacter \ac{PS}1]{\Ac{NMR} data for \caulobacter \ac{PS}1 (40\cel) and deacylated \ac{PS}1 (50\cel). Me at 3.62/61.3 ppm.}
-			\label{tbl:lpsops}
-			\begin{tabular}{@{}rccccccc@{}}
-				\toprule
-				\multicolumn{8}{c}{PS1} \\ \midrule
-     &   & 1     & 2    & 3    & 4    & 5    & 6 \\ \midrule
-				\multirow{2}{*}{PerNAc R}      & H & 4.97  & 3.98 & 4.13 & 3.92 & 3.91 & 1.21 \\
-     & C & 103.3 & 68.2 & 75.5 & 52.4 & 69.4 & 18.0 \\
-				\multirow{2}{*}{PerNAc Q}      & H & 4.98  & 3.97 & 4.11 & 3.92 & 3.91 & 1.21 \\
-     & C & 103.3 & 68.2 & 75.5 & 52.4 & 69.4 & 18.0 \\
-				\multirow{2}{*}{PerNAc L}      & H & 5.05  & 4.12 & 3.99 & 3.98 & 3.98 & 1.21 \\
-     & C & 103.3 & 70.4 & 78.2 & 53.0 & 69.4 & 18.0 \\
-				\multirow{2}{*}{PerNAc W}      & H & 5.02  & 4.12 & 3.96 & 3.98 & 3.98 & 1.21 \\
-     & C & 104.0 & 70.4 & 77.8 & 53.0 & 69.4 & 18.0 \\
-				\multirow{2}{*}{$\beta$-Man X} & H & 4.74  & 4.09 & 3.98 & 3.90 & 3.54 & 3.80; 3.96 \\
-     & C & 97.8  & 72.1 & 85.4 & 72.1 & 75.8 & 62.6 \\
-				\multirow{2}{*}{$\beta$-Man Z} & H & 4.72  & 4.06 & 3.70 & 3.68 & 3.41 & 3.77; 3.96 \\
-     & C & 98.2  & 71.9 & 82.3 & 67.2 & 77.3 & 62.4 \\
-				\multirow{2}{*}{Glc3Me A}      & H & 5.36  & 3.51 & 3.40 & 3.44 & 3.68 & 3.75; 3.85 \\
-     & C & 100.0 & 72.2 & 84.1 & 70.1 & 74.1 & 61.6 \\ \midrule
-				\multicolumn{8}{c}{Deacylated PS1} \\ \midrule
-				\multirow{2}{*}{PerN R}        & H & 5.13  & 4.34 & 4.29 & 3.30 & 4.18 & 1.38 \\
-     & C & 103.5 & 67.4 & 75.0 & 53.4 & 67.8 & 18.0 \\
-				\multirow{2}{*}{PerN Q}        & H & 5.11  & 4.34 & 4.29 & 3.30 & 4.18 & 1.38 \\
-     & C & 103.5 & 67.4 & 75.0 & 53.4 & 67.8 & 18.0 \\
-				\multirow{2}{*}{PerN L}        & H & 5.08  & 4.22 & 4.06 & 3.11 & 4.09 & 1.35 \\
-     & C & 103.9 & 69.9 & 79.9 & 53.6 & 69.5 & 18.0 \\
-				\multirow{2}{*}{PerN W}        & H & 5.06  & 4.22 & 4.06 & 3.11 & 4.09 & 1.35 \\
-     & C & 103.9 & 69.9 & 79.9 & 53.6 & 69.5 & 18.0 \\
-				\multirow{2}{*}{$\beta$-Man X} & H & 4.91  & 4.18 & 4.03 & 3.96 & 3.59 & 3.83; 3.96 \\
-     & C & 98.0  & 71.7 & 85.0 & 71.7 & 75.9 & 62.1 \\
-				\multirow{2}{*}{$\beta$-Man Z} & H & 4.90  & 4.18 & 3.75 & 3.75 & 3.46 & 3.83; 3.96 \\
-     & C & 98.0  & 71.7 & 82.0 & 67.0 & 77.4 & 62.1 \\
-				\multirow{2}{*}{Glc3Me A}      & H & 5.39  & 3.57 & 3.40 & 3.48 & 3.68 & 3.76; 3.86 \\
-     & C & 100.2 & 72.2 & 84.0 & 70.0 & 74.1 & 61.7 \\ \bottomrule
-			\end{tabular}
-		\end{table}
-	% subsection o_antigen_structure_determination_ps1_ (end)
-  
-	\subsection{Minor component determination} % (fold)
-	\label{sub:minor_component_determination}
-
-  \ac{PS} and \ac{PS}1 spectra contained signals of minor components, which could not be removed by
-  chromatography, as described above. They probably represented the non-reducing ends of the major
-  chain, \ac{PS}1 (\cref{fig:lpsends}). The minor components contained methylated Rha (2-O-Me-Rha
-  residue J and 2,3-Me$_2$-PerN residue B). The position of the methyl groups were found from
-  \ac{HMBC} correlations between protons of methyl groups and carbon atoms bearing OMe groups, which
-  all were well visible and did not overlap with other signals due to their low field
-  position. Thus, two independent structural fragments, 1 and 2, were found and are shown in
-  \cref{fig:lpsends}. Mannose residues Z' and Z" at the non-reducing ends of these fragments were
-  further linked to PerN residues, indistinguishable from the PerN of the main chain. PerN residue D
-  had upfield shifted C-2 and downfield shifted C-3 signals (\cref{tbl:lpsends})), which have not
-  been explained. It appears that its O-3 was phosphorylated, producing typical phosphorylation
-  signal shifts and broadening of the H-3 signal, but \textsuperscript{1}H-\textsuperscript{31}P
-  \ac{HMQC} \ac{NMR} spectrum showed no signals, possibly due to the low abundance of this
-  residue. Possibly Rha residues inserted in the structure resembling \ac{PS}1 represented the
-  attachment point of the rhamnan (\ac{PS}2) to \ac{PS}1, if they were linked together.
-
-		 \begin{figure}[htb]
-		 	\begin{center}
-		 		\includegraphics[]{lps_chapter/img/lpsends.pdf}
-		 	\end{center}
-		 	\caption[The structure of minor component, the end caps of the \ac{OPS}.]{The structure of minor component, the end caps of the \ac{OPS}. \textbf{A.} Fragment 1. \textbf{B.} Fragment 2.}
-		 	\label{fig:lpsends}
-		 \end{figure}
-
-		 \begin{table}[htb]
-			 \centering
-			 \caption[\Ac{NMR} data for the minor components of the double oxidized non-deacylated \ac{PS}]{\ac{NMR} data for the minor components of the double oxidized non-deacylated \ac{PS} (50\cel). Methyl group signals: B2: 3.48/59.5; B3: 3.42/57.9; J2: 3.45/59.6 ppm (H/C)}
-			 \label{tbl:lpsends}
-			 \begin{tabular}{@{}rccccccc@{}}
-				 \toprule
-         &   & 1     & 2    & 3    & 4    & 5    & 6 \\ \midrule
-				 \multirow{2}{*}{PerN2,3Me B}       & H & 5.25  & 3.96 & 3.71 & 3.81 & 3.91 & 1.17 \\
-         & C & 100.2 & 76.2 & 78.2 & 53.2 & 69.5 & 18.0 \\
-				 \multirow{2}{*}{$\alpha$-Rha2Me J} & H & 5.25  & 3.95 & 4.02 & 3.45 & 3.90 & 1.30 \\
-         & C & 100.2 & 75.9 & 75.4 & 71.8 & 69.5 & 18.0 \\
-				 \multirow{2}{*}{$\alpha$-PerN D}   & H & 5.14  & 4.27 & 4.20 & 3.95 & 3.97 & 1.23 \\
-         & C & 100.1 & 67.4 & 75.2 & 52.2 & 69.4 & 18.0 \\
-				 \multirow{2}{*}{$\alpha$-Man E}    & H & 5.13  & 4.17 & 3.99 & 3.75 & 3.84 & \\
-         & C & 100.1 & 70.9 & 79.8 & 67.1 & 74.4 & \\
-				 \multirow{2}{*}{$\alpha$-Man P}    & H & 5.05  & 4.14 & 4.00 & 3.85 & 3.96 & \\
-         & C & 97.6  & 71.0 & 79.5 & 66.9 & 74.0 & \\
-				 \multirow{2}{*}{$\beta$-Rha U}     & H & 4.78  & 4.16 & 3.69 & 3.48 & 3.44 & 1.32 \\
-         & C & 100.9 & 71.8 & 82.0 & 72.4 & 73.1 & 18.0 \\
-				 \multirow{2}{*}{$\beta$-Man Z"}    & H & 4.72  & 4.06 & 3.75 & 3.75 & 3.46 & 3.83; 3.96 \\
-         & C & 98.2  & 71.9 & 86.0 & 67.0 & 77.4 & 62.1 \\
-				 \multirow{2}{*}{$\beta$-Man Z'}    & H & 4.72  & 4.06 & 3.73 & 3.75 & 3.46 & 3.83; 3.96 \\
-         & C & 98.2  & 71.9 & 82.3 & 67.0 & 77.4 & 62.1 \\ \bottomrule
-			 \end{tabular}
-		 \end{table} %
-	% subsection minor_component_determination (end)
-
-	\subsection{Rhamnan polysaccharide determination (\textsc{ps}2)} % (fold)
-	\label{sub:rhamnan_polysaccharide_determination_ps2_}
-
-  Periodate oxidation of the \ac{PS} produced an \ac{OS}1, which was analyzed by \ac{NMR} and its
-  structure, as shown on \cref{fig:lpsrhamnan}, was determined using standard 2D \ac{NMR}
-  methods. Signal assignment is shown in the \cref{tbl:lpsrhamnan}. It contained three
-  rhamnopyranose units and 4-deoxy-1-deutero-erythritol, produced by the oxidation-reduction of
-  4-substituted rhamnose. Formation of this oligosaccharide could be explained by oxidation of the
-  side chain Rha F and 4-substituted Rha G in the \ac{PS}1 (letter labels for monosaccharides were
-  given using anomeric signals in the whole \ac{PS} spectra starting from low-field). The unoxidized
-  4-substituted residue T in the oligosaccharide originally carried side-chain Rha F at position
-  2. Knowing the \ac{OS}1 structure the signals of a corresponding polymer (\ac{PS}2) were
-  identified in the spectra of the whole \ac{PS}, and are given in the \cref{tbl:lpsrhamnan}.
-
-		\begin{figure}[htb]
-			\begin{center}
-				\includegraphics[]{lps_chapter/img/lpsrhamnan.pdf}
-			\end{center}
-			\caption[The structure of the \caulobacter rhamnan.]{The structure of the \caulobacter rhamnan. \textbf{A.} the intact rhamnan, \ac{PS}2. \textbf{B.} the oxidised rhamnan product, \ac{OS}1.}
-			\label{fig:lpsrhamnan}
-		\end{figure}
-
-		\begin{table}[ht]
-			\centering
-			\caption[\Ac{NMR} data for \caulobacter  \ac{PS}2 and its \ce{NaIO4} oxidation product \ac{OS}1]{\ac{NMR} data for \caulobacter  \ac{PS}2 and its \ce{NaIO4} oxidation product \ac{OS}1 (40\cel).}
-			\label{tbl:lpsrhamnan}
-			\begin{tabular}{@{}rccccccc@{}}
-				\toprule
-				                                     &   & 1          & 2    & 3    & 4    & 5    & 6 \\ \midrule
-				\multirow{2}{*}{$\alpha$-Rha N, OS1} & H & 5.04       & 4.07 & 3.85 & 3.47 & 3.85 & 1.30 \\
-				                                     & C & 103.1      & 71.1 & 71.1 & 72.9 & 69.9 & 17.6 \\
-				\multirow{2}{*}{$\alpha$-Rha N, PS}  & H & 5.02       & 4.02 & 3.79 & 3.45 & 3.72 & 1.28 \\
-				                                     & C & 103.0      & 71.5 & 78.8 & 73.3 & 70.4 & 17.5 \\
-				\multirow{2}{*}{$\beta$-Rha T, OS1}  & H & 4.78       & 4.13 & 3.71 & 3.54 & 3.53 & 1.33 \\
-				                                     & C & 100.7      & 71.1 & 72.3 & 83.4 & 71.7 & 17.5 \\
-				\multirow{2}{*}{$\beta$-Rha T, PS}   & H & 4.79       & 4.22 & 3.82 & 3.62 & 3.61 & 1.36 \\
-				                                     & C & 101.7      & 76.7 & 73.5 & 83.4 & 73.2 & 17.5 \\
-				\multirow{2}{*}{$\beta$-Rha V, OS1}  & H & 4.75       & 4.12 & 3.67 & 3.49 & 3.49 & 1.34 \\
-				                                     & C & 101.1      & 71.4 & 81.3 & 71.9 & 72.9 & 17.5 \\
-				\multirow{2}{*}{$\beta$-Rha V, PS}   & H & 4.77       & 4.13 & 3.66 & 3.66 & 3.50 & 1.35 \\
-				                                     & C & 101.4      & 71.2 & 81.7 & 67.2 & 73.3 & 17.5 \\
-				\multirow{2}{*}{X (ox. G), OS1}      & H & 3.69; 3.71 & 3.75 & 3.99 & 1.20 &      & \\
-				                                     & C & 61.8       & 84.8 & 67.7 & 18.0 &      & \\
-				\multirow{2}{*}{$\alpha$-Rha G, PS}  & H & 5.10       & 4.13 & 3.94 & 3.58 & 3.90 & 1.35 \\
-				                                     & C & 103.1      & 71.5 & 70.3 & 84.5 &      & 17.5 \\
-				\multirow{2}{*}{$\alpha$-Rha F, PS}  & H & 5.11       & 4.09 & 3.87 & 3.45 & 4.07 & 1.27 \\
-				                                     & C & 102.4      & 72.1 & 71.3 & 73.3 &      & 17.5 \\ \bottomrule
-			\end{tabular} %% LPS Rhamnan
-		\end{table}
-	% subsection rhamnan_polysaccharide_determination_ps2_ (end)
-
-	\subsection{Core oligosaccharide determination} % (fold)
-	\label{sub:core_oligosaccharide_determination}
-
-  The core oligosaccharide of the \caulobacter{} \ac{LPS} isolated after \ce{AcOH} hydrolysis
-  contained one non-degraded Kdo, two LD-Hep, one DD-Hep, mannose, galactose, and glucuronic acid in
-  pyranose form. 2D \ac{NMR} analysis led to the structure shown on \cref{fig:lpscore} (\ac{NMR}
-  assignments are in \cref{tbl:lpstable4}, the \ac{HSQC} spectrum is in \cref{fig:lpscorenmr}). The
-  sequence followed from the observed \ac{NOE}: E1:C5,C7,F5; F1:E2; G1:F3; H1:C7,E2; K1:C4;
-  L1:K4. Correlation E1:C7 is always observed in the $\alpha$-Hep-5-Kdo fragment. E1:F5 was due to
-  the $\alpha$-Man-2-Hep linkage. H1E2 indicates spatial proximity of the residues E and H, linked
-  to the same Kdo C. All expected transglycoside correlations were observed in \ac{HMBC} spectrum,
-  together with intra-ring correlations H-1:C-3 and H-1:C-5 for all $\alpha$-pyranoses. Methylation
-  analysis revealed terminal DD-Hep, terminal and 2-substituted LD-Hep, 3-substituted Man and
-  terminal Gal. The structure agreed with mass spectral data, \ac{ESI} \ac{MS} in negative ion mode,
-  [M-H]\textsuperscript{-} = 1314.9, [M-2H]/2\textsuperscript{-} = 656.7, calculated exact mass Hex
-  x 2 + Hep x 3 + HexA x 1 + Kdo x 1 = 1314.4 Da.
-
-		\begin{figure}[htb]
-			\begin{center}
-				\includegraphics[]{lps_chapter/img/lpscore.pdf}
-			\end{center}
-			\caption{The structure of the \caulobacter core \ac{OS}.}
-			\label{fig:lpscore}
-		\end{figure}
-
-		\begin{table}[htb]
-			\centering
-			\caption[\Ac{NMR} data for the core oligosaccharide]{\ac{NMR} data for the core oligosaccharide (25\cel).}
-			\label{tbl:lpstable4}
-			\begin{tabular}{@{}rccccccccc@{}}
-        \toprule
-        &   & 1     & 2    & 3          & 4    & 5    & 6          & 7          & 8 \\ \midrule
-        \multirow{2}{*}{Kdo C}   & H &       &      & 2.05; 2.35 & 4.23 & 4.28 & 4.09       & 3.91       & 3.81; 3.93 \\
-        & C &       & 98.2 & 34.7       & 74.9 & 74.2 & 71.0       & 79.2       & 61.5 \\
-        \multirow{2}{*}{DLHep E} & H & 5.24  & 3.85 & 4.12       & 3.89 & 3.88 & 4.04       & 3.73; 3.73 & \\
-        & C & 101.1 & 80.2 & 71.1       & 67.3 & 74.1 & 70.0       & 63.9       & \\
-        \multirow{2}{*}{Man F}   & H & 5.03  & 4.30 & 4.00       & 3.79 & 3.80 & 3.80; 3.91 &            & \\
-        & C & 103.7 & 70.6 & 78.1       & 67.5 & 74.5 & 62.0       &            & \\
-        \multirow{2}{*}{DDHep G} & H & 5.15  & 4.05 & 3.86       & 3.77 & 3.84 & 4.06       & 3.76; 3.84 & \\
-        & C & 103.1 & 71.0 & 71.8       & 68.7 & 74.5 & 72.9       & 62.9       & \\
-        \multirow{2}{*}{DLHep H} & H & 5.07  & 4.14 & 3.89       & 3.89 & 3.80 & 4.10       & 3.79; 3.81 & \\
-        & C & 102.7 & 73.7 & 71.8       & 67.3 & 73.2 & 70.2       & 64.9       & \\
-        \multirow{2}{*}{GlcA K}  & H & 5.22  & 3.66 & 4.00       & 3.99 & 4.15 &            &            & \\
-        & C & 98.8  & 72.4 & 74.9       & 73.6 &      &            &            & \\
-        \multirow{2}{*}{Gal L}   & H & 5.49  & 3.80 & 3.85       & 3.99 & 3.94 & 3.69; 3.69 &            & \\
-        & C & 99.9  & 69.7 & 70.3       & 70.0 & 71.8 & 61.6       &            & \\ \bottomrule
-			\end{tabular}%LPS table 4
-		\end{table}
-
-		\begin{figure}[htb]
-			\begin{center}
-				\includegraphics[width=\textwidth]{lps_chapter/img/lpsfig4.pdf}
-			\end{center}
-			\caption{Fragment of \textsuperscript{1}H-\textsuperscript{13}C \ac{HSQC} spectrum of the core.}
-			\label{fig:lpscorenmr}	
-		\end{figure}
-    % subsection core_oligosaccharide_determination (end)
-    \subsection{Cellular response to \textit{C. crescentus} LPS}\label{sec:cell-resp-text}
-
-   \begin{figure}[htb]
-  	\begin{center}
-   		\includegraphics[width=\textwidth]{lps_chapter/img/NFkBAssay.pdf}
-   	\end{center}
-   	\caption[NF$\kappa$B Assay for cellular activation by LPS]{
-	   	\textbf{TITLE} TEXT % Add adescription!
-   	}
-   	\label{fig:nfkbassay}
-\end{figure}    
-% section results (end)
-
-
 \section{Methods} % (fold)
 \label{sec:lps_methods}
 
@@ -434,8 +70,7 @@ now been solved.
 
 	\subsection{\textsc{lps} isolation} % (fold)
 	\label{sub:LPS_isolation}
-  \ac{LPS} was isolated from the cells via disrupting the outer membrane by chelation.  The the
-  negative charges in Gram negative bacterial \ac{LPS} are stabilised and bridged by available
+  \ac{LPS} was isolated from the cells via disrupting the outer membrane by chelation.  The negative charges in Gram negative bacterial \ac{LPS} are stabilized and bridged by available
   divalent cations (\ie{} \ce{Ca^2+} and \ce{Mg^2+}). Lieve first noted in 1965\upcite{leive65} that
   one can strip the counter ions from the outer membrane to disrupt it and cause it to shed into the
   medium. We chose a chelation strategy because we found it easy to scale up, it didn't require
@@ -479,7 +114,8 @@ now been solved.
   \etal\!\upcite{improvedsilverstain} The silver stain protocol is a newer technique that uses
   vitamin C (ascorbic acid) in place of formaldehyde in traditional \ac{LPS}
   stains\upcite[.]{tsai1982sensitive} Table \ref{tbl:silver} give the details of the silver stain
-  procedure.
+  procedure.%% Leave it as ref, not cref
+All samples were boiled for 5 minutes in sample buffer prior to applying them to gel. Sample buffer is made as a 4X concentrate comprising 200mM Tris pH 6.8, 8\% sodium dodecylsulfate, 40\% glycerol, 4\% $\beta$-mercaptoethanol, 0.25\% bromophenol blue.
 
 		% Please add the following required packages to your document preamble:
 		% \usepackage{booktabs}
@@ -501,8 +137,17 @@ now been solved.
 	% subsection gel_electrophoresis (end)
     \subsection{Preparation of RsaA \del 277--784 probe} \label{sec:preparation-rsaa-del}
     
-    The plasmid, p4BRsaA\del 277--784, was extant in our laboratory from the work of Wade Bingle. In short, various versions of rsaA were engineered to have \textit{Bam}HI sites at locations throughout the gene\upcite[.]{bingle1997linker} The \textit{Bam}HI--\textit{Hin}DIII fragment from a version of rsaA with a \textit{Bam}HI site at the 831 bp from the start codon was replaced with a \textit{Bam}HI--\textit{Hin}DIII fragment from a version of rsaA with a \textit{Bam}HI site at the 2352 bp position. In effect this made a rsaA gene missing 1521 bp from the center, corresponding to amino acids 277--784 within the resulting protein. This `internally truncated' gene was then moved into the context of our expression vector `p4B'\upcite[]{lau2010analysis} as a \textit{Eco}RI--\textit{Hin}DIII fragment.
+    The plasmid, p4BRsaA\del 277--784, was extant in our laboratory from the work of Wade Bingle and John Nomellini. In short, various versions of rsaA were engineered to have \textit{Bam}HI sites at locations throughout the gene\upcite[.]{bingle1997linker} The \textit{Bam}HI--\textit{Hin}DIII fragment from a version of rsaA with a \textit{Bam}HI site at the 831 bp from the start codon was replaced with a \textit{Bam}HI--\textit{Hin}DIII fragment from a version of rsaA with a \textit{Bam}HI site at the 2352 bp position. In effect this made a rsaA gene missing 1521 bp from the center, corresponding to amino acids 277--784 within the resulting protein. This `internally truncated' gene was then moved into the context of our expression vector `p4B'\upcite[]{lau2010analysis} as a \textit{Eco}RI--\textit{Hin}DIII fragment. p4BRsaA\del{}277--784 was electroporated into \caulobacter{} JS1030. JS1030 is the same strain used for protein production in \cref{ch:crystal}, its construction is detailed on \cpageref{sub:crystal-protein-production}. Isolation and concentration of the RsaA \del{}277--784 probe followed the same protocol used for RsaA \del 0--222, as found on \cpageref{sub:crystal-protein-production}, but unpurified and unconcentrated cell culture supernate, containing secreted RsaA \del{}277--784, was also found to an effective probe for far-western blotting.
     
+    For the protein probe used in the glycan array screening, the RsaA \del{}277-784 was labeled with fluorescein isothiocyanate (Life Technologies), manufacture's instructions were followed for the labeling procedure.
+    
+    \subsection{\Ac{MALDI-TOF}}\label{sec:acmaldi-tof}
+    % TODO 
+    
+    \subsection{Western Blotting and Far-Western Blotting} \label{sec:western-blotting-far}
+    % TODO
+
+
     \subsection{Periodic acid-Schiff Stain} % (fold)
     \label{sub:schiff_stain}
 		
@@ -606,73 +251,461 @@ now been solved.
       treated with 0.2 \millilitre of \ce{AcOH} and desalted on a Sephadex G-15 column. The product was
       hydrolysed with 2\% \ce{AcOH}, 2 h at 100\cel, and separated on a Sephadex G-50 column to give
       \ac{OS}1.
-      % subsection periodate_oxidation (end)
+      
+      \subsection{HEK-Blue hTLR4 assay}\label{sec:hek-blue-htlr4}
+      To assay the stimulatory effect of \caulobacter{} \ac{LPS}  has through TLR4, we used a cell line that expresses a secreted phosphatase reporter under the regulation of NF$\kappa$B.
+      % We closely followed previously published protocols\upcite[.]{marr2010substitution} 
+      HEK-Blue hTLR4\texttrademark{} (InVivoGen) were cultured and maintained according to the supplier's instructions. 
+      % I need to talk to Gyles
+      
+      \subsection{THP-1 derived macrophage assay} \label{sec:thp-1-derived}
+      To measure the cytokine stimulating ability of \caulobacter{} \ac{LPS}, we treated macrophage cells, derived from a THP-1 cell line, with \ac{LPS} from \caulobacter{} or \ac{salmonella}. 
+      
+      The \caulobacter{} \ac{LPS} was isolated from \caulobacter{} JS1013, a derivative of NA1000. The \ac{LPS} isolation protocol can be found \vpageref{sub:LPS_isolation}. The \ac{salmonella} \ac{LPS} was \ac{salmonella} serotype minnesota Re 595 and it was purchased from Sigma-Aldrich.
+      
+      The initial starting cultures of THP-1 cells were generous gifts from the Fernandez lab and the Finlay lab. For the cell culture, we closely followed previously published protocols\upcite[.]{marr2010substitution} We maintained two separate cell lines from the start from two sources to ensure neither was defective; both were found to have identical growth rates and both were clean of contamination. Upon the recommendation of Dr. Joris Van Der Heiden, the initial passage of the cells were in media containing 20 \si{\micro\gram\per\milli\litre}. The cells with kanamycin seemed to achieve maximal growth rate earlier than cells that did not have any antibiotic added (note: no bacteria contamination was ever detected). The Fernandez lab cell line was expanded and used for all subsequent assays.
+      
+      When the THP-1 cells were in their third passage and at a density of $1.4x10^{6}$ live cell per millilitre they were pelleted by centrifugation and resuspended in fresh medium containing 50 \si{\nano\gram\per\milli\litre} \ac{pma}. $1x10^{5}$ THP-1 cells, in \ac{pma}, were placed into the wells of 24-well plates and allowed to differentiate. After 48 hours, all the cells were found to have become adherent to the well surfaces, the \ac{pma}-containing medium was removed, the cells were washed once with fresh medium, and then fresh medium was applied to all the wells and the cells allowed to rest. After a subsequent 48 hours, all the growth medium was replaced with media containing \ac{LPS} and concentrations of 0, 1, 10, 100 \si{\nano\gram\per\milli\litre} of either \caulobacter{} or \ac{salmonella} origin. At the time points of 4 hours and 24 hours, well solutions were removed and frozen at -80\cel{} for cytokine assay.
+      
+      Kits for assaying \ac{tnfa}, \ac{il} 6, \ac{il} 10, \ac{mcp1}, and \ac{ifnb} were purchased from Meso Scale Discoveries. The assays were done following the supplier's instructions and the data readouts were produced on a QuickPlex SQ 120 imager (courtesy of the Pfiefer lab, UBC).
       % section methods (end)
+    
+      \section{Results} % (fold)
+      \label{sec:lps_results}
+      \subsection{Characterization of whole \textsc{lps}} % (fold)
+      \label{sub:characterisation_of_whole_lps}
+      %% % ^Write
+      \begin{figure}[htb]
+        \begin{center}
+          \includegraphics[width=0.3\textwidth]{lps_chapter/img/lpssilverstain.jpg}
+        \end{center}
+        \caption[Visual comparison of \ecoli O122 \ac{LPS} and \caulobacter \ac{LPS}]{Visual comparison
+          of silver stained \ecoli O122 \ac{LPS} and \caulobacter \ac{LPS}. \ac{LPS} samples were run on
+          a \ac{SDS-PAGE} and silver stained. Lanes 1 and 3 contain equal amounts of \ac{LPS} from
+          \ecoli O122. Lanes 2 and 4 contain our isolated \ac{LPS} from \caulobacter. Lane 4 has twice
+          the loaded amount compared to lane 2 to demonstrate that there are no minor, hidden
+          bands. Notice the canonical `laddering' pattern of \ecoli\ \ac{LPS} and the distinctly
+          singular band of \caulobacter\ \ac{LPS}.}
+        \label{fig:lpssilverstain}
+      \end{figure}
 
-      \section{Discussion} % (fold)
-      \label{sec:lps_discussion}
+      \begin{figure}[htp]
+        \begin{center}
+          \includegraphics[]{lps_chapter/img/lpsvisuals.pdf}
+        \end{center}
+        \caption[Four different visualisations of \caulobacter\ \ac{LPS}]{Four different visualisations
+          of \caulobacter\ \ac{LPS}. \textbf{A}. Western blot with rabbit anti-\ac{OPS} serum used as
+          the primary probe. \textbf{B}. Far-western blot with RsaA \del 277--784 used as the primary
+          probe and rabbit anti-RsaA serum used as the secondary probe. \textbf{C.} Schiff stained
+          \ac{SDS-PAGE}. \textbf{D}. Silver stained \ac{SDS-PAGE}. The smooth-\ac{LPS} (\ie containing a
+          complete \ac{OPS}) runs as a single band at roughly the equivalent rate of a 50 kDa protein
+          and is visible in all lanes. The faint band visible at 30 kDa in the western blot (A) is of
+          unknown source. The faint 30 kDa band is not seen in by far western (B), Schiff stain (C), or
+          silver stain (D).}
+        \label{fig:lpsvisuals}
+      \end{figure}
 
-      The \ac{LPS} of \caulobacter has an unusually complicated structure with two different
-      polysaccharides, irregular substituents, and unfavourable \ac{NMR} spectra. Presented data show
-      structures of the core part, two polymers, and putative terminal structures. The polysaccharides
-      could not be separated by size exclusion or anion-exchange chromatography and are probably linked
-      together through the same core. The core of the \caulobacter{} \ac{LPS} has been studied previously
-      and an initial assessment of its composition was made\upcite[,]{ravenscroftlps} but the complete
-      structure had not been determined. The structure of the \ac{OPS} has not been studied before. In our
-      view the polysaccharide structure of the \caulobacter{} \ac{LPS} represents one of the most
-      complicated bacterial \ac{LPS} polysaccharide structures identified so far.
+      \begin{figure}[htb]
+        \begin{center}
+          \includegraphics[]{lps_chapter/img/malditof.pdf}
+        \end{center}
+        \caption[\Ac{MALDI-TOF} analysis of intact, whole \ac{LPS} from \caulobacter]{\ac{MALDI-TOF}
+          analysis of intact, whole \ac{LPS} from \caulobacter. The insert highlights the peaks
+          attributed to \ac{LPS}. The major \ac{LPS} peak is labelled 10834.90 m/z}
+        \label{fig:lpsmalditof}
+      \end{figure}
+      % subsection characterisation_of_whole_lps (end)
 
-      The Kdo present in the \ac{LPS} core structure (see \cref{fig:lpscore}) has the typical
-      substitutions at O-4 and O-5 of a manno-configured sugar and a negatively charged sugar,
-      respectively\upcite[.]{brade99} It also has a rarely observed third substitution at O-7 with a
-      heptose moiety. The Kdo O-7 position is known to be occupied by a galactose moiety in the core of
-      \textit{Rhizobium leguminosarum} bv. Viciae VF39\upcite[,]{rhizobiumlps} and the secondary Kdo in
-      the core oligosaccharide from \textit{Acinetobacter baumannii} ATCC 19606 has an O-7 substituted
-      with a glucosamine\upcite[.]{acinetobacterlps}
+        \subsection{Initial assessment and component analysis} % (fold)
+        \label{sub:initial_assessment_and_component_analysis}
 
-      In the traditional model \ac{LPS} occupies the outer leaflet of the outer membrane of a
-      Gram-negative bacterium, and so (excepting the presence of cell associated \ac{EPS}) is the
-      outermost layer of the cell. For \caulobacter, however, \ac{LPS} is the penultimate barrier below
-      the protein \ac{S-layer}. The \caulobacter{} \ac{OPS} serves as the anchor for the S-layer and is
-      likely not accessible to the environment\upcite[.]{walker94} The carbohydrates found in the \ac{OPS}
-      are particularly hydrophobic, marked by the abundance of deoxy-sugars, acetyl groups, and methyl
-      groups. This hydrophobicity is possibly a result of particular sugars needed for \ac{S-layer}
-      anchoring, as these carbohydrate structures likely evolved as the cognate ligands for the
-      \ac{S-layer} protein, RsaA. The distance between the \ac{S-layer} and the outer membrane is about
-      17--19 nm\upcite[.]{dipm} It is possible the hydrophobicity aids in packing the polysaccharides
-      between the S-layer and the \ac{LPS}. Further determination of RsaA's structure should help
-      illuminate the interaction between the S-layer and \ac{OPS}.
+        The \ac{PS} was released from the \ac{LPS} by hydrolysis with acetic acid. \textsuperscript{1}H
+        \ac{NMR} spectrum of the \ac{PS} (\cref{fig:lpsfig1})) contained a large number of partially
+        overlapping signals of various intensities in the anomeric region. It was obviously not a regular
+        polymer with well-defined repeating units. Attempts to separate this material by anion-exchange
+        chromatography led to the isolation of a number of fractions from neutral to slightly retained,
+        but all of them had virtually identical \ac{NMR} spectra. Methylation of the polysaccharide led to
+        the identification of 3- and 3,4-substituted mannopyranose, terminal glucopyranose (derived from
+        side-chain 3-O-MeGlc), terminal, 3-, 4-, and 2,4-substituted rhamnopyranose, 3-substituted PerNAc,
+        and an unidentified derivative resembling methylated PerN that eluted between dimethylhexose
+        derivatives and 3-substituted PerNAc. To identify the position of the methyl groups in naturally
+        methylated monosaccharides, methylation was conducted with \ce{CD3I}. This confirmed the
+        identification of tetramethylglucitol as originating from 3-O-MeGlc, but did not identify any
+        other naturally methylated monosaccharides, visible in \ac{NMR} spectra. An unknown derivative
+        received two deuterated methyl groups.
 
-      Knowledge of the structure of \caulobacter{} \ac{OPS} and \ac{LPS} will facilitate the determination
-      and characterization of their biosynthetic enzymes and mutant variants. Already, the enzymes
-      LpxI\upcite{lpxi} and GDP-L-perosamine acetylase\upcite{perosmineacetyltransferase} from
-      \caulobacter have been characterized. One uncharacterised enzyme, WbqL, is necessary for proper
-      \ac{OPS} synthesis and disruption of wbqL leads to the accumulation of truncated and S-layer
-      anchoring deficient \ac{OPS} in the inner membrane and inhibits Crescentin-mediated cell
-      curvature\upcite[.]{lpsinterferecrescentin} Many genes, such as wbqL, have been identified as
-      essential for \ac{OPS} synthesis\upcite{awramgenes} but have not yet been characterized. Other
-      genes, that must be essential for \ac{OPS} synthesis, have yet to be identified or characterized,
-      such as the O-antigen polymerase and ligase.
+        \begin{figure}[ph] %% 1D NMR Spectra
+          \begin{center}
+            \includegraphics[height=0.9\textheight]{lps_chapter/img/lpsfig1.pdf}
+          \end{center}
+          \caption[\textsuperscript{1}H \ac{NMR} spectra of \caulobacter{} \ac{OPS}]{\textsuperscript{1}H
+            \ac{NMR} spectra of the intact \caulobacter{} \ac{OPS} (bottom trace), double oxidized
+            polysaccharide (middle trace) and N-deacylated double oxidized polysaccharide (upper trace).}
+          \label{fig:lpsfig1}
+        \end{figure}
+        % subsection initial_assessment_and_component_analysis (end)
 
-      % --Should I increase the text about lpxI?--%
+        \subsection{Identification of similar glycan structures by RsaA binidng} \label{sec:ident-simil-glyc}
+  
+        A service available at \ac{cfg} Core H at Emory University is glycan array screening\upcite[.]{blixt2004printed, alvarez2006identification} Fluorescently labeled lectins can be screened over an microarray of 465 known glycan structures commonly found in mammals. The array can be used to identify targets of known carbohydrate-binding proteins, such as RsaA. We hoped that RsaA may bind a glycan on the array and that the structure of that carbohydrate may inform us on the structure of the \ac{OPS} from \caulobacter. Due to our initial component analysis, knew that our \ac{OPS} differed significantly from any of the glycans in the array, at least compositionally (\vpageref{sub:initial_assessment_and_component_analysis}). RsaA (specifically RsaA \del 277--784) was found to not measurably bind any of the glycan structures found on the array. 
 
-      The subunit-based repeating nature of \caulobacter{} \ac{OPS} suggests that a Wzy-dependent pathway
-      synthesizes the polymer\upcite[.]{lpsreview02} The previous study that aimed to identify genes
-      essential for \ac{OPS} did not identify many of the canonical genes in the Wzy-dependant
-      pathway\upcite[,]{awramgenes} such as the O-unit transporter, Wzx, O-antigen polymerase, Wzy; the
-      chain-length determinate protein, Wzz; and the O-antigen ligase, WaaL. Genes that have been
-      annotated as putative O-antigen synthesis genes do appear in the sequenced genomes for \caulobacter
-      CB15, but they have not been experimentally confirmed.
+        \subsection{O-antigen structure determination (\textsc{ps}1)} % (fold)
+        \label{sub:o_antigen_structure_determination_ps1_}
 
-      An additional aspect to this \ac{LPS} it the fact that its O-antigen is of homogeneous length. While
-      other \ac{LPS}s vary in size due to the number of O-antigen repeat groups, appearing as a laddering
-      of bands by \ac{SDS-PAGE}, the \ac{LPS} from \caulobacter appears as a single
-      band\upcite[.]{walker94} Initial \ac{MALDI-TOF} analysis of the entire \ac{LPS} indicates a size of
-      about 10.8 kDa (see \cref{fig:lpsmalditof} on \cpageref{fig:lpsmalditof}).  After accounting for the
-      solved structures for the lipid A and core regions, this suggests the \ac{LPS} contains
-      approximately 5 repeats of the proposed heptameric O-antigen structure.  There is not currently a
-      known mechanism for the regulation and synthesis of a strictly homogeneous length O-antigen. It is
-      possible that this \ac{OPS} is synthesized via the \ac{ABC}-transporter-dependent
-      pathway\upcite{lpsreview02} or another heretofore undiscovered mechanism. In any event it would seem
-      that the transfer of a polysaccharide of this considerable size to the outer leaflet of the outer
-      membrane is a remarkable feat for the bacterium.
+        A set of 2D spectra [\ac{gCOSY}, \ac{TOCSY}, \ac{NOESY},
+        \textsuperscript{1}H-\textsuperscript{13}C \ac{gHSQC}, \ac{gHMBC}] was obtained for the
+        \ac{PS}. There were many (more than 20) lines of correlations from the anomeric signals. Later,
+        after the analysis of \ac{PS} degradation products, most of them could be assigned to particular
+        structures (\cref{fig:lpsops,fig:lpsends,fig:lpsrhamnan}). Polysaccharide heterogeneity was not
+        caused by random acetylation, but \ac{PS} contained 4 methyl groups (one major and 3
+        minor). Monosaccharide analysis revealed L-Rha, D-Man, D-PerN (perosamine, 4-aminodeoxyrhamnose),
+        and 3-O-MeGlc. Other methylated monosaccharides were not identified by \ac{GC-MS} as alditol
+        acetates, possibly due to low content or degradation during hydrolysis. The \ac{GC-MS} data is
+        presented in \cref{fig:monosaccharide_analysis}.
+
+        \begin{figure}[htb] %% monosaccharides
+          \begin{center}
+            \includegraphics[width=\textwidth]{lps_chapter/img/lps_monosaccharides.pdf}
+          \end{center}
+          \caption[Monosaccharide analysis of \ac{LPS}]{Monosaccharide analysis of \caulobacter\
+            \ac{LPS}. Alditol acetates derivatives of the \ac{LPS} component monosaccharides were
+            separated and identified by \ac{GC-MS}. The protocol used is described on
+            \cpageref{sub:monosaccharide_analysis}.}
+          \label{fig:monosaccharide_analysis}
+        \end{figure}
+
+        In an attempt to simplify the structure, \ac{PS} was oxidized with \ce{NaIO4}, reduced with
+        \ce{NaBD4}, hydrolysed with 2\% \ce{AcOH}, and the products were separated on a Biogel P6 column
+        to give a polymer and an \ac{OS}, \ac{OS}1. Analysis of \ac{OS}1 will be described below. For
+        some reason not all of the rhamnan was oxidized, and some of its signals persisted in the
+        spectra of the remaining polymer (without side-chain Rha F). To remove the rest of it, the
+        oxidation was repeated to produce \ac{PS}1. Spectra still contained some signals of minor
+        components, analysed later. Assignment of the spectra of the non-oxidisable polymer \ac{PS}1 was
+        difficult due to complete or partial overlap of the H-2,3,4,5 signals of PerNAc. To improve
+        signal spread, \ac{PS}1 was deacylated with 4 M \ce{NaOH}. At this point the major polymer
+        became positively charged and an attempt was made to separate it from the minor components using
+        cation-exchange chromatography. However, all material was eluted together at high salt
+        concentration, thus indicating that all components were chemically bound together. Assignment of
+        the spectra (\cref{fig:lps2dnmr}, \cref{tbl:lpsops}) became possible at this stage due to better
+        signal spread (H-4 signals of PerN moved to high field due to deacylation) and the sequence
+        shown on \cref{fig:lpsops} was proposed. Spectra contained the signals of two
+        $\beta$-mannopyranose, $\alpha$-3-O-MeGlc, and two -Per4N. The following interresidual \ac{NOE}
+        and \ac{HMBC} correlations were used to determine the sequence: R1:L3, L1:Z3, Z1:Q3, Q1:W3,
+        W1:X3, A1:X4. \Ac{PS}1 had trisaccharide repeating units composed of $\beta$-mannose and two
+        $\alpha$-PerNAc residues, and every second repeating unit carried a side branch of 3-O-MeGlc. It
+        seems that side-chains were present quite regularly at each second trisaccharide repeat of the
+        main chain, because \ac{NOE} correlations were observed between the repeating units with and
+        without 3-O-MeGlc, and not between units of the same structure. Thus altogether, the repeating
+        unit contained seven monosaccharides.
+
+        \begin{figure}[H]
+          \begin{center}
+            \includegraphics[]{lps_chapter/img/lpsops.pdf}
+          \end{center}
+          \caption[The structure of the \caulobacter \ac{OPS}]{The structure
+            of the \caulobacter \ac{OPS}. \textbf{A.} The intact repeating unit,
+            \ac{PS}1. \textbf{B.} The deacylated product of \ac{PS}1.}
+          \label{fig:lpsops}
+        \end{figure}
+
+        \begin{figure}[H]
+          \begin{center}
+            \includegraphics[width=0.9\textwidth]{lps_chapter/img/lpsfig3.pdf}
+          \end{center}
+          \caption[2D \ac{NMR} of \caulobacter{} \ac{PS}1]{Overlap of \ac{COSY} (green), \ac{TOCSY}
+            (red) and \ac{ROESY} (black) correlations from anomeric protons of double oxidized
+            deacylated \caulobacter{} \ac{PS}1.}
+          \label{fig:lps2dnmr}
+        \end{figure}
+        \begin{table}[hp] % LPS OPS
+          \centering
+          \caption[\Ac{NMR} data for \caulobacter \ac{PS}1]{\Ac{NMR} data for \caulobacter \ac{PS}1 (40\cel) and deacylated \ac{PS}1 (50\cel). Me at 3.62/61.3 ppm.}
+          \label{tbl:lpsops}
+          \begin{tabular}{@{}rccccccc@{}}
+            \toprule
+            \multicolumn{8}{c}{PS1} \\ \midrule
+         &   & 1     & 2    & 3    & 4    & 5    & 6 \\ \midrule
+            \multirow{2}{*}{PerNAc R}      & H & 4.97  & 3.98 & 4.13 & 3.92 & 3.91 & 1.21 \\
+         & C & 103.3 & 68.2 & 75.5 & 52.4 & 69.4 & 18.0 \\
+            \multirow{2}{*}{PerNAc Q}      & H & 4.98  & 3.97 & 4.11 & 3.92 & 3.91 & 1.21 \\
+         & C & 103.3 & 68.2 & 75.5 & 52.4 & 69.4 & 18.0 \\
+            \multirow{2}{*}{PerNAc L}      & H & 5.05  & 4.12 & 3.99 & 3.98 & 3.98 & 1.21 \\
+         & C & 103.3 & 70.4 & 78.2 & 53.0 & 69.4 & 18.0 \\
+            \multirow{2}{*}{PerNAc W}      & H & 5.02  & 4.12 & 3.96 & 3.98 & 3.98 & 1.21 \\
+         & C & 104.0 & 70.4 & 77.8 & 53.0 & 69.4 & 18.0 \\
+            \multirow{2}{*}{$\beta$-Man X} & H & 4.74  & 4.09 & 3.98 & 3.90 & 3.54 & 3.80; 3.96 \\
+         & C & 97.8  & 72.1 & 85.4 & 72.1 & 75.8 & 62.6 \\
+            \multirow{2}{*}{$\beta$-Man Z} & H & 4.72  & 4.06 & 3.70 & 3.68 & 3.41 & 3.77; 3.96 \\
+         & C & 98.2  & 71.9 & 82.3 & 67.2 & 77.3 & 62.4 \\
+            \multirow{2}{*}{Glc3Me A}      & H & 5.36  & 3.51 & 3.40 & 3.44 & 3.68 & 3.75; 3.85 \\
+         & C & 100.0 & 72.2 & 84.1 & 70.1 & 74.1 & 61.6 \\ \midrule
+            \multicolumn{8}{c}{Deacylated PS1} \\ \midrule
+            \multirow{2}{*}{PerN R}        & H & 5.13  & 4.34 & 4.29 & 3.30 & 4.18 & 1.38 \\
+         & C & 103.5 & 67.4 & 75.0 & 53.4 & 67.8 & 18.0 \\
+            \multirow{2}{*}{PerN Q}        & H & 5.11  & 4.34 & 4.29 & 3.30 & 4.18 & 1.38 \\
+         & C & 103.5 & 67.4 & 75.0 & 53.4 & 67.8 & 18.0 \\
+            \multirow{2}{*}{PerN L}        & H & 5.08  & 4.22 & 4.06 & 3.11 & 4.09 & 1.35 \\
+         & C & 103.9 & 69.9 & 79.9 & 53.6 & 69.5 & 18.0 \\
+            \multirow{2}{*}{PerN W}        & H & 5.06  & 4.22 & 4.06 & 3.11 & 4.09 & 1.35 \\
+         & C & 103.9 & 69.9 & 79.9 & 53.6 & 69.5 & 18.0 \\
+            \multirow{2}{*}{$\beta$-Man X} & H & 4.91  & 4.18 & 4.03 & 3.96 & 3.59 & 3.83; 3.96 \\
+         & C & 98.0  & 71.7 & 85.0 & 71.7 & 75.9 & 62.1 \\
+            \multirow{2}{*}{$\beta$-Man Z} & H & 4.90  & 4.18 & 3.75 & 3.75 & 3.46 & 3.83; 3.96 \\
+         & C & 98.0  & 71.7 & 82.0 & 67.0 & 77.4 & 62.1 \\
+            \multirow{2}{*}{Glc3Me A}      & H & 5.39  & 3.57 & 3.40 & 3.48 & 3.68 & 3.76; 3.86 \\
+         & C & 100.2 & 72.2 & 84.0 & 70.0 & 74.1 & 61.7 \\ \bottomrule
+          \end{tabular}
+        \end{table}
+        % subsection o_antigen_structure_determination_ps1_ (end)
+  
+        \subsection{Minor component determination} % (fold)
+        \label{sub:minor_component_determination}
+
+        \ac{PS} and \ac{PS}1 spectra contained signals of minor components, which could not be removed by
+        chromatography, as described above. They probably represented the non-reducing ends of the major
+        chain, \ac{PS}1 (\cref{fig:lpsends}). The minor components contained methylated Rha (2-O-Me-Rha
+        residue J and 2,3-Me$_2$-PerN residue B). The position of the methyl groups were found from
+        \ac{HMBC} correlations between protons of methyl groups and carbon atoms bearing OMe groups, which
+        all were well visible and did not overlap with other signals due to their low field
+        position. Thus, two independent structural fragments, 1 and 2, were found and are shown in
+        \cref{fig:lpsends}. Mannose residues Z' and Z" at the non-reducing ends of these fragments were
+        further linked to PerN residues, indistinguishable from the PerN of the main chain. PerN residue D
+        had upfield shifted C-2 and downfield shifted C-3 signals (\cref{tbl:lpsends})), which have not
+        been explained. It appears that its O-3 was phosphorylated, producing typical phosphorylation
+        signal shifts and broadening of the H-3 signal, but \textsuperscript{1}H-\textsuperscript{31}P
+        \ac{HMQC} \ac{NMR} spectrum showed no signals, possibly due to the low abundance of this
+        residue. Possibly Rha residues inserted in the structure resembling \ac{PS}1 represented the
+        attachment point of the rhamnan (\ac{PS}2) to \ac{PS}1, if they were linked together.
+
+        \begin{figure}[htb]
+          \begin{center}
+            \includegraphics[]{lps_chapter/img/lpsends.pdf}
+          \end{center}
+          \caption[The structure of minor component, the end caps of the \ac{OPS}.]{The structure of minor component, the end caps of the \ac{OPS}. \textbf{A.} Fragment 1. \textbf{B.} Fragment 2.}
+          \label{fig:lpsends}
+        \end{figure}
+
+        \begin{table}[htb]
+          \centering
+          \caption[\Ac{NMR} data for the minor components of the double oxidized non-deacylated \ac{PS}]{\ac{NMR} data for the minor components of the double oxidized non-deacylated \ac{PS} (50\cel). Methyl group signals: B2: 3.48/59.5; B3: 3.42/57.9; J2: 3.45/59.6 ppm (H/C)}
+          \label{tbl:lpsends}
+          \begin{tabular}{@{}rccccccc@{}}
+            \toprule
+            &   & 1     & 2    & 3    & 4    & 5    & 6 \\ \midrule
+            \multirow{2}{*}{PerN2,3Me B}       & H & 5.25  & 3.96 & 3.71 & 3.81 & 3.91 & 1.17 \\
+            & C & 100.2 & 76.2 & 78.2 & 53.2 & 69.5 & 18.0 \\
+            \multirow{2}{*}{$\alpha$-Rha2Me J} & H & 5.25  & 3.95 & 4.02 & 3.45 & 3.90 & 1.30 \\
+            & C & 100.2 & 75.9 & 75.4 & 71.8 & 69.5 & 18.0 \\
+            \multirow{2}{*}{$\alpha$-PerN D}   & H & 5.14  & 4.27 & 4.20 & 3.95 & 3.97 & 1.23 \\
+            & C & 100.1 & 67.4 & 75.2 & 52.2 & 69.4 & 18.0 \\
+            \multirow{2}{*}{$\alpha$-Man E}    & H & 5.13  & 4.17 & 3.99 & 3.75 & 3.84 & \\
+            & C & 100.1 & 70.9 & 79.8 & 67.1 & 74.4 & \\
+            \multirow{2}{*}{$\alpha$-Man P}    & H & 5.05  & 4.14 & 4.00 & 3.85 & 3.96 & \\
+            & C & 97.6  & 71.0 & 79.5 & 66.9 & 74.0 & \\
+            \multirow{2}{*}{$\beta$-Rha U}     & H & 4.78  & 4.16 & 3.69 & 3.48 & 3.44 & 1.32 \\
+            & C & 100.9 & 71.8 & 82.0 & 72.4 & 73.1 & 18.0 \\
+            \multirow{2}{*}{$\beta$-Man Z"}    & H & 4.72  & 4.06 & 3.75 & 3.75 & 3.46 & 3.83; 3.96 \\
+            & C & 98.2  & 71.9 & 86.0 & 67.0 & 77.4 & 62.1 \\
+            \multirow{2}{*}{$\beta$-Man Z'}    & H & 4.72  & 4.06 & 3.73 & 3.75 & 3.46 & 3.83; 3.96 \\
+            & C & 98.2  & 71.9 & 82.3 & 67.0 & 77.4 & 62.1 \\ \bottomrule
+          \end{tabular}
+        \end{table} %
+        % subsection minor_component_determination (end)
+
+        \subsection{Rhamnan polysaccharide determination (\textsc{ps}2)} % (fold)
+        \label{sub:rhamnan_polysaccharide_determination_ps2_}
+
+        Periodate oxidation of the \ac{PS} produced an \ac{OS}1, which was analyzed by \ac{NMR} and its
+        structure, as shown on \cref{fig:lpsrhamnan}, was determined using standard 2D \ac{NMR}
+        methods. Signal assignment is shown in the \cref{tbl:lpsrhamnan}. It contained three
+        rhamnopyranose units and 4-deoxy-1-deutero-erythritol, produced by the oxidation-reduction of
+        4-substituted rhamnose. Formation of this oligosaccharide could be explained by oxidation of the
+        side chain Rha F and 4-substituted Rha G in the \ac{PS}1 (letter labels for monosaccharides were
+        given using anomeric signals in the whole \ac{PS} spectra starting from low-field). The unoxidized
+        4-substituted residue T in the oligosaccharide originally carried side-chain Rha F at position
+        2. Knowing the \ac{OS}1 structure the signals of a corresponding polymer (\ac{PS}2) were
+        identified in the spectra of the whole \ac{PS}, and are given in the \cref{tbl:lpsrhamnan}.
+
+        \begin{figure}[htb]
+          \begin{center}
+            \includegraphics[]{lps_chapter/img/lpsrhamnan.pdf}
+          \end{center}
+          \caption[The structure of the \caulobacter rhamnan.]{The structure of the \caulobacter rhamnan. \textbf{A.} the intact rhamnan, \ac{PS}2. \textbf{B.} the oxidised rhamnan product, \ac{OS}1.}
+          \label{fig:lpsrhamnan}
+        \end{figure}
+
+        \begin{table}[ht]
+          \centering
+          \caption[\Ac{NMR} data for \caulobacter  \ac{PS}2 and its \ce{NaIO4} oxidation product \ac{OS}1]{\ac{NMR} data for \caulobacter  \ac{PS}2 and its \ce{NaIO4} oxidation product \ac{OS}1 (40\cel).}
+          \label{tbl:lpsrhamnan}
+          \begin{tabular}{@{}rccccccc@{}}
+            \toprule
+            &   & 1          & 2    & 3    & 4    & 5    & 6 \\ \midrule
+            \multirow{2}{*}{$\alpha$-Rha N, OS1} & H & 5.04       & 4.07 & 3.85 & 3.47 & 3.85 & 1.30 \\
+            & C & 103.1      & 71.1 & 71.1 & 72.9 & 69.9 & 17.6 \\
+            \multirow{2}{*}{$\alpha$-Rha N, PS}  & H & 5.02       & 4.02 & 3.79 & 3.45 & 3.72 & 1.28 \\
+            & C & 103.0      & 71.5 & 78.8 & 73.3 & 70.4 & 17.5 \\
+            \multirow{2}{*}{$\beta$-Rha T, OS1}  & H & 4.78       & 4.13 & 3.71 & 3.54 & 3.53 & 1.33 \\
+            & C & 100.7      & 71.1 & 72.3 & 83.4 & 71.7 & 17.5 \\
+            \multirow{2}{*}{$\beta$-Rha T, PS}   & H & 4.79       & 4.22 & 3.82 & 3.62 & 3.61 & 1.36 \\
+            & C & 101.7      & 76.7 & 73.5 & 83.4 & 73.2 & 17.5 \\
+            \multirow{2}{*}{$\beta$-Rha V, OS1}  & H & 4.75       & 4.12 & 3.67 & 3.49 & 3.49 & 1.34 \\
+            & C & 101.1      & 71.4 & 81.3 & 71.9 & 72.9 & 17.5 \\
+            \multirow{2}{*}{$\beta$-Rha V, PS}   & H & 4.77       & 4.13 & 3.66 & 3.66 & 3.50 & 1.35 \\
+            & C & 101.4      & 71.2 & 81.7 & 67.2 & 73.3 & 17.5 \\
+            \multirow{2}{*}{X (ox. G), OS1}      & H & 3.69; 3.71 & 3.75 & 3.99 & 1.20 &      & \\
+            & C & 61.8       & 84.8 & 67.7 & 18.0 &      & \\
+            \multirow{2}{*}{$\alpha$-Rha G, PS}  & H & 5.10       & 4.13 & 3.94 & 3.58 & 3.90 & 1.35 \\
+            & C & 103.1      & 71.5 & 70.3 & 84.5 &      & 17.5 \\
+            \multirow{2}{*}{$\alpha$-Rha F, PS}  & H & 5.11       & 4.09 & 3.87 & 3.45 & 4.07 & 1.27 \\
+            & C & 102.4      & 72.1 & 71.3 & 73.3 &      & 17.5 \\ \bottomrule
+          \end{tabular} %% LPS Rhamnan
+        \end{table}
+        % subsection rhamnan_polysaccharide_determination_ps2_ (end)
+
+        \subsection{Core oligosaccharide determination} % (fold)
+        \label{sub:core_oligosaccharide_determination}
+
+        The core oligosaccharide of the \caulobacter{} \ac{LPS} isolated after \ce{AcOH} hydrolysis
+        contained one non-degraded Kdo, two LD-Hep, one DD-Hep, mannose, galactose, and glucuronic acid in
+        pyranose form. 2D \ac{NMR} analysis led to the structure shown on \cref{fig:lpscore} (\ac{NMR}
+        assignments are in \cref{tbl:lpstable4}, the \ac{HSQC} spectrum is in \cref{fig:lpscorenmr}). The
+        sequence followed from the observed \ac{NOE}: E1:C5,C7,F5; F1:E2; G1:F3; H1:C7,E2; K1:C4;
+        L1:K4. Correlation E1:C7 is always observed in the $\alpha$-Hep-5-Kdo fragment. E1:F5 was due to
+        the $\alpha$-Man-2-Hep linkage. H1E2 indicates spatial proximity of the residues E and H, linked
+        to the same Kdo C. All expected transglycoside correlations were observed in \ac{HMBC} spectrum,
+        together with intra-ring correlations H-1:C-3 and H-1:C-5 for all $\alpha$-pyranoses. Methylation
+        analysis revealed terminal DD-Hep, terminal and 2-substituted LD-Hep, 3-substituted Man and
+        terminal Gal. The structure agreed with mass spectral data, \ac{ESI} \ac{MS} in negative ion mode,
+        [M-H]\textsuperscript{-} = 1314.9, [M-2H]/2\textsuperscript{-} = 656.7, calculated exact mass Hex
+        x 2 + Hep x 3 + HexA x 1 + Kdo x 1 = 1314.4 Da.
+
+        \begin{figure}[htb]
+          \begin{center}
+            \includegraphics[]{lps_chapter/img/lpscore.pdf}
+          \end{center}
+          \caption{The structure of the \caulobacter core \ac{OS}.}
+          \label{fig:lpscore}
+        \end{figure}
+
+        \begin{table}[htb]
+          \centering
+          \caption[\Ac{NMR} data for the core oligosaccharide]{\ac{NMR} data for the core oligosaccharide (25\cel).}
+          \label{tbl:lpstable4}
+          \begin{tabular}{@{}rccccccccc@{}}
+            \toprule
+            &   & 1     & 2    & 3          & 4    & 5    & 6          & 7          & 8 \\ \midrule
+            \multirow{2}{*}{Kdo C}   & H &       &      & 2.05; 2.35 & 4.23 & 4.28 & 4.09       & 3.91       & 3.81; 3.93 \\
+            & C &       & 98.2 & 34.7       & 74.9 & 74.2 & 71.0       & 79.2       & 61.5 \\
+            \multirow{2}{*}{DLHep E} & H & 5.24  & 3.85 & 4.12       & 3.89 & 3.88 & 4.04       & 3.73; 3.73 & \\
+            & C & 101.1 & 80.2 & 71.1       & 67.3 & 74.1 & 70.0       & 63.9       & \\
+            \multirow{2}{*}{Man F}   & H & 5.03  & 4.30 & 4.00       & 3.79 & 3.80 & 3.80; 3.91 &            & \\
+            & C & 103.7 & 70.6 & 78.1       & 67.5 & 74.5 & 62.0       &            & \\
+            \multirow{2}{*}{DDHep G} & H & 5.15  & 4.05 & 3.86       & 3.77 & 3.84 & 4.06       & 3.76; 3.84 & \\
+            & C & 103.1 & 71.0 & 71.8       & 68.7 & 74.5 & 72.9       & 62.9       & \\
+            \multirow{2}{*}{DLHep H} & H & 5.07  & 4.14 & 3.89       & 3.89 & 3.80 & 4.10       & 3.79; 3.81 & \\
+            & C & 102.7 & 73.7 & 71.8       & 67.3 & 73.2 & 70.2       & 64.9       & \\
+            \multirow{2}{*}{GlcA K}  & H & 5.22  & 3.66 & 4.00       & 3.99 & 4.15 &            &            & \\
+            & C & 98.8  & 72.4 & 74.9       & 73.6 &      &            &            & \\
+            \multirow{2}{*}{Gal L}   & H & 5.49  & 3.80 & 3.85       & 3.99 & 3.94 & 3.69; 3.69 &            & \\
+            & C & 99.9  & 69.7 & 70.3       & 70.0 & 71.8 & 61.6       &            & \\ \bottomrule
+          \end{tabular}%LPS table 4
+        \end{table}
+
+        \begin{figure}[htb]
+          \begin{center}
+            \includegraphics[width=\textwidth]{lps_chapter/img/lpsfig4.pdf}
+          \end{center}
+          \caption{Fragment of \textsuperscript{1}H-\textsuperscript{13}C \ac{HSQC} spectrum of the core.}
+          \label{fig:lpscorenmr}	
+        \end{figure}
+        % subsection core_oligosaccharide_determination (end)
+        \subsection{Cellular response to \textit{C. crescentus} LPS}\label{sec:cell-resp-text}
+
+        \begin{figure}[htb]
+          \begin{center}
+            \includegraphics[width=\textwidth]{lps_chapter/img/NFkBAssay.pdf}
+          \end{center}
+          \caption[NF$\kappa$B Assay for cellular activation by \ac{LPS}]{
+            The activation of the NF$\kappa$B promoter as measured by the HEK-Blue hTLR4\texttrademark{} cell line (InVivoGen) treated with \ac{LPS} from either \ac{salmonella} or \caulobacter{}. Error bars signify $\pm{}$Standard Deviation, n=3 for all groups, \textit{p}-values less than 0.05 are noted.  }
+          \label{fig:nfkbassay}
+        \end{figure}    
+
+        \begin{figure}[p]
+          \begin{center}
+            \includegraphics[width=\textwidth]{lps_chapter/img/cytokineprofile.pdf}
+          \end{center}
+          \caption[Cytokine profile comparing \caulobacter{} and \ac{salmonella} \ac{LPS}]{
+            Cytokine production levels produced by THP-1 derived macrophages in response to treatment with \ac{LPS} from \caulobacter{} or \ac{salmonella}.  All data points are present, n=4 for all groups, \textit{p}-values less than 0.05 are marked with a star.
+          }
+          \label{fig:cytokineprofile}
+        \end{figure}    
+        % section results (end)
+
+        \section{Discussion} % (fold)
+        \label{sec:lps_discussion}
+
+        The \ac{LPS} of \caulobacter has an unusually complicated structure with two different
+        polysaccharides, irregular substituents, and unfavourable \ac{NMR} spectra. Presented data show
+        structures of the core part, two polymers, and putative terminal structures. The polysaccharides
+        could not be separated by size exclusion or anion-exchange chromatography and are probably linked
+        together through the same core. The core of the \caulobacter{} \ac{LPS} has been studied previously
+        and an initial assessment of its composition was made\upcite[,]{ravenscroftlps} but the complete
+        structure had not been determined. The structure of the \ac{OPS} has not been studied before. In our
+        view the polysaccharide structure of the \caulobacter{} \ac{LPS} represents one of the most
+        complicated bacterial \ac{LPS} polysaccharide structures identified so far.
+
+        The Kdo present in the \ac{LPS} core structure (see \cref{fig:lpscore}) has the typical
+        substitutions at O-4 and O-5 of a manno-configured sugar and a negatively charged sugar,
+        respectively\upcite[.]{brade99} It also has a rarely observed third substitution at O-7 with a
+        heptose moiety. The Kdo O-7 position is known to be occupied by a galactose moiety in the core of
+        \textit{Rhizobium leguminosarum} bv. Viciae VF39\upcite[,]{rhizobiumlps} and the secondary Kdo in
+        the core oligosaccharide from \textit{Acinetobacter baumannii} ATCC 19606 has an O-7 substituted
+        with a glucosamine\upcite[.]{acinetobacterlps}
+
+        In the traditional model \ac{LPS} occupies the outer leaflet of the outer membrane of a
+        Gram-negative bacterium, and so (excepting the presence of cell associated \ac{EPS}) is the
+        outermost layer of the cell. For \caulobacter, however, \ac{LPS} is the penultimate barrier below
+        the protein \ac{S-layer}. The \caulobacter{} \ac{OPS} serves as the anchor for the S-layer and is
+        likely not accessible to the environment\upcite[.]{walker94} The carbohydrates found in the \ac{OPS}
+        are particularly hydrophobic, marked by the abundance of deoxy-sugars, acetyl groups, and methyl
+        groups. This hydrophobicity is possibly a result of particular sugars needed for \ac{S-layer}
+        anchoring, as these carbohydrate structures likely evolved as the cognate ligands for the
+        \ac{S-layer} protein, RsaA. The distance between the \ac{S-layer} and the outer membrane is about
+        17--19 nm\upcite[.]{dipm} It is possible the hydrophobicity aids in packing the polysaccharides
+        between the S-layer and the \ac{LPS}. Further determination of RsaA's structure should help
+        illuminate the interaction between the S-layer and \ac{OPS}.
+
+        Knowledge of the structure of \caulobacter{} \ac{OPS} and \ac{LPS} will facilitate the determination
+        and characterization of their biosynthetic enzymes and mutant variants. Already, the enzymes
+        LpxI\upcite{lpxi} and GDP-L-perosamine acetylase\upcite{perosmineacetyltransferase} from
+        \caulobacter have been characterized. One uncharacterised enzyme, WbqL, is necessary for proper
+        \ac{OPS} synthesis and disruption of wbqL leads to the accumulation of truncated and S-layer
+        anchoring deficient \ac{OPS} in the inner membrane and inhibits Crescentin-mediated cell
+        curvature\upcite[.]{lpsinterferecrescentin} Many genes, such as wbqL, have been identified as
+        essential for \ac{OPS} synthesis\upcite{awramgenes} but have not yet been characterized. Other
+        genes, that must be essential for \ac{OPS} synthesis, have yet to be identified or characterized,
+        such as the O-antigen polymerase and ligase.
+
+        % --Should I increase the text about lpxI?--%
+
+        The subunit-based repeating nature of \caulobacter{} \ac{OPS} suggests that a Wzy-dependent pathway
+        synthesizes the polymer\upcite[.]{lpsreview02} The previous study that aimed to identify genes
+        essential for \ac{OPS} did not identify many of the canonical genes in the Wzy-dependant
+        pathway\upcite[,]{awramgenes} such as the O-unit transporter, Wzx, O-antigen polymerase, Wzy; the
+        chain-length determinate protein, Wzz; and the O-antigen ligase, WaaL. Genes that have been
+        annotated as putative O-antigen synthesis genes do appear in the sequenced genomes for \caulobacter
+        CB15, but they have not been experimentally confirmed.
+
+        An additional aspect to this \ac{LPS} it the fact that its O-antigen is of homogeneous length. While
+        other \ac{LPS}s vary in size due to the number of O-antigen repeat groups, appearing as a laddering
+        of bands by \ac{SDS-PAGE}, the \ac{LPS} from \caulobacter appears as a single
+        band\upcite[.]{walker94} Initial \ac{MALDI-TOF} analysis of the entire \ac{LPS} indicates a size of
+        about 10.8 kDa (see \cref{fig:lpsmalditof} on \cpageref{fig:lpsmalditof}).  After accounting for the
+        solved structures for the lipid A and core regions, this suggests the \ac{LPS} contains
+        approximately 5 repeats of the proposed heptameric O-antigen structure.  There is not currently a
+        known mechanism for the regulation and synthesis of a strictly homogeneous length O-antigen. It is
+        possible that this \ac{OPS} is synthesized via the \ac{abc}-transporter-dependent
+        pathway\upcite{lpsreview02} or another heretofore undiscovered mechanism. In any event it would seem
+        that the transfer of a polysaccharide of this considerable size to the outer leaflet of the outer
+        membrane is a remarkable feat for the bacterium.
