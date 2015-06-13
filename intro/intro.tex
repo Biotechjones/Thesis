@@ -2,8 +2,10 @@
 %!TEX root = ../MJThesis.tex
 %\bibliography{../misc/bibli}
 \acresetall{}
-
-\chapter{Introduction}
+\resetlinenumber[1]
+{\singlespacing{}
+  \chapter{Introduction}
+}
 \label{ch:Introduction}
 
 \begin{epigraph} \emph{``But during the writing of this review, I learned how little I knew in this
@@ -133,7 +135,7 @@ For some microbes, the \ac{S-layer}'s main function maybe as a platform for olig
 
   For \ac{cfetus}, its \ac{S-layer} is central to its success as a pathogen of ungulates. The \ac{S-layer} of \ac{cfetus} is involved in disseminating the bacteria throughout the host's body and evading the host immune system\upcite[.]{thompson2002campylobacter} The manner is which \ac{cfetus} uses its \ac{S-layer} to escape the immune system is remarkable. The \ac{S-layer} provides the cells with an innate resistance to complement, strains with an intact \ac{S-layer} bound less C3 protein than cells lacking a \ac{S-layer}. By binding less C3, \ac{S-layer} positive \ac{cfetus} prevent complement-mediated killing and opsonization by C3b. The \ac{S-layer} would be a natural target for antibody-mediated adaptive immunity, but \ac{cfetus} has also evolved a strategy to escape antibody recognition. \ac{cfetus} possess the ability to undergo antigenic conversion by expressing different versions of its \ac{S-layer}. The \ac{cfetus} cells can invert portions of their genomic DNA to express alternate \ac{S-layer} proteins and cognate \ac{OPS} anchor molecules. As an example, the \ac{cfetus} serotype A strain 23D encodes for eight different \ac{S-layer} proteins and can switch between expressing each by moving a single active promoter in front of the \ac{S-layer} protein gene to be expressed. These \acp{S-layer} are not just different antigenically, they can even form different symmetry patterns (see \cref{fig:symmetries} on \vpageref{fig:symmetries}).
 
-\paragraph{Non-pathogenic bacteria}  %% Intro paragraph
+\paragraph{Non-pathogenic bacteria} \label{sec:non-path-bact} %% Intro paragraph
 The roles of \acp{S-layer} in non-pathogenic bacteria can often by mysterious in lab settings. While virulence can be a clear, quantifiable phenotype, the fitness gain derived from an \ac{S-layer} in the wild is not often abundantly obvious in a test tube. \acp{S-layer} have been shown to act as barriers to the outside world
 \acp{S-layer} acting as a physical barrier, protecting the cell, is a function primarily exemplified \caulobacter and other gram-negative bacteria possessing an \ac{S-layer}. Susan Koval of the university of western ontario has done extensive research into the biology and life-cycle of \textit{bdellovibrio} spp. and \textit{bdellovibrio}-like species, predatory bacteria that prey on gram-negative bacteria like \caulobacter. Koval showed that the \ac{S-layer} of \caulobacter had a protective effect against \textit{Bdellovibrio} predation\upcite[.]{koval1991effect} This protective effect was seen for  \ac{aeromonas}, \textit{Aquaspirillum serpens}, \textit{Aquaspirillum sinuosum}, \ac{cfetus}, and \caulobacter. On the other hand, \acp{S-layer} do not confer any protection from predation by protozoans (\eg{} \textit{Tetrahymena thermophila} and \textit{Paraphysomonas vestita})\upcite[.]{koval1993predation} The barrier capacity of \acp{S-layer} extends to blocking abiotic threats, as was demonstrated by De la Fuente-N{\'u}{\~n}ez \etal in \caulobacter 2012. \caulobacter cells that possessed an \ac{S-layer} were found to have protection against the effects of antimicrobial peptides compared to cells that lack an \ac{S-layer}\upcite[.]{de2012bacterial} The authors note that the peptides were smaller than the pores in \caulobacter \ac{S-layer} (see \cref{fig:intro-micrograph}) and yet the protective effect existed. The \ac{S-layer} may act as a sponge, not just a physical barrier, adsorbing harmful molecules before they can reach the cell. 
 
@@ -179,21 +181,54 @@ In a very elegant series of experiments in 2010, Amat \etal were able to determi
  
   \subsection{Biotechnology applications of S-layers}\label{sec:biot-appl-s} 
   
-  \Acp{S-layer}' ability to self-assemble into large, complex structures makes them  an attractive platform for the biotechnological applications. Their density and regular arrangement over relatively large distances is unique in biology. There have been many groups pursuing technologies that utilize \acp{S-layer} that have been assembled off of the surface of the cell and groups that focus on \ac{S-layer} technologies on the cell surface.
+  \Acp{S-layer}' ability to self-assemble into large, complex structures makes them  an attractive platform for the biotechnological applications. Their density and regular arrangement over relatively large distances is unique in biology. There have been many groups pursuing technologies that utilize \acp{S-layer} that have been assembled off of the surface of the cell and groups that focus on \ac{S-layer} technologies on the cell surface. Many different technologies have been developed and have been conceptualized.
+  One of the significant defining difference between these applications is the location the \ac{S-layer} is assembled. The potential sites for assembly are:
+  \begin{itemize}
+  \item In suspension
+  \item On a solid surface
+  \item On a liquid interface of lipid membrane
+  \item On a lipid nanoparticle
+  \item On a cell surface
+  \end{itemize}
+  % In their 1997 review of  \ac{S-layer} applications, authors Uwe Sleytr and Margit S{\'a}ra categorize the potential applications for \acp{S-layer}\upcite[]{sleytr1997bacterial}:
+  % \begin{itemize}
+  % \item \ac{S-layer} ultrafiltration membranes
+  % \item \ac{S-layer} supported lipid membranes and films
+  % \item \ac{S-layer} mircoparticles
+  % \item \acp{S-layer} as matrices for biomineralization and particulate organization %Kinda a shitty word
+  % \item Genetically modified \acp{S-layer} for displaying peptides
+  % \end{itemize}
+
+  Very little interest or work has been done on developing applications for \acp{S-layer} that assemble and exist in liquid suspension. \Acp{S-layer} are inherently two-dimensional and unrestricted freedom in liquid suspension does not highlight their unique structure. Assembling \acp{S-layer} in solution is most often a means to getting the \acp{S-layer} onto a solid surface. Once on an assemble \ac{S-layer} is on a solid surface it is a potent structure for biotech development. The \ac{S-layer} itself can act as a filter or the \ac{S-layer} can be a platform for functionalized molecules and peptides.
+
+  Using \acp{S-layer} as ultrafilters has been a tempting idea since not long after they were discovered. As mentioned \vpageref{sec:non-path-bact}, one of the possible natural functions of \acp{S-layer} is to act as a physical barrier against large, intrusive foreign entities. Unlike conventional ultrafilters made of inorganic polymers, \acp{S-layer} are isoporous with very stringent molecular weight cutoffs. In its most basic inception, an \ac{S-layer} ultrafilter could be constructed by assembling an \ac{S-layer} on the inner surface of a traditional ultrafiltration membrane. These \ac{S-layer} ultrafiltration membranes (sometimes called \textsc{sum}s) do have exquisite selectivity of filtering and when they are crosslinked with glutaraldehyde, they are highly resistant to solvents, acids, and bases\upcite[.]{sara1987production} These \ac{S-layer} filters were covered by at least three patents, US patents 4849109, 4886604, 5028335, but the last of which expired in the year 2011. The apparent lack of enthusiasm in the field of ultrafiltration using \acp{S-layer} in the last few years suggests that the early results weren't easily translatable into a large product.
   
-Many \acp{S-layer} can assemble themselves into long-range regular structures \textit{in vitro}, unattached to a cell surface. These ``\textit{in vitro} \acp{S-layer}'' are a hotbed for biotechnology development because they provide a uniquely dense and patterned protein surface that can be divorced from contaminants of whole cells. 
+  Having the \ac{S-layer} be a platform for functional molecules and peptides is the most popular approach to using \acp{S-layer}. The uncomplicated way to introduce a functional structure into an \ac{S-layer} is to genetically clone it in to the \ac{S-layer} protein itself. Molecules of interest can always be chemically linked to an intact \ac{S-layer}\upcite[,]{weinert2015synthesis} but the opportunity to \ac{S-layer} to inherently display peptides of interest dominates the field. The best few examples of molecules of interest being attached to an \ac{S-layer} after it is assembled are cases were coupling domains were first cloned into the \ac{S-layer} protein. One such example is streptavidin cloned into SbsB (an \ac{S-layer} protein from \textit{Geobacillus staerothermophilus}) so that biotinylated molecules could be loaded on to it\upcite[.]{moll2002s} Another example is from the \ac{S-layer} of \caulobacter{}, where protein G has been expressed so that thousands of copies of any IgG antibody can be loaded across its surface\upcite[.]{nomellini2007s}
+  
+
+
+  All \acp{S-layer} are biological entities that are ultimately tethered to a cell membrane, but if that arrangement is flipped a lipid membrane can be formed and supported by an \acp{S-layer}\upcite[.]{pum1993large} Two-dimensional lipid-membranes structures can also be turned into three-dimensional \ac{S-layer}-coated nanoparticles\upcite[.]{kupcu1995liposomes} The two-dimensional structures can be assemble across the surface of a Langmuir-Blodgett apparatus. The majority of the interest in these structures is in the lipid layer, the \ac{S-layer} only acts as a stabilizer. On the other hand, lipid nanoparticles coated in \acp{S-layer} garner a great deal of excitement for for the \ac{S-layer} itself. The promise of lipid nanoparticles (\ie{} vesicles, liposomes and solid-cored particles) is that all the above technology already developed or being currently developed can be translated to an abiotic particle that highlights the strengths of \acp{S-layer}.
+  
+
+ % The long-range uniformity of \acp{S-layer} whet the interest for the structures that can be built on top of them. In this vein, using \acp{S-layer} to support mineralization, nanoparticle arrangement, and lipid membranes all share in common using \acp{S-layer} as physical structures.
+% Many \acp{S-layer} can assemble themselves into long-range regular structures \textit{in vitro}, unattached to a cell surface. These ``\textit{in vitro} \acp{S-layer}'' are a hotbed for biotechnology development because they provide a uniquely dense and patterned protein surface that can be divorced from contaminants of whole cells. 
 % Undoubtedly, the driving force behind these \acp{S-layer} has been Dr.\,Uwe~B.~Sleytr, professor of nanobiotechnology at the University of Natural~Resources and Life~Sciences at Vienna, Austria. Dr. Sleytr's work has focused on the  
 
-
   \section{Lipopolysaccharide} \label{sec:intro-lps}
-  \subsection{General Structure of LPS}\label{sub:general-structre-lps} 
-  \subsection{Extraction and Isolation of LPS} \label{sub:extr-isol-lps}
-  \subsection{LPS and Immunology}\label{sub:lps-immuonolgy}
-  \subsection{Other surface polysaccharides}\label{sub:other-surf-polysaccharides}
+
+  \subsection{Lipid A}\label{sec:lipidA-intro}
+
+  \subsection{Core Oligosaccharide} \label{sec:core-oligosaccharide-intro}
+
+  \subsection{O-polysaccharide}\label{sec:o-polysaccharide}
+
+  %%-----------------------------------------------------------------------------%%
   \section{Porins} \label{sec:intro-porins}   
+
   \subsection{Functions of Porins}\label{sub:functions-porins}
+  
   \subsection{Structure of Porins}\label{sub:structure-porins}
 
-
+  \subsection{Summary}\label{sec:summary}
   
   % LocalWords:  firstslayer
