@@ -98,7 +98,7 @@
 %% the dissertation chapter by chapter).  It also saves time by 
 %% avoiding reprocessing the entire file.
 %\includeonly{intro,conclusions}
-% \includeonly{porin_chapter/porin}
+\includeonly{crystal_chapter/crystal, lps_chapter/lps, porin_chapter/porin}
 %\includeonly{discussion}
 \addbibresource{misc/biblio.bib} %%% Bibtex file
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -114,12 +114,12 @@
 \maketitle
 
 %    2. Abstract (mandatory - maximum 350 words)
-\include{front_matter/abstract}
-	\cleardoublepage
+% \include{front_matter/abstract}
+	% \cleardoublepage
 
 %    3. Preface (mandatory)
-\include{front_matter/preface}
-	\cleardoublepage
+% \include{front_matter/preface}
+	% \cleardoublepage
 
 %    4. Table of contents (mandatory - list all items in the preliminary pages
 %    starting with the abstract, followed by chapter headings and
@@ -162,10 +162,10 @@
 	    {} 
 	    {0em}
 	    {\hspace{-0.4pt}\Large \thesection\hspace{0.6em}}
-	\include{front_matter/ack}
+	% \include{front_matter/ack}
 
 %   11. Dedication (optional)
-	\include{front_matter/dedication}
+	% \include{front_matter/dedication}
 
 % Body of Thesis (not all sections may apply)
 \mainmatter
@@ -173,7 +173,7 @@
 	\acresetall	% reset all acronyms used so far
 
 %    1. Introduction
-	\include{intro/intro}
+ \include{intro/intro}
 
 %    2. Main body
 % Generally recommended to put each chapter into a separate file
