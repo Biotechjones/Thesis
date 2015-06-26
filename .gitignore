@@ -22,6 +22,7 @@ latex.out/*.*
 .DS_Store
 *.glue
 /.DS_Store
+/latex.out/
 /latex.out/.latexrun.db
 /latex.out/MJThesis.aux
 /latex.out/MJThesis.bbl
