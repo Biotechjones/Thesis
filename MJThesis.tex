@@ -73,16 +73,16 @@
 \previousdegree{B. Science, Specialization in Biotechnology, University of Alberta, 2006}
 \previousdegree{M. Science, Pharmaceutical Sciences, University of Alberta, 2008}
 \degreetitle{Doctor of Philosophy}
-\institution{The University Of British Columbia}
+\institution{The University of British Columbia}
 \campus{Vancouver}
-\faculty{The Faculty of Science}
+\faculty{The Faculty of Graduate and Postdoctoral Studies}
 \department{Microbiology and Immunology}
-\submissionmonth{April}
+\submissionmonth{July}
 \submissionyear{2015}
 %% hyperref package provides support for embedding meta-data in .PDFlink
 %% files  %^ Remove DRAFT before you submit
 \hypersetup{
-  pdftitle={The structure, composition, and application of the cell envelope of \textit{Caulobacter crescentus}  (DRAFT: \today)},
+  pdftitle={The structure, composition, and application of the cell envelope of \textit{Caulobacter crescentus}  (DRAFT:~\today)},
   pdfauthor={Michael D Jones},
   pdfkeywords={polysaccharides, protein, S-layer, Caulobacter, NMR, Crystallography}
 }
@@ -115,11 +115,11 @@
 
 %    2. Abstract (mandatory - maximum 350 words)
 \include{front_matter/abstract}
-	\cleardoublepage
+	\cleardoublepage{}
 
 %    3. Preface (mandatory)
 \include{front_matter/preface}
-	\cleardoublepage
+	\cleardoublepage{}
 
 %    4. Table of contents (mandatory - list all items in the preliminary pages
 %    starting with the abstract, followed by chapter headings and
@@ -127,15 +127,15 @@
 \microtypesetup{protrusion=false} % disables protrusion locally in the document
 \tableofcontents                                % prints Table of Contents
 \microtypesetup{protrusion=true}  % enables protrusion
-	\cleardoublepage	     % required by tocloft package
+	\cleardoublepage{}	     % required by tocloft package
 
 %    5. List of tables (mandatory if thesis has tables)
 \listoftables
-	\cleardoublepage	     % required by tocloft package
+	\cleardoublepage{}     % required by tocloft package
 
 %    6. List of figures (mandatory if thesis has figures)
 \listoffigures
-	\cleardoublepage	     % required by tocloft package
+	\cleardoublepage{}	     % required by tocloft package
 
 %    7. List of illustrations (mandatory if thesis has illustrations)
 %    8. Lists of symbols, abbreviations or other (optional)
@@ -162,9 +162,9 @@
 	    {} 
 	    {0em}
 	    {\hspace{-0.4pt}\Large \thesection\hspace{0.6em}}
+      
 	\include{front_matter/ack}
 
-%   11. Dedication (optional)
 	\include{front_matter/dedication}
 
 % Body of Thesis (not all sections may apply)
@@ -174,9 +174,6 @@
 
 %    1. Introduction
 	\include{intro/intro}
-
-%    2. Main body
-% Generally recommended to put each chapter into a separate file
 	\include{crystal_chapter/crystal}
 	\include{lps_chapter/lps_chapter}
 	\include{porin_chapter/porin}
