@@ -177,7 +177,7 @@
 
 % Pages should have no running header, and footer should have
 % page number at centre
-\pagestyle{plain}
+\pagestyle{empty}
 
 
 %% The title page; we inherit \title and \author, and add many more

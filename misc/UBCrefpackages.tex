@@ -28,7 +28,7 @@
             isbn=false,
             backref=true,
             firstinits=true,
-            style=custom-numeric-comp,
+            style=numeric,
             citereset=chapter,
             maxcitenames=3,
             maxbibnames=100,
@@ -87,13 +87,8 @@
     \DeclareFieldFormat{pages}{#1} % removes pagination (p./pp.) before page numbers
     %%%%%%%%%
 % the command \upcite defined below prints footnote citation above punctuation
-\newlength{\spc} % declare a variable to save spacing value
 \newcommand{\upcite}[2][]{% new command with two arguments: optional (#1) and mandatory (#2)
-        \settowidth{\spc}{#1}% set value of \spc variable to the width of #1 argument
-        \addtolength{\spc}{-1.8\spc}% subtract from \spc about two (1.8) of its values making its magnitude negative
-        #1% print the optional argument
-        \hspace*{\spc}% print an additional negative spacing stored in \spc after #1
-        \supershortnotecite{#2}}% print (cite) the mandatory argument
+        \cite{#2}#1}% print (cite) the mandatory argument
 %%%%%%%%%
 	\usepackage{cleveref}
 		\newcommand{\creflastconjunction}{, and\nobreakspace} %Oxford Comma for cref

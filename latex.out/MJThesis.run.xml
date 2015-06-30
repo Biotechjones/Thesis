@@ -53,12 +53,9 @@
     <requires type="static">
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
-      <file>custom-numeric-comp.bbx</file>
-      <file>numeric-comp.bbx</file>
       <file>numeric.bbx</file>
       <file>standard.bbx</file>
-      <file>custom-numeric-comp.cbx</file>
-      <file>numeric-comp.cbx</file>
+      <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>custom-english-ordinal-sscript.lbx</file>
       <file>english.lbx</file>

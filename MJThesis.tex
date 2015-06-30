@@ -38,7 +38,6 @@
 
 \input{misc/UBCpreamble.tex}
 \input{misc/UBCrefpackages.tex}
-
 %\usepackage{longtable}	% provide tables spanning multiple pages
 %\usepackage{chngpage}	% support changing the page widths on demand
 %\usepackage{tabularx}	% an enhanced tabular environment
@@ -111,6 +110,7 @@
 
 % Preliminary Pages (numbered in lower case Roman numerals)
 %    1. Title page (mandatory)
+\pagestyle{empty}
 \maketitle
 
 %    2. Abstract (mandatory - maximum 350 words)
@@ -167,17 +167,22 @@
 
 	\include{front_matter/dedication}
 
-% Body of Thesis (not all sections may apply)
+%% Body of Thesis (not all sections may apply)
 \mainmatter
-
+\pagestyle{empty}
 	\acresetall	% reset all acronyms used so far
 
 %    1. Introduction
 	\include{intro/intro}
+\pagestyle{empty}
 	\include{crystal_chapter/crystal}
+\pagestyle{empty}
 	\include{lps_chapter/lps_chapter}
+\pagestyle{empty}
 	\include{porin_chapter/porin}
+\pagestyle{empty}
   \include{conclusion_chapter/conclusion}
+\pagestyle{empty}
    
 %    3. Notes
 %    4. Footnotes
