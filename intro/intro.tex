@@ -216,14 +216,95 @@ In a very elegant series of experiments in 2010, Amat \etal were able to determi
 % Many \acp{S-layer} can assemble themselves into long-range regular structures \textit{in vitro}, unattached to a cell surface. These ``\textit{in vitro} \acp{S-layer}'' are a hotbed for biotechnology development because they provide a uniquely dense and patterned protein surface that can be divorced from contaminants of whole cells. 
 % Undoubtedly, the driving force behind these \acp{S-layer} has been Dr.\,Uwe~B.~Sleytr, professor of nanobiotechnology at the University of Natural~Resources and Life~Sciences at Vienna, Austria. Dr. Sleytr's work has focused on the  
 
-  \section{Lipopolysaccharide}\label{sec:intro-lps}
+\section{Lipopolysaccharide}\label{sec:intro-lps}
+% Intro and overview of LPS
+% 1. Structure
+% 2. Location
+% 3. Role
+The most abundant non-protein  component of the Gram negative outer membrane is
+\ac{LPS}. The \acp{LPS} of \ecoli and \ac{salmonella} are regarded as the
+``canonical'' examples. Those \acp{LPS} are the molecules that all others are
+compared against and this thesis will do the same. 
+
+\Ac{LPS} resides in the outer leaflet of the Gram negative outer membrane. In
+physiological conditions, in wild-type bacteria \ac{LPS} is the only lipid
+component in the outer leaflet\upcite[.]{smit1975outer, kamio1976outer}. 
+
+\Ac{LPS} is synthesized in the inner membrane. While in wild type cells there
+exists detectable levels of \ac{LPS} in the inner membrane, the vast majority of
+\ac{LPS} resides in the outer membrane\upcite[.]{polissi1996mutational, ding1976separation} Fully
+formed \ac{LPS} is transported across the periplasm to the outer membrane via
+the proteins LptABCDE\upcite[.]{sperandeo2007characterization,
+  ruiz2008identification} The exact details of how a large \ac{LPS} molecule can
+traverse the periplasm and be inserted into the outer leaflet are still cloudy;
+the difficulty is in no small part due to the fact that all the required proteins
+are essential for life.
+
+\Cref{fig:lpsoverview} highlights a simplified \ac{LPS} structure from
+\textit{Salmonella minnesota} as reported by Vukajlovich, Hoffman, and Morrison (1987)\upcite[.]{vukajlovich1987activation}  There are three fundamental components of \ac{LPS}: lipid A, the core oligosaccharide, and the O-polysaccharide. 
+\begin{figure}[p]
+  	\begin{center}
+   		\includegraphics[width=0.7\textwidth]{intro/img/lpsoverview.pdf}
+   	\end{center}
+   	\caption[Simplified structure of \ac{LPS} from \ecoli~O111:B4]{
+The wild type \ac{LPS} from \textit{Salmonella minnesota}. The lipid A is at the
+bottom of the figure (in blue), it comprises a backbone of two glucosamine residues. Each
+glucosamine has an attached phosphate moeity and  three fully saturated acyl
+chains. Above the lipid A is the core oligosaccharide (in green). This core
+oligosaccharide is a hendecasaccharide. Extending from the core oligosaccharide
+is the \ac{OPS} (in purple). The structure of this \ac{OPS} is a variable number of
+pentasaccharide subunits (5--40). Abbreviations: Glc, glucose; GlcN, glucosamine; GlcNAc,
+N-acetylglucosamine; Gal, galactose;  GalNAc, N-acetylgalactosamine; Kdo,
+3-deoxy-\textsc{d}-\textit{manno}octulosonic acid; Hep,
+\textsc{l}-\textit{glycero}-\textsc{d}-\textit{manno}heptose; P, phosphate; and
+EtN, ethanolamine.
+}
+   	\label{fig:lpsoverview}
+\end{figure}   
 
   \subsection{Lipid A}\label{sec:lipidA-intro}
+  
+    \paragraph{Structure}
+    
+    Lipid A is the `base' of the \ac{LPS} molecule. The backbone of canonical \acp{LPS} is two glucosamine sugars bound to each other by an $\beta$1$\rightarrow$6 bond. The diglucosamine molecule has two O-linked beta hydroxy acyl chains at the C-3 and C-3$^\prime$ positions and two N-linked beta hydroxy acyl chains at the C-2 and C-2$^\prime$ positions. The two `prime' acyl chains are modified with subsequent acyl chains attached at the beta hydroxy groups. All these acyl chains are fully saturated.
+    
+    The C-1 and C-4$^\prime$ positions of the diglucosamine are phosphorylated. These phosphates give the lipid A a net negative charge and they are thought to bind divalent cations which form electrostatic bridges with neighbouring lipid A molecules and stabilize the outer membrane\upcite[.]{leive65, leive1974barrier}
+
+    The C-6$^\prime$ postion is ligated to the core oligosaccharide. The canonical structure has the C-6$^\prime$ position occupied with an $\alpha$2$\rightarrow$6 bond to a Kdo sugar.
+
+    \Cref{fig:lipidA} shows this canonical structure as it is found in \ecoli K12.
+
+\begin{figure}[htb]
+  	\begin{center}
+   		\includegraphics[width=0.6\textwidth]{intro/img/lipidA.pdf}
+   	\end{center}
+\label{fig:lipidA}
+   	\caption[Kdo$_{2}$-Lipid A from \ecoli K12]{ 
+Kdo$_{2}$-Lipid A from \ecoli K12. The lipid A portion comprises the phosphates (green), the glucosamines (blue), and the acyl chains (black). The two Kdo sugars present are the start of core oligosaccharide.
+}
+\end{figure}   
+
+Many, Lipid A structures that differ from the canonical structure. Examples exist of modified structures at all the possible locations: the phosphates, the glucosamines, and the lipids. An excellent review on lipid A modifications is by Raetz et al.~(2007)\upcite[.]{raetz2007lipid}
+
+ The phosphate modifications are often extra chemical groups linked directly to the phosphates. Anionic attachments are common, such as ethanolamine (\eg \textit{Salmonella minnesota}, see \cref{fig:lpsoverview}) and glucosamine (\eg \textit{Bordatella pertusis}\upcite[]{marr2008glucosamine}). Neutral attachments to the phosphate are also possible such as methyl groups (\eg \textit{Leptospira interrogans}\upcite[]{hinckley2005leptospira}). The phosphates can also be removed, examples of lipid A molecules missing a phosphate are \textit{Rhizobium etli}\upcite[,]{que2000two} \textit{Helicobacter pylori}\upcite[,]{tran2004periplasmic} and \textit{Francisella tularensis}\upcite[.]{wang2006structure} Removed phosphates can also be replaced with ethanolamine (\eg \textit{H. pylori}\upcite[]{tran2004periplasmic}) or anionic sugars such as galactosamine (\eg \caulobacter{}\upcite[]{caulobacterlipida} and \textit{R. etli}\upcite[]{que2000two}).
+ 
+Lipid modifications come in the form of the number of acyl chains, the length of the acyl chains, and the inner structure of the acyl chains. Six acyl chains is the standard found in canonical lipid A molecules in enteric bacteria, but the number of fatty acid groups can be as high as eight (\eg \textit{Vibrio cholera} O139\upcite[]{chatterjee2003lipopolysaccharides}) and as low as four (\eg \textit{H. pylori}\upcite[]{tran2004periplasmic}). The lengths of the acyl chains in lipid A do not vary as much as in other lipids due to more stringent acyltransferases, but they do vary between bacteria\upcite[.]{wyckoff1998hydrocarbon} An extreme example is a 28 carbon long acyl chain in \textit{Rhizobium leguminosarum}\upcite[.]{basu2002expression} The acyl chains in lipid A are usually fully saturated but unsaturated examples are not uncommon. Bacteria with unsaturations in their lipid A include \caulobacter{}\upcite[,]{caulobacterlipida} \textit{Yersinia pestis}\upcite[,]{rebeil2004variation} and \textit{Rhodobacter capsulatus}\upcite[.]{krauss1989structural}
+
+    \paragraph{Immunology}
+
+    
 
   \subsection{Core oligosaccharide}\label{sec:core-oligosaccharide-intro}
+  
+    \paragraph{Structure}
+
+    \paragraph{Synthesis}
 
   \subsection{O-polysaccharide}\label{sec:o-polysaccharide}
 
+    \paragraph{Structure}
+
+    \paragraph{Synthesis}
   %%-----------------------------------------------------------------------------%%
   \section{Porins} \label{sec:intro-porins}   
  
