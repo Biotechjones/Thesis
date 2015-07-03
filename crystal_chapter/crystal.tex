@@ -19,11 +19,21 @@ and immune evasion in pathogenic bacteria\upcite[;]{DallaireDufresne20141, kern2
  protection against phage and predation\upcite[;]{koval1991effect, koval1993predation}
  and as a pseudo-membrane in archaea\upcite[.]{Blaurock01101976}
  \acp{S-layer} are composed of either one or a small number of secreted proteins that self assemble
-into a contiguous sheet in the extracellular environment. Despite their
-unique features, \acp{S-layer} have not enjoyed the intensive structural
+into a contiguous sheet in the extracellular environment. 
+
+Despite their unique features, \acp{S-layer} have not enjoyed the intensive structural
 investigations that most other protein families have received, in no
-small part due to their proclivity to self-assemble into large polymeric
-structures that resist crystallization.
+small part due their resistance to 3D-crystallization. The reason why \acp{S-layer} resist
+crystallization is not completely understood, but it is definitely related to their proclivity
+to self-assemble into large polymeric structures (\ie \acp{S-layer}). We know
+that \ac{S-layer} formation plays a role in the crystallization problems because
+ the only groups that have successfully crystallized an \ac{S-layer} protein
+ have done so by specifically inhibiting or removing the \ac{S-layer} formation ability of
+ the proteins\upcite[]{Pavkov20081226, baranova2012sbsb}. It is thought that maybe
+ the 2D-\ac{S-layer} formation out competes the 3D-crystallization or maybe the
+ 2D-\ac{S-layer} structure is incompatible with 3D-crystal growth. Possibly
+ there are conditions that exist that would allow for the crystallization of an
+ intact \ac{S-layer} protein, but those conditions are currently unknown.
 
 The Gram-negative bacterium \ac{caulobacter} possesses an
 \ac{S-layer} that is composed from thousands of copies of a single 98.6 kDa protein, RsaA\upcite[.]{smit1981periodic}
@@ -31,9 +41,23 @@ The Gram-negative bacterium \ac{caulobacter} possesses an
 protein expression\upcite[.]{smit2008heads}
 RsaA is secreted from the cell via a type 1
 secretion system\upcite[.]{walker94}
+
  RsaA shares little to no sequence similarity to any
 other known protein, except for in the conserved \ac{rtx}
-motifs canonically found in all type 1 secreted proteins\upcite[.]{chenal2009rtx, bingle2000secretion}
+motifs canonically found in all type 1 secreted
+proteins\upcite[.]{chenal2009rtx, bingle2000secretion} When the entire RsaA protein
+sequence is compared against other proteins with a \ac{blast} analysis the
+highest hits returned are unknown proteins from \textit{Skermanella aerolata}
+(Score: 1063, Identity: 33.7\%) and \textit{Pseudomonas syringae} (Score: 958,
+Identity: 31.5\%). Interestingly, the protein \ac{blast} also returns hits to
+the \ac{S-layer} protein from \textit{Campylobacter fetus}, SapA (Score: 598,
+Identity: 29.0\%). Closer investigation of the sequence alignment between RsaA
+and \textit{C. fetus} SapA shows few extended regions of sequence identity. 
+Of the few regions of consistent homology most were \ac{rtx} motifs. There are
+no tantalizing clue to be learned from \ac{blast} analysis at this point, but it
+may be good platform to translate any future structural information to other
+unsolved proteins.
+
  RsaA further isolates itself in its sequence by featuring a uniquely limited amino
 acid composition that is biased towards small, simple residues. This bias
 towards  amino acids that are energetically less costly to synthesize is thought to be an evolutionary strategy
@@ -52,39 +76,51 @@ Diffraction data were collected at both the \ac{cls}
 and the \ac{ssrl}. RsaA is the first Gram-negative \ac{S-layer} protein to be
 crystallized to date.
 
-Crystallization and X-ray diffraction are the two essential first steps of any crystallization project but the next hurdle of solving the phasing problem is an equally crucial and fundamental problem in crystallography. Solving the phases is the hurdle that this project has stumbled on the most. The unique aspects of RsaA preclude it from solution through molecular replacement. A multitude of \ac{MAD} and \ac{SAD} strategies were pursued but without any success. The protein sequence of RsaA was improved through the installation of a decapeptide sequence, in the hope that it would give the protein better ion-binding potential. No solution has solved the problem to date and the atomic structure of RsaA is still undetermined.
+Crystallization and X-ray diffraction are the two essential first steps of any
+crystallization project but the next hurdle of solving the phasing problem is an
+equally crucial and fundamental problem in crystallography. Solving the phases
+has been the hurdle that this project has stumbled on the most. The unique aspects of
+RsaA preclude it from solution through molecular replacement. A multitude of
+\ac{MAD} and \ac{SAD} strategies were pursued but without success. The
+protein sequence of RsaA was altered through the installation of a decapeptide
+sequence, in the hope that it would give the protein better ion-binding
+potential for \ac{MAD} phasing, also without success. No solution has solved the problem to date and the atomic structure of RsaA remains undetermined.
 
 \section{Methods}
 \label{sec:crystal-materials-and-methods}
 
 \subsection{Strain and plasmid construction}\label{sec:stra-plasm-constr}
 
-\paragraph{Expression strain} The strain used to produce protein was JS4032\upcite[.]{lau2010analysis} 
-This strain can also be labeled \caulobacter{} CB2A \textit{$\Delta$sapA $\Delta$manB ::repABC}. The strain's genomic copy of \textit{rsaA} is inactivated by a non-sense frame-shift mutation at the 353$^{rd}$ codon. The gene \textit{sapA} has also been removed, it encodes for the S-layer associated protease that has been implicated in degrading modified versions of RsaA\upcite[.]{sap} The surface polysaccharides, \ac{EPS}, polyrhamnan, and \ac{OPS}, were all eliminated by disrupting the gene \textit{manB}. \textit{manB} encodes for phosphomannomutase, an important enzyme in the bio-synthesis of many deoxysugars (see \cref{ch:lps} for our investigation on the structure of the \ac{LPS}). Removing these carbohydrate structures causes RsaA to no longer associate with the cell surface and it aids in downstream processing, giving the cells favorable centrifugability. The operon repABC has also been knocked into this strain to allow for the maintanance of small expression plasmids\upcite[.]{umelo2001development}
+\paragraph{Expression strain} The strain used to produce our RsaA truncates was JS4032\upcite[.]{lau2010analysis} 
+This strain can also be labeled \caulobacter{} CB2A \textit{$\Delta$sapA $\Delta$manB ::repABC}. The strain's genomic copy of \textit{rsaA} is inactivated by a non-sense frame-shift mutation at the 353$^{rd}$ codon. The gene \textit{sapA} has been removed; it encodes for an S-layer associated protease (SapA) that has been implicated in degrading modified versions of RsaA\upcite[.]{sap} The surface polysaccharides, \ac{EPS}, polyrhamnan, and \ac{OPS}, were all eliminated by disrupting the gene \textit{manB}. \textit{manB} encodes for phosphomannomutase, an important enzyme in the bio-synthesis of many deoxysugars (see \cref{ch:lps} for our investigation on the structure of the \ac{LPS}). Removing these carbohydrate structures causes RsaA to no longer associate with the cell surface and it aids in downstream processing, giving the cells favorable centrifugability. The operon repABC has also been knocked into this strain to allow for the replaction of small broad-host range plasmids that we use for protein expression\upcite[.]{umelo2001development}
 
 \paragraph{Expression vectors} The plasmid used initially in this study, pUC8CVX-RsaA \del{}0--222, was a construct of the plasmid pUC8CVX\upcite[]{nomellini2007s} containing an open-reading frame encoding for the C-terminal 804 AA of RsaA. pUC8CVX, digested with \textit{Bam}HI and \textit{Hin}DIII, was ligated to the 2819 bp fragment from a similarly digested plasmid containing an open-reading frame encoding for RsaA with a \textit{Bam}HI  endonuclease recognition sequence at the 666 bp position created in a previous study\upcite[.]{ford2007s} The plasmid, pUC8CVX-RsaA \del{} 0--222, was then electroporated\upcite[]{gilchrist1991transformation} into the expression strain. The annotated sequence of RsaA is found in the appendix on \cpageref{app:rsaseq}.
 
-The plasmid that was used to produce RsaA \del 0--222 GSCC723, pUC8CVX-RsaA \del{}0--222 GSCC723 was produced by replacing the the rear portion of RsaA \del 0--222 in pUC8CVX-RsaA \del 0--222 is a preexisting engineered RsaA fragment with an in-frame insertion of the C-Myc-tag antigen at the 723$^{rd}$ codon\upcite[.]{nomellini2007s} This replacement was done by swapping 2630 bp \textit{Bst}XI--\textit{Hin}DIII fragments. The C-Myc-tag is a decapeptide, \texttt{EQKLISEEDL}, that was derived from the oncogenic human protein Myc, in RsaA we hoped that the added charges would improve the proteins ability to grab useful ions. Our `GSCC' cassette contains the C-myc-tag and a few other restriction sites for future cloning endeavours, specifically a \textit{Bgl}II site and a \textit{Pst}I. The translated peptide sequence of the GSCC cassette is \texttt{GSRSVNNASEQKLISEEDLRPSADGS}. 
+The plasmid that was used to produce RsaA \del 0--222 GSCC723, pUC8CVX-RsaA \del{}0--222 GSCC723, was produced by replacing the rear portion of RsaA \del 0--222 in pUC8CVX-RsaA \del 0--222 with a preexisting engineered RsaA fragment. The fragment contained an in-frame insertion of the C-Myc-tag antigen at the 723$^{rd}$ codon\upcite[.]{nomellini2007s} This replacement was done by swapping 2630 bp \textit{Bst}XI--\textit{Hin}DIII fragments. The C-Myc-tag is a decapeptide, \texttt{EQKLISEEDL}, that was derived from the oncogenic human protein Myc, in RsaA we hoped that the added charges would improve the proteins ability to bind useful ions. Our `GSCC' cassette contains the C-myc-tag as well as a few other restriction sites that can be utilized for the instillation of future peptide cassettes, specifically a \textit{Bgl}II site and a \textit{Pst}I site. The translated peptide sequence of the GSCC cassette is \texttt{GSRSVNNASEQKLISEEDLRPSADGS}. 
 
 \subsection{Protein production}
 \label{sub:crystal-protein-production}
 
 % I need to have strain stuff here.
 Our protein construct, RsaA \del 0--222, was expressed in both a traditional
-\ac{ecoli} expression system and our lab's \ac{caulobacter}
-protein system\upcite[.]{bingle1997expression, UmeloNjaka20011406, Bingle1990143}
+\ac{ecoli} expression system and in our lab's \ac{caulobacter}
+protein expression system\upcite[.]{bingle1997expression, UmeloNjaka20011406, Bingle1990143}
  All attempts to produce protein in \ac{ecoli}
-resulted in highly insoluble inclusion bodies that resisted
-refolding. Expression levels of RsaA in its native host is notably high\upcite[]{lau2010analysis} but
-the system did not initially produce protein in an appropriate form.
+resulted in highly insoluble inclusion bodies.
+ Expression levels of RsaA in its native host is notably high\upcite[]{lau2010analysis} but
+the system did not initially produce protein in an appropriate form for
+crystallization, that is monodisperse, soluble protein. A number of
+counter-intuitive methods had to be used to produce a crystallizable form of
+RsaA from \caulobacter.
 
 The reasons for an N-terminal truncation of RsaA are two-fold; deletion
 of the N-terminus produces protein that no longer anchors itself to
 outer membrane, resulting in soluble supernatant protein; and the
 N-terminus has been identified as the center of three-fold symmetry, its
-deletion should prevent wide-scale \ac{S-layer} formation and aggregation.
+deletion should prevent wide-scale \ac{S-layer} formation and aggregation. This is our strategy for preventing \ac{S-layer} formation as discussed in \cref{sec:crystal_introduction}.
 
-The cells were grown in HIGGM16 medium\upcite[]{smitpilin81}
+% Add something about aggragations
+The cells were grown in M16HIGG medium\upcite[]{smitpilin81}
 at 30\cel for 72 hours. 250 \millilitre cultures
 were used in 2500 \millilitre wide-bottom Fernbach flasks, resulting in shallow
 cultures that did not require shaking for sufficient aeration as
@@ -99,7 +135,7 @@ water and microfilitered. Purification was performed over a 26/60 S100
 Sephadex size-exclusion chromatography column and mobile phase of 200 \si{\milli\molar} \ce{NaCl} and 10 \si{\milli\molar}
 Tris pH 7.5. The first major elution peak was pooled and dialyzed
 against distilled water and concentrated by placing the dialysis bags on
-super-high molecular weight \ac{peg}. The protein
+\ac{peg} with an average molecular weight of 20 000 Da (Sigma-Aldrich). The protein
 solution was slowly concentrated to a final concentration of 3.5--4
 \mgperml.
 
@@ -122,8 +158,8 @@ solution was slowly concentrated to a final concentration of 3.5--4
 
  RsaA  \del 0--222 was initially crystallized at a concentration of 9 \mgperml. Sparse-matrix screening was performed using the \ac{jcsg} Core I, II, III and IV screens (Qiagen). 
 After one week incubation at room temperature, small crystalline shapes were
-observed in JGSC Core I well 28 (200 \si{\milli\molar}  \ce{MgCl2}, 100 \si{\milli\molar} Tris pH 7, 20\% \ac{peg}
-8000). The crystal formation was  not reproducible in the original conditions in
+observed in \ac{jcsg} Core I well 28 (200 \si{\milli\molar}  \ce{MgCl2}, 100 \si{\milli\molar} Tris pH 7, 20\% \ac{peg}
+8000). This crystal formation was  not reproducible in the original conditions in
 a hanging drop vapor apparatus. Thin plates readily formed once the concentration
 of the protein and the \ac{peg} 8000 were both reduced. Thicker, more robust crystals
 formed when \ce{MgCl2} was replaced with other Group 2, alkaline earth metal salts, specifically \ce{CaCl2}, \ce{SrCl2}, or \ce{BaCl2}; \ce{SrCl2} was
@@ -180,7 +216,7 @@ Phenix\upcite[.]{adams2010phenix} Data were collected through a full
 \section{Results}\label{sec:crystal-results}
 
 \subsection{Initial crystallization and optimization}\label{sec:init-cryst-optim} 
- Attempts to crystallize RsaA \del 0--222 started with the pre-assembled crystallization screens \ac{jcgs} Core I, II, III, and IV. Higher protein concentrations were sought because we believed that higher protein concentrations would lead to better results and literature sources recommended protein concentration ranges centering on 10 \mgperml\upcite[.]{jancarik1991sparse} Our protein, RsaA \del 0--222 would readily concentrate to 5--7 \mgperml, but when concentrated beyond 7--9 \mgperml aggregation began to occur, both macroaggregation and microaggregation. Initial screens were assembled at 9 \mgperml, small crystalline shapes were observed after one week at room temperature. Those first crystals grew in JCGS Core I, well 28 with conditions of 20\% \ac{peg} 8000, 200 \millimolar \ce{MgCl2}, and 100 \millimolar Tris pH 7.
+ Attempts to crystallize RsaA \del 0--222 started with the pre-assembled crystallization screens \ac{jcsg} Core I, II, III, and IV. Higher protein concentrations were sought because we believed that higher protein concentrations would lead to better results and literature sources recommended protein concentration ranges centering on 10 \mgperml\upcite[.]{jancarik1991sparse} Our protein, RsaA \del 0--222 would readily concentrate to 5--7 \mgperml, but when concentrated beyond 7--9 \mgperml aggregation began to occur, both macroaggregation and microaggregation. Initial screens were assembled at 9 \mgperml, small crystalline shapes were observed after one week at room temperature. Those first crystals grew in JCGS Core I, well 28 with conditions of 20\% \ac{peg} 8000, 200 \millimolar \ce{MgCl2}, and 100 \millimolar Tris pH 7.
  
 The first attempts to transfer from a sitting-drop strategy, as used in initial screening, to a hanging-drop strategy, to be used in optimization, were unsuccessful due to widespread protein precipitation/aggregation. Shifting our divalent cation from \ce{Mg^2+} to \ce{Ca^2+} led to small crystals in our drops. Crystals that were grown \ce{Ca^2+} were incredibly thin, but sizable ($>$0.5 \si{\milli\meter}) in the other two dimensions. The biggest improvements came from shifting the cation again to \ce{Sr^2+} and lowering the concentrations of the protein and precipitants. Due to low protein concentrations, larger drop sizes (6--10 \microlitre) were utilized and larger ratios between protein and mother liquor were (1.5:1--3:1) used so that initial conditions wouldn't cause protein precipitation but protein concentrations would eventually get high enough to be supersaturated. Fine tuning of protein concentration and drop ratios were mostly used to optimize nucleations in the drops. RsaA \del 0--222 always nucleated well, leading to more drops full of small crystals than clear drops with no crystals. A protein concentration in the range of 3.5--4.5 \mgperml, mixed in a ratio of 1.5:1 with mother liquor, had the best results, averaging around 3 nucleations per drop. Further optimization to the crystallization conditions, such as lowering salt concentration (200 \millimolar to 150 \millimolar) and raising the pH (7 to 7.4), were of arguable efficacy. 
 
