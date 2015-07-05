@@ -249,7 +249,7 @@ are essential for life.
   	\begin{center}
    		\includegraphics[width=0.7\textwidth]{intro/img/lpsoverview.pdf}
    	\end{center}
-   	\caption[Simplified structure of \ac{LPS} from \ecoli~O111:B4]{
+   	\caption[Simplified structure of \ac{LPS} from \textit{Salmonella minnesota}]{
 The wild type \ac{LPS} from \textit{Salmonella minnesota}. The lipid A is at the
 bottom of the figure (in blue), it comprises a backbone of two glucosamine residues. Each
 glucosamine has an attached phosphate moeity and  three fully saturated acyl
@@ -316,7 +316,7 @@ Once \ac{LPS} is bound and the \ac{tlr4}-\textsc{md}2 receptor dimerizes, a two 
     \paragraph{Structure}
 
     On the subject of core oligosaccharide structures there are excellant reviews by Frirdrich and Whitfield (2005)\upcite[]{frirdich2005review} and Holst (1999)\upcite[.]{holst1999chemical}
-    Core oligosaccharides, relative to lipid A, are highly variable, even within a species. As an example, there are five known core oligosaccharides in \ecoli\upcite[.]{heinrichs1998molecular} Compared to \acp{OPS}, core oligosaccharides are highly conserved; there are 186 known \acp{OPS} structures in \ecoli\upcite[.]{samuel2003biosynthesis} \Cref{fig:lpsoverview} shows an \ac{LPS} from \textit{S. minnesota}, its core oligosaccharide has many ``canonical'' features (\eg Kdos, heptoses, hexoses, and phosphates) that are used as comparators for other core oligosaccharides.
+    Core oligosaccharides, relative to lipid A, are highly variable, even within a species. As an example, there are five known core oligosaccharides in \ecoli\upcite[.]{heinrichs1998molecular} Compared to \acp{OPS}, core oligosaccharides are highly conserved; there are 186 known \acp{OPS} structures in \ecoli\upcite[.]{ecolioantigens} \Cref{fig:lpsoverview} shows an \ac{LPS} from \textit{S. minnesota}, its core oligosaccharide has many ``canonical'' features (\eg Kdos, heptoses, hexoses, and phosphates) that are used as comparators for other core oligosaccharides.
 
  The only universally conserved feature of core oligosaccharides is the octosaccharide that sits at the base of the structure, 3-deoxy-\textsc{d}-\textit{manno}octulosonic acid (Kdo). Kdo is always found as the sugar bonded to the C-6$^\prime$ position of the lipid A by a $\alpha$2$\rightarrow$6 bond (see \cref{fig:lipidA}).  The only exception to the Kdo rule is \textit{Acinetobacter calcoaceticus}, where the Kdo is replaced with a 2-\textit{manno}octulosonic acid, Ko\upcite[.]{kawahara1987studies}  This Kdo-lipid A bond is a ketosidic bond, usually the only one present in an \ac{LPS}, and it is easily cleaved by heating in the presence of a mild acid. This cleavage make the separation of the poly/oligosaccharides and the lipid A a trivial procedure.
 
@@ -337,7 +337,16 @@ There are often multiple Kdo sugars present in the core, as seen in \cref{fig:lp
   \subsection{O-polysaccharide}\label{sec:o-polysaccharide}
 
     \paragraph{Structure}
-....
+    \Acp{OPS} are highly variable in structure between species and even strains. For an example, an exhaustive review of the \acp{OPS} in \ecoli is by Stenutz, Weintraub, and Widmalm (2006)\upcite[.]{ecolioantigens} There are 186 known \acp{OPS} in \ecoli alone. 
+
+\Acp{OPS} are synthesized with a repeating structure, formed from subunits. For \ecoli, the \acp{OPS} are built of subunits that range in size from 2--7 monosaccharides (3 examples of 2 sugar subunits, 1 example of a 7 sugar subunit).  Even smaller configurations exist, such as that are homopolymer of a single repeating sugar in a single configuration (\eg \textit{V. cholera}\upcite[]{kenne1982structural}). There are also exist \acp{OPS} in \ecoli that are comprise a single a single repeating sugar (O8, O101) but they have multiple configurations or intersaccharide bonds. These `simpler' \acp{OPS} are often characteristic of an \ac{OPS} assembled by the \ac{abc} transporter-dependant pathway (see below). 
+ 
+\Acp{OPS} can be synthesized from a huge range of sugars. Well known sugars,
+such as glucose and mannose are regular components of \acp{OPS} but so are rare
+sugars such as talose, colitose, and pseudaminic acid\upcite[.]{ecolioantigens}
+See \cref{ch:lps} for our determination of the structure of the \ac{OPS} from
+\caulobacter which contains the rare sugar N-acetylperosamine.
+
     \paragraph{Synthesis}
     Unlike the core oligosaccharide, the \ac{OPS} is produced on a lipid carrier in the inner membrane and then ligated onto the nascent \ac{LPS} as a fully completed polymer.
  There are three known biosynthetic pathways that produce \ac{OPS}: the Wzy-dependant pathway, the \ac{abc} transporter-dependant pathway, and the synthase-dependant pathway\upcite[.]{lpsreview02}
@@ -404,6 +413,9 @@ have severe reductions in permeability for solutes above a size around 200 Da.
  
 Porins increase the communication between the periplasm and the outside world allowing selective permeability take place at the cytoplasmic membrane by proteins that have access to cellular energetics. There do exist active transport systems in the outer membrane, such as TonB-dependent transporters. These active transport systems are often associated with the uptake of scare nutrients like iron and vitamin B$_{12}$. The alphaproteobacterium \caulobacter{} encodes for 67 such TonB transport systems\upcite[,]{caulobactergenomeseq} possibly as a adaptation to living in nutrient poor environments\upcite[.]{lohmiller2008tonb} To date no published study has characterized a general porin in \caulobacter{}. See \cref{ch:porin} on \cpageref{ch:porin} for our work to characterize OmpW in \caulobacter{}.
 
-  \section{Summary}\label{sec:summary}
-  
-  % LocalWords:  firstslayer
+ \section{Summary}\label{sec:summary} 
+The bacterium \caulobacter is a well studied model organism for its dimorphic
+life cycle\upcite[,]{skerker2004cell} cell shape\upcite[,]{cabeen2005bacterial} and regulatory pathways\upcite[.]{laub2007systems} Despite having a unique \ac{S-layer}, an unsolved \ac{LPS} structure, and no known porins in its outer membrane, the cellular envelope of \caulobacter has not attracted widespread attention. This thesis covers our work illuminate the composition and the structures of the three different components of the \caulobacter cell envelope: the \ac{S-layer} protein, RsaA (\cref{ch:crystal}); the \ac{LPS} (\cref{ch:lps}); and the porin, OmpW (\cref{ch:porin}). 
+
+
+% LocalWords:  firstslayer
