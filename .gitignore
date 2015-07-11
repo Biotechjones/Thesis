@@ -66,3 +66,5 @@ latex.out/*.*
 /~$Worded.docx
 /MJThesis.docx
 /crystal_chapter/img/DLS.ai
+/n.tex
+/crystal_chapter/flycheck_crystal.tex
