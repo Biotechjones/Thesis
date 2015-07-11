@@ -67,4 +67,7 @@ latex.out/*.*
 /MJThesis.docx
 /crystal_chapter/img/DLS.ai
 /n.tex
+<<<<<<< HEAD
 /crystal_chapter/flycheck_crystal.tex
+=======
+>>>>>>> 985ed873c27da239decbf5e6cab03134bf6ce8ed
