@@ -143,7 +143,9 @@ All samples were boiled for 5 minutes in sample buffer prior to applying them to
 
         \subsection{Western blotting and far-western blotting} \label{sec:western-blotting-far}
 
-    Western blotting of \ac{LPS} followed standard laboratory blotting techniques\upcite[.]{towbin1979electrophoretic} \ac{SDS-PAGE} gels of \ac{LPS} were electro-blotted on to a nitrocellulose membrane which subsequently agitated in Tris-buffered milk blocking buffer for one hour. The primary probe was rabbit serum raised against a preparation of \caulobacter{} holdfast. This so-called anti-holdfast serum was fortuitously found to have specific activity against the \caulobacter{} \ac{LPS}\upcite[.]{walker94} Alexa Fluor 680 goat anti-rabbit IgG secondary antibody (Invitrogen) was used at 50\,000$^{-1}$ and was detected and quantified by the Odyssey Infrared Imaging System using Odyssey 2.0 software (Licor Biosciences, Lincoln, Nebr.), similar to previously published methods\upcite[.]{lau2010analysis} Two five minute washes were performed between each step.
+    Western blotting of \ac{LPS} followed standard laboratory blotting techniques\upcite[.]{towbin1979electrophoretic} \ac{SDS-PAGE} gels of \ac{LPS} were electro-blotted on to a nitrocellulose membrane which subsequently agitated in Tris-buffered milk blocking buffer for one hour. Occasionally, spot-blot westerns were performed. Spot-blot westerns forgo the \ac{SDS-PAGE}; the sample is spotted directly on to the membrane and allowed to dry.
+
+ The primary probe was rabbit serum raised against a preparation of \caulobacter{} holdfast. This so-called anti-holdfast serum was fortuitously found to have specific activity against the \caulobacter{} \ac{LPS}\upcite[.]{walker94} Alexa Fluor 680 goat anti-rabbit IgG secondary antibody (Invitrogen) was used at 50\,000$^{-1}$ and was detected and quantified by the Odyssey Infrared Imaging System using Odyssey 2.0 software (Licor Biosciences, Lincoln, Nebr.), similar to previously published methods\upcite[.]{lau2010analysis} Two five minute washes were performed between each step.
 
 Far-western blotting was originally developed to screen protein expression libraries with $^{32}$P-labeled glutathione-S-transferase-fusion proteins\upcite[,]{blackwood1991max} but the idea has developed as quick method to test for \textit{in vitro} protein interactions on the surface of a western blot membrane. The idea to use far-western blotting to check for RsaA--\ac{LPS} interaction was spurred by the realization that the denaturing conditions in standard \ac{SDS-PAGE} would have no detrimental effect on the primary structure of \ac{LPS}. Our far-western blot protocol started as a standard western blot, except the primary probe was replaced with RsaA\del{}277-784 in distilled water. Primary probe concentration was not a critical variable in the range tested, 0.1--4 \mgperml{}. Anti-RsaA\del{}277--784 rabbit serum was used as a secondary probe, followed by Alexa Flour 680 goat-anti rabbit IgG as a tertiary probe. 
 
@@ -290,7 +292,7 @@ The initial starting cultures of THP-1 cells were generous gifts from the Fernan
       
 When the THP-1 cells were in their third passage and at a density of $1.4x10^{6}$ live cell per millilitre they were pelleted by centrifugation and resuspended in fresh medium containing 50 \si{\nano\gram\per\milli\litre} \ac{pma}. $1x10^{5}$ THP-1 cells, in \ac{pma}, were placed into the wells of 24-well plates and allowed to differentiate. After 48 hours, all the cells were found to have become adherent to the well surfaces, the \ac{pma}-containing medium was removed, the cells were washed once with fresh medium, and then fresh medium was applied to all the wells and the cells allowed to rest. After a subsequent 48 hours, all the growth medium was replaced with medium containing \ac{LPS} and concentrations of 0, 1, 10, 100 \si{\nano\gram\per\milli\litre} of either \caulobacter{} or \ac{salmonella} origin. At the time points of 4 hours and 24 hours, well solutions were removed and frozen at -80\cel{} for cytokine assay.
       
-Kits for assaying \ac{tnfa}, \ac{il} 6, \ac{il} 10, \ac{mcp1}, and \ac{ifnb} were purchased from Meso Scale Discoveries. The assays were done following the supplier's instructions and the data readouts were produced on a QuickPlex SQ 120 imager (courtesy of the Pfieffer lab, UBC).
+Kits for assaying various cytokine were purchased from Meso Scale Discoveries: \ac{tnfa}, a proinflammatory cytokine released by macrophages in response to \ac{LPS}\upcite[]{wajant2003tumor}; \ac{il} 6, an important cytokine for generating adaptive immunity\upcite[]{scheller2011pro}; \ac{il} 10, an anti inflammatory signal,``Master Regulator of Immunity to Infection''\upcite[]{couper200810}; and \ac{mcp1}, a key chemokine for macrophage trafficking\upcite[.]{deshmane2009monocyte} The assays were done following the supplier's instructions and the data readouts were produced on a QuickPlex SQ 120 imager (courtesy of the Pfieffer lab, UBC).
 % section methods (end)
     
 \section{Results} % (fold)
@@ -334,6 +336,8 @@ Whole \caulobacter{} \ac{LPS} was examined using a number of different technique
 
 \Cref{fig:lpsvisuals} also demonstrates how our \ac{LPS} samples appeared when analyzed by western blotting and far-western blotting using RsaA as the primary probe. Both western blotting and far-western blotting primarily identified the smooth-\ac{LPS} band on the blot, indicating that the \ac{OPS} is probably the antigenic portion of the \ac{LPS} and the primary anchor molecule for RsaA and the \caulobacter{} \ac{S-layer}. For the far-westerns, controls were run to test for \ac{LPS} cross reactivity from the anti-RsaA antibodies and the anti-rabbit antibodies, none were detected. 
 
+We attempted to isolate the core oligosaccharide-\ac{OPS} fraction from the \ac{LPS} prior to starting \ac{NMR} analysis. Hydrolysis of the ketosidic bond between Kdo and lipid A (see the arrow in \cref{fig:lipidA}) was carried out with one of the classical protocols, 0.1 \si{\molar} \ce{HCl} at 100\cel for one hour. The reaction caused the regular precipitated lipid A, but the supernate had no detectable \ac{OPS}. We used spot-blot westerns and far-westerns to detect the presence of \ac{OPS}, because it was the structure bound by RsaA that was of most interest to us. Milder hydrolysis conditions, acetic acid or \textsc{sds} accelerated\upcite[,]{caroff1988detergent} also produced no detectable \ac{OPS}. In the concern that the \ac{OPS} didn't immobilize to the membrane, we tried to chemically link the polysaccharide to amine-coated surface using carbodiimide chemistry\upcite[]{jauho2000new}; the chemical linkages failed to demonstrate the presence of free-\ac{OPS}. We had no evidence to conclude that our \ac{OPS} was labile acid degradation. At the time the only clue about the structure of the \ac{OPS} was the presence of N-acetylperosamine and persoamine containing \ac{OPS} have no inherent instability\upcite[.]{caroff1984antigenic, perry1986structure} It was this curious situation that was the main impetuous to pursue a full structural solution.
+
 Attempts  to accurately measure the molecular weight of our intact smooth-\ac{LPS} were partly successful. Getting accurate \ac{MALDI-TOF} results for large molecular weight polysaccharides is at best difficult and the technology is most often used for the analysis of smaller oligosaccharides (as below) and lipid A molecules. \Cref{fig:lpsmalditof} shows our best results. Our mass spectrum shows a tight clustering of m/z peaks at or near 10.8 kDa (assuming a single negative charge). Like our electrophoresis data, our \ac{MALDI-TOF} data demonstrate that \caulobacter{} \ac{LPS} is not heterogeneous in length. The small differences in m/z between the peaks in \cref{fig:lpsmalditof} are around 180 Da, the size range of a single hexose molecule not an entire \ac{OPS} subunit.
 
 \begin{figure}[htb]
@@ -356,7 +360,7 @@ The successful demonstration that RsaA \del{}277--784 could bind \caulobacter{} 
 The \ac{PS} was released from the \ac{LPS} by hydrolysis with acetic acid. \textsuperscript{1}H
 \ac{NMR} spectrum of the \ac{PS} (see \cref{fig:lpsfig1}) contained a large number of partially
 overlapping signals of various intensities in the anomeric region. It was obviously not a regular
-polymer with well-defined repeating units. Attempts to separate this material by anion-exchange
+polymer with well-defined repeating units. It was clear that an intact polymer was released from hydrolysis. The free-\ac{OPS} was detectable by \ac{NMR} but not spot-blot western (see above, \cref{sub:characterisation_of_whole_lps}) Attempts to separate this material by anion-exchange
 chromatography led to the isolation of a number of fractions from neutral to slightly retained,
 but all of them had virtually identical \ac{NMR} spectra. Methylation of the polysaccharide led to
 the identification of 3- and 3,4-substituted mannopyranose, terminal glucopyranose (derived from
@@ -664,7 +668,9 @@ We analyzed the immune/cellular response against \caulobacter{} \ac{LPS} by two 
   \label{fig:nfkbassay}
 \end{figure}    
 
-The cytokine production assays were a more in depth analysis of the profile of an immune stimulation by \caulobacter{} \ac{LPS}, but the results are not as clear cut as the NF$\kappa$B data. \Cref{fig:cytokineprofile} compiles the data from all the cytokine assays. At four hours and with only 1 \si{\nano\gram\per\milli\litre} of \ac{LPS} added, all the cells that were treated with \caulobacter{} \ac{LPS} had notably lower production levels of all cytokines tested than the cells that were treated with \ac{salmonella} \ac{LPS}. At 24 hours, and also with 1 \si{\nano\gram\per\milli\litre} of \ac{LPS} added, \caulobacter{} \ac{LPS} stimulated less cytokine production than \ac{salmonella} \ac{LPS} for all cytokines other than \ac{mcp1}. At the 10 and 100 \si{\nano\gram\per\milli\litre} \ac{LPS} treatment levels, the differences between \caulobacter{} and \ac{salmonella} become less clear. At the 100 \si{\nano\gram\per\milli\litre} \ac{LPS} treatment conditions \caulobacter{} \ac{LPS} actually stimulated more cytokine production in almost every test (except \ac{mcp1}, 4 hours). 
+The cytokine production assays were a more in depth analysis of the profile of
+an immune stimulation by \caulobacter{} \ac{LPS}, but the results are not as
+clear cut as the NF$\kappa$B data. We hypothesized in light of the NF$\kappa$B experiment and past work with lipid A, that the \caulobacter \ac{LPS} would significantly  stimulate less cytokine production than enteric \ac{LPS}. \Cref{fig:cytokineprofile} compiles the data from all the cytokine assays. At four hours after treating the cell with only 1 \si{\nano\gram\per\milli\litre} of \ac{LPS} added, all the cells that were treated with \caulobacter{} \ac{LPS} had notably lower production levels of all cytokines tested than the cells that were treated with \ac{salmonella} \ac{LPS}. At 24 hours, and also with 1 \si{\nano\gram\per\milli\litre} of \ac{LPS} added, \caulobacter{} \ac{LPS} stimulated less cytokine production than \ac{salmonella} \ac{LPS} for all cytokines other than \ac{mcp1}. At the 10 and 100 \si{\nano\gram\per\milli\litre} \ac{LPS} treatment levels, the differences between \caulobacter{} and \ac{salmonella} become less clear. At the 100 \si{\nano\gram\per\milli\litre} \ac{LPS} treatment conditions \caulobacter{} \ac{LPS} actually stimulated more cytokine production in almost every test (except \ac{mcp1}, 4 hours). 
 
 \begin{figure}[p]
   \begin{center}
@@ -689,6 +695,8 @@ and an initial assessment of its composition was made\upcite[,]{ravenscroftlps} 
 structure had not been determined. The structure of the \ac{OPS} has not been studied before. In our
 view the polysaccharide structure of the \caulobacter{} \ac{LPS} represents one of the most
 complicated bacterial \ac{LPS} polysaccharide structures identified so far.
+
+None of the determined carbohydrate structures give any clues to why we were unable to detect free-\ac{OPS} by spot-blot western (see \cref{sub:characterisation_of_whole_lps}). On the contrary, the \ac{NMR} signals unambiguously show that the core oligosaccharide and \ac{OPS} stay intact after mild-acid hydrolysis. We do not have much information about which structures in the \caulobacter \ac{LPS} are bound by RsaA or the antibodies used in western blotting. Genetic knockouts point towards the requirement of N-acetylpersoamine, but now that the complete structure has been determined it is not clear why the N-acetylpersoamine containing structures (\ac{OPS} and end caps) were not previously detectable.
 
 The Kdo present in the \ac{LPS} core structure (see \cref{fig:lpscore}) has the typical
 substitutions at C-4 and C-5 of a \textit{manno}-configured sugar and a negatively charged sugar,
@@ -727,8 +735,6 @@ curvature\upcite[.]{lpsinterferecrescentin} Many genes, such as wbqL, have been 
 essential for \ac{OPS} synthesis\upcite{awramgenes} but most if not all have not yet been characterized. Other genes, that must be essential for \ac{OPS} synthesis, have yet to be identified or characterized,
 such as the \ac{OPS} polymerase and ligase.
 
-% --Should I increase the text about lpxI?--%
-
 The subunit-based repeating nature and branching structure of the \caulobacter{} \ac{OPS} suggests that a Wzy-dependent pathway
 synthesizes the polymer\upcite[.]{lpsreview02} The previous study that aimed to identify genes
 essential for \ac{OPS} did not identify many of the canonical genes in the Wzy-dependent
@@ -759,7 +765,7 @@ than a hundredth of the \ac{tnfa} production than \ecoli{} D31m4
 rough-\ac{LPS}\upcite[.]{caulobacterlipida} We hypothesized that intact
 \caulobacter{} \ac{LPS} would have a similar effect because lipid A is generally
 considered the immunogenic portion of the \ac{LPS} molecule. Our  first
-immunogenicity assay used a cell line constructed with a TLR4--NF$\kappa$B
+immunogenicity assay used a cell line constructed with a \ac{tlr4}--NF$\kappa$B
 reporter system. The NF$\kappa$B results clearly support the previous reports
 that \caulobacter{} \ac{LPS} is less immunogenic than enteric \ac{LPS}.
 Expanding our investigation into cytokine production, using THP-1 derived
@@ -770,11 +776,11 @@ but at highest doses it stimulates more, at least in this assay. Perhaps
 the data show the truth that the stimulatory effect of \caulobacter{} \ac{LPS}
 is not always less than its enteric counterparts, but there are enough examples
 to the contrary that weaknesses in the experimental design may be at fault.
-Because we believe that TLR4 is the major sensor for \ac{LPS} in both our assays
+Because we believe that \ac{tlr4} is the major sensor for \ac{LPS} in both our assays
 and because NF$\kappa$B activation is a major contributor to many cytokine
 production levels\upcite[,]{baldwin1996nf} our two assays are not completely independent of one another. If they completely contradict each other, then one of them is wrong or there are more complexities involved than are obvious. 
 
 The conditions in our assays that contradict our hypotheses were most often at
 the high \ac{LPS} concentrations (100 \si{\nano\gram\per\milli\litre}). The
-\caulobacter \ac{LPS}, at higher concentrations, may be activating alternate receptors than just \ac{tlr4}.
-One difference in our assays is the cells used. The THP-1 cells express a full complement of toll-like receptors, in addition to TLR4. If our purified \caulobacter{} \ac{LPS} contained any \ac{mamp}  contaminants (\eg{} flagellin, peptidoglycan) then they may have stimulated THP-1 cells in addition to the signal from the \ac{LPS}. These possible contaminants would not have affected the results from the HEK-Blue hTLR4 cells because they only expressed the \ac{LPS} sensor, TLR4. Possibly, the commerically sourced \ac{salmonella} \ac{LPS} was  depleted of any contaminants by the manufacturer. There were no contaminants in the \caulobacter{} \ac{LPS} that were abundant enough to affect the \ac{NMR} or \ac{MS} analysis, but it is possible that the cell assays are  much more sensitive. If contamination is the culprit of our surprising cytokine results, then repeating the experiments with a cell line only expressing TLR4 should show what we expect: \caulobacter{} \ac{LPS} is less immunogenic than enteric \ac{LPS}.
+\caulobacter \ac{LPS}, at higher concentrations, may be activating alternate receptors than just \ac{tlr4}. If it is not the \ac{LPS} stimulating in a non-\ac{tlr4} manner, than something else is
+One difference in our assays is the cells used. The THP-1 cells express a full complement of toll-like receptors, in addition to \ac{tlr4}. If our purified \caulobacter{} \ac{LPS} contained any \ac{mamp}  contaminants (\eg{} flagellin, peptidoglycan) then they may have stimulated THP-1 cells in addition to the signal from the \ac{LPS}. These possible contaminants would not have affected the results from the HEK-Blue h\ac{tlr4} cells because they only expressed the \ac{LPS} sensor, \ac{tlr4}. Possibly, the commercially sourced \ac{salmonella} \ac{LPS} was  depleted of any contaminants by the manufacturer. There were no contaminants in the \caulobacter{} \ac{LPS} that were abundant enough to affect (or be detected by) the \ac{NMR} or \ac{MS} analysis, but it is possible that the cell assays are  more sensitive. If contamination is the culprit of our surprising cytokine results, then repeating the experiments with a cell line only expressing \ac{tlr4} should show what we expect: \caulobacter{} \ac{LPS} is less immunogenic than enteric \ac{LPS}.
