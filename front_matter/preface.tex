@@ -20,7 +20,22 @@ data evaluation and processing, and edited and provided feedback on the writing
 of the manuscript. 
 
 \paragraph{Chapter 3}
-Portions of chapter 3 have been published; \fullcite{jones2015core}. The work was
+Portions of chapter 3 have been published;
+\makeatletter%
+\typeout{blx@maxcitenames: \blx@maxcitenames}%
+\bgroup% start local scope group
+  % \advance\blx@maxcitenames 2\relax % cannot: not a count!
+  \def\blx@maxcitenames{99}%
+  \makeatother%
+  % \traceon % if tracing is desired
+  \fullcite{jones2015core}.
+  % \traceoff
+\egroup%
+
+\makeatletter
+\typeout{blx@maxcitenames: \blx@maxcitenames}
+\makeatother
+ The work was
 done as a collaboration with Dr.\,Evgeny Vinogradov. Dr.\,Vinogradov was
 responsible for the majority of the structural work: monosaccharide analysis,
 methylation analysis, and \textsc{NMR} analysis, as well as the written
