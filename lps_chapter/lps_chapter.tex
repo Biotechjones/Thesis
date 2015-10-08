@@ -23,7 +23,7 @@ self-assembled, para-crystalline \ac{S-layer}\upcite[.]{walker94} The \ac{LPS}
 of \caulobacter possesses a much reduced immunogenic activity, most likely due
 to its lipid A structure, which is significantly different from that of
 \ac{LPS} from enteric bacteria. The lipid A structure has been
-reported\upcite[;]{caulobacterlipida} it is a unique molecule containing a
+reported\upcite[.]{caulobacterlipida} It is a unique molecule containing a
 di-diaminoglucose backbone (instead of di-glucosamine) and two galacturonate
 moieties that replace the canonical phosphates that are on each end of the
 disaccharide in most lipid A molecules. \Cref{fig:cc_lipida} shows the structure of the \caulobacter lipid A.
@@ -73,7 +73,7 @@ now been solved.
   JS1023\upcite[.]{slayercryo}
 		
   Cells were grown to mid-to-late log phase (\od = 0.9) in M16HIGG defined medium at 30\cel in 2.8
-  \si{\litre} Fernbach flasks containing 1250 \millilitre of medium, shaking at 100 rpm. M16HIGG is
+  \si{\litre} Fernbach flasks containing 1250 \millilitre of medium, with shaking at 100 rpm. M16HIGG is
   a modification of M6HIGG medium\upcite[,]{smitpilin81} containing 0.31\% glucose, 0.09\%
   glutamate, 1.25 \si{\milli\meter} sodium phosphate, 3.1 \si{\milli\meter} imidazole, 0.05\%
   ammonium chloride, and 0.5\% modified Hutner's Mineral Base\upcite[.]{hutners}
@@ -81,14 +81,7 @@ now been solved.
 
 	\subsection{Lipopolysaccharide isolation} % (fold)
 	\label{sub:LPS_isolation}
-  \ac{LPS} was isolated from the cells via disrupting the outer membrane by chelation.  The negative charges in Gram-negative bacterial \ac{LPS} are stabilized and bridged by available
-  divalent cations (\ie{} \ce{Ca^2+} and \ce{Mg^2+}). Lieve first noted in 1965\upcite{leive65} that
-  one can strip the counter ions from the outer membrane to disrupt it and cause it to shed into the
-  medium. We chose a chelation strategy because we found it easy to scale up, it didn't require
-  noxious organic solvents, and because our lab's first attempt to isolate and analyze \caulobacter\
-  \ac{LPS}\upcite{ravenscroftlps} using the Darveau extraction method\upcite{darveauprocedure} only
-  resulted in the isolation of core+lipidA (rough \ac{LPS}).
-
+  \ac{LPS} was isolated from the cells via disrupting the outer membrane by chelation.  
   The protocol we used was a modification of the procedure reported by Walker
   \etal\!\upcite{walker94} Cells were centrifuged at 12 400 x g for 10 min. The pellets were
   suspended with distilled water and recentrifuged. These pellets were resuspended in 1/10 original
@@ -109,12 +102,15 @@ now been solved.
   A Bligh Dyer extraction was performed on all \ac{LPS} preparations to reduce the presence of
   contaminating lipids. The extraction was performed as first published\upcite[.]{blighdyer} In
   short, to one volume of aqueous \ac{LPS} sample, 3.75 volumes of chloroform/methanol (1:2 v/v) was
-  added and the sample was vortexed for 30 seconds. 1.25 volumes of chloroform was added and the
-  sample was vortexed again for 30 seconds. 1.25 volumes of water were added and the sample was
-  vortexed a final time for 30 seconds. This mixture was then centrifuged at 15 300 x g for 10
+  added and the sample was vortexed for 30 sec. Chloroform, 1.25 volumes, was added and the
+  sample was vortexed again for 30 sec. Water, 1.25 volumes, were added and the sample was
+  vortexed a final time for 30 sec. This mixture was then centrifuged at 15 300 x g for 10
   min. After centrifugation, the mixture separated into two phases, a lower organic phase and an
   upper aqueous phase. The \ac{LPS} partitions into the aqueous phase, while other lipids partition
-  into the organic phase. The aqueous phase was retrieved and kept.
+  into the organic phase. The aqueous phase was retrieved. Samples were stored
+  at 4\cel for short term use or frozen at -20\cel for long term storage.
+  Occasionally, \ce{NaN3} was added to a concentration of 3 \si{\milli\molar} to
+  prevent microbial growth and it was never found to effect analysis.
 	% subsection bligh_dyer_extraction (end)
 
 	\subsection{Silver stain and gel electrophoresis} % (fold)
@@ -126,7 +122,7 @@ now been solved.
   vitamin C (ascorbic acid) in place of formaldehyde in traditional \ac{LPS}
   stains\upcite[.]{tsai1982sensitive} Table \ref{tbl:silver} give the details of the silver stain
   procedure.%% Leave it as ref, not cref
-All samples were boiled for 5 minutes in sample buffer prior to applying them to gel. Sample buffer is made as a 4X concentrate comprising 200 mM Tris pH 6.8, 8\% sodium dodecyl sulfate, 40\% glycerol, 4\% $\beta$-mercaptoethanol, 0.25\% bromophenol blue.
+All samples were boiled for 5 min in sample buffer prior to loading them to a gel. Sample buffer is made as a 4X concentrate comprising 200 mM Tris pH 6.8, 8\% sodium dodecyl sulfate, 40\% glycerol, 4\% $\beta$-mercaptoethanol, 0.25\% bromophenol blue.
 
 		\begin{table}[ht]  % Silver stain table
 			\centering
@@ -146,23 +142,61 @@ All samples were boiled for 5 minutes in sample buffer prior to applying them to
 	% subsection gel_electrophoresis (end)
     \subsection{Preparation of RsaA \del 277--784 probe} \label{sec:preparation-rsaa-del}
     
-    The plasmid, p4BRsaA\del 277--784, was extant in our laboratory from the work of Wade Bingle and John Nomellini. In short, various versions of \textit{rsaA} were engineered to have \textit{Bam}HI sites at locations throughout the gene\upcite[.]{bingle1997linker} The \textit{Bam}HI--\textit{Hin}DIII fragment from a version of \textit{rsaA} with a \textit{Bam}HI site at the 831 bp from the start codon was replaced with a \textit{Bam}HI--\textit{Hin}DIII fragment from a version of \textit{rsaA} with a \textit{Bam}HI site at the 2352 bp position. In effect this made a \textit{rsaA} gene missing 1521 bp from the center, corresponding to amino acids 277--784 within the resulting protein. This `internally truncated' gene was then moved into the context of our expression vector `p4B'\upcite[]{lau2010analysis} as a \textit{Eco}RI--\textit{Hin}DIII fragment. p4BRsaA\del{}277--784 was electroporated into \caulobacter{} JS1030. JS1030 is the same strain used for protein production in \cref{ch:crystal}; its construction is detailed in \cref{sub:crystal-protein-production}. Isolation and concentration of the RsaA \del{}277--784 probe followed the same protocol used for RsaA \del 0--222, as found in \cref{sub:crystal-protein-production}, but unpurified and unconcentrated cell culture supernate, containing secreted RsaA \del{}277--784, was also found to an effective probe for far-western blotting.
+    The plasmid, p4BRsaA\del 277--784, was in our laboratory from the work of
+    Bingle and Nomellini. In short, various versions of \textit{rsaA} were
+    engineered to have \textit{Bam}HI sites at locations throughout the
+    gene\upcite[.]{bingle1997linker} The \textit{Bam}HI--\textit{Hin}DIII
+    fragment from a version of \textit{rsaA} with a \textit{Bam}HI site at the
+    831 bp from the start codon was replaced with a
+    \textit{Bam}HI--\textit{Hin}DIII fragment from a version of \textit{rsaA}
+    with a \textit{Bam}HI site at the 2352 bp position. In effect this made a
+    \textit{rsaA} gene missing 1521 bp from the center, corresponding to amino
+    acids 277--784 within the resulting protein. This `internally truncated'
+    gene was then moved into the context of our expression vector
+    `p4B'\upcite[]{lau2010analysis} as a \textit{Eco}RI--\textit{Hin}DIII
+    fragment. p4BRsaA\del{}277--784 was electroporated into \caulobacter{}
+    JS1030. JS1030 is the same strain used for protein production in
+    \cref{ch:crystal}; its construction is detailed in
+    \cref{sub:crystal-protein-production}. Isolation and concentration of the
+    RsaA \del{}277--784 probe followed the same protocol used for RsaA \del
+    0--222, as found in \cref{sub:crystal-protein-production}, but unpurified
+    and unconcentrated cell culture supernate, containing secreted RsaA
+    \del{}277--784, was also to be an effective probe for far-western blotting.
     
-    For the protein probe used in the glycan array screening, the RsaA \del{}277-784 was labeled with fluorescein isothiocyanate (Life Technologies); manufacturer's instructions were followed for the labeling procedure.
+    For the protein probe used in the glycan array screening, the RsaA \del{}277--784 was labeled with fluorescein isothiocyanate (Life Technologies); manufacturer's instructions were followed for the labeling procedure.
 
         \subsection{Western blotting and far-western blotting} \label{sec:western-blotting-far}
 
-    Western blotting of \ac{LPS} followed standard laboratory blotting techniques\upcite[.]{towbin1979electrophoretic} \ac{SDS-PAGE} gels of \ac{LPS} were electro-blotted on to a nitrocellulose membrane which subsequently agitated in Tris-buffered milk blocking buffer for one hour. Occasionally, spot-blot immunoblots were performed. Spot-blots are like western blots that forgo the \ac{SDS-PAGE}; the sample is spotted directly on to the membrane and allowed to dry.
+    Western blotting of \ac{LPS} followed standard laboratory blotting
+    techniques\upcite[.]{towbin1979electrophoretic} \ac{SDS-PAGE} gels of
+    \ac{LPS} were electro-blotted on to a nitrocellulose membrane that was subsequently agitated in Tris-buffered milk blocking buffer for one hour. Occasionally, spot-blot immunoblots were performed. Spot-blots are like western blots that forgo the \ac{SDS-PAGE}; the sample is spotted directly on to the membrane and allowed to dry.
 
- The primary probe was rabbit serum raised against a preparation of \caulobacter{} holdfast. This so-called anti-holdfast serum was fortuitously found to have specific activity against the \caulobacter{} \ac{LPS}\upcite[.]{walker94} Alexa Fluor 680 goat anti-rabbit IgG secondary antibody (Invitrogen) was used at 50\,000$^{-1}$ and was detected and quantified by the Odyssey Infrared Imaging System using Odyssey 2.0 software (Licor Biosciences, Lincoln, Nebr.), similar to previously published methods\upcite[.]{lau2010analysis} Two five minute washes were performed between each step.
+ The primary probe was rabbit serum raised against a preparation of
+ \caulobacter{} holdfast. The holdfast is a complex carbohydrate `glue' that is
+ present on the stalk of \caulobacter. The holdfast acts to anchor the cells to surfaces. This so-called anti-holdfast serum was fortuitously found to have specific activity against the \caulobacter{} \ac{LPS}\upcite[.]{walker94} AlexaFluor680 goat anti-rabbit IgG secondary antibody (Invitrogen) was used at 50\,000$^{-1}$ and was detected and quantified by the Odyssey Infrared Imaging System using Odyssey 2.0 software (Licor Biosciences, Lincoln, NE), similar to previously published methods\upcite[.]{lau2010analysis} Two 5 min washes were performed between each step.
 
-Far-western blotting was originally developed to screen protein expression libraries with $^{32}$P-labeled glutathione-S-transferase-fusion proteins\upcite[,]{blackwood1991max} but the idea has developed as quick method to test for \textit{in vitro} protein interactions on the surface of a western blot membrane. The idea to use far-western blotting to check for RsaA--\ac{LPS} interaction was spurred by the realization that the denaturing conditions in standard \ac{SDS-PAGE} would have no detrimental effect on the primary structure of \ac{LPS}. Our far-western blot protocol started as a standard western blot, except the primary probe was replaced with RsaA\del{}277-784 in distilled water. Primary probe concentration was not a critical variable in the range tested, 0.1--4 \mgperml{}. Anti-RsaA\del{}277--784 rabbit serum was used as a secondary probe, followed by Alexa Flour 680 goat-anti rabbit IgG as a tertiary probe. 
+Far-western blotting was originally developed to screen protein expression
+libraries with $^{32}$P-labeled glutathione-S-transferase-fusion
+proteins\upcite[,]{blackwood1991max} but the idea has developed as a quick
+method to test for \textit{in vitro} protein interactions on the surface of a
+western blot membrane. The idea to use far-western blotting to check for
+RsaA--\ac{LPS} interaction was spurred by the realization that the denaturing
+conditions in standard \ac{SDS-PAGE} would have no detrimental effect on the
+primary structure of \ac{LPS}. Our far-western blot protocol started as a
+standard western blot, except the primary probe was replaced with
+RsaA\del{}277--784 in distilled water. Primary probe concentration was not a
+critical variable in the range tested, 0.1--4 \mgperml{}.
+Anti-RsaA\del{}277--784 rabbit serum was used as a secondary probe, followed by
+AlexaFluor680 goat-anti rabbit IgG as a tertiary probe. Controls checking
+non-specific binding between the \ac{LPS} and the secondary probes and tertiary
+probes showed were performed (data not shown).
 
     \subsection{\Acl{MALDI-TOF}}\label{sec:acmaldi-tof}
      
-    \ac{MALDI-TOF} analysis was done with the UBC Proteomics Core Facility. For our initial analysis  tried \ac{LPS} purified from \ac{SDS-PAGE} gels, but the resulting acrylamide/polyacrylamide contamination proved insurmountable (data not shown). 
+    \ac{MALDI-TOF} analysis was done with the UBC Proteomics Core Facility. For
+    our initial analysis we used  \ac{LPS} purified from \ac{SDS-PAGE} gels, but the resulting acrylamide/polyacrylamide contamination proved insurmountable (data not shown). 
 
-    Final \ac{MALDI-TOF} procedure used our purified \ac{LPS} mixed with a sinapinic acid matrix and analyzed on a Applied Biosystems Voyager System 4311. \Cref{tab:mssettings} highlights the machine setting used for the \ac{MALDI-TOF}.
+    The \ac{MALDI-TOF} procedure used our purified \ac{LPS} mixed with a sinapinic acid matrix and analyzed on a Applied Biosystems Voyager System 4311. \Cref{tab:mssettings} highlights the machine setting used for the \ac{MALDI-TOF}.
      
     \begin{table}[htb]
       \centering
@@ -187,8 +221,7 @@ Far-western blotting was originally developed to screen protein expression libra
     \label{sub:schiff_stain}
 		
     Periodic   acid-Schiff   stain   was   performed   on  \ac{LPS}   samples   that   were   run   on
-    \ac{SDS-PAGE}. Schiff stain is analogous to silver  stain in that it identifies carbohydrates that
-    are first oxidized with periodic acid.
+    \ac{SDS-PAGE}. 
 
     The staining procedure starts by soaking the gel on a slow shaker in 0.7\% periodic acid in
     distilled water for 15 min. The gel is then rinsed in distilled water and placed in Schiff reagent
@@ -260,10 +293,11 @@ monosaccharides of known configuration with (R)- and (S)-2-\ce{BuOH}.
 \label{sub:methylation_analysis}
 
 For the methylation analysis core sample (2 \milligram) was dephosphorylated with 50 \microlitre
-of 48\% \ce{HF} for 20 h at +10\cel, diluted with 2 \millilitre of ethanol, precipitate collected
-by centrifugation, washed with 2 \millilitre of ethanol, dried.
+of 48\% \ce{HF} for 20 h at +10\cel, diluted with 2 \millilitre of ethanol, the precipitate collected
+by centrifugation, washed with 2 \millilitre of ethanol, and dried.
 
-Methylation was performed by Ciucanu-Kerek procedure\upcite[.]{ciucanufrancisc} 0.5 \milligram of
+Methylation was performed by Ciucanu-Kerek procedure\upcite[.]{ciucanufrancisc}
+Half a milligram of
 the sample was dissolved in 0.5 \millilitre of dry DMSO with heating at 100\cel for 5-10 min until
 complete dissolution. Powdered \ce{NaOH} (about 50 \milligram) was added and the mixture was
 stirred for 30 min. 0.2 \millilitre of \ce{MeI} was added and the mixture was stirred for a
@@ -288,24 +322,43 @@ hydrolysed with 2\% \ce{AcOH}, 2 h at 100\cel, and separated on a Sephadex G-50 
 \ac{OS}1.
       
 \subsection{Cell culture}\label{sub:cell_culture}
-The HEK-Blue h\ac{tlr4}\texttrademark{} (InVivoGen) cells were grown in \ac{dmem} (Gibco) with 10\% heat-inactivated \ac{fbs} (Thermo Scientific), 2 mM GlutaMAX, 25 mM HEPES, and 50 U/ml penicillin and 50 μg/ml streptomycin (GIBCO, Invitrogen). The THP-1 cells were grown in \ac{rpmi} 1640 (Gibco) with 10\% heat-inactivated \ac{fbs} (Thermo Scientific). Cells were incubated at 37\cel in humid air with 5\% \ce{CO2}. The \ac{fbs} was heat inactivated by incubating it at 56\cel for 30 minutes.
+The \textsc{hek}-Blue h\ac{tlr4}\texttrademark{} (InVivoGen) cells were grown in
+\ac{dmem} (Gibco) with 10\% heat-inactivated \ac{fbs} (Thermo Scientific), 2 mM
+GlutaMAX, 25 \millimolar \textsc{hepes} buffer, and 50 U\,ml$^{-1}$ penicillin
+and 50 \si{\micro\gram\per\milli\litre} streptomycin (GIBCO, Invitrogen). The \textsc{thp}-1 cells were grown in \ac{rpmi} 1640 (Gibco) with 10\% heat-inactivated \ac{fbs} (Thermo Scientific). Cells were incubated at 37\cel in humid air with 5\% \ce{CO2}. The \ac{fbs} was heat inactivated by incubating it at 56\cel for 30 minutes.
 
-\subsection{HEK-Blue h\textsc{tlr4} assay}\label{sec:hek-blue-htlr4}
-To assay the stimulatory effect \caulobacter{} \ac{LPS}  has through \ac{tlr4}, we used a cell line that expresses a secreted phosphatase reporter under the regulation of \ac{nfkb}.
+\subsection{\textsc{hek}-Blue h\textsc{tlr4} assay}\label{sec:hek-blue-htlr4}
+To assay the stimulatory effect \caulobacter{} \ac{LPS}  has via \ac{tlr4}, we used a cell line that expresses a secreted phosphatase reporter under the regulation of \ac{nfkb}.
 % We closely followed previously published protocols\upcite[.]{marr2010substitution} 
-The \ac{nfkb} assay was done in  collaboration with Gyles Ifill from the Fernandez lab at UBC. HEK-Blue h\ac{tlr4}\texttrademark{}  were cultured and maintained according to the supplier's instructions. Cells were grown in standard cell culture flasks then seeded into 96-well plates with $5x10^{4}$ cells per well. When the cells were established in the 96-well plates, their growth medium were replaced with fresh media containing \ac{LPS} at concentrations of 0, 1, 10, and 100 \si{\micro\gram\per\milli\litre}. After 24 hours the supernatant medium from all the wells were assayed for phosphatase activity. All experimental conditions were mirrored with cells not expressing \ac{tlr4}, Null2 cells\texttrademark{}.
+The \ac{nfkb} assay was done in  collaboration with Gyles Ifill from the Fernandez lab at UBC. \textsc{hek}-Blue h\ac{tlr4}\texttrademark{}  were cultured and maintained according to the supplier's instructions. Cells were grown in standard cell culture flasks then seeded into 96-well plates with $5x10^{4}$ cells per well. When the cells were established in the 96-well plates, their growth medium were replaced with fresh media containing \ac{LPS} at concentrations of 0, 1, 10, and 100 \si{\micro\gram\per\milli\litre}. After 24 hr the supernatant medium from all the wells were assayed for phosphatase activity. All experimental conditions were mirrored with cells not expressing \ac{tlr4}, Null2 cells\texttrademark{}.
+Fernandez lab at UBC. \textsc{hek}-Blue h\ac{tlr4}\texttrademark{}  cells were cultured and maintained according to the supplier's instructions. Cells were grown in standard cell culture flasks then seeded into 96-well plates with $5x10^{4}$ cells per well. When the cells were established in the 96-well plates, their growth medium were replaced with fresh media containing \ac{LPS} at concentrations of 0, 1, 10, and 100 \si{\micro\gram\per\milli\litre}. After 24 hr the supernatant medium from all the wells were assayed for phosphatase activity. All experimental conditions were mirrored with cells not expressing \ac{tlr4}, Null2 cells\texttrademark{}.
       
-\subsection{THP-1 derived macrophage assay} \label{sec:thp-1-derived}
-To measure the cytokine stimulating ability of \caulobacter{} \ac{LPS}, we treated macrophage cells, derived from a THP-1 cell line, with \ac{LPS} from \caulobacter{} or \acl{salmonella}. 
+\subsection{\textsc{thp}-1 derived macrophage assay} \label{sec:thp-1-derived}
+To measure the cytokine stimulating ability of \caulobacter{} \ac{LPS}, we treated macrophage cells, derived from a \textsc{thp}-1 cell line, with \ac{LPS} from \caulobacter{} or \acl{salmonella}. 
       
 The \caulobacter{} \ac{LPS} was isolated from \caulobacter{} JS1013, a derivative of NA1000. The \ac{LPS} isolation protocol can be found in \cref{sub:LPS_isolation}. The \ac{salmonella} \ac{LPS} was \ac{salmonella} serotype minnesota Re 595 and it was purchased from Sigma-Aldrich.
       
-The initial starting cultures of THP-1 cells were generous gifts from the Fernandez lab and the Finlay lab. For cell culture, we followed previously published protocols\upcite[.]{marr2010substitution} We maintained two separate cell lines from the start from two sources to ensure neither was defective; both were found to have identical growth rates and both were clean of contamination. Upon the recommendation of Dr. Joris Van Der Heiden, the initial passage of the cells was in medium containing 20 \si{\micro\gram\per\milli\litre} of kanamycin. The cells with kanamycin seemed to achieve maximal growth rate earlier than cells that did not have any antibiotic added. The Fernandez lab cell line was expanded and used for all subsequent assays. No antibiotics were added the medium other than during that first initial passage.
+The initial starting cultures of \textsc{thp}-1 cells were generous gifts from
+the Fernandez lab and the Finlay lab. For cell culture, we followed previously
+published protocols\upcite[.]{marr2010substitution} We maintained two separate
+cell lines from the start from the two sources to ensure neither was non-viable
+or contaminated; both were found to have identical growth rates and both were clean of contamination. Upon the recommendation of Dr.\,Joris Van Der Heiden, the initial passage of the cells was in medium containing 20 \si{\micro\gram\per\milli\litre} of kanamycin. The cells with kanamycin seemed to achieve maximal growth rate earlier than cells that did not have any antibiotic added. The Fernandez lab cell line was expanded and used for all subsequent assays. No antibiotics were added the medium other than during that first initial passage.
     
-
-When the THP-1 cells were in their third passage and at a density of $1.4x10^{6}$ live cell per millilitre they were pelleted by centrifugation and resuspended in fresh medium containing 50 \si{\nano\gram\per\milli\litre} \ac{pma}. $1x10^{5}$ THP-1 cells, in \ac{pma}, were placed into the wells of 24-well plates and allowed to differentiate. After 48 hours, all the cells were found to have become adherent to the well surfaces, the \ac{pma}-containing medium was removed, the cells were washed once with fresh medium, and then fresh medium was applied to all the wells and the cells allowed to rest. After a subsequent 48 hours, all the growth medium was replaced with medium containing \ac{LPS} and concentrations of 0, 1, 10, 100 \si{\nano\gram\per\milli\litre} of either \caulobacter{} or \ac{salmonella} origin. At the time points of 4 hours and 24 hours, well solutions were removed and frozen at -80\cel{} for cytokine assay. Biological replicates were done in quadruplicate.
+When the \textsc{thp}-1 cells were in their third passage and at a density of
+$1.4x10^{6}$ live cells\,$ml^{-1}$  they were pelleted by centrifugation and
+resuspended in fresh medium containing 50 \si{\nano\gram\per\milli\litre}
+\ac{pma}. One hundred thousand \textsc{thp}-1 cells, in \ac{pma}, were placed
+into the wells of 24-well plates and allowed to differentiate. After 48 hr, all
+the cells were found to have become adherent to the well surfaces, the
+\ac{pma}-containing medium was removed, the cells were washed once with fresh
+medium, and then fresh medium was applied to all the wells and the cells allowed
+to rest. After a subsequent 48 hr, all the growth medium was replaced with
+medium containing \ac{LPS} at concentrations of 0, 1, 10, 100
+\si{\nano\gram\per\milli\litre} of either \caulobacter{} or \ac{salmonella}
+origin. At the time points of 4 hr and 24 hr, culture supernates were removed and frozen at -80\cel{} for cytokine assay. Biological replicates were done in quadruplicate.
+When the \textsc{thp}-1 cells were in their third passage and at a density of $1.4x10^{6}$ live cell per millilitre they were pelleted by centrifugation and resuspended in fresh medium containing 50 \si{\nano\gram\per\milli\litre} \ac{pma}. $1x10^{5}$ \textsc{thp}-1 cells, in \ac{pma}, were placed into the wells of 24-well plates and allowed to differentiate. After 48 hr, all the cells were found to have become adherent to the well surfaces, the \ac{pma}-containing medium was removed, the cells were washed once with fresh medium, and then fresh medium was applied to all the wells and the cells allowed to rest. After a subsequent 48 hr, all the growth medium was replaced with medium containing \ac{LPS} and concentrations of 0, 1, 10, 100 \si{\nano\gram\per\milli\litre} of either \caulobacter{} or \ac{salmonella} origin. At the time points of 4 hr and 24 hr, well solutions were removed and frozen at -80\cel{} for cytokine assay. Biological replicates were done in quadruplicate.
       
-Kits for assaying various cytokine were purchased from Meso Scale Discovery:
+Kits for assaying various cytokines were purchased from Meso Scale Discovery:
 \ac{tnfa}, a proinflammatory cytokine released by macrophages in response to
 \ac{LPS}\upcite[]{wajant2003tumor}; \ac{il} 6, an important cytokine for
 generating adaptive immunity\upcite[]{scheller2011pro}; \ac{il} 10, an anti
@@ -324,8 +377,24 @@ Statistical analyses were done with Microsoft Excel. An unpaired \textit{t}-test
 \label{sec:lps_results}
 \subsection{Characterization of whole \textsc{lps}} % (fold)
 \label{sub:characterisation_of_whole_lps}
+The protocol we developed for isolating the \ac{LPS} from \caulobacter was
+unconventional compared to the majority of existing literature. Our \ac{EDTA}
+chelation method was found to be a great fit for our needs and effective at
+producing \ac{LPS}. The negative charges in Gram-negative bacterial \ac{LPS} are stabilized and bridged by available
+  divalent cations (\ie{} \ce{Ca^2+} and \ce{Mg^2+}). Lieve first noted in 1965\upcite{leive65} that
+  one can strip the counter ions from the outer membrane to disrupt it and cause it to shed into the
+  medium. We chose a chelation strategy because we found it easy to scale up, it
+  did not require
+  noxious organic solvents, and because our lab's first attempt to isolate and analyze \caulobacter\
+  \ac{LPS}\upcite{ravenscroftlps} using the Darveau extraction method\upcite{darveauprocedure} only
+  resulted in the isolation of core+lipidA (rough \ac{LPS}).
 
-Whole \caulobacter{} \ac{LPS} was examined using a number of different techniques. Electrophoresis and staining was used as routine checks for sample quality.  Multiple methods of staining were used to visualize the \ac{LPS}. The traditional silver stain method of Tsai and Frasch\upcite[]{tsai1982sensitive} is very easily ruined and it is not convenient for day-to-day sample checks, so the periodic acid-Schiff stain was co opted from common histology protocols to visualize our carbohydrates.  The Schiff reagent based stain was a very quick and reliable method that was used until the improved silver stain technique of Zhu \etal{} was published in 2012\upcite[.]{improvedsilverstain} Zhu \etal{}'s protocol was superior to the traditional silver stain methods in our hands in both in terms of reliability and difficulty. Despite their established use,  \ac{LPS} silver stains may not be acting on the \ac{PS} portion of the molecule as often thought\upcite[,]{kropinski1986basis} but none the less silver stains were the primary tool used for checking sample quality and accuracy. Zinc-imidazole stain\upcite[]{hardy1997sensitive} was marginally successful at visualizing our \ac{LPS} (data not shown) but the results were weak and poorly recordable. Zinc-imidazole stains were only used during attempts to purify \ac{LPS} by electrophoresis. \Cref{fig:lpsvisuals} demonstrates how our \ac{LPS} appears on an \ac{SDS-PAGE}.
+
+Whole \caulobacter{} \ac{LPS} was examined using a number of different
+techniques. Electrophoresis and staining was used as routine checks for sample
+quality.  Multiple methods of staining were used to visualize the \ac{LPS}. The
+traditional silver stain method of Tsai and Frasch\upcite[]{tsai1982sensitive}
+is very susceptible to errors and it is not convenient for day-to-day sample checks, so the periodic acid-Schiff stain was co opted from common histology protocols to visualize our carbohydrates.  The Schiff reagent based stain was a very quick and reliable method that was used until the improved silver stain technique of Zhu \etal{} was published in 2012\upcite[.]{improvedsilverstain} Zhu \etal{}'s protocol was superior to the traditional silver stain methods in our hands in both in terms of reliability and difficulty. Despite their established use,  \ac{LPS} silver stains may not be acting on the \ac{PS} portion of the molecule as often thought\upcite[,]{kropinski1986basis} but none the less silver stains were the primary tool used for checking sample quality and accuracy. Zinc-imidazole stain\upcite[]{hardy1997sensitive} was marginally successful at visualizing our \ac{LPS} (data not shown) but the results were weak and poorly recordable. Zinc-imidazole stains were only used during attempts to purify \ac{LPS} by electrophoresis. \Cref{fig:lpsvisuals} demonstrates how the \ac{LPS} appears on an \ac{SDS-PAGE}.
 
 \begin{figure}[htp]
   \begin{center}
@@ -337,19 +406,19 @@ Whole \caulobacter{} \ac{LPS} was examined using a number of different technique
     probe and rabbit anti-RsaA serum used as the secondary probe. \textbf{C.} Schiff stained
     \ac{SDS-PAGE}. \textbf{D}. Silver stained \ac{SDS-PAGE}. The smooth-\ac{LPS} (\ie containing a
     complete \ac{OPS}) runs as a single band at roughly the equivalent rate of a 50 kDa protein
-    and is visible in all lanes. The faint band visible at 30 kDa in the western blot (A) is of
+    and is visible in all lanes. The fainter band visible at 30 kDa in the western blot (A) is of
     unknown source. The faint 30 kDa band is not seen in by far western (B), Schiff stain (C), or
     silver stain (D). \textbf{E.} A differently resolved silver stained \ac{SDS-PAGE}. The high molecular weight smooth-\ac{LPS} is present at 50 kDa and less well resolved band at around 10 kDa is present which is the low molecular weight rough-\ac{LPS}.}
   \label{fig:lpsvisuals}
 \end{figure}
 
- \caulobacter{} \ac{LPS} runs as two very separate bands; a high molecular weight smooth-\ac{LPS} band and a low molecular weight rough-\ac{LPS} (see \cref{fig:lpsvisuals} E.). The \caulobacter{} smooth-\ac{LPS} band runs as a single band, which is in contrast to the canonical laddering pattern of most other well studies smooth-\ac{LPS}. The laddering pattern of \ac{LPS} is from the heterogeneity in length that arises when \ac{OPS} subunits are polymerized.  \Cref{fig:lpssilverstain} shows \caulobacter{} \ac{LPS} next to the \ac{LPS} from \acl{ecoli} O122.   
+ \caulobacter{} \ac{LPS} runs as two separate bands; a high molecular weight smooth-\ac{LPS} band and a low molecular weight rough-\ac{LPS} (see \cref{fig:lpsvisuals} E.). The \caulobacter{} smooth-\ac{LPS} band runs as a single band, which is in contrast to the canonical laddering pattern of most other well studied smooth-\ac{LPS}. The laddering pattern of \ac{LPS} is from the heterogeneity in length that arises when \ac{OPS} subunits are polymerized.  \Cref{fig:lpssilverstain} shows \caulobacter{} \ac{LPS} next to the \ac{LPS} from \ac{ecoli} O122.   
 
 \begin{figure}[htb]
   \begin{center}
     \includegraphics[width=0.3\textwidth]{lps_chapter/img/lpssilverstain.jpg}
   \end{center}
-  \caption[Visual comparison of \ecoli O122 \ac{LPS} and \caulobacter \ac{LPS}]{Visual comparison
+  \caption[Visual comparison of \ecoli O122 \ac{LPS} and \caulobacter \ac{LPS}]{Comparison
     of silver stained \ecoli O122 \ac{LPS} and \caulobacter \ac{LPS}. \ac{LPS} samples were run on
     a \ac{SDS-PAGE} and silver stained. Lanes 1 and 3 contain equal amounts of \ac{LPS} from
     \ecoli O122. Lanes 2 and 4 contain our isolated \ac{LPS} from \caulobacter. Lane 4 has twice
@@ -359,15 +428,26 @@ Whole \caulobacter{} \ac{LPS} was examined using a number of different technique
   \label{fig:lpssilverstain}
 \end{figure}
 
-\Cref{fig:lpsvisuals} also demonstrates how our \ac{LPS} samples appeared when analyzed by western blotting and far-western blotting using RsaA as the primary probe. Both western blotting and far-western blotting primarily identified the smooth-\ac{LPS} band on the blot, indicating that the \ac{OPS} is probably the antigenic portion of the \ac{LPS} and the primary anchor molecule for RsaA and the \caulobacter{} \ac{S-layer}. For the far-westerns, controls were run to test for \ac{LPS} cross reactivity from the anti-RsaA antibodies and the anti-rabbit antibodies, none were detected. 
+\Cref{fig:lpsvisuals} also demonstrates how our \ac{LPS} samples appeared when analyzed by western blotting and far-western blotting using RsaA as the primary probe. Both western blotting and far-western blotting primarily identified the smooth-\ac{LPS} band on the blot, indicating that the \ac{OPS} is probably the antigenic portion of the \ac{LPS} and the primary anchor molecule for RsaA and the \caulobacter{} \ac{S-layer}. For the far-westerns, controls were run to test for \ac{LPS} cross reactivity from the anti-RsaA antibodies and the anti-rabbit antibodies. None were detected. 
 
 We attempted to isolate the core oligosaccharide-\ac{OPS} fraction from \caulobacter
 \ac{LPS} prior to pursuing \ac{NMR} analysis. Hydrolysis of the ketosidic bond
 between Kdo and lipid A (see \cref{fig:lipidA}) was carried out
 with one of the classical protocols, 0.1 \si{\molar} \ce{HCl} at 100\cel for one
-hour. The reaction caused the expected cleavage and precipitation of  lipid A, but the supernate had no detectable \ac{OPS}. We used standard silver stain \ac{SDS-PAGE}, western blot, spot-blot immunoblot, and far-western blot methods to detect the presence of free-\ac{OPS}. None of the methods gave a positive result. Milder hydrolysis conditions, acetic acid or \textsc{sds} accelerated\upcite[,]{caroff1988detergent} also produced no detectable free-\ac{OPS}. Addressing the concern that \ac{OPS} might not immobilize on nitrocellulose membrane, we tried to chemically link the polysaccharide to amine-coated surfaces using carbodiimide chemistry\upcite[]{jauho2000new}; this method also failed to immobilize any detectable free-\ac{OPS}. 
+hour. The reaction caused the expected cleavage and precipitation of  lipid A,
+but the supernate had no detectable \ac{OPS}. We used standard silver stain
+\ac{SDS-PAGE}, western blot, spot-blot immunoblot, and far-western blot methods
+to detect the presence of free-\ac{OPS}. None of the methods gave a positive
+result. Milder hydrolysis conditions, acetic acid or \textsc{sds}
+accelerated\upcite[,]{caroff1988detergent} also produced no detectable
+free-\ac{OPS}. Addressing the concern that \ac{OPS} might not bind to nitrocellulose membrane, we tried to chemically link the polysaccharide to amine-coated surfaces using carbodiimide chemistry\upcite[]{jauho2000new}; this method also failed to immobilize any detectable free-\ac{OPS}. 
 
-We had no evidence from the literature to indicate that the \ac{OPS} could be destroyed by the mild hydrolysis conditions. At the time the only clue about the structure of the \ac{OPS} was the presence of N-acetylperosamine; perosamine containing \acp{OPS} have no known inherent instability\upcite[.]{caroff1984antigenic, perry1986structure} We were left to conclude that either the carbohydrates were in fact degrading during hydrolysis or that the carbohydrates we were interested in were unable to migrate in  gel electrophoresis, unable to bind to nitrocellulose, and unsuitable for chemical linkage. It was this curious situation, where procedures that should be routine consistently gave negative results, that led us to pursue a collaboration with Dr. Evgeny Vinogradov enabling a broader and hopefully more comprehensive analysis of the core and \ac{OPS} regions of the \ac{LPS} by \ac{NMR}.
+We had no evidence from the literature to indicate that the \ac{OPS} could be
+destroyed by the mild hydrolysis conditions. At the time the only clue about the
+structure of the \ac{OPS} was the presence of N-acetylperosamine; perosamine
+containing \acp{OPS} have no known inherent
+instability\upcite[.]{caroff1984antigenic, perry1986structure} We were left to
+conclude that either the carbohydrates were in fact being degraded during hydrolysis or that the carbohydrates we were interested in were unable to migrate in  gel electrophoresis, unable to bind to nitrocellulose, and unsuitable for chemical linkage. It was this curious situation, where procedures that should be routine consistently gave negative results, that led us to pursue a collaboration with Dr. Evgeny Vinogradov enabling a broader and hopefully more comprehensive analysis of the core and \ac{OPS} regions of the \ac{LPS} by \ac{NMR}.
 
 Attempts  to accurately measure the molecular weight of our intact smooth-\ac{LPS} were partly successful. Getting accurate \ac{MALDI-TOF} results for large molecular weight polysaccharides is at best difficult and the technology is most often used for the analysis of smaller oligosaccharides (as below) and lipid A molecules. \Cref{fig:lpsmalditof} shows our best results. Our mass spectrum shows a tight clustering of m/z peaks at or near 10.8 kDa (assuming a single negative charge). Like our electrophoresis data, our \ac{MALDI-TOF} data demonstrate that \caulobacter{} \ac{LPS} is essentially homogenous  in length. The small differences in m/z between the peaks in \cref{fig:lpsmalditof} are around 180 Da, the size range of a single hexose molecule, not an entire \ac{OPS} subunit.
 
@@ -383,7 +463,7 @@ Attempts  to accurately measure the molecular weight of our intact smooth-\ac{LP
 
 \subsection{Identification of similar glycan structures by RsaA binding} \label{sec:ident-simil-glyc}
   
-The successful demonstration that RsaA \del{}277--784 could bind \caulobacter{} \ac{OPS} \textit{in vitro}, lead us to hypothesize that we could probe \textit{in vitro} libraries of carbohydrates to identify the structure of our \ac{OPS}. A service available at \ac{cfg} Core H at Emory University is glycan array screening\upcite[.]{blixt2004printed, alvarez2006identification} Fluorescently labeled lectins can be screened over an microarray of 465 known glycan structures commonly found in mammals. The array can be used to identify targets of known carbohydrate-binding proteins, such as RsaA. We hoped that RsaA may bind a glycan on the array and that the structure of that carbohydrate may inform us on the structure of the \ac{OPS} from \caulobacter. Due to our initial component analysis, knew that our \ac{OPS} differed significantly from any of the glycans in the array, at least compositionally (see below). RsaA (specifically RsaA \del 277--784) was found to not measurably bind any of the glycan structures found on the array. 
+The successful demonstration that RsaA \del{}277--784 could bind \caulobacter{} \ac{OPS} \textit{in vitro}, led us to hypothesize that we could probe \textit{in vitro} libraries of carbohydrates to identify the structure of our \ac{OPS}. A service available at \ac{cfg} Core H at Emory University is glycan array screening\upcite[.]{blixt2004printed, alvarez2006identification} Fluorescently labeled lectins can be screened over an microarray of 465 known glycan structures commonly found in mammals. The array can be used to identify targets of known carbohydrate-binding proteins, such as RsaA. We hoped that RsaA may bind a glycan on the array and that the structure of that carbohydrate may inform us on the structure of the \ac{OPS} from \caulobacter. Due to our initial component analysis, knew that our \ac{OPS} differed significantly from any of the glycans in the array, at least compositionally (see below). RsaA (specifically RsaA \del 277--784) was found to not measurably bind any of the glycan structures found on the array. 
 
 \subsection{Initial assessment and component analysis} % (fold)
 \label{sub:initial_assessment_and_component_analysis}
@@ -688,27 +768,27 @@ x 2 + Hep x 3 + HexA x 1 + Kdo x 1 = 1314.4 Da.
 % subsection core_oligosaccharide_determination (end)
 
 \subsection{Cellular response to \textit{C. crescentus} \textsc{lps}}\label{sec:cell-resp-text}
-We analyzed the immune/cellular response against \caulobacter{} \ac{LPS} by two methods, assaying \ac{nfkb} activation in HEK293 cells and measuring cytokine production levels from THP-1 derived macrophages. \Cref{fig:nfkbassay} presents our data from the \ac{nfkb} assays. When compared to \ac{salmonella} \ac{LPS}, \caulobacter{} \ac{LPS} is much less stimulatory. We found a significantly lower level of \ac{nfkb} activation by \caulobacter{} \ac{LPS} at 1, 10, and 100 \si{\nano\gram\per\milli\litre}.
+We analyzed the immune/cellular response against \caulobacter{} \ac{LPS} by two methods, assaying \ac{nfkb} activation in HEK293 cells and measuring cytokine production levels from \textsc{thp}-1 derived macrophages. \Cref{fig:nfkbassay} presents our data from the \ac{nfkb} assays. When compared to \ac{salmonella} \ac{LPS}, \caulobacter{} \ac{LPS} is much less stimulatory. We found a significantly lower level of \ac{nfkb} activation by \caulobacter{} \ac{LPS} at 1, 10, and 100 \si{\nano\gram\per\milli\litre}.
 
 \begin{figure}[htb]
   \begin{center}
     \includegraphics[width=\textwidth]{lps_chapter/img/NFkBAssay.pdf}
   \end{center}
   \caption[\ac{nfkb} Assay for cellular activation by \ac{LPS}]{
-    The activation of the \ac{nfkb} promoter as measured by the HEK-Blue h\ac{tlr4}\texttrademark{} cell line (InVivoGen) treated with \ac{LPS} from either \ac{salmonella} or \caulobacter{}. Error bars signify $\pm{}$standard deviation, n=3 for all groups, \textit{p}-values less than 0.05 are noted.  }
+    The activation of the \ac{nfkb} promoter as measured by the \textsc{hek}-Blue h\ac{tlr4}\texttrademark{} cell line (InVivoGen) treated with \ac{LPS} from either \ac{salmonella} or \caulobacter{}. Error bars signify $\pm{}$standard deviation, n=3 for all groups, \textit{p}-values less than 0.05 are noted.  }
   \label{fig:nfkbassay}
 \end{figure}    
 
 The cytokine production assays were a more in depth analysis of the profile of
-an immune stimulation by \caulobacter{} \ac{LPS}, but the results are not as
-clear-cut as the NF$\kappa$B data. We hypothesized in light of the NF$\kappa$B experiment and past work with lipid A, that the \caulobacter \ac{LPS} would significantly  stimulate less cytokine production than enteric \ac{LPS}. \Cref{fig:cytokineprofile} compiles the data from all the cytokine assays. At four hours after treating the cell with only 1 \si{\nano\gram\per\milli\litre} of \ac{LPS} added, all the cells that were treated with \caulobacter{} \ac{LPS} had notably lower production levels of all cytokines tested than the cells that were treated with \ac{salmonella} \ac{LPS}. At 24 hours, and also with 1 \si{\nano\gram\per\milli\litre} of \ac{LPS} added, \caulobacter{} \ac{LPS} stimulated less cytokine production than \ac{salmonella} \ac{LPS} for all cytokines other than \ac{mcp1}. At the 10 and 100 \si{\nano\gram\per\milli\litre} \ac{LPS} treatment levels, the differences between \caulobacter{} and \ac{salmonella} become less clear. At the 100 \si{\nano\gram\per\milli\litre} \ac{LPS} treatment conditions \caulobacter{} \ac{LPS} actually stimulated more cytokine production in almost every test (except \ac{mcp1}, 4 hours). 
+clear-cut as the \ac{nfkb} data. We hypothesized in light of the \ac{nfkb} experiment and past work with lipid A, that the \caulobacter \ac{LPS} would significantly  stimulate less cytokine production than enteric \ac{LPS}. \Cref{fig:cytokineprofile} compiles the data from all the cytokine assays. At 4 hr after treating the cell with only 1 \si{\nano\gram\per\milli\litre} of \ac{LPS} added, all the cells that were treated with \caulobacter{} \ac{LPS} had notably lower production levels of all cytokines tested than the cells that were treated with \ac{salmonella} \ac{LPS}. At 24 hr, and also with 1 \si{\nano\gram\per\milli\litre} of \ac{LPS} added, \caulobacter{} \ac{LPS} stimulated less cytokine production than \ac{salmonella} \ac{LPS} for all cytokines other than \ac{mcp1}. At the 10 and 100 \si{\nano\gram\per\milli\litre} \ac{LPS} treatment levels, the differences between \caulobacter{} and \ac{salmonella} become less clear. At the 100 \si{\nano\gram\per\milli\litre} \ac{LPS} treatment conditions \caulobacter{} \ac{LPS} actually stimulated more cytokine production in almost every test (except \ac{mcp1}, 4 hr). 
+clear-cut as the \ac{nfkb} data. We hypothesized in light of the \ac{nfkb} experiment and past work with lipid A, that the \caulobacter \ac{LPS} would significantly  stimulate less cytokine production than enteric \ac{LPS}. \Cref{fig:cytokineprofile} compiles the data from all the cytokine assays. At four hr after treating the cell with only 1 \si{\nano\gram\per\milli\litre} of \ac{LPS} added, all the cells that were treated with \caulobacter{} \ac{LPS} had notably lower production levels of all cytokines tested than the cells that were treated with \ac{salmonella} \ac{LPS}. At 24 hr, and also with 1 \si{\nano\gram\per\milli\litre} of \ac{LPS} added, \caulobacter{} \ac{LPS} stimulated less cytokine production than \ac{salmonella} \ac{LPS} for all cytokines other than \ac{mcp1}. At the 10 and 100 \si{\nano\gram\per\milli\litre} \ac{LPS} treatment levels, the differences between \caulobacter{} and \ac{salmonella} become less clear. At the 100 \si{\nano\gram\per\milli\litre} \ac{LPS} treatment conditions \caulobacter{} \ac{LPS} actually stimulated more cytokine production in almost every test (except \ac{mcp1}, 4 hr). 
 
 \begin{figure}[p]
   \begin{center}
    \includegraphics[width=\textwidth]{lps_chapter/img/cytokineprofile.pdf}
   \end{center}
   \caption[Cytokine profile comparing \acl{caulobacter} and \acl{salmonella} \ac{LPS}]{
-    Cytokine production levels produced by THP-1 derived macrophages in response to treatment with \ac{LPS} from \caulobacter{} or \ac{salmonella}.  All data points are present, n=4 for all groups, \textit{p}-values less than 0.05 are marked with a star.
+    Cytokine production levels produced by \textsc{thp}-1 derived macrophages in response to treatment with \ac{LPS} from \caulobacter{} or \ac{salmonella}.  All data points are present, n=4 for all groups, \textit{p}-values less than 0.05 are marked with a star.
   }
   \label{fig:cytokineprofile}
 \end{figure}    
@@ -719,16 +799,16 @@ clear-cut as the NF$\kappa$B data. We hypothesized in light of the NF$\kappa$B e
 
 The \ac{LPS} of \caulobacter has an unusually complicated structure with two different
 polysaccharides, irregular substituents, resulting in \ac{NMR} spectra that were especially difficult to analyze. Presented data show
-structures of the core part, two polymers, and putative terminal structures. The polysaccharides
+structures of the core, two polymers, and putative terminal structures. The polysaccharides
 could not be separated by size exclusion or anion-exchange chromatography and so are probably linked
 together through the same core. The core of the \caulobacter{} \ac{LPS} has been studied previously
 and an initial assessment of its composition was made\upcite[,]{ravenscroftlps} but the complete
-structure had not been determined. The structure of the \ac{OPS} has not been studied before. In our
+structure had not been determined. The structure of the \ac{OPS} had not been studied before. In our
 view the polysaccharide structure of the \caulobacter{} \ac{LPS} represents one of the most
 complicated bacterial \ac{LPS} polysaccharide structures identified so far.
 
 An early goal in working with the \caulobacter \ac{LPS} was to isolate the
-\ac{S-layer} anchoring portion of the  molecule and  use it to assemble the \ac{S-layer} onto an abiotic surface. The hypothesis we were following was that a simple mild-acid hydrolysis of the \ac{LPS} would produce a free-\ac{OPS} that could be chemically linked to aminated surfaces by virtue of a free carboxyl on the Kdo residue exposed by hydrolysis. We were unable to demonstrate the presence of a free-\ac{OPS} after hydrolysis using biochemical methods, such as \ac{SDS-PAGE} and western immunoblotting. Fortunately, \ac{NMR} analysis following mild acid hydrolysis did demonstrate an intact \ac{OPS} structure. None of the determined carbohydrate structures give clues as to why we were unable to detect free-\ac{OPS} by spot-blot immunoblot (see \cref{sub:characterisation_of_whole_lps}).  We do not have much information about which particular structures in the \caulobacter \ac{LPS} are bound by RsaA or the antibodies used in western blotting. Genetic knockouts point towards the requirement of N-acetylpersoamine, but now that the complete structure has been determined it is not clear why the N-acetylpersoamine containing structures (\ac{OPS} and end caps) were not previously detectable.
+\ac{S-layer} anchoring portion of the  molecule and  use it to assemble the \ac{S-layer} onto an abiotic surface. The hypothesis we were following was that a simple mild-acid hydrolysis of the \ac{LPS} would produce a free-\ac{OPS} that could be chemically linked to aminated surfaces by virtue of a free carboxyl on the Kdo residue exposed by hydrolysis. We were unable to demonstrate the presence of a free-\ac{OPS} after hydrolysis using biochemical methods, such as \ac{SDS-PAGE} and western immunoblotting. Fortunately, \ac{NMR} analysis following mild acid hydrolysis did demonstrate an intact \ac{OPS} structure. None of the determined carbohydrate structures give clues as to why we were unable to detect free-\ac{OPS} by spot-blot immunoblot (see \cref{sub:characterisation_of_whole_lps}).  We do not have much information about which particular structures in the \caulobacter \ac{LPS} are bound by RsaA or the antibodies used in western blotting. Genetic knock outs point towards the requirement of N-acetylpersoamine, but now that the complete structure has been determined it is not clear why the N-acetylpersoamine containing structures (\ac{OPS} and end caps) were not previously detectable.
 
 The Kdo present in the \ac{LPS} core structure (see \cref{fig:lpscore}) has the typical
 substitutions at C-4 and C-5 of a \textit{manno}-configured sugar and a negatively charged sugar,
@@ -762,8 +842,8 @@ Knowledge of the structure of \caulobacter{} \ac{OPS} and \ac{LPS} will facilita
 and characterization of their biosynthetic enzymes and mutant variants. Already, the enzymes
 LpxI\upcite{lpxi} and GDP-L-perosamine acetylase\upcite{perosmineacetyltransferase} from
 \caulobacter have been characterized. One uncharacterized enzyme, WbqL, is necessary for proper
-\ac{OPS} synthesis. Disruption of wbqL leads to the accumulation of aberrant \ac{OPS} precursors in the inner membrane which inhibits Crescentin-mediated cell
-curvature\upcite[.]{lpsinterferecrescentin} Many genes, such as wbqL, have been identified as
+\ac{OPS} synthesis. Disruption of \textit{wbq}L leads to the accumulation of aberrant \ac{OPS} precursors in the inner membrane which inhibits Crescentin-mediated cell
+curvature\upcite[.]{lpsinterferecrescentin} Many genes, such as \textit{wbq}L, have been identified as
 essential for \ac{OPS} synthesis\upcite{awramgenes} but most if not all have not yet been characterized. Other genes, that must be essential for \ac{OPS} synthesis, have yet to be identified or characterized,
 such as the \ac{OPS} polymerase and ligase.
 
@@ -796,11 +876,11 @@ Previously, our lab showed that alone the \caulobacter{} lipid A fraction of the
 than a hundredth of the \ac{tnfa} production than \ecoli{} D31m4
 rough-\ac{LPS}\upcite[.]{caulobacterlipida} We hypothesized that intact
 \caulobacter{} \ac{LPS} would have a similar effect because lipid A is generally
-considered the immunogenic portion of the \ac{LPS} molecule. Our  first
-immunogenicity assay used a cell line constructed with a \ac{tlr4}--NF$\kappa$B
-reporter system. The NF$\kappa$B results clearly support the previous reports
-that \caulobacter{} \ac{LPS} is less immunogenic than enteric \ac{LPS}.
-Expanding our investigation into cytokine production, using THP-1 derived
+considered the innate immune stimulating portion of the \ac{LPS} molecule. Our  first
+immune cell-based assay used a cell line constructed with a \ac{tlr4}--\ac{nfkb}
+reporter system. The \ac{nfkb} results clearly support the previous reports
+that \caulobacter{} \ac{LPS} is less inflammatory than enteric \ac{LPS}.
+Expanding our investigation into cytokine production, using \textsc{thp}-1 derived
 macrophages, produced some results that  did not entirely fit with our hypotheses.
 \Cref{fig:cytokineprofile} shows that in some  circumstances \caulobacter{}
 \ac{LPS} causes the production of less cytokines than \ac{salmonella} \ac{LPS} (for \ac{il} 6, \ac{il} 10, and \ac{tnfa})
@@ -809,10 +889,10 @@ the data show that the stimulatory effect of \caulobacter{} \ac{LPS}
 is not always less than its enteric counterparts, but there are enough examples
 to the contrary that weaknesses in the experimental design may be at fault.
 Because \ac{tlr4} is the major sensor for \ac{LPS} in both our assays
-and because NF$\kappa$B activation is a major contributor to many cytokine
+and because \ac{nfkb} activation is a major contributor to many cytokine
 production levels\upcite[,]{baldwin1996nf} our two assays are not completely independent of one another. If they completely contradict each other, then one of them is wrong or there are more complexities involved than are obvious. 
 
 The conditions in our assays that contradict our hypotheses were most often at
 the high \ac{LPS} concentrations (100 \si{\nano\gram\per\milli\litre}). The
-\caulobacter \ac{LPS}, at higher concentrations, may be activating alternate receptors than just \ac{tlr4}. If it is not the \ac{LPS} stimulating in a non-\ac{tlr4} manner, than something else is
-One difference in our assays is the cells used. The THP-1 cells express a full complement of toll-like receptors, in addition to \ac{tlr4}. If our purified \caulobacter{} \ac{LPS} contained any \ac{mamp}  contaminants (\eg{} flagellin, peptidoglycan) then they may have stimulated THP-1 cells in addition to the signal from the \ac{LPS}. These possible contaminants would not have affected the results from the HEK-Blue h\ac{tlr4} cells because they only expressed the \ac{LPS} sensor, \ac{tlr4}. Possibly, the commercially sourced \ac{salmonella} \ac{LPS} was  depleted of any contaminants by the manufacturer. There were no contaminants in the \caulobacter{} \ac{LPS} that were abundant enough to affect (or be detected by) the \ac{NMR} or \ac{MS} analysis, but it is possible that the cell assays are more sensitive and it is possible any contaminants present were not in a detectable form with those other methods. If contamination is the culprit of our surprising cytokine results, then repeating the experiments with a cell line only expressing \ac{tlr4} should show what we expect: \caulobacter{} \ac{LPS} is less immunogenic than enteric \ac{LPS}.
+\caulobacter \ac{LPS}, at higher concentrations, may be activating alternate receptors than just \ac{tlr4}. If it is not the \ac{LPS} stimulating in a non-\ac{tlr4} manner, then something else is.
+One difference in our assays is the cells used. The \textsc{thp}-1 cells express a full complement of toll-like receptors, in addition to \ac{tlr4}. If our purified \caulobacter{} \ac{LPS} contained any \ac{mamp}  contaminants (\eg{} flagellin, peptidoglycan) then they may have stimulated \textsc{thp}-1 cells in addition to the signal from the \ac{LPS}. These possible contaminants would not have affected the results from the \textsc{hek}-Blue h\ac{tlr4} cells because they only expressed the \ac{LPS} sensor, \ac{tlr4}. Possibly, the commercially sourced \ac{salmonella} \ac{LPS} was  depleted of any contaminants by the manufacturer. There were no contaminants in the \caulobacter{} \ac{LPS} that were abundant enough to affect (or be detected by) the \ac{NMR} or \ac{MS} analysis, but it is possible that the cell assays are more sensitive and it is possible any contaminants present were not in a detectable form with those other methods. If contamination is the culprit of our surprising cytokine results, then repeating the experiments with a cell line only expressing \ac{tlr4} should show what we expect: \caulobacter{} \ac{LPS} is less stimulatory than enteric \ac{LPS}.
